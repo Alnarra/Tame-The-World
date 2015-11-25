@@ -45,3 +45,31 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+#Java Files (as they aren't mine) 
+*.jar
+
+#Other Things we don't need
+texturepacks
+TCNNodeTracker
+saves
+reports
+resourcepacks
+Reika.DragonAPI.ModInteract.DeepInteract.FrameBlacklist.classdata
+servers.dat
+usercache.json
+usernamecache.json
+screenshots
+asm
+coremods
+crash-reports
+fonts
+imcScripts
+journeymap
+logs
+mods
+icon.png
+minetweaker.log
+BotaniaVars.dat
+options.txt
+
