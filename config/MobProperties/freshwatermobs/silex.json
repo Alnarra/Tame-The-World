@@ -1,0 +1,9 @@
+{
+  "_comment": "Remove the Lapis from the Silex", 
+  "_name": "freshwatermobs.silex",
+  "drops": [ 
+  { "function": "remove", "id": "minecraft:dye"}
+  ],
+  "pre_stats": [],
+  "stats": []
+}
