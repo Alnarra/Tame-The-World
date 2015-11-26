@@ -16,12 +16,12 @@
 #     specified biome will be chosen from the biome specific folder.  If not,
 #     it will choose a generic ruin from the folder of the same name.
 
-tries_per_chunk_normal=1
+tries_per_chunk_normal=7.0
 chance_to_spawn_normal=3.0
 chance_for_site_normal=15.0
 
-tries_per_chunk_nether=6
-chance_to_spawn_nether=10
+tries_per_chunk_nether=7.0
+chance_to_spawn_nether=1.0
 chance_for_site_nether=15
 disableRuinSpawnCoordsLogging=true
 
@@ -30,7 +30,7 @@ templateInstancesMinDistance=256
 # minimum distance a template must have from any other template
 anyRuinsMinDistance=64
 # dimension IDs whitelisted for ruins spawning, add custom dimensions IDs here as needed
-allowedDimensions=0
+allowedDimensions=0,-1
 
 specific_Ocean=75
 specific_Plains=75
