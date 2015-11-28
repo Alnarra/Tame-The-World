@@ -1,10 +1,11 @@
 
-Loading excluded list from: D:\mmc-stable-win32\MultiMC\instances\Minecraft Mod Test\minecraft\saves\New World\DIM-39
+Loading excluded list from: D:\mmc-stable-win32\MultiMC\instances\Minecraft Mod Test\minecraft\saves\New World\DIM69
 No exclusions found for this world.
 
-Loading options from: D:\mmc-stable-win32\MultiMC\instances\Minecraft Mod Test\minecraft\saves\New World\DIM-39
+Loading options from: D:\mmc-stable-win32\MultiMC\instances\Minecraft Mod Test\minecraft\saves\New World\DIM69
 tries_per_chunk_normal = 5
 chance_to_spawn_normal = 3.0
 templateInstancesMinDistance = 256.0
 anyRuinsMinDistance = 64.0
-Ruins mod loaded successfully for world D:\mmc-stable-win32\MultiMC\instances\Minecraft Mod Test\minecraft\saves\New World\DIM-39, template files: 36
+Ruins mod loaded successfully for world D:\mmc-stable-win32\MultiMC\instances\Minecraft Mod Test\minecraft\saves\New World\DIM69, template files: 36
+6
