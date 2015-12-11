@@ -1,7 +1,7 @@
 Modpack: 		Tame The World 
-Modpack Version: 	0.1.7
+Modpack Version: 	0.1.8
 Modpack Author: 	Alnarra
-Forum Thread: http://forum.feed-the-beast.com/threads/1-7-10-tame-the-world-magic-and-tech-exploration-and-pain.127218/
+Report Issues Here: https://github.com/fullphaser/Tame-The-World
 
 Recommended settings
 2GB Ram Minimum. 
@@ -21,6 +21,7 @@ Modlist
 AppleCore by squeek502
 Arcane Engineering 
 Aroma1997Core by Aroma1997
+Artifacts by Draco18s, TmTavir
 AtomicStryker's BattleTowers by AtomicStryker
 Automagy by Tuhljin - Granted
 Baubles by Azanor
@@ -69,6 +70,7 @@ NEI Integration by Tonius
 Not Enough Items by Chickenbones
 OpenEye by Mikeemoo, boq
 Primitive Mobs by Daveyx0
+Railcraft by CovertJaguar
 Random Things by Lumien
 Roguelike Dungeons by Greymerk
 RotaryCraft by Reika - Granted
@@ -87,6 +89,58 @@ Witchery by Emoniph - Granted
 Zombie Awareness by Corosauce
 
 Changelog
+Version 0.1.8 
+Forge Update
+ - Updated Forge to Version 1558 (Was 1448) 
+Mods Added 
+ - Railcraft 
+ - Unqiue Arifacts 
+Mods Updated 
+ - Updated Botania ( was 1.7r - .235 Now 1.7r-.242) 
+ - Updated Walia Harvastability (Was 1.1.3 Now 1.1.5 ) 
+ - Updated Automagy (Was 1.7.10 .26 now .27 ) 
+ - Updated Ex Nihilo (Was 1.38.48 now 1.38.49) 
+ - Updated HQM (Was 4.3.3 now 4.4.2 ) 
+ - Updated Storage Drawers (Was 1.6.2 Now 1.6.3) 
+ - Updated Special Mobs (Was 3.2.0 Now 3.2.1) 
+ - Updated Malis Doors (Was 1.9 now 1.12) 
+ - Updated Journey Map (Was 5.1.0 now 5.1.1) 
+ - Updated Immersive Engineering (Was 0.6.1 Now 0.6.4) 
+Config Updates
+ - Festive and Rocket Creepers now spawn far less often (or they should) 
+ - Disabled Copper Coke Oven (Railcraft) As IE Already has one 
+ - Disabled Ore Gen for Copper / Iron / Gold / Lead in Railcraft 
+ - Turned off the Copper / Lead Blocks in Railcraft to prevent overlap 
+ - Turned off Blast Furnace (Railcraft) As IE Already has one 
+ - Turned off Creosote Oil (Railcraft) Buckets and Bottles (To prevent overlap)  
+ - added Dense Ore config for Railcraft ores 
+ - Put additional Distance between battletowers 
+ - Decreased overall spawn rate of general dungeons 
+ - Decreased spawn rate of Wizard Towers  
+ - Removed Floater.tml from possible spawn configurations
+ - Added some optional Nether structure .tml files 
+ - Turned off Zombie Awareness Sound (Also turned off on SMP Server) because it was causing a bug when mixed with Battletower golems
+ - Decreased the total number of hearts you could find in a chest and lowered their overall spawn rate 
+ - Lowered Hunger Loss Rate from 133% to 110% 
+ - You no longer are lose hunger for being afk. 
+ - Increased time between Lycanites Mobs event by a factor of 4 
+ - Added a terrible looking image for HQM 
+Script Updates 
+ - Created Garlic.zs (To bring Pam's Harvestcraft / Withcery garlic into line ) 
+Quest 
+ - Chapter 1: The Path To Knowledge - Rule 74 changed from crafting quest to detection quest 
+ - Chapter 1: Stoking the Fires / Light Em Up Switched places 
+ - Chapter 1: You're boned - Added some quest descriptions that were missing 
+ - Agriculture: Starting quest now tied to "Putting Bread on the Table" Not the Path to Knowledge 
+ - Decoration: Starting quest now tied to "Sandy Shores"
+ - Decoration: Take it for Granite - Now properly recognizes both Botania and Chilsel varieties of the rocks 
+ - Decoration: Paint me like one of your - Now has a reward 
+ - Decoration: On Display - Now has a reward for completing the quest 
+ - Chapter 2: We're taping - Now has a reward for completing the quest
+ - Chapter 2: Hunting Games - Now has a reward for completing the quest
+ - Chapter 2: New quest Shard Belief following Thaumaturgy
+ - 2 New chapters for book (Botanical Relevance/Immersed in Engineering) Adding over 70+ New quest 
+
 Version 0.1.7 (Pruning Update) 
 Mods Removed 
  - Removed Pneumaticraft (This may cause the need for a Map Reset) 
