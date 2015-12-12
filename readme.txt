@@ -2,7 +2,7 @@ Modpack: 			Tame The World
 Modpack Version: 	0.1.9
 Modpack Author: 	Alnarra
 Report Issues Here:	https://github.com/fullphaser/Tame-The-World
-Forum Thread:		http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/mod-packs/2548223-hqm-tame-the-world-magic-and-tech-exploration-and
+Forum Thread:		http://tinyurl.com/tameTheWorld
 Curse Page: 		http://www.curse.com/modpacks/minecraft/238218-tame-the-world
 Technic API: 		http://api.technicpack.net/modpack/tame-the-world
 FTB Pack Code: 		tameTheWorld
