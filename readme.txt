@@ -1,7 +1,11 @@
-Modpack: 		Tame The World 
-Modpack Version: 	0.1.8
+Modpack: 			Tame The World 
+Modpack Version: 	0.1.9
 Modpack Author: 	Alnarra
 Report Issues Here: https://github.com/fullphaser/Tame-The-World
+Forum Thread:		http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/mod-packs/2548223-hqm-tame-the-world-magic-and-tech-exploration-and
+Curse Page: 		http://www.curse.com/modpacks/minecraft/238218-tame-the-world
+Technic API: 		http://api.technicpack.net/modpack/tame-the-world
+FTB Pack Code: 		tameTheWorld
 
 Recommended settings
 2GB Ram Minimum. 
@@ -21,6 +25,7 @@ Modlist
 AppleCore by squeek502
 Arcane Engineering 
 Aroma1997Core by Aroma1997
+AromaBackup by Aroma1997
 Artifacts by Draco18s, TmTavir
 AtomicStryker's BattleTowers by AtomicStryker
 Automagy by Tuhljin - Granted
@@ -89,6 +94,22 @@ Witchery by Emoniph - Granted
 Zombie Awareness by Corosauce
 
 Changelog
+Version 0.1.9 (In Development)
+Mods Added
+ - Aroma Backup (Some Might ask why if I had Aroma Core this hasn't been there all along and that's a damn good question) 
+Mods Updated 
+ - Updated Chisel (Was 2.9.3.9 now 2.9.4.10) 
+ - Updated Forbidden Magic (Was 0.57 now 0.572) 
+ - Updated Journey Map (Was 5.1.1 now 5.1.3) 
+ - Updated Malis Doors (Was 1.12 now 1.13) 
+ - Updated Malis Core (Was 0.12 Now 0.14) 
+ - UPdated ModTweaker (Was 0.9.4 now 0.9.5) 
+ - Updated NEI Integration (Was 1.0.13 now 1.1.0 ) 
+ - Updated Pam's Harvestcraft (Was 1.7.10k now 1.7.10Lb)
+ - Updated Storage Drawers (Was 1.6.3 now 1.7.5) 
+Quest 
+ - Adding 2 New Chapers 
+
 Version 0.1.8 
 Forge Update
  - Updated Forge to Version 1558 (Was 1448) 
