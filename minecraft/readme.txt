@@ -27,6 +27,7 @@ Arcane Engineering
 Aroma1997Core by Aroma1997
 AromaBackup by Aroma1997
 Artifacts by Draco18s, TmTavir
+AtomicStryker Update Check Mod
 AtomicStryker's BattleTowers by AtomicStryker
 Automagy by Tuhljin - Granted
 Baubles by Azanor
@@ -91,12 +92,15 @@ Trophy Slots by Lomeli12
 Waila by ProfMobius
 Waila Harvestability by squeek502
 Witchery by Emoniph - Granted
+YAMBST by Commador 
 Zombie Awareness by Corosauce
 
 Changelog
 Version 0.1.9 (In Development)
 Mods Added
- - Aroma Backup (Some Might ask why if I had Aroma Core this hasn't been there all along and that's a damn good question) 
+ - Aroma Backup 
+ - YAMPST
+ - UpdateCheckerMod
 Mods Updated 
  - Updated Chisel (Was 2.9.3.9 now 2.9.4.10) 
  - Updated Forbidden Magic (Was 0.57 now 0.572) 
@@ -107,8 +111,23 @@ Mods Updated
  - Updated NEI Integration (Was 1.0.13 now 1.1.0 ) 
  - Updated Pam's Harvestcraft (Was 1.7.10k now 1.7.10Lb)
  - Updated Storage Drawers (Was 1.6.3 now 1.7.5) 
+ - Updated Botania (Was .242 now .243)
+ - Updated HQM (Was 4.4.2 now 4.4.4) 
+ - Updated Ruins (No Version Number given) 
+Config Changes 
+ - Flipped B:machine.alpha.coke.oven=false to True to correct Furnace bug. Emergency Patch released for 1.8
+ - Cleaned up the Config folder a bit 
+ - Decreased spawn cap of Raiko by 1 (Was 3 now 2) 
+ - Turned Waila Back on by default 
+Scripts 
+ - Created railIECook.zs to hide Railcraft's Coke Oven and Blast Furnace Blocks 
 Quest 
- - Adding 2 New Chapers 
+ - Adding 2 New Chapers Witchery and Railcraft with over 70+ New Quest 
+ - Chapter 2 - Library Card - Changed Bookshelf Requirements
+ - Immersed in Engineering - Grit your Teeth - Changed Flavor text for "Butter is required" Quest 
+ - Reorganized Quest in Chapter 1 ( Cutting Edge Technology > A Crooked Salesmen > Bedding with the Enemy) 
+Other
+ - Cleaning up Github 
 
 Version 0.1.8 
 Forge Update
