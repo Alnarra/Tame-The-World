@@ -5,6 +5,7 @@ Report Issues Here:	https://github.com/fullphaser/Tame-The-World
 Forum Thread:		http://tinyurl.com/tameTheWorld
 Curse Page: 		http://www.curse.com/modpacks/minecraft/238218-tame-the-world
 Technic API: 		http://api.technicpack.net/modpack/tame-the-world
+Discord: 		https://discord.gg/0hh8cmHesQfTfxRz
 FTB Pack Code: 		tameTheWorld
 
 Recommended settings
