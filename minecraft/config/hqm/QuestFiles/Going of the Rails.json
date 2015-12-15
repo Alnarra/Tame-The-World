@@ -1,0 +1,1384 @@
+{
+  "name": "Going of the Rails",
+  "quests": [
+    {
+      "name": "Unnamed",
+      "x": 21,
+      "y": 14,
+      "icon": {
+        "id": "Railcraft:tool.crowbar"
+      },
+      "prerequisites": [
+        "{Immersed in Engineering}[Steeling the show]"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:tool.crowbar"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:machine.alpha",
+                "damage": 8
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed1",
+      "x": 59,
+      "y": 14,
+      "icon": {
+        "id": "minecraft:rail"
+      },
+      "prerequisites": [
+        "Unnamed"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:part.tie"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:part.rail"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:rail"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed2",
+      "x": 97,
+      "y": 14,
+      "icon": {
+        "id": "minecraft:minecart"
+      },
+      "prerequisites": [
+        "Unnamed1"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:minecart"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:chest_minecart"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:furnace_minecart"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed3",
+      "x": 138,
+      "y": 15,
+      "icon": {
+        "id": "Railcraft:ore"
+      },
+      "prerequisites": [
+        "Unnamed2"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:ore"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:dust",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed4",
+      "x": 180,
+      "y": 14,
+      "icon": {
+        "id": "Railcraft:brick.bloodstained",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Unnamed3"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:brick.bloodstained",
+                "damage": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:lantern.stone",
+                "damage": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": []
+        }
+      ]
+    },
+    {
+      "name": "Unnamed5",
+      "x": 203,
+      "y": 44,
+      "icon": {
+        "id": "Railcraft:tool.magnifying.glass"
+      },
+      "prerequisites": [
+        "Unnamed4"
+      ],
+      "trigger": "ANTI_TRIGGER"
+    },
+    {
+      "name": "Unnamed6",
+      "x": 219,
+      "y": 15,
+      "icon": {
+        "id": "Railcraft:armor.overalls"
+      },
+      "prerequisites": [
+        "Unnamed4"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:armor.overalls"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed7",
+      "x": 35,
+      "y": 47,
+      "icon": {
+        "id": "Railcraft:part.rail",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Unnamed1"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:part.rail",
+                "damage": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:track",
+                "damage": 26865,
+                "nbt": "{track:\"railcraft:track.speed.transition\"}"
+              }
+            },
+            {
+              "item": {
+                "id": "Railcraft:track",
+                "damage": 816,
+                "nbt": "{track:\"railcraft:track.speed\"}"
+              }
+            },
+            {
+              "item": {
+                "id": "Railcraft:track",
+                "nbt": "{track:\"railcraft:track.speed.boost\"}"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed8",
+      "x": 255,
+      "y": 40,
+      "icon": {
+        "id": "Railcraft:armor.steel.helmet"
+      },
+      "prerequisites": [
+        "Unnamed6"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:tool.steel.pickaxe"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:armor.steel.plate"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Railcraft:armor.steel.helmet"
+        },
+        {
+          "id": "Railcraft:tool.steel.shovel"
+        }
+      ]
+    },
+    {
+      "name": "Unnamed9",
+      "x": 80,
+      "y": 48,
+      "icon": {
+        "id": "Railcraft:part.tie",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Unnamed1"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:part.tie",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:part.railbed",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed10",
+      "x": 157,
+      "y": 43,
+      "icon": {
+        "id": "Railcraft:cube",
+        "damage": 7
+      },
+      "prerequisites": [
+        "Unnamed4"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:cube",
+                "damage": 7
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:brick.quarried",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "Railcraft:stair",
+                "damage": 25
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed11",
+      "x": 227,
+      "y": 179,
+      "icon": {
+        "id": "Railcraft:part.rail",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Unnamed20"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:part.rail",
+                "damage": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:track",
+                "damage": 764,
+                "nbt": "{track:\"railcraft:track.reinforced.junction\"}"
+              }
+            },
+            {
+              "item": {
+                "id": "Railcraft:track",
+                "nbt": "{track:\"railcraft:track.reinforced.switch\"}"
+              }
+            },
+            {
+              "item": {
+                "id": "Railcraft:track",
+                "nbt": "{track:\"railcraft:track.reinforced.wye\"}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:track.elevator"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed12",
+      "x": 56,
+      "y": 77,
+      "icon": {
+        "id": "Railcraft:ingot",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Unnamed9",
+        "Unnamed7"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:ore",
+                "damage": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemNugget",
+                "damage": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:ingot",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed13",
+      "x": 81,
+      "y": 113,
+      "icon": {
+        "id": "Railcraft:machine.beta",
+        "damage": 7
+      },
+      "prerequisites": [
+        "Unnamed12"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:part.gear",
+                "damage": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:part.gear"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:machine.beta",
+                "damage": 7
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed14",
+      "x": 38,
+      "y": 113,
+      "icon": {
+        "id": "Railcraft:machine.beta",
+        "damage": 5
+      },
+      "prerequisites": [
+        "Unnamed13"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:part.plate",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:machine.beta",
+                "damage": 3
+              }
+            },
+            {
+              "item": {
+                "id": "Railcraft:machine.beta",
+                "damage": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:machine.beta",
+                "damage": 5
+              }
+            },
+            {
+              "item": {
+                "id": "Railcraft:machine.beta",
+                "damage": 6
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed15",
+      "x": 20,
+      "y": 155,
+      "icon": {
+        "id": "Railcraft:machine.alpha",
+        "damage": 10
+      },
+      "prerequisites": [
+        "Unnamed14"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:machine.alpha",
+                "damage": 9
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:machine.alpha",
+                "damage": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed16",
+      "x": 56,
+      "y": 167,
+      "icon": {
+        "id": "Railcraft:firestone.refined"
+      },
+      "prerequisites": [
+        "Unnamed14"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:firestone.raw"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:firestone.cut"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:firestone.refined",
+                "damage": 5000
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed17",
+      "x": 91,
+      "y": 153,
+      "icon": {
+        "id": "Railcraft:machine.alpha",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Unnamed14"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:machine.alpha",
+                "damage": 3
+              },
+              "required": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed18",
+      "x": 131,
+      "y": 130,
+      "icon": {
+        "id": "Railcraft:machine.beta",
+        "damage": 9
+      },
+      "prerequisites": [
+        "Unnamed13"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:machine.beta",
+                "damage": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:machine.beta",
+                "damage": 9
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed19",
+      "x": 131,
+      "y": 178,
+      "icon": {
+        "id": "Railcraft:machine.alpha",
+        "damage": 15
+      },
+      "prerequisites": [
+        "Unnamed18"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:machine.alpha",
+                "damage": 15
+              },
+              "required": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed20",
+      "x": 185,
+      "y": 178,
+      "icon": {
+        "id": "Railcraft:cube",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Unnamed19"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:cube",
+                "damage": 4
+              }
+            },
+            {
+              "item": {
+                "id": "Railcraft:dust"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed21",
+      "x": 134,
+      "y": 91,
+      "icon": {
+        "id": "Railcraft:cart.loco.steam.solid",
+        "nbt": "{model:\"railcraft:default\"}"
+      },
+      "prerequisites": [
+        "Unnamed12"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:cart.loco.steam.solid",
+                "nbt": "{model:\"railcraft:default\"}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:machine.gamma",
+                "damage": 4
+              }
+            },
+            {
+              "item": {
+                "id": "Railcraft:machine.gamma"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed22",
+      "x": 183,
+      "y": 115,
+      "icon": {
+        "id": "Railcraft:machine.alpha",
+        "damage": 14
+      },
+      "prerequisites": [
+        "Unnamed21"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:machine.alpha",
+                "damage": 14
+              },
+              "required": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed23",
+      "x": 220,
+      "y": 74,
+      "icon": {
+        "id": "Railcraft:machine.alpha",
+        "damage": 11
+      },
+      "prerequisites": [
+        "Unnamed22"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:machine.alpha",
+                "damage": 11
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed24",
+      "x": 234,
+      "y": 116,
+      "icon": {
+        "id": "Railcraft:machine.gamma",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Unnamed22"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:cart.tank"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:machine.gamma",
+                "damage": 5
+              }
+            },
+            {
+              "item": {
+                "id": "Railcraft:machine.gamma",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed25",
+      "x": 215,
+      "y": 147,
+      "icon": {
+        "id": "Railcraft:machine.beta"
+      },
+      "prerequisites": [
+        "Unnamed22"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:machine.beta"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:machine.beta",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:machine.beta",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed26",
+      "x": 288,
+      "y": 64,
+      "icon": {
+        "id": "Railcraft:cart.bore"
+      },
+      "prerequisites": [
+        "Unnamed24"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:borehead.diamond"
+              }
+            },
+            {
+              "item": {
+                "id": "Railcraft:cart.bore"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:chest_minecart"
+              }
+            },
+            {
+              "item": {
+                "id": "Railcraft:cart.anchor.personal"
+              }
+            },
+            {
+              "item": {
+                "id": "Railcraft:cart.track.remover"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:material",
+                "damage": 6
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:gravel"
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "minecraft:rail"
+              },
+              "required": 64
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed27",
+      "x": 258,
+      "y": 148,
+      "icon": {
+        "id": "Railcraft:track",
+        "nbt": "{track:\"railcraft:track.suspended\"}"
+      },
+      "prerequisites": [
+        "Unnamed24"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:track",
+                "nbt": "{track:\"railcraft:track.suspended\"}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:track",
+                "damage": 2264,
+                "nbt": "{track:\"railcraft:track.disposal\"}"
+              }
+            },
+            {
+              "item": {
+                "id": "Railcraft:track",
+                "damage": 19746,
+                "nbt": "{track:\"railcraft:track.gated\"}"
+              }
+            },
+            {
+              "item": {
+                "id": "Railcraft:track",
+                "damage": 32363,
+                "nbt": "{track:\"railcraft:track.buffer.stop\"}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:post.metal"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed28",
+      "x": 258,
+      "y": 186,
+      "icon": {
+        "id": "Railcraft:machine.epsilon",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Unnamed27"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:machine.epsilon",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed29",
+      "x": 121,
+      "y": 53,
+      "icon": {
+        "id": "Railcraft:machine.alpha",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Unnamed21"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:machine.alpha"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:machine.alpha",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed30",
+      "x": 289,
+      "y": 16,
+      "icon": {
+        "id": "Railcraft:cart.undercutter"
+      },
+      "prerequisites": [
+        "Unnamed26"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:cart.undercutter"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:cart.track.relayer"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed31",
+      "x": 173,
+      "y": 79,
+      "icon": {
+        "id": "Railcraft:brick.frostbound",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Unnamed10"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:brick.frostbound",
+                "damage": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:brick.frostbound",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:stair",
+                "damage": 24
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed32",
+      "x": 18,
+      "y": 85,
+      "icon": {
+        "id": "Railcraft:track",
+        "damage": 736,
+        "nbt": "{track:\"railcraft:track.slow\"}"
+      },
+      "prerequisites": [
+        "Unnamed7"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:track",
+                "damage": 736,
+                "nbt": "{track:\"railcraft:track.slow\"}"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed33",
+      "x": 294,
+      "y": 147,
+      "icon": {
+        "id": "Railcraft:cart.loco.electric",
+        "nbt": "{model:\"railcraft:default\"}"
+      },
+      "prerequisites": [
+        "Unnamed27"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:part.rail",
+                "damage": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:track",
+                "nbt": "{track:\"railcraft:track.electric\"}"
+              }
+            },
+            {
+              "item": {
+                "id": "Railcraft:frame"
+              }
+            },
+            {
+              "item": {
+                "id": "Railcraft:machine.delta"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:machine.alpha",
+                "damage": 1
+              },
+              "required": 6
+            },
+            {
+              "item": {
+                "id": "Railcraft:part.turbine.rotor"
+              }
+            },
+            {
+              "item": {
+                "id": "Railcraft:cart.loco.electric",
+                "nbt": "{model:\"railcraft:default\"}"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed34",
+      "x": 293,
+      "y": 104,
+      "icon": {
+        "id": "Railcraft:track",
+        "nbt": "{track:\"railcraft:track.launcher\"}"
+      },
+      "prerequisites": [
+        "Unnamed33"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:track",
+                "nbt": "{track:\"railcraft:track.launcher\"}"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

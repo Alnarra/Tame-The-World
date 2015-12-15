@@ -1,0 +1,1629 @@
+{
+  "name": "Botanical Relevance",
+  "description": "Mana, a fuel source for the flowers of the world. Found in small amounts here and there, it can be generated and controlled. This chapter will help you understand the nature of those flowers and the great and amazing things they can unlock. ",
+  "quests": [
+    {
+      "name": "Flowers for Algernon",
+      "description": "Botanical revelations can come to you at the most surprising of times, but it\u0027s about time that you began to understand more about the power of flower",
+      "x": 19,
+      "y": 15,
+      "icon": {
+        "id": "Botania:specialFlower",
+        "nbt": "{type:\"daybloom\"}"
+      },
+      "prerequisites": [
+        "{Chapter 2: Beginning}[Bringing stone to life]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "You are my sunshine",
+          "longDescription": "Requiring 2 Yellow Pedals, 1 Light Blue Pedal, and 1 Orange pedal all thrown into the Petal apothocary, along with a seed can create this flower. Good for collecting sunlight and converting it direclty into mana. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:specialFlower",
+                "nbt": "{type:\"daybloom\"}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Shady Desires",
+          "longDescription": "Like the Daybloom except that it can operate at Night and even in places that don\u0027t see the sun. This little flower also passively generates small amounts of mana. It requires to black petals, 1 Grey and 1 purple. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:specialFlower",
+                "nbt": "{type:\"nightshade\"}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Pooling your resources",
+          "longDescription": "Take the living rock you have gathered and make it into a diluted mana pool. It won\u0027t just collect mana right away, but it is the first step in that process. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:pool",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Botania:specialFlower",
+          "amount": 5,
+          "nbt": "{type:\"daybloom\"}"
+        },
+        {
+          "id": "Botania:specialFlower",
+          "amount": 5,
+          "nbt": "{type:\"nightshade\"}"
+        }
+      ]
+    },
+    {
+      "name": "Spreading the Love",
+      "description": "Now that you have your mana pool, what are you going to do with it? Why fill it with mana of course. But how do we do this when it doesn\u0027t just suck the mana right out of the flowers? Well that\u0027s where the mana spreader comes in. ",
+      "x": 69,
+      "y": 15,
+      "icon": {
+        "id": "Botania:spreader"
+      },
+      "prerequisites": [
+        "Flowers for Algernon"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Are you Jelly? ",
+          "longDescription": "Putting a mana spreader down will /generally/ automatically link it with nearby mana producing flowers. If it does not you can use your wand of the forest to bind them (Using shift right click to set your wand to bind mode). Then you simply point hte mana spreader at the pool and as it collects mana it will launch it into the pool. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:spreader"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "A bigger pooldown",
+          "longDescription": "This mana pool is a little bigger but it takes a few more resources. It allows you to pool EVEN MORE mana then the diluted one ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:pool"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Botania:specialFlower",
+          "amount": 5,
+          "nbt": "{type:\"daybloom\"}"
+        },
+        {
+          "id": "Botania:specialFlower",
+          "amount": 5,
+          "nbt": "{type:\"nightshade\"}"
+        }
+      ]
+    },
+    {
+      "name": "It\u0027s got what Iron needs",
+      "description": "Mana is a unique thing, it can be collected by flowers, but did you know that you can soak things in it too? Well let\u0027s get you started on the process of useful things to coat in mana. ",
+      "x": 19,
+      "y": 46,
+      "icon": {
+        "id": "Botania:manaResource"
+      },
+      "prerequisites": [
+        "Spreading the Love"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Superiron",
+          "longDescription": "Throwing into the mana pool if it has enough mana will allow you to make mana steel, which has an immeasurable number of uses (64 Actually). ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:manaResource"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Sweet Mana of Pearl",
+          "longDescription": "The mana pearl is another useful item that you will need for a great many of the more complex botanical recipies. It is aquired by throwing an Ender Pearl into a mana pearl. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:manaResource",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Back to the Grindstone",
+          "longDescription": "Diamonds are in a way the hardest substance known to man. But did you know you can throw them in a mana pool? Well now you do. These like Mana pearls end up in a lot of important recipies down the line so be sure to save them. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:manaResource",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:iron_ingot",
+          "amount": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:ender_pearl",
+          "amount": 2
+        },
+        {
+          "id": "minecraft:diamond",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Mana Based Tools ",
+      "description": "Alright so you\u0027ve gone out and you\u0027ve made yourself some mana steel, it\u0027s pretty cool looking right? But what is it actually good for. Well my friend it\u0027s time to find out!",
+      "x": 19,
+      "y": 80,
+      "icon": {
+        "id": "Botania:manasteelPick"
+      },
+      "prerequisites": [
+        "It\u0027s got what Iron needs"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Picking Manasteel",
+          "longDescription": "Manasteel tools have all the same basic recipie shapes as their normal couterparts, But instead of sticks you use Livingwood Twigs and then the manasteel. This little pickaxe can even mine obsidian. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:manasteelPick"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "The Shear Audacity",
+          "longDescription": "It\u0027s not just picks and swords you can make with manasteel. Any tool you can think of that in some way requires iron can probably be used to make a manasteel varient. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:manasteelShears"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Botania:manasteelShovel"
+        },
+        {
+          "id": "Botania:manasteelAxe"
+        }
+      ]
+    },
+    {
+      "name": "Mana Based Armor",
+      "description": "Manasteel is also useful for making armor not just tools. More then that the use of manasteel in making armor might have some hidden benifits ",
+      "x": 18,
+      "y": 120,
+      "icon": {
+        "id": "Botania:manasteelChest"
+      },
+      "prerequisites": [
+        "Mana Based Tools "
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Can\u0027t melt Manasteel Armor",
+          "longDescription": "This armor is unique in that it comes with a little set bonus. You see if you\u0027re wearing ALL the pieces of the set you get some unique reductions in price on your useage of mana which can be pretty handy. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:manasteelChest"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Botania:manasteelHelm"
+        },
+        {
+          "id": "Botania:manasteelLegs"
+        },
+        {
+          "id": "Botania:manasteelBoots"
+        }
+      ]
+    },
+    {
+      "name": "String you along",
+      "description": "You ever find yourself thinking that you just can\u0027t find enough things to do with your string? Well then do we have a solution for you, why don\u0027t you soak it in mana!? ",
+      "x": 59,
+      "y": 46,
+      "icon": {
+        "id": "Botania:livingwoodBow"
+      },
+      "prerequisites": [
+        "It\u0027s got what Iron needs"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Strung out",
+          "longDescription": "This is a pretty simple task, just throw a piece of string into the mana pool and if there is enough mana it will spit this back out. Pretty neat right? ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:manaResource",
+                "damage": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Bowing down. ",
+          "longDescription": "So you have that string and you want to make it into something useful right? Well how about a bow? Using some living wood twigs and 3 pieces of mana infused string, you can make yourself a living wood bow and who doesn\u0027t want one of those?",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:livingwoodBow"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:arrow",
+          "amount": 64
+        }
+      ]
+    },
+    {
+      "name": "Powdered Flower Power",
+      "description": "So your dayblooms and nightshades are nice, but wouldn\u0027t you like to be able to make flower that make even more mana? Well here is the way. ",
+      "x": 103,
+      "y": 45,
+      "icon": {
+        "id": "Botania:manaResource",
+        "damage": 23
+      },
+      "prerequisites": [
+        "Spreading the Love"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Powdered mana",
+          "longDescription": "If you\u0027re used to Mana pedals with mana well then you better just throw that idea away because now we have a new way! Simply throw in some dust (like sugar, glowstone, or redstone) into a mana pool and make some mana powder! ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:manaResource",
+                "damage": 23
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Water Logged",
+          "longDescription": "The water loving flowers can be made by throwing in some blue petals and a bit of mana powder into a pedal apotheocary, and they love to suck up water. Put them on the same level as water and they\u0027ll gobble it all up. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:specialFlower",
+                "nbt": "{type:\"hydroangeas\"}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Venus Coal Trap ",
+          "longDescription": "Much like it\u0027s watery cousin this little flower\u0027s recipie is a mixture of mana powder and flower pedals. This little flower piggy loves things you can burn like coal! ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:specialFlower",
+                "nbt": "{type:\"endoflame\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Botania:specialFlower",
+          "amount": 3,
+          "nbt": "{type:\"endoflame\"}"
+        },
+        {
+          "id": "Botania:specialFlower",
+          "amount": 3,
+          "nbt": "{type:\"hydroangeas\"}"
+        }
+      ]
+    },
+    {
+      "name": "Loot Crate",
+      "description": "Droppers are great and all, but sometimes they just aren\u0027t percise enough for our needs. Well we can fix that! ",
+      "x": 132,
+      "y": 17,
+      "icon": {
+        "id": "Botania:openCrate"
+      },
+      "prerequisites": [
+        "Powdered Flower Power"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crate that puppy up!",
+          "longDescription": "The crate is great, and simple to make. One of it\u0027s most well known purposes is being used in combination with a hopper to feed coal to coal eating plants! But we bet you can find a few more uses for it. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:openCrate"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Alter your thoughts",
+      "description": "So you have made cool mana gathering flowers, but you crave even MORE, well what about making your very own runes? ",
+      "x": 103,
+      "y": 91,
+      "icon": {
+        "id": "Botania:runeAltar"
+      },
+      "prerequisites": [
+        "Powdered Flower Power"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Altered Perception",
+          "longDescription": "The runic alter itself is a pretty simple recipie. Simply is fairly simple to make. With living rock and either a Mana Pear or Mana diamond you can make your very own. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:runeAltar"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Etched in Stone",
+          "longDescription": "Runes in this world have gotten a minor update. You no longer need your wand. Just throw the ingredients on the run, let a mana spreader fill it with magic and then right click with some living rock and presto boom, you have yourself some runic power. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:rune"
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:rune",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:rune",
+                "damage": 2
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:rune",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:rune",
+          "damage": 8,
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "Spark of Imagination ",
+      "description": "Sometimes Mana spreaders simply aren\u0027t the most effecient way to spread mana, and so that\u0027s why there are Mana Sparks. They only work on Certain items, but boy do they work. ",
+      "x": 177,
+      "y": 118,
+      "icon": {
+        "id": "Botania:spark"
+      },
+      "prerequisites": [
+        "Powdered Flower Power"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Sparkle ",
+          "longDescription": "It may require just a bit of time digging around in the Nether, but we promise you that it will eventually be worth it. Sparks are all linked and can pass around mana, right now they\u0027re a little simple, but they\u0027ll get more complex as they go. For the next quest you\u0027ll need one. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:spark"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:speckled_melon",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Plating it up",
+      "description": "Manasteel is great and all... but we want more. To do that; however, we have to start somewhere and in this case it\u0027s in a certain plate ",
+      "x": 213,
+      "y": 137,
+      "icon": {
+        "id": "Botania:terraPlate"
+      },
+      "prerequisites": [
+        "Spark of Imagination "
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "A ritual of sorts",
+          "longDescription": "Remember that spark we mentioned earlier? Well this is one of the areas it can REALLY come in handy. Put the plate down on top of the correct pattern (Consult your Lexicona Botanica for help here) and you will have your very own area to set up mana steel. From here we put a spark on it. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:terraPlate"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:diamond"
+        }
+      ]
+    },
+    {
+      "name": "Better Alchemy With Mana",
+      "description": "There\u0027s actually a great many things that you can do with mana that truthfully you didn\u0027t have access to before and brewing up potions just happens to be one of them. ",
+      "x": 52,
+      "y": 131,
+      "icon": {
+        "id": "Botania:brewery"
+      },
+      "prerequisites": [
+        "Alter your thoughts"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Great Minecraft Mana Stand",
+          "longDescription": "Like the runic alter this requires mana to really get its day going BUT that\u0027s where the similarties end. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:brewery"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Manathis or that",
+          "longDescription": "Managlass shouldn\u0027t be too hard to come by and has some fun properties. The way to get it  is to simply bake up some glass and then throw it into a mana pool. Pretty simple right? ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:manaGlass"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Vial Creations",
+          "longDescription": "Now comes the simple part, simply put the managlass like you would normal glass and you can make your very own managlass vials. Pretty nifty right? Well you\u0027ll just have to see what we use them for. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:vial"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:bloodPendant"
+        }
+      ]
+    },
+    {
+      "name": "Vanishing Act",
+      "description": "Ever had a block that you like to decorate with but you\u0027d really like to be able to just sort of... fall right through? Well then it\u0027s time to meet the wonderful little platform. ",
+      "x": 193,
+      "y": 17,
+      "icon": {
+        "id": "Botania:platform"
+      },
+      "prerequisites": [
+        "Loot Crate"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Living Fancy",
+          "longDescription": "Livingwood like all woods can be used to make oh so many little decorative blocks and this is no exception to the rule. Craft up some fancy little livingwood pieces and we\u0027ll get started. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:livingwood",
+                "damage": 3
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "Botania:livingwood",
+                "damage": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "longDescription": "Now combining your livingwood with a manapearl you can get a block that you can disguise as others (Assuming they cooperate) simply right click with the texture you want and the platform will take that texture. Hold shift while standing on it, and you\u0027ll fall right through",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:platform"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:platform",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "The Philosopher\u0027s Mana",
+      "description": "It won\u0027t change Iron to Gold, but you can change Maybe... some Zombie Flesh to Leather and doesn\u0027t that sound helpful? Meet the alchemical catalyst. Though it might be tough to get. ",
+      "x": 103,
+      "y": 131,
+      "icon": {
+        "id": "Botania:alchemyCatalyst"
+      },
+      "prerequisites": [
+        "Alter your thoughts"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Catalyst for the Problem",
+          "longDescription": "Once you\u0027ve made it,  you can simply place this UNDER a mana pool. The bottom of the mana pool will have funny little designs and when you throw in something that can be convereted it will show up on screen. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:alchemyCatalyst"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:glowstone",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "The Earth Quivers before me",
+      "description": "Manasteel was powerful, some might even say as good as diamond, but it is not the best that the earth has to offer... No for that we need Terra Steel. ",
+      "x": 258,
+      "y": 137,
+      "icon": {
+        "id": "Botania:manaResource",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Plating it up"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Steel my heart away",
+          "longDescription": "TerraSteel requires an immense amount of Mana and resources to construct. Requiring Manasteel, a Mana Diamond, AND a manapearl along with a healthy amount of mana just to make one bar... this little booger better be worth it right? ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:manaResource",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "difficultlife:dl.heart"
+        }
+      ]
+    },
+    {
+      "name": "Rooted in Usefulness",
+      "description": "Not everything about this little adventure into mana and flowers is about making tools, armor, or more mana, some things have useful purposes. Some flowers can even be used to help set up your world! ",
+      "x": 246,
+      "y": 18,
+      "icon": {
+        "id": "Botania:specialFlower",
+        "nbt": "{type:\"daffomill\"}"
+      },
+      "prerequisites": [
+        "Vanishing Act"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Agricultural Assistance",
+          "longDescription": "You may have noticed that in this world, crops tend to grow a bit slower. Wouldn\u0027t you love it if they could grow just a hint faster? Well now with the power of mana you can fuel your very own agricultural empire. Place it near some crops, give it some mana, and watch it go. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:specialFlower",
+                "nbt": "{type:\"agricarnation\"}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Turn up the heat",
+          "longDescription": "Sometimes you need that iron and you need it now, but the furnace simply isn\u0027t making it fast enough. The Exfolame will turn mana into a way to speed up nearby furnaces ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:specialFlower",
+                "nbt": "{type:\"exoflame\"}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Blow me down!",
+          "longDescription": "A plant made to blow things around, this plant can be pointed with the wand of the forest and then it goes to work moving anything in it\u0027s path! ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:specialFlower",
+                "nbt": "{type:\"daffomill\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:specialFlower",
+          "nbt": "{type:\"clayconia\"}"
+        }
+      ]
+    },
+    {
+      "name": "You must construct",
+      "description": "Oh that jokes is to easy, but seriously Mana Pylons are great for making your enchanting room a little less cluttered. You should give it a try. ",
+      "x": 180,
+      "y": 43,
+      "icon": {
+        "id": "Botania:pylon"
+      },
+      "prerequisites": [
+        "Powdered Flower Power"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Additional Pylons",
+          "longDescription": "Mana Pylons are great for replacing those 15 or so book shelves with just 2 Pylons. So you can make your enchanting space a little less cluttered and it only cost you a bit of mana ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:pylon"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:pylon"
+        }
+      ]
+    },
+    {
+      "name": "What\u0027s so special? ",
+      "description": "Alright so you are wearing this Manasteel tool set and you are wondering to yourself. What\u0027s so special about it anyway? What makes it truely fancy... well what if I told you that if you have enough mana it will never break. ",
+      "x": 17,
+      "y": 176,
+      "icon": {
+        "id": "Botania:manaTablet",
+        "nbt": "{mana:500000,creative:1b}"
+      },
+      "prerequisites": [
+        "Mana Based Armor"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "iMana Tablet. ",
+          "longDescription": "Made with Living rock and either a Mana Diamond or Mana Pearl, the Mana Tablet can be your very own portable source of mana which your armor can draw upon. You can fill it up at mana pools and then your armor instead of getting weaker will simply drain the tablet. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:manaTablet",
+                "damage": 1000
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Botania:manaTablet",
+          "nbt": "{mana:500000}"
+        }
+      ]
+    },
+    {
+      "name": "Spreads like Jelly",
+      "description": "Sometimes when you are working on filling up a mana pool it ends up getting there quicker then you might expect. Well then it\u0027s time you meet the mana distributor. ",
+      "x": 179,
+      "y": 79,
+      "icon": {
+        "id": "Botania:distributor"
+      },
+      "prerequisites": [
+        "Powdered Flower Power"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Distribution Complex",
+          "longDescription": "The mana distributor will fill up any direclty adjacent mana pools (within the 4 blocks directly connected to it) and so you can point your spreaders at it and then fill up 4 mana pools at once. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:distributor"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:pool",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "Lenses",
+      "description": "So you have these mana spreaders right? But did you know that you can do so much ore with them? ",
+      "x": 212,
+      "y": 57,
+      "icon": {
+        "id": "Botania:lens"
+      },
+      "prerequisites": [
+        "Spreads like Jelly"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Mana Squinting",
+          "longDescription": "The basic mana lense is pretty simple. Some manasteel around glass. Easy enough right? Well it also does nothing so there is that. You simply attach these to the front of spreaders and they will give their own effect... so lets get into one of those now",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:lens"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "How boring",
+          "longDescription": "The Bore lense uses mana in order to break blocks. This seems pretty useful right? Mining? Maybe breaking trees? Give it a shot and we think you\u0027ll like it",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:lens",
+                "damage": 7
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Laser Beam",
+          "longDescription": "This next mana lense is pretty interesting. it actually turns the mana it has into a weapon against critters. Shoot it outwards and it will hurt them. Mind find some interesting things to do with this. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:lens",
+                "damage": 8
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:lens",
+          "damage": 9
+        }
+      ]
+    },
+    {
+      "name": "Terrasteel goods!",
+      "description": "Now you have this fantastical piece of metal, what exactly are you going to do with it? Same thing you do with all metals of course. Make it into fancy things! ",
+      "x": 259,
+      "y": 176,
+      "icon": {
+        "id": "Botania:terraSword"
+      },
+      "prerequisites": [
+        "The Earth Quivers before me"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Take that Manasteel. ",
+          "longDescription": "This tool may not look all that amazing. But if you let it draw mana from a mana pool after it\u0027s creation you will notice it will start to grow more and more powerful, even coming with a nifty activated ability (Though you should be /very/ careful with that). ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:terraPick",
+                "nbt": "{mana:9999}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:manaTablet",
+          "amount": 5,
+          "nbt": "{mana:500000}"
+        }
+      ]
+    },
+    {
+      "name": "Seedy Dealings",
+      "description": "Ever seen a patch of dirt and thought to yourself \"Gee that should be grass?\" Well we have too so we thought we might clue you into some fun things you can turn into more useful items. ",
+      "x": 212,
+      "y": 95,
+      "icon": {
+        "id": "Botania:grassSeeds"
+      },
+      "prerequisites": [
+        "Spreads like Jelly"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Pasturized",
+          "longDescription": "By throwing some grass (which you can get by shearing some actual Grass) into the mana pool, you can get a pasture seed, which will turn regular dirt into something much more. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:grassSeeds"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Shroom Shroom",
+          "longDescription": "So maybe you don\u0027t want grass, but what about a cooler kind of grass like Mycelium or Podzol? Well we have answers for those too!",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:grassSeeds",
+                "damage": 2
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:grassSeeds",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Seedy to the core",
+          "longDescription": "There\u0027s a few more seeds out there that have some rather dramatic effects on the grass, I\u0027d go so far as to say it makes it almost a rainbow of interesting variations. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:grassSeeds",
+                "damage": 6
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:grassSeeds",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:overgrowthSeed"
+        }
+      ]
+    },
+    {
+      "name": "Accesorize yourself!",
+      "description": "Armor is great and all, but sometimes you just need more don\u0027t you? Well here is the lesson in that. Baubles, baubles everywhere. ",
+      "x": 53,
+      "y": 177,
+      "icon": {
+        "id": "Botania:travelBelt"
+      },
+      "prerequisites": [
+        "What\u0027s so special? ",
+        "Alter your thoughts"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Ring Out",
+          "longDescription": "Are you tired of carrying around that mana tablet with you? Well here\u0027s a solution we can all agree on. Put a ring on it! Using an empty mana tablet and some manasteel you can put it on your ring so you don\u0027t have to hold it anymore ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:manaRing",
+                "damage": 1000
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Sas-shay",
+          "longDescription": "Gotta go fast right? Well this is the way to do it. With a few runes and a bit of mana steel you can jump higher, run faster, and generally just all around be more awesome. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:travelBelt"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "In Case of Emergency",
+          "longDescription": "Sometimes there\u0027s simply more baubles then you have room for. if that is the case then THIS is the answer. A Bauble case if you will, to put these buables inside of and switch out easily ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:baubleBox"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:lavaPendant"
+        }
+      ]
+    },
+    {
+      "name": "ManaBrew",
+      "description": "It technically does have what plants need but it also has what you need. Buffs for you and those you love which who doesn\u0027t love buffs? Well you certainly love them we know. ",
+      "x": 101,
+      "y": 173,
+      "icon": {
+        "id": "Botania:brewVial",
+        "nbt": "{brewKey:\"bloodthirst\"}"
+      },
+      "prerequisites": [
+        "Better Alchemy With Mana"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Sonic The Vial Drinker",
+          "longDescription": "Let us start with something simple right? First put in the mana flask by simply right clicking it. Then add the ingreidents. In this case netherwart, sugar, and redstone. Then add the mana and you\u0027re done. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:brewVial",
+                "nbt": "{brewKey:\"speed\"}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "More Complex Brewing",
+          "longDescription": "Who wouldn\u0027t like to be a bit more hardy and take a few more blows? With some Iron, Leather, and Netherwart you can make yourself a potion that will make even the most powerful blows seem a little weaker. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:brewVial",
+                "nbt": "{brewKey:\"resistance\"}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Healthy Living",
+          "longDescription": "Finally, where would we be without the ability to restore a bit of lost health? Well that\u0027s the point of this lovely little potion. To make it so that /you/ can get some health back. With a potato, a glistening melon (that\u0027s gold and watermelon) and neterwart you can restore just a hint of your health. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:brewVial",
+                "nbt": "{brewKey:\"healing\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:brewVial",
+          "nbt": "{brewKey:\"regen\"}"
+        }
+      ]
+    },
+    {
+      "name": "In-senseitive",
+      "description": "Potions are great, but sometimes you want more then just a quick boost. What if you want to let it sink into your nostrils... get a real Mana high if you will? ",
+      "x": 138,
+      "y": 154,
+      "icon": {
+        "id": "Botania:incenseStick"
+      },
+      "prerequisites": [
+        "ManaBrew"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Totally not a Hookah",
+          "longDescription": "The start of our Psudo beacon is going to be this lovely little plate, simple to make with a bit of living wood and livingwood planks. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:incensePlate"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Incensitive Clod",
+          "longDescription": "The next step involves a Ghast Tear, some Blaze Powder, and a livingwood twig but we promise you that it is very much worth the effort. Oh also a flint and steel, you\u0027re going to need that later trust us. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:incenseStick"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:flint_and_steel"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Hastey Retreat",
+          "longDescription": "Once you have the insense stick you infuse it just like you would a brew. Placing it on the brewery, and then giving it the ingreients it needs (all the same mind you). Keep in mind this requires a GREAT deal more mana ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:incenseStick",
+                "nbt": "{brewKey:\"haste\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:incenseStick",
+          "nbt": "{brewKey:\"regen\"}"
+        }
+      ]
+    },
+    {
+      "name": "Casa E-Rod-idca",
+      "description": "You ever wanted to feel like a druid? Well here is the path to that request. A rod that does thing based on how much mana you have. It\u0027s a pretty great tool for moving things around",
+      "x": 137,
+      "y": 121,
+      "icon": {
+        "id": "Botania:dirtRod"
+      },
+      "prerequisites": [
+        "Alter your thoughts"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Dirty Jobs",
+          "longDescription": "Let\u0027s start off simple. Simply craft this rod of the lands, and then with a bit of mana you can use it to spawn yourself in some dirt. Presto Magico you\u0027ve brought dirt to where there once was none. pretty cool right? ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:dirtRod"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Seaword bound",
+          "longDescription": "Well if you\u0027ve ever wanted water then what better way then to make it yourself as they say. Crafting this is easy with only a glass bottle, a twig, and a rune of water, but you can use it to spawn water wherever you might need. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:waterRod"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Cobbled together",
+          "longDescription": "Sometimes a piece of cobblestone just needs to go /right/ there to complete the project. Well that is where the rod of depths comes in. Making these sort of projects more simple and intuitive. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:cobbleRod"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:smeltRod"
+        }
+      ]
+    },
+    {
+      "name": "Sound the Horn",
+      "description": "More then just plants there also plenty of items that have their own usefulness in cluding a set of sound making devices that just blow the competeition away. ",
+      "x": 246,
+      "y": 57,
+      "icon": {
+        "id": "Botania:grassHorn"
+      },
+      "prerequisites": [
+        "Rooted in Usefulness"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Trumpeting Your success",
+          "longDescription": "The horn of the wild is there so you don\u0027t have to clear grass like some kind of lawnmower, and it also happens to be the basis of the other two horns. Give it a shot and see what it clears! ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:grassHorn"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "I\u0027m a horny baby",
+          "longDescription": "Bad Austin Powers jokes aside, by adding a Leaf or a Snowball to your horn of the wild, you can change what it is that it breaks. Snow, Leaves, you name it this thing is great at clearing the way. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:grassHorn",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:grassHorn",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:overgrowthSeed"
+        }
+      ]
+    },
+    {
+      "name": "Portal to Strange Lands",
+      "description": "Let us get started on the core of our elven oddness. For we are connected to so many dimensions and this is the key to understanding the world around us. ",
+      "x": 294,
+      "y": 90,
+      "icon": {
+        "id": "Botania:pylon",
+        "damage": 1
+      },
+      "prerequisites": [
+        "The Earth Quivers before me",
+        "You must construct"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "The Pillars of construction",
+          "longDescription": "These items are not easy to come by, but the rewards can be great. Once again consult your Lexiconia Botanica, as you will need 2 Mana Pools and 8 Livingwood in addition to what we have asked you to construct. Once that is done you can begin to build your portal. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:alfheimPortal"
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:pylon",
+                "damage": 1
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "Botania:livingwood",
+                "damage": 5
+              },
+              "required": 3
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "The book of Elves",
+          "longDescription": "For your next task, simply throw your book through the portal, and the elves will spit something else back out at you. This is the key to the next level of true mana manipulation. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:lexicon",
+                "nbt": "{knowledge.minecraft:1b,knowledge.alfheim:1b,knowledge.relic:1b}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:manaResource",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Weaving a destiny",
+      "description": "Sometimes mana can be a resource that you don\u0027t have a lot of. So if you\u0027re mining in those deep dark quarries but you dont\u0027 want to waste your time laying around in heavy armor, Perhaps a bit of manaweave is the way to go",
+      "x": 59,
+      "y": 80,
+      "icon": {
+        "id": "Botania:manaweaveLegs"
+      },
+      "prerequisites": [
+        "String you along"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Mana wooly",
+          "longDescription": "The first step to making any sort of manaweave gear is in first making manweave cloth. Simply combine 4 pieces of mana infused string and you\u0027ve got your cloth. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:manaResource",
+                "damage": 22
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Total Recowel",
+          "longDescription": "Once you have the cloth you can begin to make pieces of the Manaweave set. The set helps you deplete mana using tools slower and also makes the mana using rods more powerful. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:manaweaveHelm"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Botania:manaweaveLegs"
+        },
+        {
+          "id": "Botania:manaweaveChest"
+        }
+      ]
+    },
+    {
+      "name": "Enchantment Redactment",
+      "description": "Ever gotten an enchantment on a piece of gear and the very first thought that crossed your mind was \"Damnit?\" Well this is the way to fix that. ",
+      "x": 295,
+      "y": 18,
+      "icon": {
+        "id": "Botania:spellCloth"
+      },
+      "prerequisites": [
+        "Rooted in Usefulness"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Don\u0027t let moth\u0027s touch!",
+          "longDescription": "At the cost of a little durability, this item is fantastic at allowing you to clean up the mistakes of RNG. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:spellCloth"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:3s,id:35s}]}"
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:4s,id:0s}]}"
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:5s,id:32s}]}"
+        }
+      ]
+    },
+    {
+      "name": "Armor Be Gone",
+      "description": "Want to show off that neat skin? Tired of breaking all your glass? Want to make cool underwater looking blocks? Oh well is this the chapter for you! ",
+      "x": 294,
+      "y": 55,
+      "icon": {
+        "id": "Botania:phantomInk"
+      },
+      "prerequisites": [
+        "Rooted in Usefulness"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Glass Recovery",
+          "longDescription": "Tired of breaking your glass? Wish you could save it? Well introducing the tool to do just that. Simply use this wonderful device and it will act like a pick with silk touch but only with glass!",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:glassPick"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Invisible Things",
+          "longDescription": "Armor is the best for keeping things between you and your fleshy bits, but sometimes no matter how much we try it is just terribly ugly. Well here is the way to make this less of a problem! Throw this item in a crafting square with the armor you want to hide and wam, bam, superman you are done! ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:phantomInk"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Prismatic! ",
+          "longDescription": "Prismarine is interesting. If you have an alchmeical catalyst under your mana pool and you throw in some quarts you can get prismarine which can make all kinds of things. for the block we want simply put 4 prismarine around a piece of cobblestone! ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:prismarine"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:seaLamp",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "Hopping into the game",
+      "description": "We wanted to run you through a few more interesting flowers for your collection. Some that perhaps can help you really tap into keeping yourself healthy and organized",
+      "x": 247,
+      "y": 101,
+      "icon": {
+        "id": "Botania:specialFlower",
+        "nbt": "{type:\"hopperhock\"}"
+      },
+      "prerequisites": [
+        "Sound the Horn"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "More function!",
+          "longDescription": "Some flowers are good for moving things others for healing you. The Fallen Kande with a bit of mana can help you regenerate health. The Hopperhock can suck any number of things in around it! They\u0027re both great",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:specialFlower",
+                "nbt": "{type:\"fallenKanade\"}"
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:specialFlower",
+                "nbt": "{type:\"hopperhock\"}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Flying High",
+          "longDescription": "Sometimes there just isn\u0027t room for a dirt block AND a flower on top of that. Well this is the answer to all of this, we\u0027re going to introduce the floating flower, but ot start we need a glimmering flower to start. Simply put a normal flower you find in the world and mix it with some glowstone and you\u0027ll have a glimmering flower. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:shinyFlower"
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "An island all my own",
+          "longDescription": "Once you have the Glimmering flower, simply add it to a pasture seed and dirt in the crafting table. From here you can combine that floating plant with all sorts of flowers and they\u0027ll float too! ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:floatingSpecialFlower",
+                "nbt": "{type:\"fallenKanade\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:floatingSpecialFlower",
+          "nbt": "{type:\"hopperhock\"}"
+        }
+      ]
+    },
+    {
+      "name": "Unbreakable... mostly ",
+      "description": "Manasteel tools came with manasteel armor, and so to does Terrasteel come with it\u0027s own set. But this stuff makes Manasteel look puny in comparison. ",
+      "x": 201,
+      "y": 175,
+      "icon": {
+        "id": "Botania:terrasteelChest"
+      },
+      "prerequisites": [
+        "Terrasteel goods!"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "And I\u0027ll form the head",
+          "longDescription": "Knockback resistance by default, regenerate health even when hungry, mana tablets slowly regenrate over time. Who would not want this amazing armor? ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:terrasteelHelm"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Botania:terrasteelChest"
+        },
+        {
+          "id": "Botania:terrasteelLegs"
+        },
+        {
+          "id": "Botania:terrasteelBoots"
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

@@ -1,0 +1,1848 @@
+{
+  "name": "Immersed in Engineering",
+  "description": "It\u0027s time to start getting into the fundementals of electricity and more importantly how to move that electricty around. At it\u0027s core this manual will walk you through everything you need to know about setting you your own power generation and what to use it for. ",
+  "quests": [
+    {
+      "name": "Hammer it out ",
+      "description": "Before you can really get started down this path, you need to understand your toolset, and for setting up engineering projects with this manual, you\u0027re going to need the right hammer. ",
+      "x": 21,
+      "y": 18,
+      "icon": {
+        "id": "ImmersiveEngineering:tool"
+      },
+      "prerequisites": [
+        "{Chapter 2: Beginning}[RTFM]"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "So many hammers",
+          "longDescription": "The hammer has a lot of interesting properties that we will get into as we explore more about this element of the world, but for now it\u0027s the tool you use to interact with everything that comes from the Engineering Manual. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:tool"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ImmersiveEngineering:metal",
+          "damage": 8,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "More Ore",
+      "description": "You may have noticed some odd ores in this world. Not just Iron, Gold, Redstone, Diamond, and coal. One of them we discussed earlier, Copper, but there\u0027s a few more! ",
+      "x": 62,
+      "y": 18,
+      "icon": {
+        "id": "ImmersiveEngineering:ore",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Hammer it out "
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Aluminum Ton Fun",
+          "longDescription": "Aluminum, which comes from Bauxite ore has somet limited uses, but the most obvious is in a High Voltage setting. You won\u0027t see much of that early on, but it\u0027s good to keep around. You can also make it into a few decorative blocks! ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:ore",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "A silver lining",
+          "longDescription": "Silver on it\u0027s own is actually pretty useless but it can be combined with some other things to make this wonderful substance called Electrum which is great for any number of things! ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:ore",
+                "damage": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "X-Ray Vision Blocker",
+          "longDescription": "Nickel and Lead both have some limited uses. Nickel can be thrown in an arc furnace to make a pretty interesting little generator and Lead is useful in low and middle voltage capacitors. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:ore",
+                "damage": 2
+              }
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:ore",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ImmersiveEngineering:metal",
+          "damage": 3,
+          "amount": 5
+        },
+        {
+          "id": "ImmersiveEngineering:metal",
+          "damage": 1,
+          "amount": 5
+        },
+        {
+          "id": "ImmersiveEngineering:metal",
+          "damage": 4,
+          "amount": 5
+        },
+        {
+          "id": "ImmersiveEngineering:metal",
+          "damage": 2,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Grit your teeth",
+      "description": "So we mentioned that hammer you made has some interesting properties correct? Well one of those properties just happens to be turning a piece of ore into grit or even two grit. ",
+      "x": 62,
+      "y": 54,
+      "icon": {
+        "id": "ImmersiveEngineering:metal",
+        "damage": 10
+      },
+      "prerequisites": [
+        "More Ore"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Butter is required. ",
+          "longDescription": "Let\u0027s start off with the metals you know a lot about. Copper, Iron, and gold. Simply take your hammer and smash some up and before you know it you\u0027ll have your very own gritty solution! Simply put your hammer in the crafting grid with the appropriate ore and you\u0027ll get some! ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metal",
+                "damage": 10
+              }
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metal",
+                "damage": 8
+              }
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metal",
+                "damage": 9
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Maybe Sugar",
+          "longDescription": "Next we\u0027ll take a look at all those new ores you just made. Rather then taking your pick to them, simply take your hammer and see what you get! ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metal",
+                "damage": 11
+              }
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metal",
+                "damage": 12
+              }
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metal",
+                "damage": 13
+              }
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metal",
+                "damage": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Never salt ",
+          "longDescription": "Finally we can get a bit of mixed grits. Even if Steve from accounting who  puts salt on his is a savage and wrong. These simply come from mixing two other grits ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metal",
+                "damage": 16
+              }
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metal",
+                "damage": 15
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ImmersiveEngineering:metal",
+          "damage": 16,
+          "amount": 5
+        },
+        {
+          "id": "ImmersiveEngineering:metal",
+          "damage": 15,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "I sell Coke Ovens",
+      "description": "Before we can get started on our path to making a more complete electrical empire, we must first begin with the basics. In this case the Coke Oven. ",
+      "x": 113,
+      "y": 54,
+      "icon": {
+        "id": "ImmersiveEngineering:stoneDecoration",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Grit your teeth"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Bricks of Coke... Oven",
+          "longDescription": "Made from sandstone, Clay, and bricks you\u0027re going to need to make about 27 of them to complete the 3x3 Structure. Once you have completed it simply right click with your hammer a.nd it will make it into a fully functional coke oven! ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:stoneDecoration",
+                "damage": 1
+              },
+              "required": 27
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Oven Fired Coal",
+          "longDescription": "Once you have your coke oven the process is fairly simple. Simply place a piece of coal into the coke oven and it will do the rest, making two byproduct. Coal Coke and also some kind of oil... squishy oil. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:material",
+                "damage": 6
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ImmersiveEngineering:material",
+          "damage": 6,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Quest # 420 ",
+      "description": "Ok so Hemp and Cannabis technically have slightly different THC Values depending on breed. But for today\u0027s time we\u0027re going to be working on the more fiber related product. ",
+      "x": 28,
+      "y": 81,
+      "icon": {
+        "id": "ImmersiveEngineering:hemp"
+      },
+      "prerequisites": [
+        "Grit your teeth"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Do not in fact Blaze it",
+          "longDescription": "The book mentions punching grass, this actually doesn\u0027t work. You\u0027re going to need to use a hoe to till soil to find the seeds. So head out there and get yourself a few and get to planting!",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:seed"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Fiberous Fun",
+          "longDescription": "Once your pot plant has all grown up, simply punch it, don\u0027t smoke it, and then you\u0027ve got yourself some lovely industrial hemp fibers which are good for a lot of things. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:material",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ImmersiveEngineering:seed",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Steeling the show",
+      "description": "Alright so now you have your coke oven, but you need one more thing to make your empires foundations strong. That of course is a blast furnance. ",
+      "x": 112,
+      "y": 17,
+      "icon": {
+        "id": "ImmersiveEngineering:stoneDecoration",
+        "damage": 2
+      },
+      "prerequisites": [
+        "I sell Coke Ovens"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Blasting off again",
+          "longDescription": "At the same size as a coke oven, and constructed from netherbrick, blaze powder, and normal bricks. 27 Blast Bricks constructed in the same 3x3 Layout and tapped with the hammer should be all you need in order to complete your structure. Here you can use that coal coke for something useful",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:stoneDecoration",
+                "damage": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "You can melt this beam",
+          "longDescription": "Iron + Coal Coke + Blast Furnace \u003d Steel? Capiche? Well it\u0027s like one GIANT furnace that makes steel which will be useful for all sorts of things later on. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metal",
+                "damage": 7
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ImmersiveEngineering:storage",
+          "damage": 7
+        }
+      ]
+    },
+    {
+      "name": "Byproduct",
+      "description": "You may have noticed that in addition to Coal Coke, your coke oven is making something else in there. This byproduct, called Creosote oil has any number of uses that will be wonderful. But perhaps the most useful is with wood. ",
+      "x": 114,
+      "y": 89,
+      "icon": {
+        "id": "ImmersiveEngineering:fluidContainers"
+      },
+      "prerequisites": [
+        "I sell Coke Ovens"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Oil me up",
+          "longDescription": "Creasote oil will gather in the Oven naturally without any real work on your part, to extract it all you need to do is simply put a bottle or bucket into the slot on the oven and presto you have your very own creosote oil. Nice hmm? ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:fluidContainers"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Treating yourself",
+          "longDescription": "Now  that you have the oil, you can use that with some wood planks in order to make treated wood (much like staining a deck) It may seem weird at the moment but we promise it will make more sense later",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:treatedWood"
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ImmersiveEngineering:fluidContainers",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Trick or Treat? ",
+      "description": "Treated wood is an interesting substance, but it does have it\u0027s own little decorative properties and that\u0027s got to be nice right? I Mean look at it, who doesn\u0027t love stained wood? ",
+      "x": 70,
+      "y": 89,
+      "icon": {
+        "id": "ImmersiveEngineering:woodenDecoration",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Byproduct"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Stairing into the wood",
+          "longDescription": "You will find that like any wood product, Treated wood can be made into the various wood Friendly shapes. Well let\u0027s start with something simple ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:woodenStairs"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Treating your fence. ",
+          "longDescription": "Much like normal wood it can also be made into sticks, but it is important to note that these sticks are ALSO treated. Something to keep in mind so you can make things like fences. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:woodenDecoration",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Post your results. ",
+          "longDescription": "Finally there is something with treated wood that you might even go so far as to consider completely new. So give a shot at this lovely post. It\u0027s a great thing for placing power lines on later and other things of course. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:woodenDevice"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ImmersiveEngineering:treatedWood",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "A barrel of fun",
+      "description": "Sometimes you need to store more then just items, or the way you are storing items just isn\u0027t good enough. That is where the Barrel and Crate really help",
+      "x": 69,
+      "y": 130,
+      "icon": {
+        "id": "ImmersiveEngineering:woodenDevice",
+        "damage": 6
+      },
+      "prerequisites": [
+        "Trick or Treat? "
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Barely able to tell you",
+          "longDescription": "Created from treated woods, Barrels work much like you might expect a Chest to work, except for a liquid. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:woodenDevice",
+                "damage": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "They\u0027re Crate! ",
+          "longDescription": "The best thing about crates is if they have things in them and you happen to break it... and then put the crate back down they will still have that stuff in them. Good for keeping things on you! ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:woodenDevice",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ImmersiveEngineering:woodenDevice",
+          "damage": 6,
+          "amount": 5
+        },
+        {
+          "id": "ImmersiveEngineering:woodenDevice",
+          "damage": 4,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Clothy!",
+      "description": "So now that you are a drug kingpin putting out enough weed, we mean Hemp, per day and you\u0027d like something to do with it. So we wanted to give you at at least a few ideas that might get you started down the path to whatever it is you\u0027re trying to accomplish. ",
+      "x": 27,
+      "y": 133,
+      "icon": {
+        "id": "ImmersiveEngineering:material",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Quest # 420 "
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Back me a Block",
+          "longDescription": "We don\u0027t really know how or why, but apparently by mixing clay and industrial hemp fibers together you can make your very own hempcrete. It\u0027s not got many uses, but it does look pretty ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:stoneDecoration"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Threading the needle",
+          "longDescription": "Maybe you\u0027ve always wanted to rope that one part off but all the other ropes look to tight well Hemp Rope like it\u0027s coil counterparts can give a little slack the longer the distance is. Unfortanatley it doesn\u0027t carry power, that would set it on fire. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:coil",
+                "damage": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Tough Quest",
+          "longDescription": "Finally an item that might have some use... in another quest. On it\u0027s own it\u0027s not great for building all that much but you\u0027d be amazed at how durable and strong this material is. Great for catching wind you might even say",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:material",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ImmersiveEngineering:material",
+          "damage": 4,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Construction Materials",
+      "description": "Before we get started, we need to understand what Steel can be used for. Once you\u0027re comfertable with that we can start sending 30,000 volts through it. ",
+      "x": 157,
+      "y": 17,
+      "icon": {
+        "id": "ImmersiveEngineering:metalDecoration",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Steeling the show"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Fence of Steel ",
+          "longDescription": "Crafted much like Iron Bars with 6 pieces of steel, these fences will find a great many uses as parts of bigger machines. They also happen to be decorative if you\u0027re into that sort of thing. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDecoration"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Don\u0027t fall",
+          "longDescription": "Scaffolding is the key to almost any real and long term project, and this stuff is great at it. Looking like a carpenters block but having a very different purpose. Scaffolding is used in a lot of huge projects as a way to shape the overall construction. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDecoration",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDecoration",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ImmersiveEngineering:metalDecoration",
+          "damage": 1,
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "Sheet Metal music",
+      "description": "So have you ever thought to yourself \"Gee I love this Ingot, but could it be flatter?\" Well if so then we have an answer for you ",
+      "x": 21,
+      "y": 51,
+      "icon": {
+        "id": "ImmersiveEngineering:metalDecoration",
+        "damage": 10
+      },
+      "prerequisites": [
+        "Hammer it out "
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "3 Sheets to the wind",
+          "longDescription": "Sheet metal has a lot of hidden uses. Metal Barrels, pipes for moving about fluid, and eventually we\u0027ll teach you how to make a massive water tower like structure with it. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDecoration",
+                "damage": 10
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Just a Better Barrel",
+      "description": "That jabba seemed uncalled for. Those barrels are great, but you know the one thing they don\u0027t hold? Hot fluids and who wants a barrel that can hold lava? You do",
+      "x": 117,
+      "y": 131,
+      "icon": {
+        "id": "ImmersiveEngineering:metalDevice2",
+        "damage": 7
+      },
+      "prerequisites": [
+        "Sheet Metal music",
+        "A barrel of fun"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "To Hot to Handle ",
+          "longDescription": "The metal barrel is actually a fairly simple thing to make all things considered, and much like the barrel it has it\u0027s own uses. Keep one around for storing lava safely without worry of those little fire demons spawning ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDevice2",
+                "damage": 7
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:lava_bucket",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Power Overwhelming",
+      "description": "This is it, this is the start of your path to a more powerful life. The kinetic Dynamo using those oh so strange magnetic properties of Copper is going to start giving you the life you deserve. ",
+      "x": 158,
+      "y": 59,
+      "icon": {
+        "id": "ImmersiveEngineering:metalDevice",
+        "damage": 9
+      },
+      "prerequisites": [
+        "Construction Materials"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Got to keep moving",
+          "longDescription": "The kinetic Dynamo is simple enough, You place it down next to a device that is designe to generate power in some way and move and it will do the rest of the work. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDevice",
+                "damage": 9
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "More Water Required",
+      "description": "Chest can only hold so many items, and really sometimes you need EVEN MORE then that. For that ware are just going to have to construct a tank of some kind. Note this can hold a Massive amount of any item and you can scale it to your size needs",
+      "x": 117,
+      "y": 172,
+      "icon": {
+        "id": "minecraft:water_bucket"
+      },
+      "prerequisites": [
+        "Just a Better Barrel"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Going it Silo",
+          "longDescription": "Be sure to consult with your engineering manual for exating details on the build. But the basics is a 3x3x7 structure with the base being the 4 fence post on the outside, a single sheet metal block in the center, then 5 layers of sheet metal with a hollow center and finally a cap of sheet meteal. Click it with your hammer to make it fit your needs",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDecoration",
+                "damage": 10
+              },
+              "required": 50
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:woodenDecoration",
+                "damage": 1
+              },
+              "required": 4
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Tanking it",
+          "longDescription": "It\u0027s not just good for items, if you make it about 2 layers shorter, it will now be for liquids. Great if you\u0027re looking to store several buckets of water. Again once you\u0027ve constructed it hit it with your hammer. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDecoration",
+                "damage": 10
+              },
+              "required": 34
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:woodenDecoration",
+                "damage": 1
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "StorageDrawers:upgrade",
+          "damage": 6,
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "Wind, Water, and not heart",
+      "description": "The two most basic forms of natural energy that man could think of were wind and water. To harness the power of either of these were critical to our development of a species and they will be critical to your development of cool and intersting stuff",
+      "x": 158,
+      "y": 113,
+      "icon": {
+        "id": "ImmersiveEngineering:woodenDevice",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Power Overwhelming"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Wind!",
+          "longDescription": "Wind, you can see it moving things around you but can you see it? Well if the particles are turned up high enough you should. For Wind power the higher up the fan blades are the more power they will generate. Stick them on a kinetic Dynamo and make sure they have some space and soon enough you\u0027ll be making wind energy! ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:woodenDevice",
+                "damage": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Water!",
+          "longDescription": "Water is the power the carved the grand canyon back here on earth and now you\u0027re going to be using it to power your fortress of solitude. So Get to work pouring some water over this wheel (running) and watch it go. You can have up to three water wheels next to each other so keep that in mind!",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:woodenDevice",
+                "damage": 1
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ImmersiveEngineering:woodenDevice",
+          "damage": 1,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Windmill Take 2",
+      "description": "So the Windmill you built isn\u0027t catching as much wind as you\u0027d like right? You put it up there and it just seems to be missing... something. Well then it\u0027s time for you to try out the Windmill everyone loves with cloth!",
+      "x": 27,
+      "y": 170,
+      "icon": {
+        "id": "ImmersiveEngineering:woodenDevice",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Clothy!",
+        "Wind, Water, and not heart"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "In the arms of a windmill",
+          "longDescription": "You remember that tough fabric we mentioned earlier. Well it turns out if you stretch 4 of them over a windmill blade in a crafting table, you can make an even better windmill blade, but  you might need a few",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:material",
+                "damage": 5
+              },
+              "required": 8
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "\"Thou hast seen nothing yet\" ",
+          "longDescription": "Once you\u0027ve got your 8 windmill blades it\u0027s simply a matter of putting them down and letting your creation spin to your delight, and spin it willl. Like other windmills the higher in the air it is (Higher Y Value) The more energy it will generate. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:woodenDevice",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "The Power of the Earth ",
+      "description": "There is one final form of rather passive power generation that might be worth investing in, though as a warning it can only be made from some fairly interesting materials. ",
+      "x": 190,
+      "y": 180,
+      "icon": {
+        "id": "ImmersiveEngineering:metalDevice",
+        "damage": 10
+      },
+      "prerequisites": [
+        "Zap"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Thermostat Changes",
+          "longDescription": "This generator is powered by a difference in heat between two objects. Problematically there\u0027s only a few objects which REALLY are different enough in heat to cause the change. Lava and Ice, or even... packed ice and normal ice. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDevice",
+                "damage": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "That was cold friend",
+          "longDescription": "Perhaps you should take a look at that Freezer you made with the meteors that fell from the sky. I bet they would be fantastic ways to help keep things in line. ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:ice"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:packed_ice"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:packed_ice",
+          "amount": 5
+        },
+        {
+          "id": "minecraft:ice",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Winding Up",
+      "description": "Alright so you know how to make power, but what about moving the power you make around. The next few chapters will not only be on the uses of that power you made but also how to move it from point A to Point B. ",
+      "x": 189,
+      "y": 87,
+      "icon": {
+        "id": "ImmersiveEngineering:coil"
+      },
+      "prerequisites": [
+        "Power Overwhelming"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Low Voltage Fun",
+          "longDescription": "To start off with, most everything you play with will probably be low voltage in nature. For this something as simple as copper wiring should be able to move it around. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDevice"
+              }
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDevice",
+                "damage": 1,
+                "nbt": "{energyStorage:100000}"
+              }
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:coil"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Amping it up",
+          "longDescription": "There are some things which make more power then your poor little low voltage devices can handle, and for that we have invented the Transformer. To take one power type and convert it to another. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDevice",
+                "damage": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Alright Break it up!",
+          "longDescription": "Breakers are items that shut down the transmission of power (or turn it back on). For the demonstration we\u0027ve asked you to make two. One that you can shut off manually and one that comes on with a Restone Signal. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDevice2"
+              }
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDevice2",
+                "damage": 9
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ImmersiveEngineering:metalDevice",
+          "damage": 1,
+          "nbt": "{energyStorage:100000}"
+        }
+      ]
+    },
+    {
+      "name": "A Measured Response",
+      "description": "This item is handy in figuring out exactly how much power you happen to be transmitting across a line. It can be helpful in setting up and troubleshooting your electrical networks. ",
+      "x": 189,
+      "y": 46,
+      "icon": {
+        "id": "ImmersiveEngineering:tool",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Winding Up"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Volt-O-Meter",
+          "longDescription": "Requiring a Compass, some Copper, and some treated sticks, this particular device isn\u0027t too difficult to make and more then that it can net you some help in figuring out all the kinks of on your line. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:tool",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Zap",
+      "description": "Sometimes Wind and Water just aren\u0027t enough to keep things going, so you turn to a solution only Dr. Frankenstein would have thought up. Let your place get struck by Lightning! ",
+      "x": 157,
+      "y": 160,
+      "icon": {
+        "id": "ImmersiveEngineering:metalMultiblock"
+      },
+      "prerequisites": [
+        "Wind, Water, and not heart"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "It\u0027s all about the base",
+          "longDescription": "It\u0027s not trouble at all to make the base. Simply make 9 of these blocks and put them in a 3x3 configuration. Then simply smash it with your hammer and wa la you have your very own Lightning catching base... just one catch, You need something to actually catch the lightning. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalMultiblock"
+              },
+              "required": 9
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "On the Fence about this",
+          "longDescription": "At the center of this lightning rod you will find a little hole. Shove sove fences up there and build on up. At the top be sure to make a \"net\" of sorts by connecting fences off the top most point ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDecoration"
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ImmersiveEngineering:metalDevice",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Industrial Expansion",
+      "description": "On their own, what we are about to show you really won\u0027t have that great an impact on your life. Individually and on their own they are pretty useless, but when you want to start making structures they are absolutley crucial to the completion. ",
+      "x": 226,
+      "y": 114,
+      "icon": {
+        "id": "ImmersiveEngineering:metalDecoration",
+        "damage": 7
+      },
+      "prerequisites": [
+        "Winding Up"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "A Light Touch",
+          "longDescription": "Light Engineering blocks find a lot of use in the simple things. From automated crafting devices to bottling machines. They tend to be in the simpler projects. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDecoration",
+                "damage": 7
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "A bit Heavy Handed",
+          "longDescription": "Heavy Engineering blocks find themselves in far different uses. Tending to be found in the construction of very complex devices. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDecoration",
+                "damage": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Generate the world",
+          "longDescription": "These Final blocks are the components that you will find in more specialized devices like Arc Furnaces and power generation like diseal generators. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDecoration",
+                "damage": 6
+              }
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDecoration",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ImmersiveEngineering:metalDecoration",
+          "damage": 5,
+          "amount": 5
+        },
+        {
+          "id": "ImmersiveEngineering:metalDecoration",
+          "damage": 7,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Probe Launched ",
+      "description": "Prospecting the land is a tired and ancient tradition, but we\u0027ve invented a device that makes it possible without the need for digging all the way to the center of Minecraftia. ",
+      "x": 226,
+      "y": 61,
+      "icon": {
+        "id": "ImmersiveEngineering:metalDevice",
+        "damage": 14
+      },
+      "prerequisites": [
+        "Winding Up"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Core Workout",
+          "longDescription": "Placing the device down, giving it a little bit of power, and then watch it go to work slowly penetrating into the soil and telling you exactly what\u0027s inside. This tool is only useful for the Excavator and telling you what that will get",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDevice",
+                "damage": 14
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:iron_ore",
+          "amount": 5
+        },
+        {
+          "id": "ImmersiveEngineering:ore",
+          "amount": 5
+        },
+        {
+          "id": "minecraft:gold_ore"
+        }
+      ]
+    },
+    {
+      "name": "Table the discussion",
+      "description": "What kind of engineer would you be if you didn\u0027t have your very own table? These little tables are great for the tiny engineering projects that don\u0027t quite fit the scope and scale of worldshaping and for your engineering tools it\u0027s a good way to upgrade them. ",
+      "x": 217,
+      "y": 19,
+      "icon": {
+        "id": "ImmersiveEngineering:woodenDevice",
+        "damage": 5
+      },
+      "prerequisites": [
+        "A Measured Response"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Tabular data ",
+          "longDescription": "The table, like Thaumcraft\u0027s research table, will end up taking two blocks. It\u0027s a great way to work on Guns, Chemical Throwers, and Mining drills if you\u0027re into that sort of thing. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:woodenDevice",
+                "damage": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Snip Snip",
+          "longDescription": "Sometimes you\u0027ve got a length of wire and you don\u0027t want to have to break an entire series of structures to clean it all up. Well the wire cutters are your go to tool for just cleaning up the wire. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:tool",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Those death Star Blueprints",
+          "longDescription": "Only found in villages, the blueprints here are critical to setting up the next phase of research. Drop by your local village and see if one of them doesn\u0027t have what you\u0027re looking for, you may have to trade or search a while. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:blueprint"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Piping out the answers",
+      "description": "You can move items around with hoppers, and if you\u0027ve looked into it even conveyor belts, but what about fluids? Well this is where we start to show you the tricks and tips. ",
+      "x": 227,
+      "y": 159,
+      "icon": {
+        "id": "ImmersiveEngineering:metalDevice2",
+        "damage": 5
+      },
+      "prerequisites": [
+        "Industrial Expansion"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Laying some pipe",
+          "longDescription": "Fluid pipes are just what they say, you put a fluid in at one end and it will spit it out the other. On their own they don\u0027t need any real power, they just sort of do their job. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDevice2",
+                "damage": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "We\u0027re going to pump you up",
+          "longDescription": "A pump has a power connection on the top, it can be used to make water move faster, or to pump things up from containters or simply water sources. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDevice2",
+                "damage": 6
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ImmersiveEngineering:metalDevice2",
+          "damage": 5,
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "name": "Helping to Convey the Truth",
+      "description": "Hoppers are cool for moving items, but sometimes you need something a little more effecient then that. That is where the conveyor belt comes in. ",
+      "x": 261,
+      "y": 19,
+      "icon": {
+        "id": "ImmersiveEngineering:metalDevice",
+        "damage": 11
+      },
+      "prerequisites": [
+        "Table the discussion"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Simple and effective",
+          "longDescription": "Having the same sort of properties as train tracks in terms of where you can lay them. Conveyor belts will move items across them in the direction that they are going. They\u0027re useful for all sorts of things and even more important in the overall development of bigger machines. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDevice",
+                "damage": 11
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Dropping in",
+          "longDescription": "There are times you want your conveyor belt to drop off an item, to simply let it fall through the cracks. That is what this little thing is great for. Fantastic to setup with an item router .",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDevice",
+                "damage": 15
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ImmersiveEngineering:metalDevice",
+          "damage": 11,
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "Boom Headshot",
+      "description": "A gun is a powerful tool, and it requires a great deal of craftsmanship to make a good one. This is minecraft however and making a gun is a little simpler. ",
+      "x": 262,
+      "y": 63,
+      "icon": {
+        "id": "ImmersiveEngineering:revolver"
+      },
+      "prerequisites": [
+        "Table the discussion"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Smithing a Smith and Wesson",
+          "longDescription": "Each piece to the gun has it\u0027s own little recipie and guide to follow, so it\u0027s something that you\u0027ll need to complete in order to put all the parts together. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:material",
+                "damage": 7
+              }
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:material",
+                "damage": 9
+              }
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:material",
+                "damage": 10
+              }
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:material",
+                "damage": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "A revolving Gun",
+          "longDescription": "And there you have it, your very first gun. It\u0027s not got any ammunition though does it? ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:revolver",
+                "nbt": "{Inv:[]}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Bullet Points",
+          "longDescription": "Remember those blueprints from earlier? Well they should help you find method for making all sorts of fun explosive rounds to keep those creepers away. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:bullet",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ImmersiveEngineering:bullet",
+          "damage": 2,
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "name": "Get to the point",
+      "description": "Guns are nice and all, but what\u0027s really nice about guns is that you can give them all sorts of upgrades to make them even more useful when you are out in the world. ",
+      "x": 296,
+      "y": 64,
+      "icon": {
+        "id": "ImmersiveEngineering:toolupgrade",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Boom Headshot"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Pointy end goes here",
+          "longDescription": "A classic item on the gun is the bayonet, for when ultimately and almost inevitably you end up in melee range with your opponent. Trust us it happens every time and it\u0027s no better each time it occurs. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:toolupgrade",
+                "damage": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Quick shot",
+          "longDescription": "Nothing is worse about reloading then how long it takes. Well this little addon can make that process just a hint faster. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:revolver",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Drill baby Drill",
+      "description": "Sometimes a Pickaxe simply isn\u0027t a cool enough way to dig through the earth. For that we\u0027re going to need something even more... diggy.",
+      "x": 294,
+      "y": 29,
+      "icon": {
+        "id": "ImmersiveEngineering:drill"
+      },
+      "prerequisites": [
+        "Boom Headshot"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Drill down ",
+          "longDescription": "The drill is a tool much like the gun. It can be upgraded with various addons that make it more or less useful underground in theart of turning the underground into a thriving ecosystem that bends to your will. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:drill"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Fueling up",
+          "longDescription": "The drill does require something though, it runs off power and not the kind where you can just string an extension cord to it. Instead you need to refill your drill with a fuel like you would a lawnmower or a chainsaw. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:jerrycan"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ImmersiveEngineering:jerrycan",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "Liquid Fuel",
+      "description": "You\u0027ve been working with Wind, Water, even geothermal, but if you want some real power you\u0027re going to need to burn something, and what\u0027s better to burn then a little bit of gas.",
+      "x": 271,
+      "y": 143,
+      "icon": {
+        "id": "ImmersiveEngineering:metalMultiblock",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Industrial Expansion"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "A monster Mash",
+          "longDescription": "These blocks are key to making the industrial sized Squeezers and fermenters you will need. Consult your engineering manual for exacting details, but you should find that you can turn your plants and seeds into a wonderful supply of fuel. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalMultiblock",
+                "damage": 2
+              }
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalMultiblock",
+                "damage": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Guzzoline",
+          "longDescription": "Once you have your perfect lab setup you will be ready to turn your crops into the perfect source of renewable burnable energy .",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:fluidContainers",
+                "damage": 6
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ImmersiveEngineering:fluidContainers",
+          "damage": 7,
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "Light Em Up!",
+      "description": "What\u0027s the point of having electricity if you can\u0027t even make your own electrical devices? Well that\u0027s what we\u0027re here to demonstrate, using the power you are making in order to keep yourself safer in the dark",
+      "x": 190,
+      "y": 135,
+      "icon": {
+        "id": "ImmersiveEngineering:metalDevice2",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Zap"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Edison\u0027s Idea... maybe",
+          "longDescription": "For a basic torch, it gives off a light level of 14, which means for every block from the torch you step away the light level goes down by one. Glowstone gives off a light level of 15, and this little baby does too. But for the surrounding 32 Blocks? Monsters can\u0027t spawn in those thanks to this little creation!",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDevice2",
+                "damage": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Flooded with Ideas",
+          "longDescription": "A Floodlight requires a bit more power, but it puts off a huge amount of light in a single conal direction. This makes it idea for lighting up distances far away from your base without making the place look terrible with torches. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDevice2",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ImmersiveEngineering:metalDecoration",
+          "damage": 2,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "End of a Story Arc",
+      "description": "This quest will help you make perhaps one of the more powerful machines that immersing yourself in engineering can reveal to you. The all to powerful Arc Reactor .",
+      "x": 272,
+      "y": 182,
+      "icon": {
+        "id": "ImmersiveEngineering:graphiteElectrode"
+      },
+      "prerequisites": [
+        "Liquid Fuel"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "High quality Graphites",
+          "longDescription": "To get started with what is ultimatley going to be one of the fastest furnaces you have ever seen, we are first going to need something to keep the whole setup stable. Graphite Electrodes are just one of the components this device needs",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:graphiteElectrode"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "longDescription": "To complete construction of this, you will likely wish to consult your Engineers manual, as this is a bit of a complex build. The Arc Furnace melts down and creates metals faster then anything you have seen before. ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:cauldron"
+              }
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:storageSlab",
+                "damage": 7
+              },
+              "required": 14
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:storage",
+                "damage": 7
+              },
+              "required": 25
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDecoration",
+                "damage": 7
+              },
+              "required": 13
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDecoration",
+                "damage": 5
+              },
+              "required": 9
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDecoration",
+                "damage": 1
+              },
+              "required": 9
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ImmersiveEngineering:storage",
+          "damage": 5
+        },
+        {
+          "id": "ImmersiveEngineering:storage",
+          "damage": 6
+        }
+      ]
+    },
+    {
+      "name": "Turn on the Oven",
+      "description": "One of the great advantages of electricity is you don\u0027t always need that coal to heat up the furnace or that lava to heat up the cauldrun. No instead this device takes all that and does it for you, becoming a heat source",
+      "x": 261,
+      "y": 94,
+      "icon": {
+        "id": "ImmersiveEngineering:metalDevice",
+        "damage": 12
+      },
+      "prerequisites": [
+        "Industrial Expansion"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Fire Sale!",
+          "longDescription": "Place it under Thaumcraft\u0027s Cauldron or next to furnaces, it doesn\u0027t matter to this little device it will do it\u0027s job. Great for heating up things when you need it. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDevice",
+                "damage": 12
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:coal",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "Sorting out your differences",
+      "description": "Everyone hates it when you have items that don\u0027t get organized in just the right way? Well now this is your answer to that problem. A device that is entirely devoted to sorting out items.",
+      "x": 295,
+      "y": 113,
+      "icon": {
+        "id": "ImmersiveEngineering:metalDevice",
+        "damage": 13
+      },
+      "prerequisites": [
+        "Turn on the Oven"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Filtered Perception",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDevice",
+                "damage": 13
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Up Up and away",
+      "description": "If you\u0027re feeling somehwat limited by the ground yo live upon, perhaps you need to look towards the sky! Introducing the Balloon, using that wonderful Tough fabric you made. ",
+      "x": 74,
+      "y": 175,
+      "icon": {
+        "id": "ImmersiveEngineering:clothDevice",
+        "nbt": "{offset:1}"
+      },
+      "prerequisites": [
+        "Clothy!"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Full of Hot Air",
+          "longDescription": "Balloons are uinque in that you don\u0027t actually need an anchor block to place them. If you just want to put one above your head you can do just that. So expiriment and play around with them and remember that you can use them to string up wire or rope, which might just come in handy for what we\u0027re about to show you. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:clothDevice",
+                "nbt": "{offset:1}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "*Batman Noises* ",
+          "longDescription": "Remember how we mentioned you could string up rope between the balloons? Well this will let you ride on that rope or cable. Simply right clicking with the skyhook will let you ride your way to victory. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:skyhook"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ImmersiveEngineering:clothDevice",
+          "amount": 10,
+          "nbt": "{offset:1}"
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

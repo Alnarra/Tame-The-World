@@ -1,0 +1,1300 @@
+{
+  "name": "Agriculture ",
+  "description": "The crops of the world are in the end, what\u0027s going to propel you forward. You should learn about them so that you can be a farming master. Though really it\u0027s just if you\u0027re hungry, honestly you don\u0027t /have/ to read this section. ",
+  "quests": [
+    {
+      "name": "Seeds of Beginning",
+      "description": "The seed is something that you should get used to. It is at the very heart of Everything that farming is about. But what do you need to know about it exactly? ",
+      "x": 21,
+      "y": 16,
+      "icon": {
+        "id": "minecraft:wheat_seeds"
+      },
+      "prerequisites": [
+        "{Chapter 1: The Basics}[Putting bread on the table]"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "How do I mine for Seeds? ",
+          "longDescription": "To teach this task we\u0027re going to start with a simple plant. In this case the pumpkin. They are easy enough to find in the world. ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:pumpkin_seeds"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "I\u0027m frightened me oh my",
+          "longDescription": "Now.. what can we do with pumpkins? Well a few things actually. But one of the more useful ones is to carve out it\u0027s eyes and shove a torch in there. Now to grow a pumkin you\u0027re going to need at least one space of normal dirt next to it so it can grow in that direction. Then to harvest it simply use an axe to chop the pumpkin from it\u0027s stem. Be sure to leave the stem though. Also a Jack-O-Lantern happens to give off just a hint more light then a torch so try it out. ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:lit_pumpkin"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:pumpkin_pie"
+        }
+      ]
+    },
+    {
+      "name": "Johnny Appleseed",
+      "description": "You\u0027ve probably been finding apples in some of your trees, but did you know you can make APPLE trees? Well you can and it\u0027s really quite simple. ",
+      "x": 66,
+      "y": 16,
+      "icon": {
+        "id": "minecraft:apple"
+      },
+      "prerequisites": [
+        "Seeds of Beginning"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Core Samples",
+          "longDescription": "Apples are fairly simple fruits, but if you simply place one in your crafting square you can get an apple core",
+          "items": [
+            {
+              "item": {
+                "id": "Growthcraft|Apples:grc.appleSeeds"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Hungry for Apples?",
+          "longDescription": "Now you can plant that apple core on any bit of soil you want (tilled or untilled) and it will do the same thing, grow into an apple tree, but you don\u0027t need to beat it\u0027s leaves off. Simply leave it to grow (Or add some bonemeal) and you will find your tree slowly growing fruits that will eventually fall to the ground. ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:apple"
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "harvestcraft:applejellysandwichItem"
+        }
+      ]
+    },
+    {
+      "name": "Patti Cake Patti Cake",
+      "description": "Alright, not quite the right Rhyme. But the point remains that there are a few crops that don\u0027t grow... nomrally. Rice happens to be one of them. ",
+      "x": 109,
+      "y": 16,
+      "icon": {
+        "id": "Growthcraft|Rice:grc.rice"
+      },
+      "prerequisites": [
+        "Johnny Appleseed"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Not quite Uncle Ben\u0027s ",
+          "longDescription": "Rice is one of a few crops that you can find out in the world. It can be found in gardens, but those don\u0027t grow really well. To find some that will grow you will need to use a hoe on normal grass and you might just find some rice. ",
+          "items": [
+            {
+              "item": {
+                "id": "Growthcraft|Rice:grc.rice"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Watered Down",
+          "longDescription": "Rice is an odd plant. It doesn\u0027t grow like you might expect. Instead of just tilling soil and having water, you need to Till the Soil, Then using a shovel right click on the soil. THEN with a water bucket fill in the rice paddy, Then you can plant your rice. ",
+          "items": [
+            {
+              "item": {
+                "id": "Growthcraft|Rice:grc.riceBall"
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Growthcraft|Rice:grc.riceSake",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Hopped Up",
+      "description": "So Hops are an intersting crop, it like rice grows in a very unique way. ",
+      "x": 108,
+      "y": 57,
+      "icon": {
+        "id": "Growthcraft|Hops:grc.hops"
+      },
+      "prerequisites": [
+        "Patti Cake Patti Cake"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Hop on one foot then two. ",
+          "longDescription": "Hops themselves are actually pretty easy to find. Simply punch yourself some vines and you have a chance to get hops and another crop we\u0027ll talk about in another section of the book. ",
+          "items": [
+            {
+              "item": {
+                "id": "Growthcraft|Hops:grc.hops"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Fenced in ",
+          "longDescription": "To grow the hops we\u0027re going to need a few things. First those hopes you have you need to turn them into hops seeds (Simply put them in your crafting bench). Then you\u0027re going to need some rope and fences. ",
+          "items": [
+            {
+              "item": {
+                "id": "Growthcraft:grc.ropeBlock"
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "minecraft:fence"
+              },
+              "required": 6
+            },
+            {
+              "item": {
+                "id": "Growthcraft|Hops:grc.hopSeeds"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "The path to booze. ",
+          "longDescription": "The next part of the task is fairly simple. Simply take the fences and put them 3 high on either side of some tilled soil. Then string the rope between them at the top and then run it all the way to the bottom. Hops needs to climb the rope and it can grow a maximum of 3 high ",
+          "items": [
+            {
+              "item": {
+                "id": "Growthcraft|Hops:grc.hops"
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Growthcraft|Hops:grc.hopAle",
+          "damage": 4,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "In a Jam",
+      "description": "Like Rice, grapes are somewhat odd. They need a few special things in order to grow. ",
+      "x": 184,
+      "y": 15,
+      "icon": {
+        "id": "Growthcraft|Grapes:grc.grapes"
+      },
+      "prerequisites": [
+        "Patti Cake Patti Cake"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Grapes of Wrath",
+          "longDescription": "Grapes are easy enough to find in gardens, but those aren\u0027t very good for growing. Instead what we need literally falls off the vine. You\u0027re going to need to punch some vines to find the grapes we\u0027re looking for. ",
+          "items": [
+            {
+              "item": {
+                "id": "Growthcraft|Grapes:grc.grapes"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Wine and Dine",
+          "longDescription": "Like Hops, Grapes need a few things. Some Rope, a few fences, and then of course the grapes themselves, and don\u0027t worry we\u0027ll let you know how to set this all up. ",
+          "items": [
+            {
+              "item": {
+                "id": "Growthcraft|Grapes:grc.grapeSeeds"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:fence"
+              },
+              "required": 4,
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "Growthcraft:grc.rope"
+              },
+              "required": 3
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Grape\u0027ing for the truth",
+          "longDescription": "For Grapes simply till a bit of soil, then put Fences on either side of that 2 high (So one fence on top of another). Then put the Rope between the two fences. Simply plant the grapes and they\u0027ll climb up towards the grapes and grow. ",
+          "items": [
+            {
+              "item": {
+                "id": "Growthcraft|Grapes:grc.grapes"
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Growthcraft|Grapes:grc.grapeWine",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "So long",
+      "description": "So you\u0027re probably getting a bit hungry by now right? Well who can blame you for that, but what if we told you there /was/ an answer for your hunger and it\u0027s not powerthirst. ",
+      "x": 21,
+      "y": 53,
+      "icon": {
+        "id": "harvestcraft:fishtrap"
+      },
+      "prerequisites": [
+        "Seeds of Beginning"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "And thanks for all the fish",
+          "longDescription": "Mix up 3 fish and some string and you\u0027ll get yourself some bait. Throw that bait in a fancy fish trap and then put that fish trap in water and you might just get some fish!",
+          "items": [
+            {
+              "item": {
+                "id": "harvestcraft:fishtrapbaitItem"
+              }
+            },
+            {
+              "item": {
+                "id": "harvestcraft:fishtrap"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "harvestcraft:fishsandwichItem"
+        }
+      ]
+    },
+    {
+      "name": "Bee Yourself",
+      "description": "Bees are important to every day life, and some like Einstein even predicted without them the world would end, but have you ever taken a shot at growing some of your own? Well now is your chance. ",
+      "x": 184,
+      "y": 56,
+      "icon": {
+        "id": "harvestcraft:queenbeeItem"
+      },
+      "prerequisites": [
+        "Hopped Up",
+        "In a Jam"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "To Bee or not to Bee",
+          "longDescription": "Bee Hives are found all throughout the world of Minecraftia or whatever it is that we\u0027re going to call this place. Look in the trees for a small sturcture, destroying it may get you a bee! ",
+          "items": [
+            {
+              "item": {
+                "id": "harvestcraft:queenbeeItem"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Bee-t Boxing",
+          "longDescription": "Right so you\u0027re probably going to need a few flowers and this lovely box to stuff the bees in. The more bees the more honeycomb. Flowers theoretically help with this process. Maybe place them around ",
+          "items": [
+            {
+              "item": {
+                "id": "harvestcraft:apiary"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:yellow_flower"
+              },
+              "required": 2,
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "minecraft:red_flower"
+              },
+              "required": 2,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Bee Populating",
+          "longDescription": "You can make all kinds of things with honey, but what in the world do you do to get new bees? Well when your queen bee is exhausted and drained, simply grind her up into royal jelly and mix it with a grub she made, and suddenly you have a new healthy queen bee!",
+          "items": [
+            {
+              "item": {
+                "id": "harvestcraft:royaljellyItem"
+              }
+            },
+            {
+              "item": {
+                "id": "harvestcraft:grubItem"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Growthcraft|Bees:grc.honeyMead",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Booze!",
+      "description": "Alright so you may have noticed we have all kinds of ingredients to make the most important thing ever... BOOZE!",
+      "x": 238,
+      "y": 27,
+      "icon": {
+        "id": "Growthcraft|Cellar:grc.fermentBarrel"
+      },
+      "prerequisites": [
+        "Bee Yourself"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Boil em, mash em",
+          "items": [
+            {
+              "item": {
+                "id": "Growthcraft|Cellar:grc.brewKettle"
+              }
+            },
+            {
+              "item": {
+                "id": "Growthcraft|Cellar:grc.fermentBarrel"
+              }
+            },
+            {
+              "item": {
+                "id": "Growthcraft|Cellar:grc.fruitPress"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Mashed Booze!",
+          "longDescription": "There\u0027s all kinds of Booze, but to get you started There\u0027s 3 Key ways to make it! Let\u0027s start with Wine. For this simply put the Fruit Presser down and add the grapes. Now it\u0027s going to need a restone source to really get started so we suggest a switch! ",
+          "items": [
+            {
+              "item": {
+                "id": "Growthcraft|Grapes:grc.grapeWineBucket.0"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:lever"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Boiled Booze",
+          "longDescription": "Sake and Ale can both be made with the brew Kettle. Simply place water in the brew kettle, light a fire under it (Preferably on Netherrack) and then throw in wheat for Ale, Or some hops For Hopped Ale, or even some rice for Sake. ",
+          "items": [
+            {
+              "item": {
+                "id": "Growthcraft|Hops:grc.hopAleBucket.0"
+              }
+            },
+            {
+              "item": {
+                "id": "Growthcraft|Rice:grc.riceSakeBucket.0"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Falling far from the tree",
+      "description": "So you may have noticed in your exploration of the world, there are these lovely fruit trees. Did you know you can make those? ",
+      "x": 65,
+      "y": 64,
+      "icon": {
+        "id": "harvestcraft:pamorangeSapling"
+      },
+      "prerequisites": [
+        "Johnny Appleseed"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Fruit-make",
+          "longDescription": "These are simple enough. All you need to do is find  a fruit tree, and get a fruit from it, then combine it with a sapling! ",
+          "items": [
+            {
+              "item": {
+                "id": "harvestcraft:pamcherrySapling"
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "harvestcraft:fruitsaladItem"
+        }
+      ]
+    },
+    {
+      "name": "Seedy Buisness ",
+      "description": "So the rest of the world is covered in simple seeds that you don\u0027t have to worry about as much. Simply plant it like wheat, carrots or potatos! ",
+      "x": 23,
+      "y": 94,
+      "icon": {
+        "id": "harvestcraft:cornseedItem"
+      },
+      "prerequisites": [
+        "Falling far from the tree"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Sewing Seeds of Doubt",
+          "longDescription": "We\u0027re going to be sending you all over the world, but don\u0027t worry you\u0027ll get them all eventually, and we want you to have a varied diet. You may have noticed that if you just keep eating the same thing it\u0027s not as healthy for you! ",
+          "items": [
+            {
+              "item": {
+                "id": "harvestcraft:soybeanseedItem"
+              }
+            },
+            {
+              "item": {
+                "id": "harvestcraft:peanutseedItem"
+              }
+            },
+            {
+              "item": {
+                "id": "harvestcraft:garlicseedItem"
+              }
+            },
+            {
+              "item": {
+                "id": "harvestcraft:seaweedseedItem"
+              }
+            },
+            {
+              "item": {
+                "id": "harvestcraft:lettuceseedItem"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "harvestcraft:vegetablesoupItem"
+        }
+      ]
+    },
+    {
+      "name": "Crossing the road ",
+      "description": "Why did the chicken cross the road? Well who cares, you need to find some and breed them! Or maybe even eat them. ",
+      "x": 105,
+      "y": 97,
+      "icon": {
+        "id": "minecraft:egg"
+      },
+      "prerequisites": [
+        "Falling far from the tree"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "All the parts of a chicken",
+          "longDescription": "Chickens are perhaps the simplest creatures. You can let them simply lay eggs, and then throw those eggs for more chickens, Or you can breed them with seeds! ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:chicken"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:feather"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:egg"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "harvestcraft:friedchickenItem"
+        }
+      ]
+    },
+    {
+      "name": "What\u0027s that other Berry? ",
+      "description": "There is one last crop that\u0027s just a bit odd, The berry crops! These are scattered across the world ",
+      "x": 22,
+      "y": 148,
+      "icon": {
+        "id": "Natura:BerryBush",
+        "damage": 12
+      },
+      "prerequisites": [
+        "Seedy Buisness "
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "You shall reap... The Berry",
+          "longDescription": "Berry\u0027s don\u0027t need tilled soil. If anything they just need a patch of grass and a bit of space above them to grow up. ",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:BerryBush",
+                "damage": 12
+              }
+            },
+            {
+              "item": {
+                "id": "Natura:BerryBush",
+                "damage": 13
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "harvestcraft:blueberrypieItem"
+        }
+      ]
+    },
+    {
+      "name": "Beef its whats for dinner",
+      "description": "There\u0027s one final creature that\u0027s key to everything. and that is the cow. They won\u0027t steer you wrong. ",
+      "x": 104,
+      "y": 140,
+      "icon": {
+        "id": "minecraft:cooked_beef"
+      },
+      "prerequisites": [
+        "Crossing the road "
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "A tip of our sword ",
+          "longDescription": "Cows can be bred with wheat, but the important thing is that if you use an empty bucket you can get a bit of milk from them. This will also be a great source of leather. ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:milk_bucket"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:leather"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:beef"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "harvestcraft:baconmushroomburgerItem"
+        }
+      ]
+    },
+    {
+      "name": "Even the Kitchen Sink",
+      "description": "Alright so now you have your meat, your vegetables, some fish, and even a few fruits. A complete meal right? Well no you just need a few more tools. ",
+      "x": 59,
+      "y": 181,
+      "icon": {
+        "id": "harvestcraft:skilletItem"
+      },
+      "prerequisites": [
+        "Beef its whats for dinner",
+        "What\u0027s that other Berry? "
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Tools of the Craft",
+          "longDescription": "Just be sure to make one of each of these and you\u0027ll have everything you need to keep your kitchen fully stocked. ",
+          "items": [
+            {
+              "item": {
+                "id": "harvestcraft:potItem"
+              }
+            },
+            {
+              "item": {
+                "id": "harvestcraft:skilletItem"
+              }
+            },
+            {
+              "item": {
+                "id": "harvestcraft:saucepanItem"
+              }
+            },
+            {
+              "item": {
+                "id": "harvestcraft:bakewareItem"
+              }
+            },
+            {
+              "item": {
+                "id": "harvestcraft:mortarandpestleItem"
+              }
+            },
+            {
+              "item": {
+                "id": "harvestcraft:mixingbowlItem"
+              }
+            },
+            {
+              "item": {
+                "id": "harvestcraft:juicerItem"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "harvestcraft:delightedmealItem"
+        }
+      ]
+    },
+    {
+      "name": "Salt makes everything Better",
+      "description": "Salt, you might find it laying around the world, and even in a bit of water... but for the most part you can dig it up! ",
+      "x": 177,
+      "y": 149,
+      "icon": {
+        "id": "harvestcraft:salt"
+      },
+      "prerequisites": [
+        "Even the Kitchen Sink"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Don\u0027t get salty with me!",
+          "longDescription": "Even a wood pick can be used to dig this up! but there\u0027s other ways to make salt too. A pot with some water will also net you a bit of salt if you\u0027re running low ",
+          "items": [
+            {
+              "item": {
+                "id": "harvestcraft:saltItem"
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Ooh Ee Ooh",
+      "description": "Sometimes you just can\u0027t get any meat. Well this can help you with that. Tofu is a great alternative to any number of things. ",
+      "x": 237,
+      "y": 141,
+      "icon": {
+        "id": "harvestcraft:firmtofuItem"
+      },
+      "prerequisites": [
+        "Salt makes everything Better",
+        "Pressed for the truth"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Killer Tofu! ",
+          "longDescription": "The key to tofu and soy is in fact the soybean. Putting a few of these in the presser will allow you to take it through the various steps. You can press it more and more depending on what you need until it\u0027s firm tofu. ",
+          "items": [
+            {
+              "item": {
+                "id": "harvestcraft:soymilkItem"
+              }
+            },
+            {
+              "item": {
+                "id": "harvestcraft:firmtofuItem"
+              }
+            },
+            {
+              "item": {
+                "id": "harvestcraft:silkentofuItem"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "harvestcraft:rainbowcurryItem"
+        }
+      ]
+    },
+    {
+      "name": "The Meal",
+      "description": "Well here we are... you have all the ingredients and the tools, it\u0027s time to take you first shot in the ktichen. Why don\u0027t you give a shot at making your first huge meal all on your own. ",
+      "x": 238,
+      "y": 174,
+      "icon": {
+        "id": "harvestcraft:delightedmealItem"
+      },
+      "prerequisites": [
+        "Salt makes everything Better"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Craft Chef",
+          "longDescription": "There\u0027s a few steps along the way for each ingredient, but it is well worth it in the end because it feels you up entirely",
+          "items": [
+            {
+              "item": {
+                "id": "harvestcraft:heartybreakfastItem"
+              }
+            },
+            {
+              "item": {
+                "id": "harvestcraft:delightedmealItem"
+              }
+            },
+            {
+              "item": {
+                "id": "harvestcraft:supremepizzaItem"
+              }
+            },
+            {
+              "item": {
+                "id": "harvestcraft:sausageinbreadItem"
+              }
+            },
+            {
+              "item": {
+                "id": "harvestcraft:beefwellingtonItem"
+              }
+            },
+            {
+              "item": {
+                "id": "harvestcraft:epicbaconItem"
+              }
+            },
+            {
+              "item": {
+                "id": "harvestcraft:rainbowcurryItem"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "difficultlife:dl.heart"
+        }
+      ]
+    },
+    {
+      "name": "Pigging out ",
+      "description": "Another creature that seems fairly tame upon this land that you have stumbled into seems to be the plain and calm Pig. Maybe you could find some and make them useful to yourself! ",
+      "x": 177,
+      "y": 97,
+      "icon": {
+        "id": "minecraft:porkchop"
+      },
+      "prerequisites": [
+        "Crossing the road "
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "BBQ ",
+          "longDescription": "Pigs are easy enough to breed, they are a little more picky then chickens though in that they very much like carrots. So you should definately get on feeding them that! ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:porkchop"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "harvestcraft:bbqpulledporkItem"
+        }
+      ]
+    },
+    {
+      "name": "Don\u0027t be a jerk ",
+      "description": "Be a jerky! That is to say that now that you\u0027ve figured out this salt thing, you might find you can use it for other things too! ",
+      "x": 202,
+      "y": 115,
+      "icon": {
+        "id": "harvestcraft:zombiejerkyItem"
+      },
+      "prerequisites": [
+        "Salt makes everything Better"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Jerking your zombie ",
+          "longDescription": "Take your favorite meat... or your rotting meat and combine it with a bit of salt and instantly it\u0027s more nourishing. ",
+          "items": [
+            {
+              "item": {
+                "id": "harvestcraft:beefjerkyItem"
+              }
+            },
+            {
+              "item": {
+                "id": "harvestcraft:zombiejerkyItem"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "harvestcraft:spagettiandmeatballsItem"
+        }
+      ]
+    },
+    {
+      "name": "Fish without the pole",
+      "description": "There are some fish and squid in the world that are quite happy to not be caught by a pole, You just find them out in the water. Scavange up a few they\u0027re plenty good. ",
+      "x": 66,
+      "y": 117,
+      "icon": {
+        "id": "freshwatermobs:silexmeatraw"
+      },
+      "prerequisites": [
+        "So long"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Mostly Harmless",
+          "longDescription": "Considered by most to be a passive mob. Squids and Silex meander about the seas. Murder a few to get their precious bits! ",
+          "items": [
+            {
+              "item": {
+                "id": "freshwatermobs:silexmeatraw"
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "harvestcraft:calamarirawItem"
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "minecraft:dye"
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "harvestcraft:fishandchipsItem"
+        }
+      ]
+    },
+    {
+      "name": "Lunch on the go",
+      "description": "Sometimes you want some food, but you only have so much inventory space to work with. It\u0027s quite the burden isn\u0027t it. Well what if we told you there was a solution to all of this? ",
+      "x": 289,
+      "y": 158,
+      "icon": {
+        "id": "SpiceOfLife:lunchbox"
+      },
+      "prerequisites": [
+        "The Meal"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Not your dad\u0027s lunchbox",
+          "longDescription": "The advantage here is you can put all kinds of food in the Lunch Box and it will help you keep yourself nourished. Just use it like you\u0027d be eating and it will choose some food from the pack for you!",
+          "items": [
+            {
+              "item": {
+                "id": "SpiceOfLife:lunchbox"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Pressed for the truth",
+      "description": "Bees Wax, Honey, and even a few other things can be throwin into a presser, and suddenly you will find yourself with these lovely little easy to use pressed items. ",
+      "x": 237,
+      "y": 85,
+      "icon": {
+        "id": "harvestcraft:presser"
+      },
+      "prerequisites": [
+        "Bee Yourself"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Press on",
+          "longDescription": "They aren\u0027t too tough to make, simply a piston and a bit of wood and you can have your very own presser, and the best benifit? They don\u0027t even need power, they just work slowly but surely ",
+          "items": [
+            {
+              "item": {
+                "id": "harvestcraft:presser"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "harvestcraft:firmtofuItem"
+        }
+      ]
+    },
+    {
+      "name": "Play by Candlelight",
+      "description": "So you\u0027ve got some wax from your bees right? Well you know you can use that for some fancy things? Well we\u0027re here to show you! ",
+      "x": 283,
+      "y": 85,
+      "icon": {
+        "id": "harvestcraft:pamcandleDeco1"
+      },
+      "prerequisites": [
+        "Pressed for the truth"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Wax play ",
+          "longDescription": "A bit of string and some of that wax that you just pressed and you can have your own instant bee based source of light! ",
+          "items": [
+            {
+              "item": {
+                "id": "harvestcraft:pamcandleDeco1"
+              },
+              "required": 5,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "harvestcraft:queenbeeItem"
+        }
+      ]
+    },
+    {
+      "name": "An extra ingredient",
+      "description": "So it\u0027s not quite sugar, spice, and everything nice. But we do we can make those buckets of booze into something very nice. ",
+      "x": 285,
+      "y": 27,
+      "icon": {
+        "id": "Growthcraft|Bees:grc.honeyMead",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Booze!"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Cold-fusion Steam Beer",
+          "longDescription": "You remember those barrels we had you make? Well they aren\u0027t useless. Throw your barrels of booze in there and then add some extra ingridents like netherwart and glowstone. Expiriment! ",
+          "items": [
+            {
+              "item": {
+                "id": "Growthcraft|Rice:grc.riceSake",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "Growthcraft|Bees:grc.honeyMead",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "Growthcraft|Hops:grc.hopAle",
+                "damage": 3
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Growthcraft|Bees:grc.honeyMead",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Build a bigger box",
+      "description": "So you can get fish in a trap, but did you know you can get animals too? Well then throw this down and see if you can\u0027t catch a bit of fun. ",
+      "x": 138,
+      "y": 121,
+      "icon": {
+        "id": "harvestcraft:animaltrap"
+      },
+      "prerequisites": [
+        "Pigging out ",
+        "Beef its whats for dinner"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "A different kind of bait. ",
+          "longDescription": "There are 3 kinds of baits in the game Fruit, Grain, and Veggie. Like Fish bait but with well... Fruits, Grains, and Veggies",
+          "items": [
+            {
+              "item": {
+                "id": "harvestcraft:grainbaitItem"
+              }
+            },
+            {
+              "item": {
+                "id": "harvestcraft:veggiebaitItem"
+              }
+            },
+            {
+              "item": {
+                "id": "harvestcraft:fruitbaitItem"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "What\u0027s in the box? ",
+          "longDescription": "Now that you have all this bait. You need a box to put this in! Well here is that box. ",
+          "items": [
+            {
+              "item": {
+                "id": "harvestcraft:animaltrap"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:beef",
+          "amount": 5
+        },
+        {
+          "id": "minecraft:chicken",
+          "amount": 5
+        },
+        {
+          "id": "minecraft:porkchop",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "You Churn me on",
+      "description": "There\u0027s a few last kitchen tools that are somewhat useful. From Pepper, to butter. ",
+      "x": 186,
+      "y": 188,
+      "icon": {
+        "id": "harvestcraft:churn"
+      },
+      "prerequisites": [
+        "Salt makes everything Better"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Churn it this way",
+          "longDescription": "Milk and Salt in the churn for butter, and then a Pressure plate and peppercorn in the Quern for Pepper. It\u0027s all simple enough right? ",
+          "items": [
+            {
+              "item": {
+                "id": "harvestcraft:churn"
+              }
+            },
+            {
+              "item": {
+                "id": "harvestcraft:quern"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "harvestcraft:butterItem",
+          "amount": 10
+        },
+        {
+          "id": "harvestcraft:blackpepperItem",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "Welch Problems ",
+      "description": "There is /one/ more basic farm animal that you should probably have a handle on (But not that tightly). ",
+      "x": 142,
+      "y": 75,
+      "icon": {
+        "id": "minecraft:wool"
+      },
+      "prerequisites": [
+        "Pigging out "
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Baa Baa Bad Sheep",
+          "longDescription": "The sheep like the cow can be lead and bred with wheat (Oh did we mention that you can lead farm animals with the food you breed them with? If not you can). So we\u0027re going to need you to find a few. Also you don\u0027t have to murder a sheep for it\u0027s wool, you can just use shears. In addition you can dye them and all their children will share that color!",
+          "items": [
+            {
+              "item": {
+                "id": "harvestcraft:muttonrawItem"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:wool"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "harvestcraft:shepardspieItem"
+        }
+      ]
+    },
+    {
+      "name": "This little Piggy",
+      "description": "Sometimes you have scoured the world and even then you can\u0027t find the seeds you\u0027re looking for. Well this handy tool can help you out with that problem. ",
+      "x": 289,
+      "y": 114,
+      "icon": {
+        "id": "harvestcraft:market"
+      },
+      "prerequisites": [
+        "Lunch on the go"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Going to market",
+          "longDescription": "Markets can be used to exchange valuable emeralds for seeds that you might have trouble finding or getting access to. ",
+          "items": [
+            {
+              "item": {
+                "id": "harvestcraft:market"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:spawn_egg",
+          "damage": 92,
+          "amount": 2
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

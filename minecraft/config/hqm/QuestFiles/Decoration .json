@@ -1,0 +1,1384 @@
+{
+  "name": "Decoration ",
+  "description": "This isn\u0027t a required chapter, but if you\u0027ve ever wanted to spruce your home up we thought it might be worth investigating. This will guide you through some of the cosmetic things to help shape your world. ",
+  "quests": [
+    {
+      "name": "Stairway to heaven",
+      "description": "So you may have noticed jumping up and down your mine can be troublesome, well there are other options, Namely... stairs! ",
+      "x": 23,
+      "y": 16,
+      "icon": {
+        "id": "minecraft:stone_stairs"
+      },
+      "prerequisites": [
+        "{Chapter 1: The Basics}[Sandy Shores]"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Etho Slab ",
+          "longDescription": "The slabs and stairs are halfblocks that you can also decorate your surroundings with. They are great for any number of things, but mostly for helping get around to higher locations without using all your food!",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:stone_slab",
+                "damage": 3
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:stone_stairs"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:wooden_slab",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Don\u0027t you Dye on me",
+      "description": "Another nifty and sometimes overlooked feature that you should use to add a bit of color to your location is the ability to dye a great many things. ",
+      "x": 59,
+      "y": 17,
+      "icon": {
+        "id": "minecraft:dye",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Stairway to heaven"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "The Dye is cast ",
+          "longDescription": "Most dye isn\u0027t hard to get a hold of, just grind up some flowers. But the 3 we\u0027re going to ask you get are a bit tougher. For Cactus you have to cook them, maybe kill a few squid and even dig in the core of the earth. ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:dye",
+                "damage": 4
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:dye"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:dye",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:dye",
+          "damage": 13,
+          "amount": 5
+        },
+        {
+          "id": "minecraft:dye",
+          "damage": 10,
+          "amount": 5
+        },
+        {
+          "id": "minecraft:dye",
+          "damage": 12,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Staining the deck",
+      "description": "Now that you have those dyes, what can you actually use them for? Well this will give you just a few examples that you might be interested in. ",
+      "x": 100,
+      "y": 17,
+      "icon": {
+        "id": "minecraft:stained_glass",
+        "damage": 13
+      },
+      "prerequisites": [
+        "Don\u0027t you Dye on me"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "The Glass Task",
+          "longDescription": "Wool, Glass, these things are great for decorating and making the place a bit prettier! ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:stained_glass",
+                "damage": 15
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:stained_glass",
+                "damage": 11
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:wool",
+                "damage": 13
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:wool",
+          "damage": 3,
+          "amount": 5
+        },
+        {
+          "id": "minecraft:wool",
+          "damage": 2,
+          "amount": 5
+        },
+        {
+          "id": "minecraft:wool",
+          "damage": 5,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Fencing Lessons",
+      "description": "Fences really are these amazing things. they\u0027re great for decoration and in a pinch they can act as a quick wall! ",
+      "x": 37,
+      "y": 44,
+      "icon": {
+        "id": "minecraft:fence"
+      },
+      "prerequisites": [
+        "Don\u0027t you Dye on me"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "The key to a quaint garden",
+          "longDescription": "In this case we\u0027re going to show you all about fences AND gates. They\u0027re both pretty simple to craft. Keep in mind that both have a hitbox slightly higher then they are so monsters and your own farm animals can\u0027t simply jump over them. ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:fence"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:fence_gate"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Take it for Granite ",
+      "description": "Now you may not be used to the world having a color variety of rock underground, but you\u0027re going to have to. This can be great for decoration!",
+      "x": 84,
+      "y": 45,
+      "icon": {
+        "id": "Botania:stone",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Don\u0027t you Dye on me"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Andesite, Diorite, and Granite",
+          "longDescription": "There are at least a few different ways to get these kinds of rocks, but the most obvious is usually just to mine it straight up! ",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:andesite"
+              },
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "chisel:diorite"
+              },
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "chisel:granite"
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Botania:stone",
+          "amount": 32
+        },
+        {
+          "id": "Botania:stone",
+          "damage": 3,
+          "amount": 32
+        },
+        {
+          "id": "Botania:stone",
+          "damage": 2,
+          "amount": 32
+        }
+      ]
+    },
+    {
+      "name": "Chisel\u0027d into stone",
+      "description": "This is a tool that we think you will really begin to enjoy. The Chisel, a fantastic edition to any artisans tool set, the chisel lets you take regular looking blocks and make them look extraordinary. ",
+      "x": 58,
+      "y": 72,
+      "icon": {
+        "id": "chisel:chisel"
+      },
+      "prerequisites": [
+        "Take it for Granite "
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Netflix and Chisel",
+          "longDescription": "This chisel is a very useful decorative tool. It can take certain blocks and give them different designs. Simply right click the chisel while hodling it and then drag the block you want to see different designs for into the slot in the GUI ",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:chisel"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "chisel:marble",
+          "amount": 15
+        },
+        {
+          "id": "chisel:limestone",
+          "amount": 15
+        }
+      ]
+    },
+    {
+      "name": "Carpentry",
+      "description": "So now that you have submerged yourself int he world of decoration, perhaps it\u0027s time to get onto some of the most fun decorating yet! Carpentry",
+      "x": 87,
+      "y": 109,
+      "icon": {
+        "id": "CarpentersBlocks:blockCarpentersBlock"
+      },
+      "prerequisites": [
+        "Chisel\u0027d into stone"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "The Carpenter\u0027s block",
+          "longDescription": "This is a foundational little block, and first it may seem silly, a block that can take on the textures of other blocks, but trust us it will make more sense in a bit. To craft it, simply surround a plank of wood with 8 sticks. ",
+          "items": [
+            {
+              "item": {
+                "id": "CarpentersBlocks:blockCarpentersBlock"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Trinagles!? ",
+          "longDescription": "Alright, technically it\u0027s a wedge slop, but tomato tomato am I right? The Wedge slope can be by craftin carpenters blocks with sticks, and by right clicking another block onto it you can give the carpenter block that blocks texture! ",
+          "items": [
+            {
+              "item": {
+                "id": "CarpentersBlocks:blockCarpentersSlope"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "A few other items!",
+          "longDescription": "Each of these items ahs their own specific uniquness. The Garage door can go down severl blocks. The safe is tuned to blend in with the enviroment, and of course the bed. Mix, Match, and Play ",
+          "items": [
+            {
+              "item": {
+                "id": "CarpentersBlocks:blockCarpentersSafe"
+              }
+            },
+            {
+              "item": {
+                "id": "CarpentersBlocks:blockCarpentersGarageDoor"
+              }
+            },
+            {
+              "item": {
+                "id": "CarpentersBlocks:itemCarpentersBed"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "CarpentersBlocks:blockCarpentersBlock",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "Potent Pottables",
+      "description": "Nothing quite makes the house more complete then the delicate scent of Flowers and Fragrence. Let\u0027s teach you the keys to making a simple way to put your flowers in a relatively safe place. ",
+      "x": 142,
+      "y": 61,
+      "icon": {
+        "id": "minecraft:flower_pot"
+      },
+      "prerequisites": [
+        "Take it for Granite "
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Claymation",
+          "longDescription": "Clay is a resource that you will find in various sections of the world, or if you can\u0027t you might try expirimenting with some barrels. But for the most part it\u0027s easy enough to find along river beds and the like! Just take a shovel to it. ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:clay_ball"
+              },
+              "required": 3
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "This project is bricked",
+          "longDescription": "Now you can throw that clay in a furnace and cook it up to make bricks. Bricks on their own aren\u0027t good for much (not even breaking windows) but they can be used to make pots! ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:brick"
+              },
+              "required": 3
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Potted Plants",
+          "longDescription": "With the pot you can put a great many things in there. From flowers to dead shrubs depending on how you want to show off your green thumb or lack there of. ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:flower_pot"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:red_flower",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:yellow_flower",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Carpenters tools",
+      "description": "It\u0027s hard to be the best carpenter unless you have all the tools for the job, don\u0027t you agree? Well so do we, and we\u0027ll be introducing you to just a few of them now! ",
+      "x": 57,
+      "y": 138,
+      "icon": {
+        "id": "CarpentersBlocks:itemCarpentersHammer"
+      },
+      "prerequisites": [
+        "Carpentry"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "I\u0027m hammered!",
+          "longDescription": "The hammer allows you to change the shape of the carpenters block after you\u0027ve placed it (Rather then Shift scroll wheel while it\u0027s in your hand) and the chisel allows you to change the texture of the applied item. ",
+          "items": [
+            {
+              "item": {
+                "id": "CarpentersBlocks:itemCarpentersHammer"
+              }
+            },
+            {
+              "item": {
+                "id": "CarpentersBlocks:itemCarpentersChisel"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "CarpentersBlocks:blockCarpentersSlope",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "Brick Aestetic",
+      "description": "Bricks are wonderful blocks. Keep in mind they\u0027re slightly more blast resistant then normal stone. That makes it great as a substance to keep out creatures that would like to see you in pieces. ",
+      "x": 191,
+      "y": 58,
+      "icon": {
+        "id": "minecraft:brick_block"
+      },
+      "prerequisites": [
+        "Potent Pottables"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Don\u0027t throw through windows",
+          "longDescription": "Bricks are fairly simple to craft, simply take 4 of the bricks that you crafted for the pot. You can make all sorts of shapes with bricks too, give it a shot! ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:brick_block"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:stone_slab",
+                "damage": 4
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:brick_stairs"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:brick_block",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "Shelved away",
+      "description": "Sometimes things can get terribly cluttered. It\u0027s best to sort that all out when you can. Shelves can help you with that task! ",
+      "x": 132,
+      "y": 110,
+      "icon": {
+        "id": "BiblioCraft:BiblioShelf"
+      },
+      "prerequisites": [
+        "Carpentry"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Normal Shelf",
+          "longDescription": "Shelves are great for placing just about anything upon It\u0027s a great way to decorate matters! ",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:BiblioShelf"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Book Shelf",
+          "longDescription": "Book shelves are excellent for well... books. You can store all kinds of things here, but mostly just books. A great place to pull all those manuals you\u0027ll be making! ",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:Bibliotheca"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Potion Shelf",
+          "longDescription": "Potion shelves are a fanastic way to show off all the fancy magical glassware. ",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:BiblioPotionShelf"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:potion",
+          "damage": 8194
+        },
+        {
+          "id": "minecraft:potion",
+          "damage": 8261
+        },
+        {
+          "id": "minecraft:potion",
+          "damage": 8227
+        }
+      ]
+    },
+    {
+      "name": "Don\u0027t table this quest",
+      "description": "Sometimes you just want a nice table to put stuff on, well here is your chance to stop tableing that discussion. ",
+      "x": 176,
+      "y": 94,
+      "icon": {
+        "id": "BiblioCraft:BiblioTable"
+      },
+      "prerequisites": [
+        "Shelved away"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Table Tale ",
+          "longDescription": "You\u0027d be amazed what tables can do, moving their legs around whenever you place them close to each other, you  might even be able to put a table cloth on them ",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:BiblioTable"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:carpet",
+          "damage": 3,
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Bambooozeld",
+      "description": "You may have noticed a strange substance growing out of the ground. No this isn\u0027t sugar cane, it\u0027s bamboo! Which is a wonderful construction material ",
+      "x": 86,
+      "y": 171,
+      "icon": {
+        "id": "Growthcraft|Bamboo:grc.bambooStalk"
+      },
+      "prerequisites": [
+        "Carpentry"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Shoots!",
+          "longDescription": "Bamboo can be found throughout the world, but it\u0027s most intriguing property is how it grows. To get bamboo shoots simply bonemeal a live and existing bamboo growth at it\u0027s base. ",
+          "items": [
+            {
+              "item": {
+                "id": "Growthcraft|Bamboo:grc.bamboo"
+              }
+            },
+            {
+              "item": {
+                "id": "Growthcraft|Bamboo:grc.bambooShootFood"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Building Plan B",
+          "longDescription": "Fences, Blocks these should all be familiar, but the scaffolding can be knocked out at it\u0027s base block and will all come tumbling down. Wonderful for building quickly ",
+          "items": [
+            {
+              "item": {
+                "id": "Growthcraft|Bamboo:grc.bambooBlock"
+              }
+            },
+            {
+              "item": {
+                "id": "Growthcraft|Bamboo:grc.bambooWall"
+              }
+            },
+            {
+              "item": {
+                "id": "Growthcraft|Bamboo:grc.bambooScaffold"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "B Grade Heat",
+          "longDescription": "Much like it\u0027s normal wooden counterpart, Bamboo can be cooked in a furnace to make handy dandy charcoal which has all the uses of regular charcoal. ",
+          "items": [
+            {
+              "item": {
+                "id": "Growthcraft|Bamboo:grc.bambooCoal"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Growthcraft|Bamboo:grc.bambooShootFood",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "A dose of nature. ",
+      "description": "Nature is a strang thing, but it is colorful woulnd\u0027t you say? Head out into the world and get a breath of fresh air, collect some new cool saplings ",
+      "x": 129,
+      "y": 148,
+      "icon": {
+        "id": "Natura:florasapling",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Carpentry"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Feeling a bit sapped. ",
+          "longDescription": "Saplings are the fruit of life. These are a few of the more intersting trees you might find int he woods. Cut a few down to gather their saplings! ",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:florasapling",
+                "damage": 3
+              }
+            },
+            {
+              "item": {
+                "id": "Natura:Rare Sapling",
+                "damage": 4
+              }
+            },
+            {
+              "item": {
+                "id": "Natura:florasapling",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Colorful surroundings",
+          "longDescription": "Try to use the fancy wood you\u0027ve collected surely to make a crafting table. ",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:Natura.workbench"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Natura:tree",
+          "amount": 16
+        },
+        {
+          "id": "Natura:willow",
+          "amount": 16
+        },
+        {
+          "id": "Natura:tree",
+          "damage": 1,
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "I saw that coming ",
+      "description": "Sometimes the blocks you have to work with are simply to big, so it\u0027s really best to cut it down to size. ",
+      "x": 177,
+      "y": 138,
+      "icon": {
+        "id": "ForgeMicroblock:sawStone"
+      },
+      "prerequisites": [
+        "Shelved away"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Micro sized",
+          "longDescription": "A bit of flint and some other ingredients and I bet you\u0027ll be able to make this little Stone Saw ",
+          "items": [
+            {
+              "item": {
+                "id": "ForgeMicroblock:sawStone"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "I came I sawed. ",
+          "longDescription": "Once you have the saw it\u0027s simple enough to saw an oak block. Simply put the Saw above block you wish to saw in a crafitng swear. It will take a bit of durability from the saw. ",
+          "items": [
+            {
+              "item": {
+                "id": "ForgeMicroblock:microblock",
+                "damage": 2,
+                "nbt": "{mat:\"minecraft:planks\"}"
+              }
+            },
+            {
+              "item": {
+                "id": "ForgeMicroblock:microblock",
+                "damage": 4,
+                "nbt": "{mat:\"minecraft:planks\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:glowstone"
+        }
+      ]
+    },
+    {
+      "name": "You\u0027ve been framed",
+      "description": "Feeling a bit under pressure? Well there\u0027s no time for that! We have pretty things to make, and sometimes you want to make shelves at of something OTHER then wood",
+      "x": 232,
+      "y": 73,
+      "icon": {
+        "id": "BiblioCraft:BiblioPaneler",
+        "damage": 6
+      },
+      "prerequisites": [
+        "Don\u0027t table this quest"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Framing results. ",
+          "longDescription": "To start this party, we\u0027re going to need something called a framing saw! It\u0027s a simple enough tool ",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:item.FramingSaw"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Bored to tears",
+          "longDescription": "Once you\u0027ve made the saw simply place it with a normal wood plank to cut it up into sheets. Then place those sheets with the saw to cut them into boards. ",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:item.FramingSheet"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "BiblioCraft:item.FramingBoard"
+              },
+              "required": 4
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "A Framed Frame",
+          "longDescription": "Now that we\u0027ve got that out of the way we can make the final components. Framed versions of almost all of the household furniture exist, expirment to find out exactly which and then to apply the texture simply put the framed item and the block whose texture you wish to apply into the furniture paneler! ",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:BiblioCase",
+                "damage": 6
+              }
+            },
+            {
+              "item": {
+                "id": "BiblioCraft:BiblioPaneler",
+                "damage": 6
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:lapis_block"
+        }
+      ]
+    },
+    {
+      "name": "There\u0027s your sign!",
+      "description": "Sometimes it\u0027s simply nice ot mark the things around you so you can know what in the world is where right? Well we agree, and these are some great items to help with that quest. ",
+      "x": 234,
+      "y": 28,
+      "icon": {
+        "id": "minecraft:item_frame"
+      },
+      "prerequisites": [
+        "Brick Aestetic"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Signage",
+          "longDescription": "Signs are great ways to write down a little bit of text. Simply combining a stick with 6 planks and you can make your very own signs and hang them just about anywhere that your heart desires. Remember that Shift Right Clicking will put it on sufraces you normally wouldn\u0027t be able to! ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:sign"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Frame me another one",
+          "longDescription": "Another great item to have around the hosue is the item frame. By putting leather at the center of several sticks you can make your very own Item frames, which are fantastic for giving you a place to put an item instead of text. Try them out around your base! ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:item_frame"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:item_frame",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:sign",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "A little Demonstration",
+      "description": "Now that you have your chisel we want you to try it out on a few different blocks. Just to get an idea of what exactly it changes. ",
+      "x": 25,
+      "y": 109,
+      "icon": {
+        "id": "minecraft:monster_egg",
+        "damage": 5
+      },
+      "prerequisites": [
+        "Chisel\u0027d into stone"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Rock On ",
+          "longDescription": "We\u0027ve asked you to go and get a few samplings of the various things you can chisel into place. With a little time and effort they shouldn\u0027t be to hard to find. We even gave you the ingredients for 1 already! ",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:marble",
+                "damage": 1
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "chisel:limestone",
+                "damage": 6
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "chisel:cobblestone",
+                "damage": 10
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "chisel:mossy_cobblestone",
+                "damage": 10
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:iron_ingot",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Fancy Doors",
+      "description": "Sure a wooden door is nice, but what about even fancier doors? I bet those would be even nicer right? Well there\u0027s quite a few out there for you to try! ",
+      "x": 222,
+      "y": 113,
+      "icon": {
+        "id": "malisisdoors:item.laboratory_door"
+      },
+      "prerequisites": [
+        "Don\u0027t table this quest"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Lab-ra-door",
+          "longDescription": "These are unique doors that have their own way of opening. Build a few an expiriment with them to see which ones you like!",
+          "items": [
+            {
+              "item": {
+                "id": "malisisdoors:item.laboratory_door"
+              }
+            },
+            {
+              "item": {
+                "id": "malisisdoors:item.shoji_door"
+              }
+            },
+            {
+              "item": {
+                "id": "malisisdoors:sliding_trapdoor"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Sensing you\u0027re around",
+          "longDescription": "Sometimes it can be really bothersome to have to go through all the hoops and ladders to make your door open just the right way, well what if you just want it to open if a player is near. The player sensor is great for that, emitting a redstone signal ONLY when players are around ",
+          "items": [
+            {
+              "item": {
+                "id": "malisisdoors:player_sensor"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:redstone",
+          "amount": 9
+        }
+      ]
+    },
+    {
+      "name": "Factor it in!",
+      "description": "There\u0027s a few more blocks that you\u0027re probalby not familiar with that you can actually craft and add to your base that are pretty cool! You should definately check them and all their chiseled varities out. ",
+      "x": 24,
+      "y": 160,
+      "icon": {
+        "id": "chisel:factoryblock"
+      },
+      "prerequisites": [
+        "A little Demonstration"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Ironing out the details",
+          "longDescription": "You\u0027ll find concrete by cooking up some gravel in a furnace, it might even be a little faster to travel on. And you\u0027ll find factory blocks by crafting Iron and stone together for the ultimate in classy futuaristic apperances. ",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:factoryblock"
+              }
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:stoneDecoration",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chisel:futura",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "On Display ",
+      "description": "So you\u0027ve had a way to display blocks, what about Fluids? Ever wanted lava without having to deal with the side effects of Lava? Try the Fluid display!",
+      "x": 239,
+      "y": 158,
+      "icon": {
+        "id": "RandomThings:fluidDisplay"
+      },
+      "prerequisites": [
+        "Fancy Doors"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Fluid Motions",
+          "longDescription": "With a bit of glass panes and a glass bottle, you too can make your very own fluid display. You can simply right click with a fluid and the fluid display will be filled! ",
+          "items": [
+            {
+              "item": {
+                "id": "RandomThings:fluidDisplay"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Carpet puncher",
+      "description": "Did you know you can make carpets? Well you can. They\u0027re great for covering the floor and making it look fanicer then it actually is. Carpets are also fantastic ways to cause dust allergies. ",
+      "x": 136,
+      "y": 30,
+      "icon": {
+        "id": "minecraft:carpet",
+        "damage": 13
+      },
+      "prerequisites": [
+        "Staining the deck"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Dalton, GA says thank you",
+          "longDescription": "Carpet\u0027s aren\u0027t too hard to make. Simply take two blocks of a wool of the color you want and you should be able to make some carpet with it. ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:carpet"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:wool",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Snow Way",
+      "description": "Snow is a funny thing. Like carpet it starts off small but can build up over time if you let it. But did you know you can use it to even make a snow golem? Did you want to give it a shot? ",
+      "x": 189,
+      "y": 16,
+      "icon": {
+        "id": "minecraft:snowball"
+      },
+      "prerequisites": [
+        "Carpet puncher"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Frosty Time!",
+          "longDescription": "So the basics of this are all fairly simple. You just need a bit of snow and some jack-o-lanters. For the snow combine 4 snowballs, and for the jack-o-lantern well that\u0027s covered elsewhere. But you put two snow blocks on top of each other and then a Jack-o-Lantern on top of that and wa la, your very own Frosty",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:snow"
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "minecraft:lit_pumpkin"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:snowball",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Paint me like one of your... ",
+      "description": "Tired of clicking a painting 7,000 times just to get the right one? Well so is the rest of the world so they invented a device to deal with just that problem. ",
+      "x": 286,
+      "y": 98,
+      "icon": {
+        "id": "BiblioCraft:BiblioPaintPress"
+      },
+      "prerequisites": [
+        "You\u0027ve been framed"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "No.. not French. ",
+          "longDescription": "It might seem a bit expensive, but I promise you that Iron is TOTALLY worth the cost. Maybe... Well don\u0027t quote us on that. It is very useful though if you like paintings. ",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:BiblioPaintPress"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "What about british Boy? ",
+          "longDescription": "The canvas is what you actually put in the machine to make pretty things so to speak. Simply craft the canvas and then shove it in the painting press. Then you can put it in the very classy frames around your house!",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:BiblioFlatPainting"
+              }
+            },
+            {
+              "item": {
+                "id": "BiblioCraft:item.PaintingCanvas"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Everyone loves glasses",
+      "description": "So you have all these shelves, but what if sometimes you want the shelves and can\u0027t remember what you put on them? Well that is what reading glasses are for!",
+      "x": 286,
+      "y": 63,
+      "icon": {
+        "id": "BiblioCraft:item.BiblioGlasses"
+      },
+      "prerequisites": [
+        "You\u0027ve been framed"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "It\u0027s a reading rainbow",
+          "longDescription": "And you really can go anywhere. But for today\u0027s lecture you can put these on and view just about anything on your shelves, books, potions, items, you name it. It even has some uses when you start getting into the printing press. ",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:item.BiblioGlasses"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:1s,id:196s}]}"
+        }
+      ]
+    },
+    {
+      "name": "Gutenberg or Bi Sheng? ",
+      "description": "Have you ever had one book that you /really/ like but you want to give a copy to a friend, and that friend has a bad habit of falling in lava and dying terribly and losing your book so you need an extra copy? Well fret no more! ",
+      "x": 286,
+      "y": 24,
+      "icon": {
+        "id": "BiblioCraft:Printing Press"
+      },
+      "prerequisites": [
+        "Everyone loves glasses"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Probably Bi Sheng",
+          "longDescription": "The first tool you need is a typesetting tool. For it you\u0027re going to need to make some typesetting chases which are simple enough to make. To use the typesetting tool simply put the chase at the back, a written book (or even enchanted) in the front and then a book to copy it to... but that\u0027s going to go somewhere else!",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:Typesetting Machine"
+              }
+            },
+            {
+              "item": {
+                "id": "BiblioCraft:item.BiblioChase"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Printing for days!",
+          "longDescription": "Right clicking the typesetting tool when you have a Printing Chase and a book will get you a press. Put the press and some Ink into a Printing press along with a fresh empty book and you can transfer it to a new book. Expiriment and play!",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:Printing Press"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:1s,id:0s}]}"
+        }
+      ]
+    },
+    {
+      "name": "5 Dollar foot long",
+      "description": "If you\u0027re like us there are times that you want to build a place but you need a way to make sure that you\u0027re using the proper number of blocks and spacing. Counting off in your head is just no good",
+      "x": 268,
+      "y": 129,
+      "icon": {
+        "id": "BiblioCraft:item.tapeMeasure"
+      },
+      "prerequisites": [
+        "You\u0027ve been framed"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "A measured response",
+          "longDescription": "Crafted with 4 Iron around a tape measure reel (which is just 8 string around a single yellow dye). The Tape measure can be used by simply right clicking in your world to set a marker, it will then display the distance between you and that marker. Great for laying out bases!",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:item.tapeMeasure"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Barrels of Fun",
+      "description": "So you may not always want to go deep diving for clay every time you need it, well there are other ways to get ahold of htis lovely substance. ",
+      "x": 110,
+      "y": 83,
+      "icon": {
+        "id": "exnihilo:barrel"
+      },
+      "prerequisites": [
+        "Potent Pottables"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Dust + Water",
+          "longDescription": "Barrels are simple enough to create, Simply a slab and some wood will make you a simple enough barrel. You can expiriment with it (Maybe throw some leaves in there) Or even some water and Dust... all kinds of interesting combintations. ",
+          "items": [
+            {
+              "item": {
+                "id": "exnihilo:barrel"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:clay",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "Vanishing Act",
+      "description": "Redstone and Ender eyes are strange things, but they can help you build some rather fancy. Meet the vanishing blocks. ",
+      "x": 194,
+      "y": 178,
+      "icon": {
+        "id": "malisisdoors:vanishing_block"
+      },
+      "prerequisites": [
+        "Fancy Doors"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Now you see me",
+          "longDescription": "Like carpenters blocks, these blocks can take on the texture of other block, but unlike carpenter blocks when you expose it to redstone it will temporarily dissapear. Expirment with the upgraded versions to see how they interact differently! ",
+          "items": [
+            {
+              "item": {
+                "id": "malisisdoors:vanishing_block"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:ender_pearl",
+          "amount": 2
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

@@ -1,0 +1,1566 @@
+{
+  "name": "A witches Brew",
+  "quests": [
+    {
+      "name": "STOP BROKEN ",
+      "description": "DO NOT COMPLETE THIS QUEST THIS IS ALL BROKEN AT THE MOMENT ",
+      "x": 21,
+      "y": 15,
+      "icon": {
+        "id": "witchery:ingredient",
+        "damage": 22
+      },
+      "prerequisites": [
+        "{Chapter 2: Beginning}[It\u0027s getting hot in here]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 156
+              }
+            },
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 69
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 22
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:earmuffs"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "witchery:ingredient",
+          "damage": 22,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Unnamed1",
+      "x": 57,
+      "y": 15,
+      "icon": {
+        "id": "witchery:cauldron"
+      },
+      "prerequisites": [
+        "STOP BROKEN "
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 153
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:cauldron"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "witchery:ingredient",
+          "damage": 69,
+          "amount": 5
+        },
+        {
+          "id": "witchery:ingredient",
+          "damage": 21,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Unnamed2",
+      "x": 35,
+      "y": 44,
+      "icon": {
+        "id": "witchery:ingredient",
+        "damage": 14
+      },
+      "prerequisites": [
+        "Unnamed1"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 14
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:witchsapling",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "witchery:witchsapling",
+                "damage": 2
+              }
+            },
+            {
+              "item": {
+                "id": "witchery:witchsapling"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:spanishmoss"
+              }
+            },
+            {
+              "item": {
+                "id": "witchery:embermoss"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "witchery:witchsapling",
+          "amount": 5
+        },
+        {
+          "id": "witchery:witchsapling",
+          "damage": 2,
+          "amount": 5
+        },
+        {
+          "id": "witchery:witchsapling",
+          "damage": 1,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Unnamed3",
+      "x": 75,
+      "y": 43,
+      "icon": {
+        "id": "witchery:poppet",
+        "nbt": "{WITCDamage:0}"
+      },
+      "prerequisites": [
+        "Unnamed2"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:poppetshelf"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:poppet",
+                "nbt": "{WITCDamage:0}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:poppet",
+                "damage": 2,
+                "nbt": "{WITCDamage:0}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "witchery:poppet",
+          "damage": 1,
+          "nbt": "{WITCDamage:0}"
+        }
+      ]
+    },
+    {
+      "name": "Unnamed4",
+      "x": 96,
+      "y": 14,
+      "icon": {
+        "id": "witchery:ingredient",
+        "damage": 7
+      },
+      "prerequisites": [
+        "Unnamed3"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:taglockkit"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed5",
+      "x": 20,
+      "y": 81,
+      "icon": {
+        "id": "witchery:ingredient",
+        "damage": 52
+      },
+      "prerequisites": [
+        "Unnamed2"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 52
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 54
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Unnamed6",
+      "x": 19,
+      "y": 120,
+      "icon": {
+        "id": "witchery:ingredient",
+        "damage": 53
+      },
+      "prerequisites": [
+        "Unnamed5"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 53
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:redstone_block",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Unnamed7",
+      "x": 57,
+      "y": 77,
+      "icon": {
+        "id": "witchery:altar"
+      },
+      "prerequisites": [
+        "Unnamed2"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:altar"
+              },
+              "required": 6
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "witchery:ingredient",
+          "damage": 14,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Unnamed8",
+      "x": 93,
+      "y": 77,
+      "icon": {
+        "id": "DragonAPI:minecraft:skull_technical"
+      },
+      "prerequisites": [
+        "Unnamed7"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:skull"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:skull",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed9",
+      "x": 57,
+      "y": 115,
+      "icon": {
+        "id": "witchery:ingredient",
+        "damage": 34
+      },
+      "prerequisites": [
+        "Unnamed7"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 34
+              }
+            },
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 36
+              }
+            },
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 35
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed10",
+      "x": 136,
+      "y": 77,
+      "icon": {
+        "id": "witchery:arthana"
+      },
+      "prerequisites": [
+        "Unnamed8"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:arthana"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:skull",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "witchery:ingredient",
+          "damage": 24,
+          "amount": 5
+        },
+        {
+          "id": "witchery:ingredient",
+          "damage": 25,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Unnamed11",
+      "x": 93,
+      "y": 110,
+      "icon": {
+        "id": "witchery:ingredient",
+        "damage": 24
+      },
+      "prerequisites": [
+        "Unnamed7"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 24
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 25
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 74
+              }
+            },
+            {
+              "item": {
+                "id": "witchery:witchhand"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "witchery:poppet",
+          "damage": 3,
+          "nbt": "{WITCDamage:0}"
+        }
+      ]
+    },
+    {
+      "name": "Unnamed12",
+      "x": 48,
+      "y": 157,
+      "icon": {
+        "id": "witchery:ingredient",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Unnamed9"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed13",
+      "x": 84,
+      "y": 154,
+      "icon": {
+        "id": "witchery:distilleryidle"
+      },
+      "prerequisites": [
+        "Unnamed9"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:distilleryidle"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 17
+              }
+            },
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 37
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:chalkritual"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed14",
+      "x": 138,
+      "y": 148,
+      "icon": {
+        "id": "witchery:ingredient",
+        "damage": 48
+      },
+      "prerequisites": [
+        "Unnamed13"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 48
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed15",
+      "x": 137,
+      "y": 110,
+      "icon": {
+        "id": "witchery:kettle"
+      },
+      "prerequisites": [
+        "Unnamed13"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:kettle"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 49
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed16",
+      "x": 115,
+      "y": 45,
+      "icon": {
+        "id": "witchery:cauldronbook",
+        "nbt": "{pageStack:[0:\"introduction\",1:\"cauldron\"]}"
+      },
+      "prerequisites": [
+        "Unnamed1"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:cauldronbook",
+                "nbt": "{pageStack:[0:\"introduction\",1:\"cauldron\"]}"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed17",
+      "x": 114,
+      "y": 172,
+      "icon": {
+        "id": "witchery:ingredient",
+        "damage": 15
+      },
+      "prerequisites": [
+        "Unnamed13",
+        "Unnamed16"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 15
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 16
+              }
+            },
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 30
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 29
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed18",
+      "x": 187,
+      "y": 190,
+      "icon": {
+        "id": "witchery:ingredient",
+        "damage": 38
+      },
+      "prerequisites": [
+        "Unnamed17",
+        "Unnamed21"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 38
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 39
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 40
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed19",
+      "x": 19,
+      "y": 157,
+      "icon": {
+        "id": "witchery:ingredient",
+        "damage": 82
+      },
+      "prerequisites": [
+        "Unnamed6"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 82
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed20",
+      "x": 186,
+      "y": 43,
+      "icon": {
+        "id": "witchery:poppet",
+        "damage": 6,
+        "nbt": "{WITCDamage:0}"
+      },
+      "prerequisites": [
+        "Unnamed3",
+        "Unnamed18"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:poppet",
+                "damage": 6,
+                "nbt": "{WITCDamage:0}"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed21",
+      "x": 47,
+      "y": 189,
+      "icon": {
+        "id": "witchery:ingredient",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Unnamed12"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed22",
+      "x": 222,
+      "y": 189,
+      "icon": {
+        "id": "witchery:ingredient",
+        "damage": 72
+      },
+      "prerequisites": [
+        "Unnamed18"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 72
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:spinningwheel"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 102
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed23",
+      "x": 291,
+      "y": 162,
+      "icon": {
+        "id": "witchery:witchhat"
+      },
+      "prerequisites": [
+        "Unnamed22"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:witchhat"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "witchery:witchrobe"
+        }
+      ]
+    },
+    {
+      "name": "Unnamed24",
+      "x": 222,
+      "y": 159,
+      "icon": {
+        "id": "witchery:dreamcatcher"
+      },
+      "prerequisites": [
+        "Unnamed22"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 95
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:somniancotton"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 99
+              },
+              "required": 4
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed25",
+      "x": 186,
+      "y": 135,
+      "icon": {
+        "id": "witchery:ingredient",
+        "damage": 12
+      },
+      "prerequisites": [
+        "Unnamed14"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 12
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed26",
+      "x": 139,
+      "y": 14,
+      "icon": {
+        "id": "witchery:poppet",
+        "damage": 2,
+        "nbt": "{WITCDamage:0}"
+      },
+      "prerequisites": [
+        "Unnamed4"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:poppet",
+                "damage": 3,
+                "nbt": "{WITCDamage:0}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:poppet",
+                "damage": 4,
+                "nbt": "{WITCDamage:0}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:poppet",
+                "damage": 5,
+                "nbt": "{WITCDamage:0}"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed27",
+      "x": 226,
+      "y": 82,
+      "icon": {
+        "id": "witchery:chalkotherwhere"
+      },
+      "prerequisites": [
+        "Unnamed25"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:chalkheart"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:chalkotherwhere"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed28",
+      "x": 226,
+      "y": 24,
+      "icon": {
+        "id": "witchery:crystalball"
+      },
+      "prerequisites": [
+        "Unnamed27"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 93
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 92
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:crystalball"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed29",
+      "x": 286,
+      "y": 124,
+      "icon": {
+        "id": "witchery:ingredient",
+        "damage": 9
+      },
+      "prerequisites": [
+        "Unnamed22"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 41
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 9
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed30",
+      "x": 266,
+      "y": 192,
+      "icon": {
+        "id": "witchery:iceslippers"
+      },
+      "prerequisites": [
+        "Unnamed23"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 79
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:iceslippers"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:seepingshoes"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed31",
+      "x": 267,
+      "y": 97,
+      "icon": {
+        "id": "witchery:ingredient",
+        "damage": 64
+      },
+      "prerequisites": [
+        "Unnamed27"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Crafting task",
+          "longDescription": "A task where the player has to craft specific items.",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:alluringskull"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 65
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed32",
+      "x": 288,
+      "y": 68,
+      "icon": {
+        "id": "witchery:necromancerrobe"
+      },
+      "prerequisites": [
+        "Unnamed31"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:necromancerrobe"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed33",
+      "x": 287,
+      "y": 27,
+      "icon": {
+        "id": "witchery:ingredient",
+        "damage": 23
+      },
+      "prerequisites": [
+        "Unnamed27"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 23
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Crafting task",
+          "longDescription": "A task where the player has to craft specific items.",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 80
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:rubyslippers"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "difficultlife:dl.heart"
+        }
+      ]
+    },
+    {
+      "name": "Unnamed34",
+      "x": 185,
+      "y": 12,
+      "icon": {
+        "id": "witchery:ingredient",
+        "damage": 150
+      },
+      "prerequisites": [
+        "Unnamed28"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 149
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 151
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed35",
+      "x": 221,
+      "y": 126,
+      "icon": {
+        "id": "witchery:scarecrow"
+      },
+      "prerequisites": [
+        "Unnamed24"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:scarecrow"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:witchsladder"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:trent"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed36",
+      "x": 253,
+      "y": 124,
+      "icon": {
+        "id": "witchery:ingredient",
+        "damage": 127
+      },
+      "prerequisites": [
+        "Unnamed35"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 127
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:brazier"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:scarecrow",
+                "nbt": "{WITCSpiritEffect:2}"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed37",
+      "x": 186,
+      "y": 77,
+      "icon": {
+        "id": "witchery:circletalisman",
+        "damage": 64
+      },
+      "prerequisites": [
+        "Unnamed14"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:circletalisman"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:circletalisman",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}
