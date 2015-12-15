@@ -14,8 +14,6 @@ NEI.hide(<harvestcraft:pamappleSapling>);
 recipes.remove(<Growthcraft|Fishtrap:grc.fishTrap>);
 recipes.remove(<harvestcraft:riceseedItem>);
 recipes.remove(<harvestcraft:grapeseedItem>);
-recipes.remove(<harvestcraft:riceseedItem>);
-recipes.remove(<harvestcraft:grapeseedItem>); 
 recipes.remove(<harvestcraft:blueberryseedItem>);
 recipes.remove(<harvestcraft:raspberryseedItem>); 
 recipes.remove(<harvestcraft:strawberryseedItem>);
