@@ -1,0 +1,12 @@
+{
+	"name": "Sandwiches",
+	"food": {
+		"oredict": [
+			"foodBeetburger",
+			"foodBurger",
+			"foodOnionhamburger",
+			"foodSandwich",
+			"foodToastsandwich"
+		]
+	}
+}

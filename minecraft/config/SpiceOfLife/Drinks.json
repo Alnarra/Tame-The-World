@@ -1,0 +1,10 @@
+{
+	"name": "Drinks",
+	"food": {
+		"oredict": [
+			"foodSmoothie",
+			"foodSoda",
+			"listAlljuice"
+		]
+	}
+}
