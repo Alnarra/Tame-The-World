@@ -1,9 +1,0 @@
-{
-	"name": "Fruits",
-	"food": {
-		"oredict": [
-			"listAllfruit",
-			"listAllberry"
-		]
-	}
-}
