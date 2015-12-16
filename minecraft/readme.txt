@@ -1,5 +1,5 @@
 Modpack: 			Tame The World 
-Modpack Version: 	0.1.9
+Modpack Version: 	0.1.10
 Modpack Author: 	Alnarra
 Report Issues Here:	https://github.com/fullphaser/Tame-The-World
 Forum Thread:		http://tinyurl.com/tameTheWorld
@@ -97,7 +97,7 @@ YAMBST by Commador
 Zombie Awareness by Corosauce
 
 Changelog
-Version 0.1.9 (In Development)
+Version 0.1.10
 Mods Added
  - Aroma Backup 
  - YAMPST
@@ -116,10 +116,11 @@ Mods Updated
  - Updated HQM (Was 4.4.2 now 4.4.4) 
  - Updated Ruins (No Version Number given) 
 Config Changes 
- - Flipped B:machine.alpha.coke.oven=false to True to correct Furnace bug. Emergency Patch released for 1.8
  - Cleaned up the Config folder a bit 
  - Decreased spawn cap of Raiko by 1 (Was 3 now 2) 
  - Turned Waila Back on by default 
+ - Exported HQM Quest to JSON
+ - Reduced Item Damage on Death (was 32 Now 10) 
 Scripts 
  - Created railIECook.zs to hide Railcraft's Coke Oven and Blast Furnace Blocks 
 Quest 
@@ -127,8 +128,13 @@ Quest
  - Chapter 2 - Library Card - Changed Bookshelf Requirements
  - Immersed in Engineering - Grit your Teeth - Changed Flavor text for "Butter is required" Quest 
  - Reorganized Quest in Chapter 1 ( Cutting Edge Technology > A Crooked Salesmen > Bedding with the Enemy) 
+ - Moved Quest "Weathered Down" In Chapter 2 to Chapter 1 after Diamonds are Forever
 Other
  - Cleaning up Github 
+
+Version 0.1.9
+Config Changes
+ - Flipped B:machine.alpha.coke.oven=false to True to correct Furnace bug. 
 
 Version 0.1.8 
 Forge Update
