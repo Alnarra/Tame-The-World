@@ -11,19 +11,20 @@
         "id": "minecraft:wheat_seeds"
       },
       "prerequisites": [
-        "{Chapter 1: The Basics}[Putting bread on the table]"
+        "{Chapter 1 - The Basics}[Putting bread on the table]"
       ],
       "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
-          "type": "CRAFT",
+          "type": "DETECT",
           "description": "How do I mine for Seeds? ",
           "longDescription": "To teach this task we\u0027re going to start with a simple plant. In this case the pumpkin. They are easy enough to find in the world. ",
           "items": [
             {
               "item": {
                 "id": "minecraft:pumpkin_seeds"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         },
@@ -161,13 +162,13 @@
           ]
         },
         {
-          "type": "CRAFT",
+          "type": "DETECT",
           "description": "Fenced in ",
           "longDescription": "To grow the hops we\u0027re going to need a few things. First those hopes you have you need to turn them into hops seeds (Simply put them in your crafting bench). Then you\u0027re going to need some rope and fences. ",
           "items": [
             {
               "item": {
-                "id": "Growthcraft:grc.ropeBlock"
+                "id": "Growthcraft:grc.rope"
               },
               "required": 5
             },

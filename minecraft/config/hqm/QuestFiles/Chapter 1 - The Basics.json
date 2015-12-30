@@ -1,0 +1,1141 @@
+{
+  "name": "Chapter 1 - The Basics",
+  "description": "The following only has the most basic things that one would need to know about this new world, some, or all of it you may already know, but it\u0027s always good for a refresher course!",
+  "quests": [
+    {
+      "name": "How to use the book! ",
+      "description": "So, you have this fancy journal, it\u0027s our way of communicating with you, letting you know how the world you\u0027re in works and better yet how to conquer it. Oh! Make sure you check out your Inventory first [The E Key] before you get started on these quest!",
+      "x": 25,
+      "y": 13,
+      "icon": {
+        "id": "minecraft:log"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "A Wood Block a day ",
+          "longDescription": "So This part is pretty simple, all we need you to do is go ahead and punch a tree and get some wood. This is a detection task, we just want to see if it\u0027s in your inventory! ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:log"
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Making Some Wood! ",
+          "longDescription": "Alright, so the next kind of quest we can give you is to craft an object, once you have crafted it the quest will be completed! To craft these blocks just put that log you got into the 2x2 Crafting square in your inventory (next to that handsome picture of you!)",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:planks"
+              },
+              "required": 4,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "A 3x3 For me! ",
+          "longDescription": "This next part is called a \"Cosume task\" where we\u0027re going to use magic to take what you make back to our own world! So in this one we need you to craft a workbench. This is just done by putting those 4 wood blocks you made in a square. Though... we\u0027re going to take it so you may need to make another one... sorry!",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:crafting_table"
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tools are not for Fools!",
+      "description": "This is a strange and new world to you, and you\u0027re going to need some items to make the world just a /hint/ easier. In this case... things to help you shape the world. ",
+      "x": 69,
+      "y": 13,
+      "icon": {
+        "id": "minecraft:wooden_pickaxe"
+      },
+      "prerequisites": [
+        "How to use the book! "
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "I mine every day and Night! ",
+          "longDescription": "Alright so, the first thing you want to be able to do is dig up rocks. This is your tool! The pick axe is made with sticks and planks. If you aren\u0027t sure how to make it be sure to search \"Wooden Picaxe\" in the search bar and you can use the [R] Key to see the recipie (this should work for most things). ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:wooden_pickaxe"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:wooden_shovel"
+        },
+        {
+          "id": "minecraft:wooden_axe"
+        }
+      ]
+    },
+    {
+      "name": "Storage Wars",
+      "description": "So you may have noticed when you checked your inventory back there that you don\u0027t have a lot of space. Well... we should help clear that up. As you get achievements in this world you might find you\u0027re able to carry more, but just in case... ",
+      "x": 49,
+      "y": 53,
+      "icon": {
+        "id": "minecraft:chest"
+      },
+      "prerequisites": [
+        "How to use the book! "
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "I\u0027ve got junk in my trunk",
+          "longDescription": "For this one, you\u0027ll simply need to use that Crafting Bench we had you make twice and 8 wooden blocks. Make them in a square pattern in the 3x3 Grid and you can have your very own storage. Note that if you put 2 next to each other they should connect! ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:chest"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "A Solid Upgrade",
+      "description": "Those wooden tools are great and all, but they don\u0027t mine all that much and they break pretty easily. I bet we can use some stone to make better tools",
+      "x": 98,
+      "y": 50,
+      "icon": {
+        "id": "minecraft:stone_pickaxe"
+      },
+      "prerequisites": [
+        "Tools are not for Fools!"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Cobbled together",
+          "longDescription": "Alright so this one is pretty simple, just like the wooden pick but instead of wood planks we need cobblestone. Give it a shot! ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:stone_pickaxe"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:stone_axe"
+        },
+        {
+          "id": "minecraft:stone_shovel"
+        }
+      ]
+    },
+    {
+      "name": "Light Em Up!",
+      "description": "So... darkness is scary, and it really should be. At night the horrible creatures that inhabit this world aren\u0027t affected by the light of the sun and can spawn freely... but we can fix that ",
+      "x": 196,
+      "y": 12,
+      "icon": {
+        "id": "minecraft:torch"
+      },
+      "prerequisites": [
+        "Stoking the Fires"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "A torch a day",
+          "longDescription": "To craft torches you\u0027re going to need to use that fancy pick of yours to mine up some coal. Look around for stone that looks like it has specs of black in it! Then combine that coal with sticks and wa-la! Torches!",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:torch"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:coal"
+        }
+      ]
+    },
+    {
+      "name": "Stoking the Fires",
+      "description": "Alright, so admittedly it\u0027s a bit tough to have a place in the world without and oven, so let\u0027s make us a very basic one hmm? ",
+      "x": 138,
+      "y": 12,
+      "icon": {
+        "id": "minecraft:furnace"
+      },
+      "prerequisites": [
+        "Tools are not for Fools!"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Kenmore Brand Furnace",
+          "longDescription": "Furnaces are pretty simple, they let you put fuel in (wood, sticks, wooden tools, coal, charcoal and more) and then light the stuff on top on fire to get cool stuff out. The recipie is pretty simple too, but I\u0027ll let you figure it out (Remember if you\u0027re not sure search for it and use the [R] Key to find out what it is! ) ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:furnace"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:stone",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "I am Iron Man",
+      "description": "Alright so working with Stone makes you feel like maybe you should be painting on cave walls, well... there\u0027s some other things in the world worth looking into ",
+      "x": 138,
+      "y": 50,
+      "icon": {
+        "id": "minecraft:iron_ore"
+      },
+      "prerequisites": [
+        "A Solid Upgrade",
+        "Stoking the Fires"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "A small Fe ",
+          "longDescription": "Iron is at the core of... well almost everything. You\u0027ll find it near stone for the most part, but getting it is key to everything! ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_ore"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "A hot Fe-eling ",
+          "longDescription": "Now using the knowledge you\u0027ve gathered, just throw some kind of fuel in your furance and this iron you just got on top and see if you aren\u0027t just a blaze with your acheivement ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_ingot"
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:coal",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Oh Hoe you didn\u0027t. ",
+      "description": "Iron\u0027s useful for a few more things. It turns out that the agriculture industry may be more your thing... we think. Just give it a shot. ",
+      "x": 179,
+      "y": 116,
+      "icon": {
+        "id": "minecraft:iron_hoe"
+      },
+      "prerequisites": [
+        "I am Iron Man"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Hay! Hoe! let\u0027s go!",
+          "longDescription": "This tools handy, if there\u0027s water 4 blocks near some dirt, you can right click with this tool and it will become tilled soil. With that you can plant all kinds of fun things. You should expiriment!",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_hoe"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:shears"
+        }
+      ]
+    },
+    {
+      "name": "Cutting Edge Technology ",
+      "description": "As you may or may not have noticed, you happen to live in a very dangerous world. Maybe you should do something about that? Like... I don\u0027t know, make a sword! ",
+      "x": 51,
+      "y": 112,
+      "icon": {
+        "id": "minecraft:stone_sword"
+      },
+      "prerequisites": [
+        "A Solid Upgrade"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting your first Sword",
+          "longDescription": "This is your swords, there are many like it, but this one will be yours (for a time). It\u0027s simple to make, 2 Cobblestone and a stick!",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:stone_sword"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "You\u0027re boned",
+      "description": "So we\u0027ve realized there\u0027s some /really/ nasty creatures where you live, but we want to get you aquainted with at least a few of the more common ones. ",
+      "x": 23,
+      "y": 77,
+      "icon": {
+        "id": "minecraft:bone"
+      },
+      "prerequisites": [
+        "Cutting Edge Technology "
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "We have a Daryl",
+          "longDescription": "Zombies are proflific, but worst of all they are bitey. They are slow and mostly stick to melee, but they usually burn in direct sunlight. ",
+          "mobs": [
+            {
+              "name": "Zobmies!",
+              "mob": "Zombie",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        },
+        {
+          "type": "KILL",
+          "description": "Spooky Scary",
+          "longDescription": "Skeletons prefer to attack from a distance, favoring a bow and arrow. But they tend to be brittle and also have a certain dislike of sunlight ",
+          "mobs": [
+            {
+              "name": "Skeletons!",
+              "mob": "Skeleton",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        },
+        {
+          "type": "KILL",
+          "description": "Creeping up on ya",
+          "longDescription": "That\u0027s a nice home you have there. It would be a shame if ssssssomething were to happen to it. These green, probably pete moss based creatures tend to explode and they have no qualms about wondering around in sunlight. ",
+          "mobs": [
+            {
+              "name": "Creepers! ",
+              "mob": "Creeper",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Putting bread on the table",
+      "description": "Alright so you\u0027ve played around with your gardening device, but let\u0027s see if you can actually grow anything. It\u0027s time to... put some bread on the table. ",
+      "x": 223,
+      "y": 117,
+      "icon": {
+        "id": "minecraft:bread"
+      },
+      "prerequisites": [
+        "Oh Hoe you didn\u0027t. "
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "I knead dough to live",
+          "longDescription": "These puns are getting terrible, but your farming skills better not be. First throw some normal seeds in the ground. That\u0027s simple enough right... well if you can find them. They tend to be in the grass, you should try tilling it and see",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:wheat_seeds"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "You\u0027re on a roll here",
+          "longDescription": "So if you plant that seed, give it a little time and eventually when it\u0027s fully grown, right click it, you will find it gives you wheat. Use that wheat to make some bread and what do you get? ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bread"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:carrot"
+        },
+        {
+          "id": "minecraft:potato"
+        }
+      ]
+    },
+    {
+      "name": "Not Cod, Cod do batter...",
+      "description": "Alright, so you\u0027re probably a bit hungry after all that work. I certainly can\u0027t blame you for that. But did you know if you use a bit of string and wood you too can find your own dinner tonight ",
+      "x": 202,
+      "y": 84,
+      "icon": {
+        "id": "minecraft:fishing_rod"
+      },
+      "prerequisites": [
+        "I am Iron Man"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Don\u0027t flounder now ",
+          "longDescription": "Alright, so... string seems weird, but don\u0027t worry I heard those 8 legged poisonous things cough it up when they die. Maybe you could... fish it out of them? Eh... ehh? Ok we\u0027ll stop. ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:cooked_fished"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:fish",
+          "damage": 1
+        },
+        {
+          "id": "minecraft:fish",
+          "damage": 2
+        },
+        {
+          "id": "minecraft:fish",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Leather tis nobler",
+      "description": "You may have seen some creatures around you in the world.  Did you know that if you stab them that sometimes they drop nifty things. Well that swords should help you with that. Some may fight back though",
+      "x": 95,
+      "y": 138,
+      "icon": {
+        "id": "minecraft:leather"
+      },
+      "prerequisites": [
+        "Cutting Edge Technology "
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Cow Tipping",
+          "longDescription": "Cows are the most likely to drop this sort of thing, so don\u0027t be afraid to murder one brutally for it\u0027s precious bits. ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:leather"
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Cake is a lie",
+      "description": "Alright so it\u0027s not, but if you make this little treat you\u0027ll probably find by now at least (assuming you\u0027ve been following our little guide) you feel like you can carry just a bit more. ",
+      "x": 294,
+      "y": 117,
+      "icon": {
+        "id": "DragonAPI:minecraft:cake_technical"
+      },
+      "prerequisites": [
+        "Putting bread on the table",
+        "The Path to knowledge"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "It\u0027s your cake day",
+          "longDescription": "Cakes take a few things, but we think you can figure it out with a bucket, some cows, a chicken, some sugar cane, and a bit of wheat. Try not to eat the whole thing at once ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:cake"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "difficultlife:dl.heart"
+        }
+      ]
+    },
+    {
+      "name": "Bedding with the Enemy",
+      "description": "This world is a crappy place, there is no doubt about that, but you want to know what makes it even crappier? Night Time. Sure enough just when you\u0027re about ready to settle down for the evening every single monster and it\u0027s mother wants to eat you... but what if you could just sleep through it soundly? ",
+      "x": 91,
+      "y": 181,
+      "icon": {
+        "id": "minecraft:bed"
+      },
+      "prerequisites": [
+        "A Crooked Salesmen"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Rock a bye ",
+          "longDescription": "Beds are nifty things, not only do they let you sleep through the night if you\u0027re somewhere safe, but they also set your spawn point! ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bed"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Diamonds are Forever",
+      "description": "Alright, so maybe diamonds aren\u0027t quite forever, but they are fairly important to you know... exisiting. They are only found at the depths of the earth, but be careful down there, They\u0027re tricky! ",
+      "x": 213,
+      "y": 50,
+      "icon": {
+        "id": "minecraft:diamond"
+      },
+      "prerequisites": [
+        "I am Iron Man"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "C-ya under pressure",
+          "longDescription": "You\u0027re going to need an Iron Pick axe for this one... but we\u0027re going to let you figure out that one all on your own. But going deep underground with your iron pickaxe you should find a vein of diamond eventually. Be careful though, the lava monsters probably bite. ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:diamond"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Raise Shields",
+      "description": "Alright so you can\u0027t quite tell Mr. Worf to raise shields, but you can construct a bit of armor. It\u0027s not the best but it should help a bit. ",
+      "x": 142,
+      "y": 140,
+      "icon": {
+        "id": "minecraft:leather_chestplate"
+      },
+      "prerequisites": [
+        "Leather tis nobler"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Hunter Weapon",
+          "longDescription": "This armor won\u0027t last long and it won\u0027t soak up all the damage, but it\u0027s good to stand between you and whatever it is that wishes to murder you. You should definately give it a shot. ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:leather_chestplate"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Hard as Glass",
+      "description": "The world you live in is a tough one, but what if we told you there\u0027s worse? Well you need to find out. But to find out you\u0027re going to need to make some diamond tools. ",
+      "x": 255,
+      "y": 80,
+      "icon": {
+        "id": "minecraft:obsidian"
+      },
+      "prerequisites": [
+        "Diamonds are Forever"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Pick a rock any rock!",
+          "longDescription": "These are the final set of tools to complete that fall under the category of \"Normal\" but you\u0027re going to need them in order to get at what we really want... Obsdian. ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:diamond_pickaxe"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Almost hit bedrock",
+          "longDescription": "Now if you\u0027ve never made obsidian before then it\u0027s really simple. Just dump a bucket of water on a bit of lava and wa la you have some obsidian... but we\u0027re going to need a lot. ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:obsidian"
+              },
+              "required": 10
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Nether here nor there ",
+          "longDescription": "Alright, so what you need to do next involves a bit of Flint, Steel, and an Obsidian Ring that\u0027s about Oh 5 Tall, and 4 wide (so 5 obsidian blocks going up with 4 across in a really more square shape). I\u0027m sure you can figure out the Filnt and Steel (Really iron but who\u0027s counting?) ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:netherrack"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:diamond_shovel"
+        },
+        {
+          "id": "minecraft:diamond_axe"
+        }
+      ]
+    },
+    {
+      "name": "Char-itable options",
+      "description": "Sometimes finding coal can be difficult, and this is something that we can all understand, but worry not fellow travelers there is another option now that you have this fancy furnace! ",
+      "x": 249,
+      "y": 12,
+      "icon": {
+        "id": "minecraft:coal",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Light Em Up!"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "That will be Tree Fifty",
+          "longDescription": "So if you are low on coal, you do actuallly have an option, and in this case it is to burn a log with some other fuel (Maybe even another log) to make charcoal! ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:coal",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Path to knowledge",
+      "description": "The very key to this world is knowledge, and knowledge is power, so guard it well. But more importantly then that, how do we aquire knowledge? ",
+      "x": 292,
+      "y": 51,
+      "icon": {
+        "id": "minecraft:book"
+      },
+      "prerequisites": [
+        "Hard as Glass"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Rule # 74 ",
+          "longDescription": "To start down this path we\u0027re going to need something simple... well mostly simple. Sugar Cane, you see it happens to double as a wonderful source of paper if you craft it right, so go find some! ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:reeds"
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "See Brock Acquire ",
+          "longDescription": "From here instead of making it into what we want to (Sugar) we\u0027re instead going to make it into something useful for us... paper. ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:paper"
+              },
+              "required": 3,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "I knew you had the lobes",
+          "longDescription": "Now that this is done, the next step is simple. You just put the paper along with some leather and you can make your very first book! ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:book"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:noteblock"
+        }
+      ]
+    },
+    {
+      "name": "Weathered Down",
+      "description": "You may have noticed that the clouds are just slightly different then they usually are. If anything they seem to have something out for you. I bet you\u0027d love to know when they /really/ want to kill you ",
+      "x": 271,
+      "y": 162,
+      "icon": {
+        "id": "weather2:WeatherMachine"
+      },
+      "prerequisites": [
+        "Diamonds are Forever"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Channel 5! ",
+          "longDescription": "So you don\u0027t have a helicopter (Yet) but you do have a way to show yourself what\u0027s coming your way. Build yourself a fancy weather forecast device with a Compass, some Redstone, and some Iron",
+          "items": [
+            {
+              "item": {
+                "id": "weather2:WeatherForecast"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Mad Science",
+          "longDescription": "Make that compass a diamond and you can /control/ the very weather around you, but be mindful with great power comes great responsibility! ",
+          "items": [
+            {
+              "item": {
+                "id": "weather2:WeatherMachine"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Safety First ",
+          "longDescription": "Using that weather machine you can now passively deflect weather. Simply put a weather defelctor down and watch it go to work. It\u0027s really quite amazing! ",
+          "items": [
+            {
+              "item": {
+                "id": "weather2:WeatherDeflector"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "A Crooked Salesmen",
+      "description": "Running low on string? Maybe even saplings for those trees that you\u0027re trying to grow well do we have the deal for you! The crook, made with either bone or sticks is perfect for getting those leaves out of trees and you might even get a surprise. ",
+      "x": 51,
+      "y": 179,
+      "icon": {
+        "id": "exnihilo:crook"
+      },
+      "prerequisites": [
+        "Cutting Edge Technology "
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Worming your way through",
+          "longDescription": "Collect some saplings and then a silk worm by using the crook on leaves. You can even cook those little silk worms if you want, but we advise against it. ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:sapling"
+              },
+              "required": 5,
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "exnihilo:silkworm"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Silky Sweet",
+          "longDescription": "We\u0027re running a bit low on string ourselves, and we were wondering if you could send some through. Now to get string easily use the silk worm on some tree leaves and let it get to infesting. Once it\u0027s completly infested instead of dropping saplings it will drop string. But be careful the silk worms spread across every leaf they can touch so if you\u0027re planning on using that tree for more saplings you better plan ahead. ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:string"
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Sieveing with Envy ",
+      "description": "Alright so there are a few more things we can do with string that might help you with your resource problem. But for this we\u0027re going to need to construct a special device. ",
+      "x": 137,
+      "y": 182,
+      "icon": {
+        "id": "exnihilo:sifting_table"
+      },
+      "prerequisites": [
+        "Bedding with the Enemy"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Don\u0027t Mesh it up",
+          "longDescription": "Admittedly these little pieces require a lot of string but we feel that the end goal has got to be worth it in some way right? ",
+          "items": [
+            {
+              "item": {
+                "id": "exnihilo:mesh"
+              },
+              "required": 2
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "We Sieve you",
+          "longDescription": "Once you have those 2 Mesh\u0027s just stick them between some planks and give it little sticks for legs and you have your first sieve, but why are we having you make this anyway? ",
+          "items": [
+            {
+              "item": {
+                "id": "exnihilo:sifting_table"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Bits and Pieces",
+          "longDescription": "You can use the sieve to sift through various itesm. Sand, Gravel, Dirt, and even another object that you\u0027ll discover later called dust. But for now sift through a few pieces of Sand and Gravel and see if you can\u0027t find some Iron. By combining 4 of these pieces together (Of each type) you can make your own iron to smelt just as if you\u0027d found it underground yourself! ",
+          "items": [
+            {
+              "item": {
+                "id": "exnihilo:exnihilo.iron_crushed"
+              }
+            },
+            {
+              "item": {
+                "id": "exnihilo:exnihilo.iron_broken"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "exnihilo:iron_gravel",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "En-Ranged",
+      "description": "So some of the monsters in this world tend to be able to hit you at a distance. We imagine that can\u0027t be any fun, so isn\u0027t it time you got a weapon to shoot back at them? Well it\u0027s time to learn how to make the bow and arrow!",
+      "x": 112,
+      "y": 91,
+      "icon": {
+        "id": "minecraft:bow"
+      },
+      "prerequisites": [
+        "Cutting Edge Technology "
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Bow down to me!",
+          "longDescription": "A bow should be a pretty simple affair, Be sure to get some string from those spiders (3 in fact) and then with 3 sticks you should be able to make your very first bow... but somethings a miss. What is a bow without ammunition? ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bow"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Sticks and Stones",
+          "longDescription": "Flint can be found in gravel sometimes, like a rare drop. Feathers are often dropped by chickens, and sticks... well you should know where sticks come from by now. Put them all together and you can make your very own arrow. ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:flint"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:feather"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:stick"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Arrow Delivery",
+          "longDescription": "Send us some arrows so that we can check the quality and find out what exactly it is you need. Then we\u0027ll send you some back. Doesn\u0027t that sound like a plan? ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:arrow"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:arrow",
+          "amount": 32
+        }
+      ]
+    },
+    {
+      "name": "Stop, Hammer Time!",
+      "description": "One more tool that you may find yourself using on your adventures is something called the hammer. Now this hammer is useful for turning Stone into Cobblestone, Cobblestone into Gravel, Gravel into Sand... And Sand into dust. ",
+      "x": 179,
+      "y": 160,
+      "icon": {
+        "id": "exnihilo:hammer_iron"
+      },
+      "prerequisites": [
+        "Oh Hoe you didn\u0027t. ",
+        "Sieveing with Envy "
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "You can touch this",
+          "longDescription": "With Two Sticks and two pieces of iron you can make your very own hammer, It\u0027s great for any number of things, but you should play around with it and find out! ",
+          "items": [
+            {
+              "item": {
+                "id": "exnihilo:hammer_iron"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "exnihilo:dust",
+          "amount": 32
+        }
+      ]
+    },
+    {
+      "name": "Sandy Shores",
+      "description": "Have you ever seen your house and thought to yourself \"Boy I wish this block was something I could see through?\" Well wish no more, with the invention of glass, you too can have your own glorious see through house!",
+      "x": 249,
+      "y": 43,
+      "icon": {
+        "id": "minecraft:glass"
+      },
+      "prerequisites": [
+        "Char-itable options"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Dune-ing it wrong",
+          "longDescription": "Sand can be all throughout the world, found near sources of water, but also in the vast expanses of desert. It shouldn\u0027t take you too long to find some. ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:sand"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Glass half Full",
+          "longDescription": "Glass is a transparent block that you can get by simply putting sand into a furnance and letting it be cooked by a various source of fuel. Give it a try! ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:glass"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Glass Wear",
+          "longDescription": "It\u0027s rumored that the invention of glass had a large part to do with scientific progress in europe in the early centuries that allowed it to advance ahead of china, but that\u0027s another goofy discussion for another goofy day. Today it seems you\u0027ve got some glassware to make",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:glass_bottle"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:glass_pane"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:glass",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "Getting Stoned",
+      "description": "Did you know you can do more with that furnace then simply cook up a bit of meat or metal? Oh indeed you can even turn your cobblestone into smooth stone which is useful for just looking pretty some days ",
+      "x": 291,
+      "y": 12,
+      "icon": {
+        "id": "minecraft:stone"
+      },
+      "prerequisites": [
+        "Char-itable options"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Burned into memory",
+          "longDescription": "Simply throw in a fuel and then your cobblestone and before you know it you\u0027ll be making your own castle in the sky out of smooth stone. ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:stone"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:stone",
+          "amount": 5
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

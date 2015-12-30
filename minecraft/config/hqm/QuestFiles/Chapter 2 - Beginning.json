@@ -1,0 +1,1439 @@
+{
+  "name": "Chapter 2 - Beginning",
+  "description": "So now you understand how the world works, now what about getting it all under control. This chapter will explore everything you want to know about starting to Tame the World. ",
+  "quests": [
+    {
+      "name": "Simply Enchanted! ",
+      "description": "Alright, so you live in a dangerous world, and you\u0027re getting little green orbs for the horriblme monsters you slay right? Did you know you can use those? ",
+      "x": 21,
+      "y": 15,
+      "icon": {
+        "id": "minecraft:enchanting_table"
+      },
+      "prerequisites": [
+        "{Chapter 1 - The Basics}[The Path to knowledge]"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Quite an expirience",
+          "longDescription": "Obsidian, Diamonds, and even a book. This little idea isn\u0027t easy on the mind but it is at the core of progressing through the world. Knowing how to make a simple tool powerful from the blood... I mean green orbs of your enemies is key! ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:enchanting_table"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:experience_bottle",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Library Card",
+      "description": "You may have noticed that your enchantment table may feel a little.... underwhelming? We here at wherever we are definately understand these concerns and we\u0027re willing to help! ",
+      "x": 58,
+      "y": 15,
+      "icon": {
+        "id": "minecraft:bookshelf"
+      },
+      "prerequisites": [
+        "Simply Enchanted! "
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Books-a-45",
+          "longDescription": "The key to solving your enchanting problems is to put some bookshelves around it. Making sure there\u0027s a one block space, you can circle your enchanting table on all sides (leaving a 1 block hole even so you can walk in) So that instead of level 3 enchants it\u0027s letting you make level 30! ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bookshelf"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "ACME solutions",
+          "longDescription": "Anvils are another object that can help with enchanting. By using a bit of expirience on an Anvil you can repair objects, even enchanted ones by smashing two like object together. Rename objects to make repairing them chepaer, and even add or increase the power of enchants if you smash the right two things together (like an enchanted book and a diamond sword). ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:anvil"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:2s,id:34s}]}"
+        }
+      ]
+    },
+    {
+      "name": "Meteoric Rise to Power",
+      "description": "You /may/ have noticed that every so often a large rock falls out of the sky and ruins the landscape. This is by all technicalities very dangerous, BUT there is much to be gained from it. ",
+      "x": 21,
+      "y": 90,
+      "icon": {
+        "id": "meteors:MeteorChips"
+      },
+      "prerequisites": [
+        "Panning for Gold"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Meaty Ore ",
+          "items": [
+            {
+              "item": {
+                "id": "meteors:MeteorChips"
+              },
+              "required": 5
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Meat-ium Rare ",
+          "longDescription": "By cooking up some Meteor chips you too can make a bit of ore that has all kinds of fun uses! We can even teach you a few of them ",
+          "items": [
+            {
+              "item": {
+                "id": "meteors:MeteoriteIngot"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "meteors:ChocolateICream"
+        }
+      ]
+    },
+    {
+      "name": "Hot Rock",
+      "description": "Another breed of rock that falls from the sky. This one is more hot and miserable and sometimes makes portals to the nether. ",
+      "x": 21,
+      "y": 159,
+      "icon": {
+        "id": "meteors:KreknoChip"
+      },
+      "prerequisites": [
+        "Meteoric Rise to Power"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Chipped Away",
+          "longDescription": "Though less common then their brothers the normal falling rocks. These are still out there and can pack quite a wallop. Catch one if you can! ",
+          "items": [
+            {
+              "item": {
+                "id": "meteors:KreknoChip"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Burn the Burning Rock",
+          "longDescription": "Like their cousin, these can be thrown in a furnace just like normal and cooked into ingots... what you make is up to you, have fun and expiriment, The armor made from these is even said to give fire immunity, which I\u0027m sure could be useful. ",
+          "items": [
+            {
+              "item": {
+                "id": "meteors:KreknoriteIngot"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "meteors:KrekBoots",
+          "nbt": "{ench:[0:{lvl:4s,id:1s}],enchant-set:1b}"
+        }
+      ]
+    },
+    {
+      "name": "Rocking Out",
+      "description": "If you are like most people, you proably don\u0027t want rocks falling out of the sky and destroying everything that you have ever made. ",
+      "x": 54,
+      "y": 129,
+      "icon": {
+        "id": "meteors:BlockMeteorShield"
+      },
+      "prerequisites": [
+        "Meteoric Rise to Power"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "I set Fire to the rain",
+          "longDescription": "The Meteor shield is crucially important for making all things that you don\u0027t want destroyed by fire raining down from the heavens. It can be jump started with a Meteorite Chip, and red Power crystals from special creepers living in the metorites can extends its range. It also hums!",
+          "items": [
+            {
+              "item": {
+                "id": "meteors:BlockMeteorShield"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "meteors:RedMeteorGem"
+        }
+      ]
+    },
+    {
+      "name": "Tooling about ",
+      "description": "You may have noticed with these lovely rock based objects that you can even create a few tools that are interesting and fun! They all come with magnetzation. ",
+      "x": 64,
+      "y": 91,
+      "icon": {
+        "id": "meteors:MetPick",
+        "nbt": "{ench:[0:{lvl:1s,id:157s}],enchant-set:1b}"
+      },
+      "prerequisites": [
+        "Meteoric Rise to Power"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Picking your meteor",
+          "longDescription": "The tools of the trade are quite simple indeed, You will find they require simply Meteorite Ingots and Iron to make, not too tough for a busy adventurer like yourself!",
+          "items": [
+            {
+              "item": {
+                "id": "meteors:MetPick",
+                "nbt": "{ench:[0:{lvl:1s,id:157s}],enchant-set:1b}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "meteors:MetAxe",
+          "nbt": "{ench:[0:{lvl:1s,id:157s}],enchant-set:1b}"
+        },
+        {
+          "id": "meteors:MetSpade",
+          "nbt": "{ench:[0:{lvl:1s,id:157s}],enchant-set:1b}"
+        }
+      ]
+    },
+    {
+      "name": "Storage Wars",
+      "description": "Sometimes you want a fancier set of cabinets, and who can really blame you for such a thing? Well we here certainly can\u0027t. So we\u0027re going to teach you how to make some drawers. ",
+      "x": 124,
+      "y": 65,
+      "icon": {
+        "id": "StorageDrawers:fullDrawers4"
+      },
+      "prerequisites": [
+        "Panning for Gold"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Ikea Brand",
+          "longDescription": "These are unique in that each drawer only stores a single type of item, but it can store more then simply 64 of that item. On top of that you can simply right click and it will take all that item from your inventory. Also there\u0027s some other fancy stuff that you can do with it ",
+          "items": [
+            {
+              "item": {
+                "id": "StorageDrawers:fullDrawers1"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "StorageDrawers:fullDrawers2"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "StorageDrawers:fullDrawers4"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "StorageDrawers:fullDrawers1",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Panning for Gold",
+      "description": "Alright so you don\u0027t really need to get a fine silk mesh and go to the nearest river, but you do need to mine a bit. ",
+      "x": 123,
+      "y": 17,
+      "icon": {
+        "id": "minecraft:gold_ingot"
+      },
+      "prerequisites": [
+        "{Chapter 1 - The Basics}[Diamonds are Forever]"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Lustrous visions",
+          "longDescription": "Gold ore is usually found deep in the land, generally below Y\u003d32, but you can use it for a variety of things once you get it. ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:gold_ore"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Is it gold in here? ",
+          "longDescription": "Once you have your gold ore, like Iron it can simply be thrown into a furnace to be cooked into ingots which are the real useful ingredient. ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:gold_ingot"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "You live in an AU",
+          "longDescription": "Just like any other metal in the family. Gold can be shaped into weapons, Tools, and Armor. These items have very low durability but they tend to be a bit quicker, so the pay off can be... interesting. ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:golden_shovel"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:golden_apple"
+        }
+      ]
+    },
+    {
+      "name": "Getting an upgrade",
+      "description": "Storage is a strange thing, sometimes you just don\u0027t have enough of it. Well worry no more, with these upgrades you\u0027ll be well on your way to having more of your stuff",
+      "x": 125,
+      "y": 102,
+      "icon": {
+        "id": "StorageDrawers:upgrade",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Storage Wars"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Storage Solutions",
+          "longDescription": "The first of these upgrades is the Status Upgrade. This upgrade will turn the light on the drawer red when it is full. Useful for a quick glance to see what is full and not full. ",
+          "items": [
+            {
+              "item": {
+                "id": "StorageDrawers:upgradeStatus",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "In my yard, I don\u0027t care!",
+          "longDescription": "You got an elephant, I got space! Well you will. There are several levels of upgrades, with iron being the first, then Gold, Obsidian, Diamond, and Emerald. Note you can apply any of them, you don\u0027t have to upgrade from one to the other. They increase the overall number of stacks that the drawer can hold. ",
+          "items": [
+            {
+              "item": {
+                "id": "StorageDrawers:upgrade",
+                "damage": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "This is a bus! ",
+          "longDescription": "The void upgrade does exactly what it says on the label. If you have a storage drawer already full and you want to fill it with more simply add the Void Upgrade, it will destroy the excess for you! No more trash cans required. ",
+          "items": [
+            {
+              "item": {
+                "id": "StorageDrawers:upgradeVoid"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "StorageDrawers:upgrade",
+          "damage": 2,
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "Ice Baby Ice",
+      "description": "Not all meteorites are born the same. Some are born with even fancier things, like Ice all in their insides, making them chilly",
+      "x": 53,
+      "y": 180,
+      "icon": {
+        "id": "meteors:FrezaCrystal"
+      },
+      "prerequisites": [
+        "Rocking Out"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "It\u0027s time... to Freeze!",
+          "longDescription": "Corny batman related jokes aside, this paticular meteor isn\u0027t as common as it\u0027s cousins so it may take a bit of time to find, but we think it will be well worth it. ",
+          "items": [
+            {
+              "item": {
+                "id": "meteors:FrezaCrystal"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Fride Logic",
+          "longDescription": "This little tool is like a reverse Furnace. It can be a little tricky to figure out but we think it should make sense. The Far left side you put buckets of water in to fill the tank. The Middle you put the item you want to freeze on top (Iron for example), and the Freezarite Crystal on bottom as Fuel. You can play with the buttons to see all the things you can make! ",
+          "items": [
+            {
+              "item": {
+                "id": "meteors:BlockFreezer"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Things to make! ",
+          "longDescription": "These are some of the sample items that you can make with your freezer, we have a strong belief that you will find them handy, especially that freezing ingot. ",
+          "items": [
+            {
+              "item": {
+                "id": "meteors:FrozenIron"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:ice"
+              }
+            },
+            {
+              "item": {
+                "id": "meteors:BlockSlipperyStairs",
+                "nbt": "{slipFacadeBlock:\"minecraft:oak_stairs\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "meteors:FrezHelm",
+          "nbt": "{ench:[0:{lvl:3s,id:5s}],enchant-set:1b}"
+        }
+      ]
+    },
+    {
+      "name": "Pennies on the dollar",
+      "description": "No actually pennies are mostly made out of zinc these days, but we\u0027re here to help you make some copper, which you may not find interesting, but we promise you it\u0027s great for wiring. ",
+      "x": 192,
+      "y": 16,
+      "icon": {
+        "id": "ImmersiveEngineering:metal"
+      },
+      "prerequisites": [
+        "Panning for Gold"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Cu-lpable",
+          "longDescription": "Copper is generally found near the surface, closer to the top of the world then the bottom. It likes to hang out there so that your mining efforts take more work and that\u0027s pretty much the only reason. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:ore"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Cu-be world",
+          "longDescription": "You\u0027ll find that for the most part, you can\u0027t really make tools or armor with copper. If anything it makes a great stand in for iron in cookwear, but past that this metal is yet.. a bit of a mystery though you suspect it may shock you yet! ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metal"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "harvestcraft:skilletItem"
+        }
+      ]
+    },
+    {
+      "name": "Your a wizard harry",
+      "description": "Do you feel that around you? As if the world you are seeing is more complex then you can imagine? Well then it\u0027s time to put on your robe and wizard hat, becase you\u0027re about to learn magic. ",
+      "x": 178,
+      "y": 87,
+      "icon": {
+        "id": "Thaumcraft:WandCasting",
+        "nbt": "{aqua:2500,terra:2500,ignis:2500,ordo:2500,perditio:2500,aer:2500}"
+      },
+      "prerequisites": [
+        "Panning for Gold"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Nuggets ",
+          "longDescription": "To get this process started, you probalby need to realize that even Iron Ingots can be broken down. Each one turns into 9 Iron Nuggets. ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemNugget"
+              },
+              "required": 10,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Capped on Resources",
+          "longDescription": "Once you have these nuggets you can simply craft them into little caps. These are for the most part pretty flimsy as far as magic goes, but it is a start isn\u0027t it? ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:WandCap"
+              },
+              "required": 2
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Players first wand",
+          "longDescription": "Put those iron caps on either end of a stick, and you can make your very first wand. Not very exciting we admit, but it is a start isn\u0027t it? ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:WandCasting",
+                "nbt": "{aqua:2500,terra:2500,ignis:2500,ordo:2500,perditio:2500,aer:2500}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:gold_nugget",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Thaumaturgy ",
+      "description": "This is the very core of the world of magic, and the secrets we\u0027re about to teach you could taint your very mind. So be ready for an adventure you can\u0027t unsee. ",
+      "x": 127,
+      "y": 147,
+      "icon": {
+        "id": "Thaumcraft:ItemThaumonomicon"
+      },
+      "prerequisites": [
+        "Your a wizard harry"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Thaumcraft",
+          "longDescription": "That wand that didn\u0027t seem so incredibly useful before? Well then maybe you should right click on a bookshelf like the ones that surround your enchatning table and see what it does? ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemThaumonomicon"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Thaumcraft:ItemWispEssence",
+          "nbt": "{Aspects:[0:{amount:2,key:\"aer\"}]}"
+        },
+        {
+          "id": "Thaumcraft:ItemWispEssence",
+          "nbt": "{Aspects:[0:{amount:2,key:\"terra\"}]}"
+        },
+        {
+          "id": "Thaumcraft:ItemWispEssence",
+          "nbt": "{Aspects:[0:{amount:2,key:\"ignis\"}]}"
+        },
+        {
+          "id": "Thaumcraft:ItemWispEssence",
+          "nbt": "{Aspects:[0:{amount:2,key:\"aqua\"}]}"
+        }
+      ]
+    },
+    {
+      "name": "Eye of the Beholder",
+      "description": "Actually never stare directly at the eye of a beholder, they are dangerous and scary beast and tend to spit fire. But... we want to get you started on your path. ",
+      "x": 184,
+      "y": 146,
+      "icon": {
+        "id": "Thaumcraft:ItemThaumometer"
+      },
+      "prerequisites": [
+        "Shard Belief"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Not quite scientology",
+          "longDescription": "You may have noticed those fancy little shards underground, The blocks you can mine? Well some of those shards, a bit of glass, and gold will let you see the world through a whole new lense. Right clicking it will let you examine the properties of an object, say for instance water, stone, torches, or coal. ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemThaumometer"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemShard",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "But what of my research? ",
+      "description": "The next phase of this quest is one you must start to research and see. Sometimes the thaumometer needs help to understand fully the world around it. Research on your part.",
+      "x": 184,
+      "y": 183,
+      "icon": {
+        "id": "Thaumcraft:ItemResearchNotes"
+      },
+      "prerequisites": [
+        "Eye of the Beholder"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Research work",
+          "longDescription": "The research table is a little multiblock structure that requires 2 tables be placed right next to each other, then simply place the scribing tools upon the table. This is all detailed in your thauminomicon. ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockTable"
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "Thaumcraft:ItemInkwell"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemResource",
+          "damage": 9
+        }
+      ]
+    },
+    {
+      "name": "Flower Power",
+      "description": "You may have noticed that in your world, there is more then just grass and poppys along the way. Indeed there are flower that seem to almost... give off a magical aura. ",
+      "x": 218,
+      "y": 82,
+      "icon": {
+        "id": "Botania:flower",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Panning for Gold"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Botanical Intrest",
+          "longDescription": "These flowers should be easy enough to find and discovery. They are scattered throughout the land almost like a living surface ore of sorts. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:flower",
+                "damage": 11
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:flower"
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:flower",
+                "damage": 14
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Pedaling your wares ",
+          "longDescription": "Much like wheat to seeds, these mystical flowers can have their pedals picked, and each of those pedals has it\u0027s own... unqiue little abilities. The mortor and pestal I think you might find interesting if you put those pedals with it in a crafint area. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:petal",
+                "damage": 11
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:petal"
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:petal",
+                "damage": 14
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:pestleAndMortar"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Dye me a river",
+          "longDescription": "The Floral Fertilizer is simple enough, using that moral and pestal grind up some of those flowers. Mix those ground up flowers with bonemeal and you can make some NEW mystical flowers. Also those powders double as a dye. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:fertilizer"
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:dye",
+                "damage": 11
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:fertilizer",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Botanical Thoughts",
+      "description": "Well this guide may be helpful, but would you like a guide dedicated to flowers? Well now you can!",
+      "x": 219,
+      "y": 125,
+      "icon": {
+        "id": "Botania:lexicon"
+      },
+      "prerequisites": [
+        "Flower Power"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Lexiconia Botania. ",
+          "longDescription": "The Lexiconia Botania is a key to all the knowledge of these mystical flowers. Guiding you through the process of turning your world into a botanical masterpiece. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:lexicon"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Botania:flower"
+        },
+        {
+          "id": "Botania:flower",
+          "damage": 9
+        },
+        {
+          "id": "Botania:flower",
+          "damage": 5
+        }
+      ]
+    },
+    {
+      "name": "Apothocary",
+      "description": "Admittedly it\u0027s still a little confusing, Where do we start with all of this anyway? Well the answer is simple. You start with a little fountain of water. ",
+      "x": 218,
+      "y": 182,
+      "icon": {
+        "id": "Botania:altar"
+      },
+      "prerequisites": [
+        "Botanical Thoughts"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Pedal faster",
+          "longDescription": "With some stone slabs, stones, and a flower Petal you can make your very own apothocary. To use this device pour some water (in a bucket) into it, and then throw the correct mixture of flower pedals (consult your lexiconia botania). Then to finalize it throw in some seeds. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:altar"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:wheat_seeds"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Pure Daisy",
+          "longDescription": "The Pure daisy is made by first throwing in 4 white pedals, and then some seeds. Simple enough right? ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:specialFlower",
+                "nbt": "{type:\"puredaisy\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Botania:petal",
+          "damage": 3,
+          "amount": 5
+        },
+        {
+          "id": "Botania:petal",
+          "damage": 11,
+          "amount": 5
+        },
+        {
+          "id": "Botania:petal",
+          "damage": 14,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Bringing stone to life",
+      "description": "That pure daisy that you made actually has some interesting powers that we really think you might be interested in. ",
+      "x": 265,
+      "y": 182,
+      "icon": {
+        "id": "Botania:livingrock"
+      },
+      "prerequisites": [
+        "Apothocary"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Plant gingerly",
+          "longDescription": "By placing the daisy down and surrounding it in stone you can make Living rock, surroundig it with logs can make living wood. These are critical ingredients to making your future botanical things. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:livingrock"
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:livingwood"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Wand of the Forest",
+          "longDescription": "The wand of the forest is your key for monitoring and understanding everything going on in your little botanical garden. Breaking that living wood into little twigs and attaching some petals to it is the key. ",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:twigWand",
+                "nbt": "{color1:0,color2:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Botania:livingrock",
+          "amount": 5
+        },
+        {
+          "id": "Botania:livingwood",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Magical Girl Problems",
+      "description": "There is a hackle in the night, a sound of a person riding along on a broom. That could be you if you\u0027re good enough. So let us start on the path to becoming a witch. ",
+      "x": 266,
+      "y": 78,
+      "icon": {
+        "id": "witchery:ingredient",
+        "damage": 21
+      },
+      "prerequisites": [
+        "Panning for Gold"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Nature is key",
+          "longDescription": "People always assume that they can just jump right into the magic of witches, but the truth is to really begin along this path you need an understanding of nature. Punch yourself a bit of grass to find some belladona seeds and then grow them in your own little garden",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 21
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "witchery:seedsbelladonna",
+          "amount": 5
+        },
+        {
+          "id": "witchery:seedsmandrake",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Fuming with envy ",
+      "description": "The start of really getting on that broom you\u0027re craving has a lot to do with knowing the plants of the world around you. From Oak trees to even the moss. You should know their own special properties. To help you with that, you should take a hand at the Witches guide to fumes. ",
+      "x": 292,
+      "y": 110,
+      "icon": {
+        "id": "witchery:ingredient",
+        "damage": 46,
+        "nbt": "{CurrentPage:2}"
+      },
+      "prerequisites": [
+        "Magical Girl Problems"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "A Coven\u0027s guide. ",
+          "longDescription": "A long time ago, the grand witch Emoniph began writing books. They describe within them the very keys to the life and nature around them. You should poke your nose into one and see what it doesn\u0027t tell you. ",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 46,
+                "nbt": "{CurrentPage:2}"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "witchery:seedssnowbell",
+          "amount": 5
+        },
+        {
+          "id": "witchery:seedswolfsbane",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "It\u0027s getting hot in here",
+      "description": "So cook all your saplings! No but seriously the book you read seems to mention that to really understand this path you need to start with something called a witches oven. ",
+      "x": 292,
+      "y": 159,
+      "icon": {
+        "id": "witchery:witchesovenidle"
+      },
+      "prerequisites": [
+        "Fuming with envy "
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Double Double toil and trouble",
+          "longDescription": "It is a little Iron Heavy, but this little oven has a lot of potential. It is different then a furnace that much you\u0027re sure... and there seems to be a way to collect Fumes! Clay jars you can craft and then fire up in a normal furnace. ",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:witchesovenidle"
+              }
+            },
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 27
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Fumigation",
+          "longDescription": "You can place a bit of fuel, some of those fired clay jars, and finally the bit of nature you\u0027d like to burn. Let\u0027s start off simple with a few of the saplings from around you",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 31
+              }
+            },
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 32
+              }
+            },
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 33
+              }
+            },
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 18
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "witchery:ingredient",
+          "damage": 31,
+          "amount": 5
+        },
+        {
+          "id": "witchery:ingredient",
+          "damage": 32,
+          "amount": 5
+        },
+        {
+          "id": "witchery:ingredient",
+          "damage": 33,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "RTFM",
+      "description": "So you want to make your way down the path of finding a use for that copper hmm? Well we might just have the solution for you. ",
+      "x": 258,
+      "y": 15,
+      "icon": {
+        "id": "ImmersiveEngineering:tool",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Pennies on the dollar"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Immersive Engineering",
+          "longDescription": "The Engineering manual only takes a switch and a book to make, but it contains information for nearly days on how to set up your own electrical empire. Get started today to find out how best to power your world. ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:tool",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ImmersiveEngineering:ore",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Redstone ",
+      "description": "There are no two ways about it, this stone is red but it has some intersting properties. You\u0027ve probably used it a few times before but lets get into the basics of it shall we? ",
+      "x": 232,
+      "y": 37,
+      "icon": {
+        "id": "minecraft:redstone"
+      },
+      "prerequisites": [
+        "Panning for Gold"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Redstone dust",
+          "longDescription": "At it\u0027s very core, redstone is found deep within the world with Gold, Diamonds and more. Breaking a redstone ore block will usually net you a few dust. These dust have special properties though. If a lever, pressure plate, button, or other items are activated near redstone, it will happily carry a signal for up to 15 blocks. ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:redstone"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "You\u0027ve got some red on you",
+          "longDescription": "Redstone can be made into a virtual army of items, its possibilities truely are endless, but here are just a few sample items. The Redstone torch which is always putting out a signal of 15 unless a signal is sent to it in which case it turns off. A redstone repeater which can help send a signal further, and a redstone comparator, which depding on what you put next to it will determine it\u0027s signal strength. ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:redstone_torch"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:repeater"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:comparator"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:redstone",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "Circular Logic",
+      "description": "Vroom Vroom, it\u0027s time to go down a path to moving parts, lubricants, and really the start of a world geared to you. ",
+      "x": 283,
+      "y": 47,
+      "icon": {
+        "id": "RotaryCraft:rotarycraft_item_handbook"
+      },
+      "prerequisites": [
+        "Redstone "
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Gearing up",
+          "longDescription": "The Rotarycraft manual will help you being to explore a whole new world of engineering with massive implications. It\u0027s just the start in what could become a world so massively complex it would boggle the mind. ",
+          "items": [
+            {
+              "item": {
+                "id": "RotaryCraft:rotarycraft_item_handbook"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "C\u0026C",
+      "description": "Well more compact and control then command and control, but you get the picture. We\u0027ll be showing you how to better manage your storage solutions!",
+      "x": 87,
+      "y": 147,
+      "icon": {
+        "id": "StorageDrawers:controller"
+      },
+      "prerequisites": [
+        "Getting an upgrade"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Compactable ",
+          "longDescription": "The compacting drawer is great for helping you sort out various metals. You can put in a gold block and it will break it down for you into Ingots a.nd Nuggets if you need to use those instead. It works on a wide variety of things from Iron, to Quartz, even lapis. Great for storing things that have a few forms to them. ",
+          "items": [
+            {
+              "item": {
+                "id": "StorageDrawers:compDrawers"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Controlable",
+          "longDescription": "According to our research, the Storage controller has a range of 12 blocks, meaning, that if you have a drawer within 12 blocks of this thing that can take cobblestone and you shove cobblestone in the controller, it will put it in there for you. Helpful no? ",
+          "items": [
+            {
+              "item": {
+                "id": "StorageDrawers:controller"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Must go bigger",
+          "longDescription": "Sometimes 12 blocks simply isn\u0027t enough, and that\u0027s where the Storage Controller slave comes in. it extends the range of your storage controller to help you better sort your things! ",
+          "items": [
+            {
+              "item": {
+                "id": "StorageDrawers:controllerSlave"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "StorageDrawers:upgrade",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "We\u0027re taping",
+      "description": "Sometimes you put down a storage drawer and you think to yourself \"Wouldn\u0027t that look a little better over here?\". Well you aren\u0027t wrong and it probably would look a little better over there, so we\u0027re here to help. ",
+      "x": 87,
+      "y": 189,
+      "icon": {
+        "id": "StorageDrawers:tape"
+      },
+      "prerequisites": [
+        "C\u0026C"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Scotch, Duct, you name it. ",
+          "longDescription": "Creating some tape will allow you to wrap your drawer up, break it, and move it without having to worry about losing all the items inside. Fantasitc when you need to rearange the office. ",
+          "items": [
+            {
+              "item": {
+                "id": "StorageDrawers:tape"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Hunting Games",
+      "description": "You may have noticed the horrible monsters of the world. Well now we are going to show you the path to making them less horrible and more understood",
+      "x": 89,
+      "y": 16,
+      "icon": {
+        "id": "lycanitesmobs:soulgazer"
+      },
+      "prerequisites": [
+        "Panning for Gold"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Sould on the concept. ",
+          "longDescription": "Not all the information on these creatures can be so easily revealed, but with the bones of the fallen, some gold and a diamond you can make your very own. Start to expirment and see what you can\u0027t come up with. ",
+          "items": [
+            {
+              "item": {
+                "id": "lycanitesmobs:soulgazer"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Shard Belief",
+      "description": "Have you noticed some strange glowing rocks in your world? You know that kind that grow the various primary colors? When you break them you get shards? Well we\u0027re here to tell you about them. ",
+      "x": 127,
+      "y": 182,
+      "icon": {
+        "id": "Thaumcraft:ItemShard"
+      },
+      "prerequisites": [
+        "Thaumaturgy "
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "By our powers combined",
+          "longDescription": "In the world, spread out amongst the coal, iron, and diamonds there are these unqiue shards. Each shard is like a bit of crystalized magic and so each shard has it\u0027s own biome that it likes to be found in. Air shards in the Hills, Fire shards in the Desert, Water shards in Oceans, Order shards in the snowy tundra, Earth Shards in forest and plains, and entropy shards in the swamps! Get to work finding some! ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemShard"
+              }
+            },
+            {
+              "item": {
+                "id": "Thaumcraft:ItemShard",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "Thaumcraft:ItemShard",
+                "damage": 2
+              }
+            },
+            {
+              "item": {
+                "id": "Thaumcraft:ItemShard",
+                "damage": 3
+              }
+            },
+            {
+              "item": {
+                "id": "Thaumcraft:ItemShard",
+                "damage": 4
+              }
+            },
+            {
+              "item": {
+                "id": "Thaumcraft:ItemShard",
+                "damage": 5
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemShard",
+          "damage": 6
+        }
+      ]
+    },
+    {
+      "name": "Whoops!",
+      "description": "Sometimes you forget your questbook, and really that is ok. But did you know that you can make another one? Well it\u0027s simple enough!",
+      "x": 21,
+      "y": 53,
+      "icon": {
+        "id": "HardcoreQuesting:quest_book"
+      },
+      "prerequisites": [
+        "Simply Enchanted! "
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "String you along",
+          "longDescription": "The quest book is actually incredibly simple to make. All you do is craft some string and a book together, and bingo you have an extra quest book. ",
+          "items": [
+            {
+              "item": {
+                "id": "HardcoreQuesting:quest_book"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Extra Extra ",
+          "longDescription": "Alright, now that you have made another one, rest assure that we will work to take it off your hands and put it somewhere safe. Simply send the extra one to us and we\u0027ll send you back something useful. ",
+          "items": [
+            {
+              "item": {
+                "id": "HardcoreQuesting:quest_book"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

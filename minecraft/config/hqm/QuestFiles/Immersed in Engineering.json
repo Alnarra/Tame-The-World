@@ -11,7 +11,7 @@
         "id": "ImmersiveEngineering:tool"
       },
       "prerequisites": [
-        "{Chapter 2: Beginning}[RTFM]"
+        "{Chapter 2 - Beginning}[RTFM]"
       ],
       "tasks": [
         {

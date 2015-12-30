@@ -11,7 +11,7 @@
         "id": "minecraft:stone_stairs"
       },
       "prerequisites": [
-        "{Chapter 1: The Basics}[Sandy Shores]"
+        "{Chapter 1 - The Basics}[Sandy Shores]"
       ],
       "trigger": "ANTI_TRIGGER",
       "tasks": [
@@ -497,9 +497,6 @@
       "description": "Sometimes things can get terribly cluttered. It\u0027s best to sort that all out when you can. Shelves can help you with that task! ",
       "x": 132,
       "y": 110,
-      "icon": {
-        "id": "BiblioCraft:BiblioShelf"
-      },
       "prerequisites": [
         "Carpentry"
       ],
@@ -511,7 +508,7 @@
           "items": [
             {
               "item": {
-                "id": "BiblioCraft:BiblioShelf"
+                "id": "minecraft:bedrock"
               }
             }
           ]
@@ -523,7 +520,7 @@
           "items": [
             {
               "item": {
-                "id": "BiblioCraft:Bibliotheca"
+                "id": "minecraft:bedrock"
               }
             }
           ]
@@ -535,7 +532,7 @@
           "items": [
             {
               "item": {
-                "id": "BiblioCraft:BiblioPotionShelf"
+                "id": "minecraft:bedrock"
               }
             }
           ]
@@ -561,9 +558,6 @@
       "description": "Sometimes you just want a nice table to put stuff on, well here is your chance to stop tableing that discussion. ",
       "x": 176,
       "y": 94,
-      "icon": {
-        "id": "BiblioCraft:BiblioTable"
-      },
       "prerequisites": [
         "Shelved away"
       ],
@@ -575,7 +569,7 @@
           "items": [
             {
               "item": {
-                "id": "BiblioCraft:BiblioTable"
+                "id": "minecraft:bedrock"
               },
               "required": 4
             }
@@ -785,10 +779,6 @@
       "description": "Feeling a bit under pressure? Well there\u0027s no time for that! We have pretty things to make, and sometimes you want to make shelves at of something OTHER then wood",
       "x": 232,
       "y": 73,
-      "icon": {
-        "id": "BiblioCraft:BiblioPaneler",
-        "damage": 6
-      },
       "prerequisites": [
         "Don\u0027t table this quest"
       ],
@@ -800,7 +790,7 @@
           "items": [
             {
               "item": {
-                "id": "BiblioCraft:item.FramingSaw"
+                "id": "minecraft:bedrock"
               }
             }
           ]
@@ -812,13 +802,13 @@
           "items": [
             {
               "item": {
-                "id": "BiblioCraft:item.FramingSheet"
+                "id": "minecraft:bedrock"
               },
               "required": 4
             },
             {
               "item": {
-                "id": "BiblioCraft:item.FramingBoard"
+                "id": "minecraft:bedrock"
               },
               "required": 4
             }
@@ -831,13 +821,13 @@
           "items": [
             {
               "item": {
-                "id": "BiblioCraft:BiblioCase",
+                "id": "minecraft:bedrock",
                 "damage": 6
               }
             },
             {
               "item": {
-                "id": "BiblioCraft:BiblioPaneler",
+                "id": "minecraft:bedrock",
                 "damage": 6
               }
             }
@@ -1155,9 +1145,6 @@
       "description": "Tired of clicking a painting 7,000 times just to get the right one? Well so is the rest of the world so they invented a device to deal with just that problem. ",
       "x": 286,
       "y": 98,
-      "icon": {
-        "id": "BiblioCraft:BiblioPaintPress"
-      },
       "prerequisites": [
         "You\u0027ve been framed"
       ],
@@ -1169,7 +1156,7 @@
           "items": [
             {
               "item": {
-                "id": "BiblioCraft:BiblioPaintPress"
+                "id": "minecraft:bedrock"
               }
             }
           ]
@@ -1181,12 +1168,12 @@
           "items": [
             {
               "item": {
-                "id": "BiblioCraft:BiblioFlatPainting"
+                "id": "minecraft:bedrock"
               }
             },
             {
               "item": {
-                "id": "BiblioCraft:item.PaintingCanvas"
+                "id": "minecraft:bedrock"
               }
             }
           ]
@@ -1204,9 +1191,6 @@
       "description": "So you have all these shelves, but what if sometimes you want the shelves and can\u0027t remember what you put on them? Well that is what reading glasses are for!",
       "x": 286,
       "y": 63,
-      "icon": {
-        "id": "BiblioCraft:item.BiblioGlasses"
-      },
       "prerequisites": [
         "You\u0027ve been framed"
       ],
@@ -1219,7 +1203,7 @@
           "items": [
             {
               "item": {
-                "id": "BiblioCraft:item.BiblioGlasses"
+                "id": "minecraft:bedrock"
               }
             }
           ]
@@ -1237,9 +1221,6 @@
       "description": "Have you ever had one book that you /really/ like but you want to give a copy to a friend, and that friend has a bad habit of falling in lava and dying terribly and losing your book so you need an extra copy? Well fret no more! ",
       "x": 286,
       "y": 24,
-      "icon": {
-        "id": "BiblioCraft:Printing Press"
-      },
       "prerequisites": [
         "Everyone loves glasses"
       ],
@@ -1251,12 +1232,12 @@
           "items": [
             {
               "item": {
-                "id": "BiblioCraft:Typesetting Machine"
+                "id": "minecraft:bedrock"
               }
             },
             {
               "item": {
-                "id": "BiblioCraft:item.BiblioChase"
+                "id": "minecraft:bedrock"
               }
             }
           ]
@@ -1268,7 +1249,7 @@
           "items": [
             {
               "item": {
-                "id": "BiblioCraft:Printing Press"
+                "id": "minecraft:bedrock"
               }
             }
           ]
@@ -1286,9 +1267,6 @@
       "description": "If you\u0027re like us there are times that you want to build a place but you need a way to make sure that you\u0027re using the proper number of blocks and spacing. Counting off in your head is just no good",
       "x": 268,
       "y": 129,
-      "icon": {
-        "id": "BiblioCraft:item.tapeMeasure"
-      },
       "prerequisites": [
         "You\u0027ve been framed"
       ],
@@ -1300,7 +1278,7 @@
           "items": [
             {
               "item": {
-                "id": "BiblioCraft:item.tapeMeasure"
+                "id": "minecraft:bedrock"
               }
             }
           ]

@@ -2,8 +2,8 @@
   "name": "A witches Brew",
   "quests": [
     {
-      "name": "STOP BROKEN ",
-      "description": "DO NOT COMPLETE THIS QUEST THIS IS ALL BROKEN AT THE MOMENT ",
+      "name": "Rootline Bling",
+      "description": "You used to call us on your witch phone. But seriously there\u0027s more to being a witch then just lighting trees on fire. In fact you\u0027re going to need to plant some rather specialized plants. ",
       "x": 21,
       "y": 15,
       "icon": {
@@ -11,11 +11,13 @@
         "damage": 22
       },
       "prerequisites": [
-        "{Chapter 2: Beginning}[It\u0027s getting hot in here]"
+        "{Chapter 2 - Beginning}[It\u0027s getting hot in here]"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Herbology 101",
+          "longDescription": "Both Wolfsbane and Water Artichokes should be easy enough to find if you use a hoe to till soil. Keep in mind that wolfsbane is a little more rare then Water Artichokes. Simply grow one of each and collect what the produce when they are done growing. ",
           "items": [
             {
               "item": {
@@ -33,6 +35,8 @@
         },
         {
           "type": "DETECT",
+          "description": "My Man Drake",
+          "longDescription": "Mandrakes like Water Artichokes and Wolfsbane also come from tilling soil, BUT when you pull them up you need to keep a few things in mind. First you should probably harvest it at night... and second even if you do harvest it at night there\u0027s still a chance it will wake up when you harvest it screaming. ",
           "items": [
             {
               "item": {
@@ -44,6 +48,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Always Wear Protection",
+          "longDescription": "Sometimes when you are harvesting Mandrakes you really have no choice but to simply make yourself something so you can\u0027t hear them scream. Meat the Ear Muffs, they are great for blocking out all sound. ",
           "items": [
             {
               "item": {
@@ -62,18 +68,21 @@
       ]
     },
     {
-      "name": "Unnamed1",
+      "name": "The Anointed One",
+      "description": "You know how in movies you always used to see witches huddled around Cauldruns? Well that\u0027s also how you\u0027re supposed to do it. But for that you need a special kind of Cauldrun. ",
       "x": 57,
       "y": 15,
       "icon": {
         "id": "witchery:cauldron"
       },
       "prerequisites": [
-        "STOP BROKEN "
+        "Rootline Bling"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Seedy Paste",
+          "longDescription": "The paste is actually fairly simple to make. Simply take the 4 Seeds that you have already and mash them together on a crafting table. Then you have this lovely blue goop to rub all over your iron baby. ",
           "items": [
             {
               "item": {
@@ -85,6 +94,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Double Double Toil and...",
+          "longDescription": "Once you have made your Cauldron, remember that you need to fill it with water, and then put that water to boil (With Netherrack on fire underneath it) in order to get the desired effects. This is the basis of most of your witchery recipies. ",
           "items": [
             {
               "item": {
@@ -108,7 +119,8 @@
       ]
     },
     {
-      "name": "Unnamed2",
+      "name": "It\u0027s a Mutandis! ",
+      "description": "One of the very first items that you should consider making in your cauldron is Mutandis. It\u0027s a simple thing that acts like bone meal, but instead of growing things it makes them different. ",
       "x": 35,
       "y": 44,
       "icon": {
@@ -116,11 +128,13 @@
         "damage": 14
       },
       "prerequisites": [
-        "Unnamed1"
+        "The Anointed One"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Professor X ",
+          "longDescription": "Mutandis is easy enough to craft. Get that Witches Cauldron to a boil and then throw in an egg, some mandrake root, and Exhale of the Horned one from your witches Oven. Once all three are mixed in the cauldron some lovely mutandis should spit right out. ",
           "items": [
             {
               "item": {
@@ -132,6 +146,8 @@
         },
         {
           "type": "DETECT",
+          "description": "High Tree-son",
+          "longDescription": "For our next magic trick we\u0027re going to make this tree turn into something else. Alright so once you have the mutandis apply it to some saplings and you should get some interesting results. ",
           "items": [
             {
               "item": {
@@ -154,6 +170,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Foiliage. ",
+          "longDescription": "Trees and their saplings aren\u0027t the only things that can be mutated. Grass, Shrubs, even vines can all find themsleves as something slightly different. Though be warned to collect these you\u0027ll probably need some shears. ",
           "items": [
             {
               "item": {
@@ -163,6 +181,11 @@
             {
               "item": {
                 "id": "witchery:embermoss"
+              }
+            },
+            {
+              "item": {
+                "id": "witchery:glintweed"
               }
             }
           ]
@@ -186,7 +209,8 @@
       ]
     },
     {
-      "name": "Unnamed3",
+      "name": "Come \u0027ere Poppet",
+      "description": "What fun would it be to be a witch if you couldn\u0027t make a vodoo doll of some sort, and that is in a lot of ways exactly what the poppet is. ",
       "x": 75,
       "y": 43,
       "icon": {
@@ -194,22 +218,14 @@
         "nbt": "{WITCDamage:0}"
       },
       "prerequisites": [
-        "Unnamed2"
+        "It\u0027s a Mutandis! "
       ],
       "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "CRAFT",
-          "items": [
-            {
-              "item": {
-                "id": "witchery:poppetshelf"
-              }
-            }
-          ]
-        },
-        {
-          "type": "CRAFT",
+          "description": "A \"Basic Doll\" ",
+          "longDescription": "Crafting a poppet is fairly simple. You need some of that Spanish moss you just made with the mutandis, some string, and something called a bone needle which you can get by combining a bone with some flint. ",
           "items": [
             {
               "item": {
@@ -221,6 +237,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Don\u0027t Drown ",
+          "longDescription": "Poppets come in any number of varietys but it\u0027s important to understand that their first use can be to protect you. let\u0027s start off simple with this water protection poppet which will break when you would drown. ",
           "items": [
             {
               "item": {
@@ -241,7 +259,8 @@
       ]
     },
     {
-      "name": "Unnamed4",
+      "name": "Locking on ",
+      "description": "What good is the poppet if it\u0027s not tied to your soul? Well that\u0027s where the taglock kit comes in. Using that same bone needle and a bottle you can make one. ",
       "x": 96,
       "y": 14,
       "icon": {
@@ -249,11 +268,13 @@
         "damage": 7
       },
       "prerequisites": [
-        "Unnamed3"
+        "Come \u0027ere Poppet"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Tagged and Bagged",
+          "longDescription": "The truth is that you can sample your own blood by right clicking yourself, but what if you want a friends blood... you know to protect them? Well using the taglock kit on their bed (where they last slept) should do the trick! ",
           "items": [
             {
               "item": {
@@ -262,10 +283,18 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "witchery:poppet",
+          "damage": 5,
+          "nbt": "{WITCDamage:0}"
+        }
       ]
     },
     {
-      "name": "Unnamed5",
+      "name": "When they come Knocking",
+      "description": "Have you ever had that rude neighbor that comes to your house in the middle of the night and just lets himself in? Ever wanted to stop that behavior? ",
       "x": 20,
       "y": 81,
       "icon": {
@@ -273,11 +302,13 @@
         "damage": 52
       },
       "prerequisites": [
-        "Unnamed2"
+        "It\u0027s a Mutandis! "
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "The Riders of Rowan? ",
+          "longDescription": "Rowan wood doors are made from, oddly enough, Rowan wood which is one of the altered sapling types from before. But they are special in that they will only open for one person, the person that is holding the key. ",
           "items": [
             {
               "item": {
@@ -289,6 +320,8 @@
         },
         {
           "type": "DETECT",
+          "description": "A key Idea. ",
+          "longDescription": "Getting the key should be simple enough. All you  need to do is place the door and if you have an empty space in your inventory you will get a key to go along with it. Don\u0027t worry the keys can be made into keyrings if you have multiple doors. ",
           "items": [
             {
               "item": {
@@ -307,7 +340,8 @@
       ]
     },
     {
-      "name": "Unnamed6",
+      "name": "Alderan? ",
+      "description": "Why not quite a fictional planet destroyed by the  might of the Empire\u0027s greatest weapon, this door does have some nifty properties. ",
       "x": 19,
       "y": 120,
       "icon": {
@@ -315,11 +349,13 @@
         "damage": 53
       },
       "prerequisites": [
-        "Unnamed5"
+        "When they come Knocking"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Signaling the truth",
+          "longDescription": "Unlike a normal door which can be opened with redstone, instead the Alder wood door creates a redstone signal when it is opened. You can use this to make any number of traps I\u0027m sure. ",
           "items": [
             {
               "item": {
@@ -338,18 +374,21 @@
       ]
     },
     {
-      "name": "Unnamed7",
+      "name": "Altered State of Mind",
+      "description": "Well how could you be a witch if you didn\u0027t perform strange rituals in the woods? Well now it\u0027s your turn to start down that path. Why don\u0027t you give it a shot",
       "x": 57,
       "y": 77,
       "icon": {
         "id": "witchery:altar"
       },
       "prerequisites": [
-        "Unnamed2"
+        "It\u0027s a Mutandis! "
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Don\u0027t Altar the deal ",
+          "longDescription": "To complete your altar put down the pieces in a 2x3 pattern. When you are done a red tablecloth should appear across the top. The alter requires living things to power it (trees, grass, crops, and more) and so you need diverse foiliage from all around to power it. ",
           "items": [
             {
               "item": {
@@ -369,18 +408,21 @@
       ]
     },
     {
-      "name": "Unnamed8",
+      "name": "Bring me their head",
+      "description": "Around the world, in strange monuments you may find the truth to it, that we are all just dust in the wind and all that is left is an empty skull. ",
       "x": 93,
       "y": 77,
       "icon": {
         "id": "DragonAPI:minecraft:skull_technical"
       },
       "prerequisites": [
-        "Unnamed7"
+        "Altered State of Mind"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Spook Scary headless. ",
+          "longDescription": "There is a small  chance you will find these just wondering about the world anyway, but if you want to give your Altar a bit more recharge rate, simply slam a skull on it. You may find these on a dispatched skeleton or simply laying around. ",
           "items": [
             {
               "item": {
@@ -391,6 +433,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Withered Away ",
+          "longDescription": "Normal Skeletons are cool, but you know what\u0027s even cooler? Wither Skeletons. These terrifying creatures can actually be got by dipping a skeleton into witch water which is a fancy form of water that you get from a barrel of water surrounded by mycelium. OR alternatively you can go to the nether .",
           "items": [
             {
               "item": {
@@ -400,10 +444,16 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "exnihilo:bucket_witchwater"
+        }
       ]
     },
     {
-      "name": "Unnamed9",
+      "name": "Advanced Burning ",
+      "description": "It\u0027s time to head back to the witches oven to see what new things you can cook up if you expose those fancy new saplings you got to flame. ",
       "x": 57,
       "y": 115,
       "icon": {
@@ -411,11 +461,13 @@
         "damage": 34
       },
       "prerequisites": [
-        "Unnamed7"
+        "Altered State of Mind"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Brooms and Fumes",
+          "longDescription": "Each of these can be created with some form of rare and mutated sapling that you made with Mutandis. Burning them may take a bit, but you will eventually get your fumes. ",
           "items": [
             {
               "item": {
@@ -439,6 +491,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Attunment ",
+          "longDescription": "Yeah I didn\u0027t like Molten Core Attunement either, lucky for you this isn\u0027t nearly as difficult. Simply take a Diamond, a Whiff of Magic and a Lava bucket and  you will have yourself a lovely attuned stone whose uses are almost boundless. ",
           "items": [
             {
               "item": {
@@ -448,21 +502,29 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:diamond"
+        }
       ]
     },
     {
-      "name": "Unnamed10",
+      "name": "I\u0027m going to cut you!",
+      "description": "Sometimes gathering these rare and strange materials off creatures isn\u0027t easy, well what if we told you that if you cut them with a certain blade it will get a bit easier. ",
       "x": 136,
       "y": 77,
       "icon": {
         "id": "witchery:arthana"
       },
       "prerequisites": [
-        "Unnamed8"
+        "Bring me their head"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "The Golden Dagger",
+          "longDescription": "The Arathana is a special blade which can be placed on your Altar to expand it\u0027s range from 16 blocks to 32, but it can also be used when hunting creatures to make gathering their bit easier. ",
           "items": [
             {
               "item": {
@@ -470,34 +532,18 @@
               }
             }
           ]
-        },
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:skull",
-                "damage": 3
-              }
-            }
-          ]
         }
       ],
-      "rewardchoice": [
+      "reward": [
         {
-          "id": "witchery:ingredient",
-          "damage": 24,
-          "amount": 5
-        },
-        {
-          "id": "witchery:ingredient",
-          "damage": 25,
-          "amount": 5
+          "id": "minecraft:skull",
+          "damage": 3
         }
       ]
     },
     {
-      "name": "Unnamed11",
+      "name": "Bat Bits",
+      "description": "You may have noticed that there are strang things dropping from creatures you\u0027re not quite used to. Well we\u0027re here to explain those strange things. ",
       "x": 93,
       "y": 110,
       "icon": {
@@ -505,11 +551,13 @@
         "damage": 24
       },
       "prerequisites": [
-        "Unnamed7"
+        "Altered State of Mind"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Wool of Bat",
+          "longDescription": "Dropped from all sorts of bats (tiny and large) the wool of bat is an item that is key in more then a few witchery rituals and so it deserves some amount of respect, though it can be tough to get. ",
           "items": [
             {
               "item": {
@@ -521,6 +569,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Tongue of Dog",
+          "longDescription": "You can get this from man\u0027s best friend, or hell hounds. For ethical reasons we /strongly/ suggest that you get it from hell hounds which reside in the nether rather then killing your friendly pooches. ",
           "items": [
             {
               "item": {
@@ -532,6 +582,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Creepy Bits",
+          "longDescription": "A Creeper heart and a witches hand. it is our hope that these should be simple enough to find in terms of where they come from. A creepers heart finds it\u0027s uses in certain rituals, while a witches hand is great in others. Collect both!",
           "items": [
             {
               "item": {
@@ -556,7 +608,8 @@
       ]
     },
     {
-      "name": "Unnamed12",
+      "name": "The Golden Chalice",
+      "description": "Well I wouldn\u0027t let that potter boy drink from this thing or throw his name into it, that\u0027s for sure, but there are some other uses to this needlessly fancy cup. ",
       "x": 48,
       "y": 157,
       "icon": {
@@ -564,11 +617,13 @@
         "damage": 1
       },
       "prerequisites": [
-        "Unnamed9"
+        "Advanced Burning "
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Made with no Malice",
+          "longDescription": "Good thing we had you make those attuned stones earlier hmm? Almost like it was part of some kind of eery plan on our part. But hey get this the Chalice is great for boosting the maximum power of your altar so you should definately put it on there.",
           "items": [
             {
               "item": {
@@ -580,6 +635,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "You no take candle ",
+          "longDescription": "You can also put a Torch on your Altar to make it recharge faster, but we know you won\u0027t settle for something so plain. Instead we\u0027re going to make a Candelabra, which isn\u0027t to tough to make resource wise but definately looks fancier (and recharges Twice as fast as) a torch. ",
           "items": [
             {
               "item": {
@@ -588,21 +645,30 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "witchery:ingredient",
+          "damage": 10
+        }
       ]
     },
     {
-      "name": "Unnamed13",
+      "name": "Distill some information ",
+      "description": "The distillary is another one of those items that allows you take those fancy objects your making and reaelly boil them down for their magical properties! ",
       "x": 84,
       "y": 154,
       "icon": {
         "id": "witchery:distilleryidle"
       },
       "prerequisites": [
-        "Unnamed9"
+        "Advanced Burning "
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Not your Dads moonshine",
+          "longDescription": "The distillary must be in range of your altar in order to function. Then you simply fill it up with clay jars and you can distill your very own collection of items. ",
           "items": [
             {
               "item": {
@@ -613,6 +679,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Gypsum and Sandess",
+          "longDescription": "There\u0027s a little to learn here but that\u0027s ok. First you can put Wood Ash in a crafting bench to make quick lime. Put that in a distillary with foul fumes to make gypsum. Then for Tears of the goddess simply mix her breath with a bit  of lapis and you\u0027ve got yourself what you need. ",
           "items": [
             {
               "item": {
@@ -630,6 +698,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Taste kind of Chalky",
+          "longDescription": "Made from the Gypsum earlier, Ritual chalk will be important for any number of things including as I\u0027m sure you guessed it... rituals ",
           "items": [
             {
               "item": {
@@ -638,10 +708,22 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "witchery:ingredient",
+          "damage": 27,
+          "amount": 64
+        },
+        {
+          "id": "witchery:ingredient",
+          "damage": 47
+        }
       ]
     },
     {
-      "name": "Unnamed14",
+      "name": "The Guide to Rituals ",
+      "description": "We want to give you plenty of time to read this before you really start to step into the next chapters, because this stuff can get quite complex. ",
       "x": 138,
       "y": 148,
       "icon": {
@@ -649,11 +731,13 @@
         "damage": 48
       },
       "prerequisites": [
-        "Unnamed13"
+        "Distill some information "
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Circles in Minecraft? ",
+          "longDescription": "This little book can guide you through all that you need to know about setting up the rituals near your altar, powerful binding magic, teleportation magic and more. ",
           "items": [
             {
               "item": {
@@ -663,21 +747,30 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "witchery:chalkritual",
+          "amount": 3
+        }
       ]
     },
     {
-      "name": "Unnamed15",
+      "name": "Pot calls Kettle ",
+      "description": "Sometimes when you\u0027re brewing you just want to make something simple enough to drink right? Well that\u0027s where the Kettle Comes in handy. ",
       "x": 137,
       "y": 110,
       "icon": {
         "id": "witchery:kettle"
       },
       "prerequisites": [
-        "Unnamed13"
+        "Distill some information "
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Brew pot if you will",
+          "longDescription": "Like the distillary the kettle must be near the altar to function and like the Cualdron must have a good source of water and fire. Once you have all these things going you\u0027re on your way to making great brews and eventually infusions. ",
           "items": [
             {
               "item": {
@@ -685,22 +778,18 @@
               }
             }
           ]
-        },
+        }
+      ],
+      "reward": [
         {
-          "type": "CRAFT",
-          "items": [
-            {
-              "item": {
-                "id": "witchery:ingredient",
-                "damage": 49
-              }
-            }
-          ]
+          "id": "witchery:ingredient",
+          "damage": 49
         }
       ]
     },
     {
-      "name": "Unnamed16",
+      "name": "Brewing Challenges",
+      "description": "Now that you have your Cauldron it\u0027s time to learn exactly what you can use that facinating little hunk of metal to make. For that you\u0027re going to need a bit of a guide, and that is where this little book comes in handy. ",
       "x": 115,
       "y": 45,
       "icon": {
@@ -708,11 +797,13 @@
         "nbt": "{pageStack:[0:\"introduction\",1:\"cauldron\"]}"
       },
       "prerequisites": [
-        "Unnamed1"
+        "The Anointed One"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "A manual to Witchraft",
+          "longDescription": "This handy guide has more information then you could possibly imagine crammed inside, and when you are looking for answers to questions that don\u0027t quite make sense, this little book may just have the answer. ",
           "items": [
             {
               "item": {
@@ -722,10 +813,17 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
       ]
     },
     {
-      "name": "Unnamed17",
+      "name": "To the EXTREME!",
+      "description": "So you have made mutandis and you\u0027ve even distilled things, well now it\u0027s time to step up your game because there\u0027s a lot more to being a witch then simply throwing a few items in a pot. ",
       "x": 114,
       "y": 172,
       "icon": {
@@ -733,12 +831,14 @@
         "damage": 15
       },
       "prerequisites": [
-        "Unnamed13",
-        "Unnamed16"
+        "Distill some information ",
+        "Brewing Challenges"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Mutandis Take Two ",
+          "longDescription": "Like it\u0027s cousin Mutandis, this version finds it\u0027s home in a Cauldron. To make it though you need some netherwart and a bit of Mutandis. Mixing them together will get you your results. It has it\u0027s own special properties (Grass to Mycelium for instance) but we need it for recipies down the line. ",
           "items": [
             {
               "item": {
@@ -750,13 +850,9 @@
         },
         {
           "type": "DETECT",
+          "description": "Vitriolic Response",
+          "longDescription": "Another ingredient that was produced along with Gypsum, Oil of Vitriol has it\u0027s uses in some more.... sadistic rituals. Keep it around (As you should have some already from when you made the Gypsum). ",
           "items": [
-            {
-              "item": {
-                "id": "witchery:ingredient",
-                "damage": 16
-              }
-            },
             {
               "item": {
                 "id": "witchery:ingredient",
@@ -767,6 +863,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Vape it up",
+          "longDescription": "We told you that oil of vitriol would come in handy, and if you\u0027ve ever been sad before you\u0027ll never be sadder then literally burning your diamonds. Well this is useful so wipe away those tears (wait don\u0027t you might need them). ",
           "items": [
             {
               "item": {
@@ -776,10 +874,18 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "witchery:ingredient",
+          "damage": 67,
+          "amount": 3
+        }
       ]
     },
     {
-      "name": "Unnamed18",
+      "name": "Dark Powers",
+      "description": "So Far your dabbles in witches magic has kept mostly peaceful, but it\u0027s time we started getting a bit darker don\u0027t you think?  ",
       "x": 187,
       "y": 190,
       "icon": {
@@ -787,12 +893,14 @@
         "damage": 38
       },
       "prerequisites": [
-        "Unnamed17",
-        "Unnamed21"
+        "To the EXTREME!",
+        "A more powerful chalice"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Who Refines Evil? ",
+          "longDescription": "You do apparently. By combining a Ghast Tear with some Diamond Vapor in a distillary one of the items you can get is a bit of refined evil. If it gets that from the diamond burned or the Ghast tear we\u0027re still not sure. ",
           "items": [
             {
               "item": {
@@ -804,6 +912,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Mixing it all together",
+          "longDescription": "Mandrake Root, Netherwart, Tear of the Goddes, Refined Evil, and Mutandis Extremis. Mix it all together in a Cauldron and you\u0027ll find yourself with a drop of luck. Which has more then a few uses. ",
           "items": [
             {
               "item": {
@@ -815,6 +925,8 @@
         },
         {
           "type": "DETECT",
+          "description": "A powerful Brew",
+          "longDescription": "To start you\u0027re going to need to put the following items in a kettle. Redstone, Drop of Luck, Wool of Bat, Tongue of Dog, Mandrake Root, and Belladonna. From there you\u0027ll be able to get your Redstone Soup! ",
           "items": [
             {
               "item": {
@@ -824,10 +936,17 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:ghast_tear",
+          "amount": 3
+        }
       ]
     },
     {
-      "name": "Unnamed19",
+      "name": "Forestfolk ",
+      "description": "So we\u0027re fairy sure you\u0027ve noticed by now that if you cut down enough trees, this nasty angry tree creature might come out and beat you up for it. Welll you\u0027re going to want to beat /him/ up! Yeah",
       "x": 19,
       "y": 157,
       "icon": {
@@ -835,11 +954,13 @@
         "damage": 82
       },
       "prerequisites": [
-        "Unnamed6"
+        "Alderan? "
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Dent a Treant",
+          "longDescription": "Treants generally only show up if you start chopping down the magically infused woods like Alder, Hawthorne, and Rowan. But they are important for the twig they carry which can be useful in more then a few rituals. ",
           "items": [
             {
               "item": {
@@ -849,24 +970,43 @@
             }
           ]
         }
+      ],
+      "rewardchoice": [
+        {
+          "id": "witchery:witchlog",
+          "damage": 1,
+          "amount": 32
+        },
+        {
+          "id": "witchery:witchlog",
+          "amount": 32
+        },
+        {
+          "id": "witchery:witchlog",
+          "damage": 2,
+          "amount": 32
+        }
       ]
     },
     {
-      "name": "Unnamed20",
-      "x": 186,
-      "y": 43,
+      "name": "The Ultimate Poppet",
+      "description": "There is one final Poppet you should be aware of. one that is critcal to surving some of the most powerful infusions. This final poppet is the only way to become one of the most powerful witches. ",
+      "x": 187,
+      "y": 45,
       "icon": {
         "id": "witchery:poppet",
         "damage": 6,
         "nbt": "{WITCDamage:0}"
       },
       "prerequisites": [
-        "Unnamed3",
-        "Unnamed18"
+        "Come \u0027ere Poppet",
+        "Dark Powers"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Cheating Death ",
+          "longDescription": "Gold Nuggets, a Drop of Luck, and Diamond Vapor. These are what\u0027s required to make the poppet that will keep you safe no matter what the threat, taking the blow when you should. ",
           "items": [
             {
               "item": {
@@ -877,10 +1017,17 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
       ]
     },
     {
-      "name": "Unnamed21",
+      "name": "A more powerful chalice",
+      "description": "A normal chalice is nice, but what if we pill it with a potent mixture? That is where the filled chalice comes in handy and we provide you an option to use that redstone soup you just made. ",
       "x": 47,
       "y": 189,
       "icon": {
@@ -888,12 +1035,14 @@
         "damage": 2
       },
       "prerequisites": [
-        "Unnamed12"
+        "The Golden Chalice"
       ],
       "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Taste like Blood Wine ",
+          "longDescription": "It is quick enough to make. Simply combine a Chalice with the Redstone Soup, but the effect on your altar when you put it back down will be substantial, possibly doubling the amount of power. ",
           "items": [
             {
               "item": {
@@ -903,10 +1052,17 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
       ]
     },
     {
-      "name": "Unnamed22",
+      "name": "A witches gear",
+      "description": "Being a witch is nice and all, but haven\u0027t you ever wanted to look like a witch? Well don\u0027t worry you\u0027re not the only one! Time to start getting to know all the tools of the trade. ",
       "x": 222,
       "y": 189,
       "icon": {
@@ -914,11 +1070,13 @@
         "damage": 72
       },
       "prerequisites": [
-        "Unnamed18"
+        "Dark Powers"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Leather can get Pregnant? ",
+          "longDescription": "It can if you soak it in diamond vapor and a ton of whiffs of magic. By cobining 4 leather with 1 Diamond Vapor and 4 whiffs of magic you can make your very own impregnatated leather. ",
           "items": [
             {
               "item": {
@@ -930,6 +1088,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Rumplestiltskin\u0027s Gift",
+          "longDescription": "The ability to spin string into gold is a powerful thing, but for  you it\u0027s part of the course. Slam this little puppy down next to your altar. So long as it has power it will be able to spin fantastical things. ",
           "items": [
             {
               "item": {
@@ -940,6 +1100,8 @@
         },
         {
           "type": "DETECT",
+          "description": "All that Glitters and Spins",
+          "longDescription": "By combining a haybale with some whiff of magic in your spinning wheel you can make gold itself. You may even be tempted to melt this down in a furnace for a few gold nuggets, but we\u0027re hoping you see that there are some other options. ",
           "items": [
             {
               "item": {
@@ -949,21 +1111,29 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:golden_apple"
+        }
       ]
     },
     {
-      "name": "Unnamed23",
-      "x": 291,
-      "y": 162,
+      "name": "All you need is a wart",
+      "description": "A witches hat is the start of a great relationship between you and your head, also it may help you brew more things. ",
+      "x": 298,
+      "y": 164,
       "icon": {
         "id": "witchery:witchhat"
       },
       "prerequisites": [
-        "Unnamed22"
+        "A witches gear"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Hat Trick",
+          "longDescription": "Crafting a witches hat is simple. Simply take a bit of that golden string you made along with the impregnated leather and stuff a hint of glowstone dust and before you know it youll be cackling madly too .",
           "items": [
             {
               "item": {
@@ -980,18 +1150,21 @@
       ]
     },
     {
-      "name": "Unnamed24",
-      "x": 222,
-      "y": 159,
+      "name": "A slumber to remember",
+      "description": "Sleepings kind of dull isn\u0027t it? You just go to bed and all those horrilbe monsters you were worried about don\u0027t appear? Well it\u0027s time to fix that right up. Who can live in such a boring world. ",
+      "x": 207,
+      "y": 163,
       "icon": {
         "id": "witchery:dreamcatcher"
       },
       "prerequisites": [
-        "Unnamed22"
+        "A witches gear"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Anesthesiology 101 ",
+          "longDescription": "Your first step is to use the kettle to make a brew of sleeping, for which sadly you are going to need a brew of Love. Both of these should be in your brewing book so give them a look. ",
           "items": [
             {
               "item": {
@@ -1003,6 +1176,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Goodnight!",
+          "longDescription": "Once you take your advanced strength Nyquil you should find yourself in the spirit world. It\u0027s probably going to be a nightmare, so be preapred to defend yourself from the evils of the nightmare and be quick to pick up some Cotton, that is what you are here for! ",
           "items": [
             {
               "item": {
@@ -1021,6 +1196,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Lucid Dreaming 201",
+          "longDescription": "This will allow you to return to that somber place without the need for drugs. As an added bonus, with a dream catcher you\u0027re less likely to find yourself in a nightmare. A good and safe way to get that cotton you were looking for. ",
           "items": [
             {
               "item": {
@@ -1030,10 +1207,17 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "witchery:somniancotton",
+          "amount": 5
+        }
       ]
     },
     {
-      "name": "Unnamed25",
+      "name": "Teleportation ",
+      "description": "What\u0027s cooler then being able to move around from Point A to Point B? Nothing really let\u0027s be honest. And for our next trick we\u0027re going to show you how to teleport where you need to go! ",
       "x": 186,
       "y": 135,
       "icon": {
@@ -1041,11 +1225,13 @@
         "damage": 12
       },
       "prerequisites": [
-        "Unnamed14"
+        "The Guide to Rituals "
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Make your way away",
+          "longDescription": "A waystone is a simple enough thing to construct Using flint and a bone needle, you can craft your very own. ",
           "items": [
             {
               "item": {
@@ -1054,11 +1240,40 @@
               }
             }
           ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Chalk it up",
+          "longDescription": "There are just a few more things you need to write out all the rituals you have in mind into the very soil itself. These three chalks will help you. Why don\u0027t you try binding a Waystone using the Gold and Normal CHalk, and then teleport to it using the otherwhere chalk at a different ritual site. ",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:chalkotherwhere"
+              }
+            },
+            {
+              "item": {
+                "id": "witchery:chalkheart"
+              }
+            },
+            {
+              "item": {
+                "id": "witchery:chalkinfernal"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:ender_pearl",
+          "amount": 5
         }
       ]
     },
     {
-      "name": "Unnamed26",
+      "name": "Poppets Galore ",
+      "description": "Water, Earth, Fire, it almost sounds like the start of a captain planet ritual, but in truth it is so much more then that. A way to keep you alive even in the most dire of circumstances ",
       "x": 139,
       "y": 14,
       "icon": {
@@ -1067,11 +1282,13 @@
         "nbt": "{WITCDamage:0}"
       },
       "prerequisites": [
-        "Unnamed4"
+        "Locking on "
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Burning Man ",
+          "longDescription": "The fire protection poppet is great for keeping you alive even when you should burn horribliy in a fire. Don\u0027t forget to bind yourself to it by putting the Taglock kit with whomever you want to proect\u0027s blood along with the Poppet itself into the crafting square. ",
           "items": [
             {
               "item": {
@@ -1084,6 +1301,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Hunger Games",
+          "longDescription": "It won\u0027t actually keep your from starving, but if you do starve, rather then dying the poppet will break instead, which may give you just a little more time to seek out and consume that all important supreme pizza. ",
           "items": [
             {
               "item": {
@@ -1096,64 +1315,46 @@
         },
         {
           "type": "CRAFT",
+          "description": "Shelfing the request",
+          "longDescription": "There is one final item we should discuss, and it may take a bit of exploration into other topics in the land of witchery, but we\u0027re confident you\u0027ll figure it out You can place a poppet on this shelf and it will work the same as if it were in your inventory protecting you. Be warned though these do function as chunk loaders! ",
           "items": [
             {
               "item": {
-                "id": "witchery:poppet",
-                "damage": 5,
-                "nbt": "{WITCDamage:0}"
+                "id": "witchery:poppetshelf"
               }
             }
           ]
         }
-      ]
-    },
-    {
-      "name": "Unnamed27",
-      "x": 226,
-      "y": 82,
-      "icon": {
-        "id": "witchery:chalkotherwhere"
-      },
-      "prerequisites": [
-        "Unnamed25"
       ],
-      "tasks": [
+      "reward": [
         {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "witchery:chalkheart"
-              }
-            }
-          ]
+          "id": "witchery:poppet",
+          "damage": 11,
+          "nbt": "{WITCDamage:0}"
         },
         {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "witchery:chalkotherwhere"
-              }
-            }
-          ]
+          "id": "witchery:poppet",
+          "damage": 5,
+          "nbt": "{WITCDamage:0}"
         }
       ]
     },
     {
-      "name": "Unnamed28",
-      "x": 226,
-      "y": 24,
+      "name": "Seeing into the future! ",
+      "description": "One more thing that every good witch seems to have these days is the good old fashion crystal ball, and where would you be without that? The answer is no where of course! ",
+      "x": 230,
+      "y": 29,
       "icon": {
         "id": "witchery:crystalball"
       },
       "prerequisites": [
-        "Unnamed27"
+        "Necromancy "
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Soemtimes it just happens",
+          "longDescription": "Redstone Soup, a Golden Carrot, a Potion of night Vision (Long), Eye of Ender, Mandrake Root, and Spider Eye. These items in a kettle will allow you to make this most basic ingredient to your very own crystal ball, the Happenstance Oil. ",
           "items": [
             {
               "item": {
@@ -1165,6 +1366,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Spherical Resolve",
+          "longDescription": "Nether QUartz, Blocks of Quartz, and Finally glass and you can make the spehre but... this isn\u0027t the final component is it? ",
           "items": [
             {
               "item": {
@@ -1176,6 +1379,8 @@
         },
         {
           "type": "DETECT",
+          "description": "See your world! ",
+          "longDescription": "Perform the rite of Infusion upon the happenstance oil and the Quartz Sphere and you can use the Crystal ball for all sorts of things. With a bound waystone, see that area. With a Taglock Kit you can see through the eyes of the one who the taglock is from. You can even glimpse the future. ",
           "items": [
             {
               "item": {
@@ -1184,22 +1389,31 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
       ]
     },
     {
-      "name": "Unnamed29",
-      "x": 286,
-      "y": 124,
+      "name": "I believe I can fly",
+      "description": "What kind of witch doesn\u0027t fly around on a broom? Certianly not you we hope! Well this little method of transportation is just great for getting around, if you can make it. ",
+      "x": 287,
+      "y": 134,
       "icon": {
         "id": "witchery:ingredient",
         "damage": 9
       },
       "prerequisites": [
-        "Unnamed22"
+        "A witches gear"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "A simple broom. ",
+          "longDescription": "The first step to making a flying broom, as we\u0027re sure you can imagine, is actually making the broom. Made with Twigs and Hawthorn Saplings it doesn\u0027t really do much on its own, except for clean away glyphs from chalk very quickly. ",
           "items": [
             {
               "item": {
@@ -1211,6 +1425,8 @@
         },
         {
           "type": "DETECT",
+          "description": "The Gift of flight. ",
+          "longDescription": "Not very easy to make this recipie. Made in the kettle like the redstone soup, this time you\u0027re going to need Redstone Soup, A Long Duration Potion of Swiftness, a Diamond, Feather, Wool of bat and a Belladona. ",
           "items": [
             {
               "item": {
@@ -1222,6 +1438,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Taking off. ",
+          "longDescription": "Once you have the items you need it\u0027s time to perform the ritual. Look up a a \"Rite of Infusion\" in your circle magic book. You\u0027ll need a Heart Glyph, a Small Circle, and a Medium Circle, throw the broom and flying ointment and then wait for night to come. ",
           "items": [
             {
               "item": {
@@ -1231,21 +1449,31 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "witchery:ingredient",
+          "damage": 38,
+          "amount": 3
+        }
       ]
     },
     {
-      "name": "Unnamed30",
-      "x": 266,
-      "y": 192,
+      "name": "Fancy Shoes",
+      "description": "What kind of witch would you be if someone couldn\u0027t drop a house on you and get a cool pair of shoes out of it? Well that\u0027s the plan so all your future Dorthy\u0027s will have something unique to nab from your corpse. ",
+      "x": 280,
+      "y": 191,
       "icon": {
         "id": "witchery:iceslippers"
       },
       "prerequisites": [
-        "Unnamed23"
+        "All you need is a wart"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Creeper on Ice",
+          "longDescription": "Remember that creeper heart earlier, well it\u0027s time for you to freeze it. With a Ghast Tear, and an Icy Needle which you can get from a snowbell. ",
           "items": [
             {
               "item": {
@@ -1257,6 +1485,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Made for Freezing",
+          "longDescription": "Not walking. The Frozen slippers combine some Impregnated Leather, that Frozen Heart, a bit of Golden Thread, Diamond Vapor, and Odour of purity. These shoes can freeze water and evne turn Lava into obsidian",
           "items": [
             {
               "item": {
@@ -1267,6 +1497,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "A seeping sensation",
+          "longDescription": "Tired of being poisoned? Well we have the answer. Meet the seeping shoes. Crafted with redstone Soup, 2 witches hands, some impregnated leather and golden thread and 3 buckets of milk. These shoes will turn those attempts to poison you into bonemeal effects. ",
           "items": [
             {
               "item": {
@@ -1275,24 +1507,32 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "witchery:ingredient",
+          "damage": 72,
+          "amount": 8
+        }
       ]
     },
     {
-      "name": "Unnamed31",
-      "x": 267,
-      "y": 97,
+      "name": "Necromancy ",
+      "description": "What kind of witch would you be if you couldn\u0027t raise the dead? Well we\u0027re about to walk you through the very things you need to know to become a much more powerful witch. ",
+      "x": 231,
+      "y": 77,
       "icon": {
         "id": "witchery:ingredient",
         "damage": 64
       },
       "prerequisites": [
-        "Unnamed27"
+        "Teleportation "
       ],
       "tasks": [
         {
           "type": "DETECT",
-          "description": "Crafting task",
-          "longDescription": "A task where the player has to craft specific items.",
+          "description": "Stone of the Dead",
+          "longDescription": "An Attuned Stone, Bone, Rotten Flesh, Wood Ash, Iron Sword, and Spectral Dust all placed in a 7x7 Ritual Circle will allow you to perform the Rite of Necromancy, Getting you this all to interesting little stone. ",
           "items": [
             {
               "item": {
@@ -1304,6 +1544,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Lure the Dead",
+          "longDescription": "Fantastic for drawing the undead near, this little skulls can be activated by right clicking it with a necromatic stone. it draws all manner of undead near. ",
           "items": [
             {
               "item": {
@@ -1314,6 +1556,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Rise and Serve!",
+          "longDescription": "Made in the kettle with Wool of Bat, Bone, Rotten Flesh, Oil of Vitriol, Redstone, and Mutandis. These undead won\u0027t be hostile towards the player that raised them and what\u0027s more they can be controlled by a Necromatic Stone ",
           "items": [
             {
               "item": {
@@ -1323,21 +1567,31 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "witchery:ingredient",
+          "damage": 10,
+          "amount": 3
+        }
       ]
     },
     {
-      "name": "Unnamed32",
-      "x": 288,
-      "y": 68,
+      "name": "The robe for the job ",
+      "description": "The power to slip between the undead unnoticed. There is a certain appeal to it is there not? Wouldn\u0027t you like to go about the world without worry of spooks and haunts trying to murder you?  ",
+      "x": 290,
+      "y": 74,
       "icon": {
         "id": "witchery:necromancerrobe"
       },
       "prerequisites": [
-        "Unnamed31"
+        "Necromancy "
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Robes of The necromancer",
+          "longDescription": "The Necromancers robes are made with a Necromatic Stone, Impregnated Leather, and Golden Thread. Not only will the undead ignore you, but if you brew up some brews of raising there\u0027s a chance you\u0027ll get more then one and it stacks with the witches hat. ",
           "items": [
             {
               "item": {
@@ -1346,22 +1600,32 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "witchery:ingredient",
+          "damage": 65,
+          "amount": 4
+        }
       ]
     },
     {
-      "name": "Unnamed33",
-      "x": 287,
-      "y": 27,
+      "name": "Demons ",
+      "description": "You wish to tap into the deepest, darkest magics of the witch. You wish to begin to make deals with powerful horrible creatures from beyond this realm, beyond even the nether. The demons? ",
+      "x": 292,
+      "y": 15,
       "icon": {
         "id": "witchery:ingredient",
         "damage": 23
       },
       "prerequisites": [
-        "Unnamed27"
+        "Finding your Familar"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "A Demons Heart",
+          "longDescription": "Consult your circle magic and maybe look for something to trap the demon in the circle so he can\u0027t harm you while you\u0027re at it. Summon the beast and you can either try to take him on or you can try to make a deal. It\u0027s up to you. ",
           "items": [
             {
               "item": {
@@ -1373,8 +1637,8 @@
         },
         {
           "type": "DETECT",
-          "description": "Crafting task",
-          "longDescription": "A task where the player has to craft specific items.",
+          "description": "Blood of the Damned",
+          "longDescription": "Alright listen sammy, you can\u0027t drink this stuff and become a vessel for lucifer, BUT you can get this by distilling a demon heart with Diamond Vapor. You can use them for a few things... and we\u0027ll teach you those. ",
           "items": [
             {
               "item": {
@@ -1386,10 +1650,17 @@
         },
         {
           "type": "CRAFT",
+          "longDescription": "Not easy to create in any sense these items both have their own little set of powers. The shoes obvious, the whicker bundle... well you\u0027ve seen those big straw things arorund the world? The ones that look like wickermen? Construct one out of these bloodied Whicker bundles and burn it...see what it summons to the world. ",
           "items": [
             {
               "item": {
                 "id": "witchery:rubyslippers"
+              }
+            },
+            {
+              "item": {
+                "id": "witchery:wickerbundle",
+                "damage": 1
               }
             }
           ]
@@ -1402,7 +1673,8 @@
       ]
     },
     {
-      "name": "Unnamed34",
+      "name": "The Hobgoblins",
+      "description": "You may have found these unqiue little creatures throughout your world. They establish wonderful little huts which you can visit and then trade with like they are villagers. ",
       "x": 185,
       "y": 12,
       "icon": {
@@ -1410,11 +1682,13 @@
         "damage": 150
       },
       "prerequisites": [
-        "Unnamed28"
+        "Seeing into the future! "
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "A fragment",
+          "longDescription": "There is a metal that only they seem to know how to mine, that is more precious then anything else. The Koboldite ore. Now... did you know you can leash them and make them work? I know horrible right... ",
           "items": [
             {
               "item": {
@@ -1426,6 +1700,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Dark Magics ",
+          "longDescription": "Get enough of their ore and you can even make yourself a litle thing to put on your altar to boost it\u0027s recharge rate. ",
           "items": [
             {
               "item": {
@@ -1435,21 +1711,30 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "witchery:kobolditepickaxe",
+          "amount": 5
+        }
       ]
     },
     {
-      "name": "Unnamed35",
-      "x": 221,
-      "y": 126,
+      "name": "Defense of Home",
+      "description": "Having your own isolated, spooky shack in the woods is nice and all, but wouldn\u0027t you love it if you could ward off unwanted guest? ",
+      "x": 215,
+      "y": 133,
       "icon": {
         "id": "witchery:scarecrow"
       },
       "prerequisites": [
-        "Unnamed24"
+        "A slumber to remember"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "He doesn\u0027t want a brain",
+          "longDescription": "A scarecrow, everyone is familiar with them, and on it\u0027s own it doesn\u0027t actually have any magical powers, but we\u0027re going to infuse it so there is that!",
           "items": [
             {
               "item": {
@@ -1460,6 +1745,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "You can\u0027t climb this",
+          "longDescription": "Crafted from Fanciful string which as you learned with the dream catcher is just wispy cotton spun on the spinning wheel, some feathers, and string, you can get your own witch\u0027s ladder. ",
           "items": [
             {
               "item": {
@@ -1470,6 +1757,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Creepy little thing",
+          "longDescription": "A jack-o-lantern, some Rowan wood, and a bit of Tormented Twin along with some logs and you\u0027ll have your very own Treant Effigy! ",
           "items": [
             {
               "item": {
@@ -1478,33 +1767,41 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "witchery:ingredient",
+          "damage": 127
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "witchery:scarecrow"
+        },
+        {
+          "id": "witchery:witchsladder"
+        },
+        {
+          "id": "witchery:trent"
+        }
       ]
     },
     {
-      "name": "Unnamed36",
-      "x": 253,
-      "y": 124,
+      "name": "The Undead",
+      "description": "It\u0027s time to play with the undead, and we\u0027re not talking about Skeletons or Zombies. no we\u0027re talking about things which are far more horrifying in the form of Specters, Spirts, and more. ",
+      "x": 245,
+      "y": 132,
       "icon": {
-        "id": "witchery:ingredient",
-        "damage": 127
+        "id": "witchery:brazier"
       },
       "prerequisites": [
-        "Unnamed35"
+        "Defense of Home"
       ],
       "tasks": [
         {
           "type": "CRAFT",
-          "items": [
-            {
-              "item": {
-                "id": "witchery:ingredient",
-                "damage": 127
-              }
-            }
-          ]
-        },
-        {
-          "type": "CRAFT",
+          "description": "Tools of the Trade",
+          "longDescription": "Before we even begin to summon the undead, we must first have the items needed to deal with them. First is the Brazier which is the actual tool we\u0027ll use to summon them, by placing the ingredients into the Brazier and lighting them on fire. ",
           "items": [
             {
               "item": {
@@ -1515,19 +1812,40 @@
         },
         {
           "type": "DETECT",
+          "description": "A small Altaration ",
+          "longDescription": "Made with Netherwart, Mutandis Extremis, Wipsy Cotton, and A wheat seed, these seeds are key for summoning some of the ghost and undead out there. (We broke the real recipie, dont\u0027 tell anyone) ",
           "items": [
             {
               "item": {
-                "id": "witchery:scarecrow",
-                "nbt": "{WITCSpiritEffect:2}"
+                "id": "witchery:seedswormwood"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Worming around. ",
+          "longDescription": "Once you have your wormwood going simply harvest a few and we\u0027ll get about our day hmm? ",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 111
               }
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "witchery:seedswormwood",
+          "amount": 5
+        }
       ]
     },
     {
-      "name": "Unnamed37",
+      "name": "Circular Logic",
+      "description": "Drawing out all those things can get annoying from time to time, don\u0027t you agree? Well we do too and that\u0027s why the Circle Talismen was invented. ",
       "x": 186,
       "y": 77,
       "icon": {
@@ -1535,11 +1853,13 @@
         "damage": 64
       },
       "prerequisites": [
-        "Unnamed14"
+        "The Guide to Rituals "
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Circle round the altar",
+          "longDescription": "Crafting the talismen itself is fairly simple. Simply use Gold Nuggets, a Diamond, and Gold Bars, and before you knwo it you\u0027ll have your very own talismen, but we want to bind it. ",
           "items": [
             {
               "item": {
@@ -1550,6 +1870,7 @@
         },
         {
           "type": "DETECT",
+          "longDescription": "See the rite of binding on the very first page of your cirlce magic book to perform this ritual. These wonderful little tools will make it /much/ easier to setup circles. ",
           "items": [
             {
               "item": {
@@ -1558,6 +1879,195 @@
               }
             }
           ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "witchery:circletalisman",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Rite of Binding ",
+      "description": "The Rite of binding is a powerful ritual that will be used to bind the undead once they have been summoned, but before we get started on that we do need one more thing. ",
+      "x": 268,
+      "y": 107,
+      "icon": {
+        "id": "witchery:ingredient",
+        "damage": 128
+      },
+      "prerequisites": [
+        "The Undead",
+        "Necromancy "
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Betrayal",
+          "longDescription": "You can get spectral dust from the occasional zombie or Skeleton... if you have a fancy golden dagger and only rarely. But there is another way. Using a Rite of Summoning we can bring a Spectral Familiar to the world... and then murder it. ",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 66
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Dust of the Graveyard",
+          "longDescription": "By mixing that Spectral dust with Bone Meal and Mutandis you can make Graveyard dust, which is the final ingredient which we need for the summoning ritual. ",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 128
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Protecting home ",
+          "longDescription": "The final component of the ritual involves a great many Ghost (we suggest building some walls to keep them in the cirlce). From there use the Rite of Binding on Page 8 of your circle mage book to get the item you desire. Use your boline to change the behavior of your new fetish. ",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:scarecrow",
+                "nbt": "{WITCSpiritEffect:2}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "witchery:ingredient",
+          "damage": 66,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Finding your Familar",
+      "description": "For this we are going to teach you about making the familiars. Now to simplify things we\u0027re taking the resourecs you\u0027d end up needing to simply summon a familiar into the world. ",
+      "x": 261,
+      "y": 47,
+      "icon": {
+        "id": "witchery:crittersnare"
+      },
+      "prerequisites": [
+        "Necromancy "
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Mutational ",
+          "longDescription": "The first item that we are going to need is the Mutating Twig. It has other uses but here it will act as the device to turn certain items into others or Even certain animals into others. ",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:mutator"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Critter Catching ",
+          "longDescription": "The Critter Snare is a simple enough creation. First put a down some water, then put a spider web over it. Now surround that spider web on 4 sides with Alder Saplings. Finally Let a zombie settle into the spider web and activate it all using the Mutating sprig",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:crittersnare"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Grabloid!",
+          "longDescription": "The next part of the ritual is to make 4 grasspers. These are made with a chest at the center over water and then 4 pieces of grass around. Got this all down? Great it\u0027s time to make your first owl. For the complete ritual Put down water in the center (A block underneath like before) A cobweb on top with a Dog trapped inside. Then 4 critter snares around the Cobweb, and around those the Grasspers with 3 Mutandis Extremis and one with a Charged attuned stone But... this quest we\u0027re going to take some things from you to give you a choice. ",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:grassper"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Put it all in a pot ",
+          "longDescription": "It\u0027s true you can in fact get your own Owls, Toads, and Cats... but how about a choice? Collect EVERYTHING you would need to make an Owl, Toad, or tame a cat and we\u0027ll give you a choice. ",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:grassper"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "witchery:crittersnare"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 24
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "minecraft:bone"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 11
+              }
+            },
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 15
+              },
+              "required": 3
+            },
+            {
+              "item": {
+                "id": "minecraft:slime_ball"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "minecraft:fish"
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:spawn_egg",
+          "damage": 6401
+        },
+        {
+          "id": "minecraft:spawn_egg",
+          "damage": 6402
+        },
+        {
+          "id": "minecraft:spawn_egg",
+          "damage": 98
         }
       ]
     }
