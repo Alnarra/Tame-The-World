@@ -1,0 +1,79 @@
+{
+  "backups": {
+    "backup_timer": 2.0,
+    "backups_to_keep": 12,
+    "compression_level": 1,
+    "display_file_size": true,
+    "enabled": true,
+    "folder": "./backups/"
+  },
+  "commands": {
+    "name_admin": "admin",
+    "name_back": "back",
+    "name_home": "home",
+    "name_spawn": "spawn",
+    "name_tplast": "tpl",
+    "name_warp": "warp"
+  },
+  "general": {
+    "blocked_entities": [],
+    "restart_timer": 12.0,
+    "safe_spawn": false,
+    "sign_home": true,
+    "sign_warp": true,
+    "spawn_area_in_sp": false,
+    "spawn_pvp": true
+  },
+  "login": {
+    "custom_badges": "",
+    "motd": [
+      "Welcome to Tame the World Version 0.1.11 To Get Started Right Click the Quest book in your Inventory!"
+    ],
+    "starting_items": [
+      "HardcoreQuesting:quest_book 1 0"
+    ]
+  },
+  "permissions_admin": {
+    "admin_server_info": true,
+    "allow_creative_interact_secure": true,
+    "break_whitelist": [
+      "OpenBlocks:grave"
+    ],
+    "chunkloader_type": "offline",
+    "cross_dim_homes": true,
+    "custom_config": {},
+    "dimension_blacklist": [],
+    "forced_chunk_security": "-",
+    "forced_explosions": "-",
+    "max_claims": 1000,
+    "max_homes": 100,
+    "max_loaded_chunks": 50,
+    "show_rank": true
+  },
+  "permissions_player": {
+    "admin_server_info": false,
+    "allow_creative_interact_secure": false,
+    "break_whitelist": [
+      "OpenBlocks:grave"
+    ],
+    "chunkloader_type": "offline",
+    "cross_dim_homes": true,
+    "custom_config": {},
+    "dimension_blacklist": [
+      1
+    ],
+    "forced_chunk_security": "-",
+    "forced_explosions": "-",
+    "max_claims": 100,
+    "max_homes": 1,
+    "max_loaded_chunks": 50,
+    "show_rank": true
+  },
+  "tops": {
+    "deaths": true,
+    "deaths_ph": true,
+    "first_joined": true,
+    "last_seen": true,
+    "time_played": true
+  }
+}

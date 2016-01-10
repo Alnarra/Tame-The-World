@@ -1,6 +1,15 @@
 {
   "_name": "enderzoo.DireWolf",
-  "drops": [],
+  "_comment": "Add Tongue of Dog to Drop List", 
+  "drops": 
+  [
+    {
+		"function":"add",
+		"id": "witchery:ingredient",
+		"damage": 25,
+		"count": 0.25 
+	} 
+  ],
   "pre_stats": [],
   "stats": []
 }

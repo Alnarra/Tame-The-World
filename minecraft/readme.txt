@@ -5,7 +5,7 @@ Report Issues Here:	https://github.com/fullphaser/Tame-The-World
 Forum Thread:		http://tinyurl.com/tameTheWorld
 Curse Page: 		http://www.curse.com/modpacks/minecraft/238218-tame-the-world
 Technic API: 		http://api.technicpack.net/modpack/tame-the-world
-Discord: 		https://discord.gg/0hh8cmHesQfTfxRz
+Discord: 			https://discord.gg/0hh8cmHesQfTfxRz
 FTB Pack Code: 		tameTheWorld
 
 Recommended settings
@@ -25,8 +25,6 @@ And Finally I didn't wish to break Minecraft's simple formula too much. Iguana T
 Modlist
 AppleCore by squeek502
 Arcane Engineering 
-Aroma1997Core by Aroma1997
-AromaBackup by Aroma1997
 Artifacts by Draco18s, TmTavir
 AtomicStryker Update Check Mod
 AtomicStryker's BattleTowers by AtomicStryker
@@ -54,6 +52,8 @@ Falling Meteors Mod by AlexDGr8r
 FastCraft by Player - Granted
 Forbidden Magic by SpitefulFox
 Forge Multipart by Chickenbones
+FTBLIb By LatvianModder, Jared
+FTBUtilities by LatvianModder
 Growthcraft Community Edition 
 Hardcore Questoing Mode by Vswe, Lorddusk, NewcastleGeek
 HarvestCraft by MatrexsVigil, Rhodox
@@ -96,12 +96,31 @@ Witchery by Emoniph - Granted
 YAMBST by Commador 
 Zombie Awareness by Corosauce
 
-Changelog
+Version 0.1.11 
+Mods Added 
+- Cooking for Blockheads 
+- FTB Utilities 
+- FTB Lib 
+Mods Removed 
+- Aroma Core
+- Aroma Backup 
+Mods Updated
+- Botania (Was Version r1.8 247 - now r 1.8 248 )
+- Hardcore ender Expansion (was 1.8.4 now 1.8.5) 
+- Automagy (Was 0.27 now 0.27.1 ) 
+Config Updates 
+ - Removed Apples from Default spawn for FTB util 
+ - Changed Default MOTD 
+Quest 
+ - 2 New Chapters Thaumcraft and Rotarycraft! 
+
 Version 0.1.10
 Mods Added
  - Aroma Backup 
  - YAMPST
  - UpdateCheckerMod
+ - Immersive Integration 
+ - Version Checker
 Mods Updated 
  - Updated Chisel (Was 2.9.3.9 now 2.9.4.10) 
  - Updated Forbidden Magic (Was 0.57 now 0.572) 
@@ -109,26 +128,41 @@ Mods Updated
  - Updated Malis Doors (Was 1.12 now 1.13) 
  - Updated Malis Core (Was 0.12 Now 0.14) 
  - UPdated ModTweaker (Was 0.9.4 now 0.9.5) 
- - Updated NEI Integration (Was 1.0.13 now 1.1.0 ) 
+ - Updated NEI Integration (Was 1.0.13 now 1.1.1 ) 
  - Updated Pam's Harvestcraft (Was 1.7.10k now 1.7.10Lb)
  - Updated Storage Drawers (Was 1.6.3 now 1.7.5) 
- - Updated Botania (Was .242 now .243)
+ - Updated Botania (Was .242 now .247)
  - Updated HQM (Was 4.4.2 now 4.4.4) 
  - Updated Ruins (No Version Number given) 
+ - Updated Rotarycraft (Was 9b now 10d) 
+ - updated DragonAPI (Was 9b now 10d) 
+ - Updated Immersive Integration (Was .65 now .66) 
 Config Changes 
  - Cleaned up the Config folder a bit 
  - Decreased spawn cap of Raiko by 1 (Was 3 now 2) 
  - Turned Waila Back on by default 
  - Exported HQM Quest to JSON
  - Reduced Item Damage on Death (was 32 Now 10) 
+ - Reduced Growth Time on Sugar cane and Saplings 
 Scripts 
  - Created railIECook.zs to hide Railcraft's Coke Oven and Blast Furnace Blocks 
+ - created wormWood.zs to fix the fact that you can't make wormwood seeds normally 
 Quest 
  - Adding 2 New Chapers Witchery and Railcraft with over 70+ New Quest 
  - Chapter 2 - Library Card - Changed Bookshelf Requirements
  - Immersed in Engineering - Grit your Teeth - Changed Flavor text for "Butter is required" Quest 
  - Reorganized Quest in Chapter 1 ( Cutting Edge Technology > A Crooked Salesmen > Bedding with the Enemy) 
  - Moved Quest "Weathered Down" In Chapter 2 to Chapter 1 after Diamonds are Forever
+ - Chapter 2: Botanical Thoughts - Updated to a detection quest with the most recent version of Botania 
+ - Chapter 1: Hard as Glass > Almost Hit Bedrock. Reduced Obsidian from 15 - 10 
+ - Chapter 2: You're a Wizard Harry > Nuggets - Changed Nuggets to Thaumcraft Nuggets, and made detection ore dictionary
+ - Add potions to reward bags 
+ - Moved Quest around Chapter 1: Diamonds are Forever now leads to Chapter 2 Panning for Gold, which unlocks all but the enchanting quest
+ - Chapter 1: Bedding with the Enemy - Added a reward! 
+ - Chapter 2: Added New quest 
+ - Chapter 2: Set some reverse triggers up so that the entire chapter is not revealed all at once. 
+ - Agriculture - Seeds of Beginning - Now a Detection Quest not crafting 
+ - Agriculture - Hopped Up - Quest 2 - Set to be Detection not Crafting 
 Other
  - Cleaning up Github 
 

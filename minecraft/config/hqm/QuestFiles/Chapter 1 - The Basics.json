@@ -332,8 +332,8 @@
     {
       "name": "You\u0027re boned",
       "description": "So we\u0027ve realized there\u0027s some /really/ nasty creatures where you live, but we want to get you aquainted with at least a few of the more common ones. ",
-      "x": 23,
-      "y": 77,
+      "x": 22,
+      "y": 150,
       "icon": {
         "id": "minecraft:bone"
       },
@@ -1132,6 +1132,38 @@
       "reward": [
         {
           "id": "minecraft:stone",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Travel By Sea",
+      "description": "One of the simpler creations that you can find yourself making is the boat. It\u0027s great for traveling across water though it does have a tendacy to break if you hit things to hard, so be gentle with it. ",
+      "x": 26,
+      "y": 83,
+      "icon": {
+        "id": "minecraft:boat"
+      },
+      "prerequisites": [
+        "Storage Wars"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Bon Voyage. ",
+          "longDescription": "Crafting the boat is simple. Simply take 5 Wooden Planks from the any of the trees around you and place them in the shape of a half chest (with the top 3 not present) and you\u0027ll have yourself your very first boat. As always don\u0027t be afraid to use the R key while hovering over the boat in the NEI menu if you aren\u0027t sure. ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:boat"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:cooked_fished",
           "amount": 5
         }
       ]

@@ -1,6 +1,14 @@
 {
   "_name": "SpecialMobs.HungryZombie",
-  "drops": [],
-  "pre_stats": [],
+ "_comment": "Add Spectral Dust to Drop List", 
+  "drops": 
+  [
+    {
+		"function":"add",
+		"id": "witchery:ingredient",
+		"damage": 66,
+		"count": 0.001 
+	} 
+  ],  "pre_stats": [],
   "stats": []
 }

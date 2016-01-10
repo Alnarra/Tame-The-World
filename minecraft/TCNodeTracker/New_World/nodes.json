@@ -1,0 +1,54 @@
+[
+  {
+    "aspect": {
+      "ignis": 45,
+      "aer": 32
+    },
+    "type": "NORMAL",
+    "mod": "BLANK",
+    "dim": 0,
+    "x": 365,
+    "y": 69,
+    "z": 203,
+    "date": "Dec 31, 2015 4:02:56 PM"
+  },
+  {
+    "aspect": {
+      "aqua": 27,
+      "terra": 17,
+      "aer": 32
+    },
+    "type": "NORMAL",
+    "mod": "BLANK",
+    "dim": 0,
+    "x": 367,
+    "y": 70,
+    "z": 203,
+    "date": "Dec 31, 2015 4:03:05 PM"
+  },
+  {
+    "aspect": {
+      "terra": 36,
+      "aer": 38
+    },
+    "type": "NORMAL",
+    "mod": "BLANK",
+    "dim": 0,
+    "x": 356,
+    "y": 73,
+    "z": 220,
+    "date": "Dec 31, 2015 4:04:40 PM"
+  },
+  {
+    "aspect": {
+      "aer": 78
+    },
+    "type": "NORMAL",
+    "mod": "BLANK",
+    "dim": 0,
+    "x": 378,
+    "y": 71,
+    "z": 135,
+    "date": "Dec 31, 2015 4:25:26 PM"
+  }
+]

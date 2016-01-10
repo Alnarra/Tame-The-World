@@ -1,8 +1,10 @@
 {
   "name": "Going of the Rails",
+  "description": "In the world you know rails are quite simple, but in the world your are building they are wonderous, complex, and numerous. They are dangerous, and amazing. Electrical and filled with steamy goodness. So dive right in why don\u0027t you? ",
   "quests": [
     {
-      "name": "Unnamed",
+      "name": "Mr. Freeman ",
+      "description": "What is an engineer without their crowbar? The answer is that they aren\u0027t really all that much. So it\u0027s time to learn the nature of conducting trains so you can learn to automate your world even over vast expanses. ",
       "x": 21,
       "y": 14,
       "icon": {
@@ -14,6 +16,8 @@
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "CLANG! ",
+          "longDescription": "The crowbar is the most basic tool of a railroad engineer, and it can find itself with many uses. Taking the steel that you made in the Blast Furance along with some Red Dye you can make your very own. ",
           "items": [
             {
               "item": {
@@ -24,6 +28,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "I\u0027m rolling rolling rolling",
+          "longDescription": "So this isn\u0027t a wal-mart price roll back special, but with a little bit of power you can make your very own rolling machine. Great for squeezing things together into a more desirable shape. ",
           "items": [
             {
               "item": {
@@ -33,21 +39,30 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
       ]
     },
     {
-      "name": "Unnamed1",
+      "name": "Tracking your Progress",
+      "description": "Alright we confess, there is one recipie that may have worked in the old world that probably isn\u0027t going to work here. It has something to do with gravity we assure you. ",
       "x": 59,
       "y": 14,
       "icon": {
         "id": "minecraft:rail"
       },
       "prerequisites": [
-        "Unnamed"
+        "Mr. Freeman "
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Tie Me Down ",
+          "longDescription": "The wooden tie is fairly simple. Take the Creosote oil that you had been making in the coke oven and slather it on some slabs of wood (3 to be percise) in a crafting bench and you\u0027ll have your very own ties. ",
           "items": [
             {
               "item": {
@@ -58,6 +73,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Railing against me I see",
+          "longDescription": "Rails are the unique ingreident. To make them simply take some iron and place it in your rolling machine 3 on each side with nothing in the center. If the rolling machine has power and you click the recipie in the middle box it will craft it. ",
           "items": [
             {
               "item": {
@@ -68,6 +85,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Tracked Down ",
+          "longDescription": "These rails shall serve as the early foundations of your great rail empire. Stretching the vastness of the land beneath you. All they take is to make the wooden ties into a railbed (4 of them on a crafting bench). Then put that railbed between the standard rails ",
           "items": [
             {
               "item": {
@@ -76,21 +95,30 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:rail",
+          "amount": 16
+        }
       ]
     },
     {
-      "name": "Unnamed2",
+      "name": "Simple Carts",
+      "description": "What good is a series of railroads to you if you can\u0027t even travel on them? Well it\u0027s time to learn the most basic methods for transporting yourself across rails, the Cart! ",
       "x": 97,
       "y": 14,
       "icon": {
         "id": "minecraft:minecart"
       },
       "prerequisites": [
-        "Unnamed1"
+        "Tracking your Progress"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Cart Version 1 ",
+          "longDescription": "The cart is simple to craft, much like a boat. Crafting it from iron rather then wood. It can be set upon the tracks but it won\u0027t really do much on its own. For that we\u0027re going to need other things. ",
           "items": [
             {
               "item": {
@@ -101,6 +129,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Version 2.0.1 ",
+          "longDescription": "There are two additional carts you should know about that are fairly common. The Storage and Furance Minecarts. Now the Storage minecart is useful because you can put things in the chest there, the Furnace minecart is useful because if you give it a bit of coal it will start to move! ",
           "items": [
             {
               "item": {
@@ -114,21 +144,30 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:golden_rail",
+          "amount": 5
+        }
       ]
     },
     {
-      "name": "Unnamed3",
+      "name": "Explosive Knowledge",
+      "description": "As this world has access to more... uh... complicated gravity, so to do it\u0027s rail systems require far different resources. ",
       "x": 138,
       "y": 15,
       "icon": {
         "id": "Railcraft:ore"
       },
       "prerequisites": [
-        "Unnamed2"
+        "Simple Carts"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Rotten Egg Smell!",
+          "longDescription": "Found near lava, this foul smelling ore has a unqiue series of features, but it can be fantastic for making explosives along with another material. ",
           "items": [
             {
               "item": {
@@ -139,6 +178,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Feeling a bit salty? ",
+          "longDescription": "Saltpeter is often found in the desert, and rumor has that even if you mine all of it, it might just grow back with a layer of sand on top of it. Mix it with sulfer and before you know it you\u0027ll have your very own gunpowder. ",
           "items": [
             {
               "item": {
@@ -148,10 +189,17 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:tnt",
+          "amount": 5
+        }
       ]
     },
     {
-      "name": "Unnamed4",
+      "name": "A block of meat",
+      "description": "Have you not got enough red on you? Would you like a bit more! Well here is your chance to make your very own blood stained brick to prove you truely are the warlord that they fear! ",
       "x": 180,
       "y": 14,
       "icon": {
@@ -159,11 +207,13 @@
         "damage": 2
       },
       "prerequisites": [
-        "Unnamed3"
+        "Explosive Knowledge"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Taste like chicken ",
+          "longDescription": "By mixing meat with a sand block, you should be able to make this rather unique block. It doesn\u0027t have that much of a purpose, but some may consider it a good looking material. ",
           "items": [
             {
               "item": {
@@ -175,6 +225,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Get me a bloody light!",
+          "longDescription": "Crafted with blood stained bricks and a torch, this little decorative block is fantastic for leaving about the home to show that you have some blood stained class. ",
           "items": [
             {
               "item": {
@@ -186,35 +238,81 @@
         },
         {
           "type": "CRAFT",
-          "items": []
+          "description": "Bloody Rock ",
+          "longDescription": "Finally you can use a blood stained block much like any other sort of decorative block, for slabs, stairs, and the like. Expiriment and play with it in your own home. ",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:stair",
+                "damage": 27
+              }
+            },
+            {
+              "item": {
+                "id": "Railcraft:slab",
+                "damage": 27
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Railcraft:brick.bloodstained",
+          "damage": 2,
+          "amount": 64
         }
       ]
     },
     {
-      "name": "Unnamed5",
+      "name": "I see you! ",
+      "description": "If you have other like minded individuals around you\u0027ll probably find this far more useful, if not it\u0027s just a handy keep sake. ",
       "x": 203,
       "y": 44,
       "icon": {
         "id": "Railcraft:tool.magnifying.glass"
       },
       "prerequisites": [
-        "Unnamed4"
+        "A block of meat"
       ],
-      "trigger": "ANTI_TRIGGER"
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "I spy!",
+          "longDescription": "The magnifying glass is more useful in a multiplayer setting as it, when used, tells you who placed the block, track, or cart (assuming that item is from railcraft). ",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:tool.magnifying.glass"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
     },
     {
-      "name": "Unnamed6",
+      "name": "Grundy want pants too! ",
+      "description": "So how can you be a train conducter if you don\u0027t even look like one? this is a question that has plauged philosophers and scientist alike for years well now you can find out! ",
       "x": 219,
       "y": 15,
       "icon": {
         "id": "Railcraft:armor.overalls"
       },
       "prerequisites": [
-        "Unnamed4"
+        "A block of meat"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Who even wears Overalls?",
+          "longDescription": "Made from light blue wool in a pants like pattern these pants don\u0027t provide much in the way of protection, but it has been rumored that in the event of a train crash they\u0027re more effective. ",
           "items": [
             {
               "item": {
@@ -223,10 +321,17 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
       ]
     },
     {
-      "name": "Unnamed7",
+      "name": "Gotta Go Fast! ",
+      "description": "Well you aren\u0027t exaclty blue and being pursued by a man who creates strange sorts of machines, but like anyone we imagine that you might like to travel a little faster. It\u0027s time to meet the high speed rails! ",
       "x": 35,
       "y": 47,
       "icon": {
@@ -234,11 +339,13 @@
         "damage": 1
       },
       "prerequisites": [
-        "Unnamed1"
+        "Tracking your Progress"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "HS \u003d Hyper Speed! ",
+          "longDescription": "By Placing Gold, Steel, and Blaze Powder on a rolling machine you will be able to craft this little Railed Device, which is handy for getting around faster if you know how to use it safely ",
           "items": [
             {
               "item": {
@@ -250,6 +357,8 @@
         },
         {
           "type": "DETECT",
+          "description": "The Key to Speed",
+          "longDescription": "You can\u0027t just go straight from a normal track to a H.S. Track, instead you must transition. Also we /strongly/ advice that you don\u0027t attempt taking corners on these things it could end horribly if you do. ",
           "items": [
             {
               "item": {
@@ -273,21 +382,31 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "Railcraft:part.rail",
+          "damage": 3,
+          "amount": 16
+        }
       ]
     },
     {
-      "name": "Unnamed8",
+      "name": "Steeling my gaze!",
+      "description": "Now you know how to make steel, but it didn\u0027t seem like you could actually make much with it did it?  Well we\u0027re here to answer that problem with even more steel options. ",
       "x": 255,
       "y": 40,
       "icon": {
         "id": "Railcraft:armor.steel.helmet"
       },
       "prerequisites": [
-        "Unnamed6"
+        "Grundy want pants too! "
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Picking your battles",
+          "longDescription": "The steel pick axe is like an iron pick axe in many ways. It can\u0027t mine obsidian, it can be enchanted, but the key difference is that the steel pick axe has nearly double the durability of it\u0027s less forged brother. ",
           "items": [
             {
               "item": {
@@ -299,6 +418,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Chest of Steel ",
+          "longDescription": "Again like it\u0027s iron counterpart it provides the same basic benifits, but it has double the durability, certainly a better option if you have the resources. ",
           "items": [
             {
               "item": {
@@ -318,7 +439,8 @@
       ]
     },
     {
-      "name": "Unnamed9",
+      "name": "Stone Cold ",
+      "description": "So you won\u0027t be able to really transition until you get some nice rails set out for yourself. Meet the Stone Railbeds. Which will require a bit of work on your part. ",
       "x": 80,
       "y": 48,
       "icon": {
@@ -326,11 +448,13 @@
         "damage": 1
       },
       "prerequisites": [
-        "Unnamed1"
+        "Tracking your Progress"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Rebar Time ",
+          "longDescription": "Made in a rolling machine with 3 Iron you can then put the rebar over three stone slabs to make your stone Tie. ",
           "items": [
             {
               "item": {
@@ -342,6 +466,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Upon a Bed of Iron ",
+          "longDescription": "The Stone Bed is what will end up getting used in high speed rails. Thus making it useful for all future projects. ",
           "items": [
             {
               "item": {
@@ -351,22 +477,32 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "Railcraft:part.railbed",
+          "damage": 1,
+          "amount": 5
+        }
       ]
     },
     {
-      "name": "Unnamed10",
-      "x": 157,
-      "y": 43,
+      "name": "I seek a quarry with you",
+      "description": "Sometimes the stone bricks just don\u0027t have the right look to them, there\u0027s something that\u0027s just off about them that doesn\u0027t make them appealing to deocrate the house with, but there are alternatives. ",
+      "x": 158,
+      "y": 45,
       "icon": {
         "id": "Railcraft:cube",
         "damage": 7
       },
       "prerequisites": [
-        "Unnamed4"
+        "A block of meat"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "What Quarry?  ",
+          "longDescription": "Quarried stone can be found throughout the world and can be a great source for decorating your base. Like the blood stained stone it doesn\u0027t have much use outside of decration but we thought you should know about it. ",
           "items": [
             {
               "item": {
@@ -378,6 +514,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "A stairway to where? ",
+          "longDescription": "Like the blocks before, this can also find it\u0027s uses as a slab, staircase, or whatever else. Expiriment to find all the combinations! ",
           "items": [
             {
               "item": {
@@ -393,10 +531,18 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "Railcraft:cube",
+          "damage": 7,
+          "amount": 64
+        }
       ]
     },
     {
-      "name": "Unnamed11",
+      "name": "Harder Rails ",
+      "description": "So having rails that make you go faster is great and all, but what about rails that never blow up in a train crash or... even one better, rails that take you up and down? ",
       "x": 227,
       "y": 179,
       "icon": {
@@ -404,11 +550,13 @@
         "damage": 4
       },
       "prerequisites": [
-        "Unnamed20"
+        "Glass Dust"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Strong like Bull ",
+          "longDescription": "The Crushed Obsidian dust from earlier combined with a bit of steel can give you the basis for some of the strongest tracks you can make. It can be used in all the same fancy patterns too .",
           "items": [
             {
               "item": {
@@ -420,6 +568,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Conjunction Junction. ",
+          "longDescription": "These tracks are all unique in that they can shift the direction of the cart traveling over them depending on the redstone signal being applied either by a switch, lever, or a Switch Motor!",
           "items": [
             {
               "item": {
@@ -444,6 +594,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Going up!",
+          "longDescription": "This new little feature allows your cart to make it\u0027s way up into the great sky above.  A fantastic way to traverse those tricky heights.. at a 90 Degree angle! ",
           "items": [
             {
               "item": {
@@ -452,10 +604,18 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "Railcraft:part.rail",
+          "damage": 4,
+          "amount": 16
+        }
       ]
     },
     {
-      "name": "Unnamed12",
+      "name": "Tinker Tenor",
+      "description": "There is one metal you should probably get aqauinted with if you wish to really understand the best ways to work on the rails. Meet Tin! ",
       "x": 56,
       "y": 77,
       "icon": {
@@ -463,47 +623,64 @@
         "damage": 2
       },
       "prerequisites": [
-        "Unnamed9",
-        "Unnamed7"
+        "Stone Cold ",
+        "Gotta Go Fast! "
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Tin Time ",
+          "longDescription": "Tin is a material that gets used for a great many of the more narrow and specific task when it comes to getting your rails ready. It only generates in poor ores though. ",
           "items": [
             {
               "item": {
                 "id": "Railcraft:ore",
                 "damage": 10
-              }
+              },
+              "precision": "ORE_DICTIONARY"
             }
           ]
         },
         {
           "type": "DETECT",
+          "description": "Melting it down. ",
+          "longDescription": "Because it only spawns in smaller pockets and in tineier amounts you\u0027re not going to get the large amounts of tin you might expect. Instead you\u0027re only going to find yourself with Tin Nuggets. ",
           "items": [
             {
               "item": {
                 "id": "Thaumcraft:ItemNugget",
                 "damage": 2
-              }
+              },
+              "precision": "ORE_DICTIONARY"
             }
           ]
         },
         {
           "type": "CRAFT",
+          "description": "Forging a Tin ingot ",
+          "longDescription": "Much like any other ingot if you combine 9 of the nuggets you should get one. So it\u0027s a fairly simple task wouldn\u0027t you say?  ",
           "items": [
             {
               "item": {
                 "id": "Railcraft:ingot",
                 "damage": 2
-              }
+              },
+              "precision": "ORE_DICTIONARY"
             }
           ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Railcraft:ingot",
+          "damage": 2,
+          "amount": 5
         }
       ]
     },
     {
-      "name": "Unnamed13",
+      "name": "Making a Steam Engine",
+      "description": "So you\u0027ve made methods for generating power in the past, but this one is a bit more... specific. Meet the Steam Engine or at least your very first one. ",
       "x": 81,
       "y": 113,
       "icon": {
@@ -511,11 +688,13 @@
         "damage": 7
       },
       "prerequisites": [
-        "Unnamed12"
+        "Tinker Tenor"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Gearing Up ",
+          "longDescription": "This is why we had you go fetch that tin Before. These Tin Gear brushings are going to be key to making that very first engine. ",
           "items": [
             {
               "item": {
@@ -527,6 +706,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Slap a plate on it. ",
+          "longDescription": "The Gold Plating is to give it more... something, we\u0027re sure it\u0027s like those HDMI cables where you probably don\u0027t need the gold, but let\u0027s do it anyway just to be safe. ",
           "items": [
             {
               "item": {
@@ -537,6 +718,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Vroom Vroom ",
+          "longDescription": "Your very first Steam Engine! Much like some other things you\u0027ve engineer this little device puts out something called RF which you can transfer around and about. ",
           "items": [
             {
               "item": {
@@ -546,10 +729,21 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:coal",
+          "amount": 8
+        },
+        {
+          "id": "minecraft:water_bucket",
+          "amount": 2
+        }
       ]
     },
     {
-      "name": "Unnamed14",
+      "name": "Under Pressure! ",
+      "description": "What kind of awesome Steam Engineer would you be if you weren\u0027t ready to make a boiler? You see steam has a unique property and you can trap it all in this TOTALLY safe enviroment. ",
       "x": 38,
       "y": 113,
       "icon": {
@@ -557,11 +751,13 @@
         "damage": 5
       },
       "prerequisites": [
-        "Unnamed13"
+        "Making a Steam Engine"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Building a Steam Cage",
+          "longDescription": "Using a rolling machine you should start using steel in order to craft your first Steel Plates. These are great for a few things but today we\u0027re going to make them for our Steam Boiler. ",
           "items": [
             {
               "item": {
@@ -573,6 +769,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Two of a Kind ",
+          "longDescription": "There\u0027s actually two kinds of boilers. The high pressure and the low pressure variety. We\u0027re going to have you craft both to get familiar, but just be aware that one keeps less steam but requires less energy while the other can hold more steam but requires more energy. Savvy?  ",
           "items": [
             {
               "item": {
@@ -590,6 +788,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Hotboxing it",
+          "longDescription": "You can also burn two kinds of things to make steam. The Liquid Option OR the Old Coal option, we personally suggest the coal option but we thought it was important that you be aware of the other! Now when you\u0027re actually making this you\u0027re going to have to assemble it like a multiblock structure. With a base of 4 of these Fireboxs (or 9) and then an equal amount of boiler (for instance if you did 2x2 you\u0027re going to need 2x2x2 Boilers) ",
           "items": [
             {
               "item": {
@@ -605,10 +805,23 @@
             }
           ]
         }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Railcraft:machine.beta",
+          "damage": 4,
+          "amount": 7
+        },
+        {
+          "id": "Railcraft:machine.beta",
+          "damage": 3,
+          "amount": 7
+        }
       ]
     },
     {
-      "name": "Unnamed15",
+      "name": "Trapped in Steam ",
+      "description": "Steam is a powerful thing, but did you know you could use it in a trap? Seems like an odd choice we agree, but who\u0027s to turn down the chance to show a creeper what\u0027s for. ",
       "x": 20,
       "y": 155,
       "icon": {
@@ -616,11 +829,13 @@
         "damage": 10
       },
       "prerequisites": [
-        "Unnamed14"
+        "Under Pressure! "
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Steamed And boiled",
+          "longDescription": "The Manual steam trap can be used to give your enemies quite the nasty scalding. Once it\u0027s filled with steam and provided with a redstone signal it will scald those who get close",
           "items": [
             {
               "item": {
@@ -632,6 +847,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Auto-Steamer",
+          "longDescription": "Like it\u0027s brother this little device will turn steam into a weapon, but it doesn\u0027t need any sort of redstone signal. It just... does it\u0027s job. It can be shut down with redstone though. ",
           "items": [
             {
               "item": {
@@ -641,21 +858,30 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:redstone_block",
+          "amount": 5
+        }
       ]
     },
     {
-      "name": "Unnamed16",
+      "name": "The Ultimate Fuel Source",
+      "description": "So Sometimes it just isn\u0027t worth it to go and fetch all of that coal, you want something better and more powerful, well you\u0027ve asked for it now. ",
       "x": 56,
       "y": 167,
       "icon": {
         "id": "Railcraft:firestone.refined"
       },
       "prerequisites": [
-        "Unnamed14"
+        "Under Pressure! "
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Nethermind ",
+          "longDescription": "Found only in the Nether, Firestone is a somewhat rare mineral that can be cut and handled. But right now it\u0027s really of very little use to you. We\u0027re going to have to do something with it .",
           "items": [
             {
               "item": {
@@ -666,6 +892,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Hot Potato",
+          "longDescription": "Crafted by surrounding 4, yes that\u0027s 4 Diamond Pick Axes around a single piece of firestone, this little rock is burning with energy, but not enough to fuel something yet. We\u0027re still going to need to do something more for that. ",
           "items": [
             {
               "item": {
@@ -676,6 +904,8 @@
         },
         {
           "type": "DETECT",
+          "description": "This hand of mine is... ",
+          "longDescription": "Burning red, well once you surround your firestone with Lava Buckets and Redstone, you\u0027ll get this little beuty, but it hungers... You\u0027re going to have to take it to the nether and... Throw it in lava. Don\u0027t worry though it will suck up all that lava to fuel itself. ",
           "items": [
             {
               "item": {
@@ -686,10 +916,16 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:diamond_block"
+        }
       ]
     },
     {
-      "name": "Unnamed17",
+      "name": "Steam Cooking ",
+      "description": "Well steam is nice and all, but what can we use it for? Well... it\u0027s time to meet a few of the options, including the Steam Oven! ",
       "x": 91,
       "y": 153,
       "icon": {
@@ -697,11 +933,13 @@
         "damage": 3
       },
       "prerequisites": [
-        "Unnamed14"
+        "Under Pressure! "
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Always Fresh ",
+          "longDescription": "This little device is fantastic for cooking food, and we really suggest it as an option for when you need to cook a lot. You see it specializes in bulk, but it also needs to be 2x2x2 in size. We also strongly suggest putting it right next to the boiler so that the steam doesn\u0027t have to travel by pipe (It gets treated like a liquid) ",
           "items": [
             {
               "item": {
@@ -712,10 +950,25 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:beef",
+          "amount": 64
+        },
+        {
+          "id": "minecraft:porkchop",
+          "amount": 64
+        },
+        {
+          "id": "minecraft:chicken",
+          "amount": 64
+        }
       ]
     },
     {
-      "name": "Unnamed18",
+      "name": "Upgrading your Engine",
+      "description": "A Hobbyist engine is great, who can deny that but wouldn\u0027t you like a slighlty better, more effecient engine? That\u0027s a silly question of course you would. So it\u0027s time to introduce yourself to some commercial grade supplies. ",
       "x": 131,
       "y": 130,
       "icon": {
@@ -723,11 +976,13 @@
         "damage": 9
       },
       "prerequisites": [
-        "Unnamed13"
+        "Making a Steam Engine"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Kenco Brand",
+          "longDescription": "Made with iron Gears and Iron Plates, this little engine that could is going to put out a bit more power in exchange for a bit more steam. A great method for when you want to set up those mid game electrical power hogs. ",
           "items": [
             {
               "item": {
@@ -739,6 +994,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Factory Grade",
+          "longDescription": "Using Steel rather then iron, this beuty will chew through steam and make it into RF faster then you can lead a horse to water. So there you have it, the secret to turning steam into something cool. ",
           "items": [
             {
               "item": {
@@ -748,10 +1005,17 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:coal_block",
+          "amount": 5
+        }
       ]
     },
     {
-      "name": "Unnamed19",
+      "name": "Hulk Crush! ",
+      "description": "Alright so now you have your steam based power system, wouldn\u0027t you just love to put it to some use? Oh we bet you would you sly devil you. It\u0027s time to learn about the rock crusher! ",
       "x": 131,
       "y": 178,
       "icon": {
@@ -759,11 +1023,13 @@
         "damage": 15
       },
       "prerequisites": [
-        "Unnamed18"
+        "Upgrading your Engine"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Don\u0027t stop crushing",
+          "longDescription": "6 Blocks of Steel, 24 Diamonds, and 24 Pistons. Not exactly cheap but the rewards are oh so worth it. Putting these in a 2x3x2 pattern and giving them power will allow them to make all sorts of wonderful things, but the most improtant of which may be the Crushed Obsidian. ",
           "items": [
             {
               "item": {
@@ -774,10 +1040,17 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:obsidian",
+          "amount": 32
+        }
       ]
     },
     {
-      "name": "Unnamed20",
+      "name": "Glass Dust",
+      "description": "Is it weird to anyone else that one of the strongest materials on this world is glass in the real world? Well no matter because today it\u0027s time to take that dense little rock and crush it down. ",
       "x": 185,
       "y": 178,
       "icon": {
@@ -785,11 +1058,13 @@
         "damage": 4
       },
       "prerequisites": [
-        "Unnamed19"
+        "Hulk Crush! "
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Powder Power",
+          "longDescription": "The Crushed Obsidian can be used for any nubmer of things, but perhaps it\u0027s greatest use is that mobs can\u0027t spawn on it. But the Obsidian Dust... now that has some uses somewhere down the line. ",
           "items": [
             {
               "item": {
@@ -804,10 +1079,17 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
       ]
     },
     {
-      "name": "Unnamed21",
+      "name": "Come on Ride the Train",
+      "description": "So a furnace minecart is cool, but you know what is even cooler? An actual train that has a whistle and everything. It\u0027s time to start investing in the true steam powered monster, the locomotive",
       "x": 134,
       "y": 91,
       "icon": {
@@ -815,11 +1097,13 @@
         "nbt": "{model:\"railcraft:default\"}"
       },
       "prerequisites": [
-        "Unnamed12"
+        "Tinker Tenor"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "And Ride It ",
+          "longDescription": "Made with the Fire boxes and boilers you learned about in a seperate section. This train uses water and Coal and has it\u0027s own handy little interace. Don\u0027t forget that you can link carts (and locomotives) together by right clicking them with that crowbar you made ",
           "items": [
             {
               "item": {
@@ -831,6 +1115,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "The Choo Choo Train ",
+          "longDescription": "Ressupplying your train can be important and sometimes you aren\u0027t always there to load it up with water. That is where these handy little things help, providing a method for loading things into carts and locomotives. ",
           "items": [
             {
               "item": {
@@ -845,10 +1131,17 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:minecart",
+          "amount": 5
+        }
       ]
     },
     {
-      "name": "Unnamed22",
+      "name": "Water you looking for? ",
+      "description": "It seems sometimes that there just aren\u0027t enough buckets in the world. Well that is where you just need to find a bigger bucket. ",
       "x": 183,
       "y": 115,
       "icon": {
@@ -856,11 +1149,13 @@
         "damage": 14
       },
       "prerequisites": [
-        "Unnamed21"
+        "Come on Ride the Train"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Summon Bigger Bucket",
+          "longDescription": "When constructed in a 3x3x3 pattern where the innermost block (The one on the second layer at the center) is not placed (so hollow) this will slowly accumulate water and act as a fairly large resoivoire for more. ",
           "items": [
             {
               "item": {
@@ -871,10 +1166,17 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:water_bucket",
+          "amount": 5
+        }
       ]
     },
     {
-      "name": "Unnamed23",
+      "name": "Feeding the Masses",
+      "description": "If you have a lot  of farm animals it can become a bit of a hassle to constantly feed them. That is where the feed station comes in handy, automating a task that quite frankly no one really wants to do. ",
       "x": 220,
       "y": 74,
       "icon": {
@@ -882,11 +1184,13 @@
         "damage": 11
       },
       "prerequisites": [
-        "Unnamed22"
+        "Water you looking for? "
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Feed me Seymour",
+          "longDescription": "The Feed station acts in a fairly simple way. You provide it with a type of food and it will feed it to neaby animals. Fantastic for making that automated cow farm that you\u0027ve always wanted",
           "items": [
             {
               "item": {
@@ -896,10 +1200,25 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:wheat",
+          "amount": 64
+        },
+        {
+          "id": "minecraft:carrot",
+          "amount": 64
+        },
+        {
+          "id": "minecraft:wheat_seeds",
+          "amount": 64
+        }
       ]
     },
     {
-      "name": "Unnamed24",
+      "name": "Unload Your Worries",
+      "description": "Loading up a cart is fine and all, but what if you also want to spend some time getting things from your cart? that is where the Item Unloaders come from... oh and while you\u0027re here. ",
       "x": 234,
       "y": 116,
       "icon": {
@@ -907,11 +1226,13 @@
         "damage": 1
       },
       "prerequisites": [
-        "Unnamed22"
+        "Water you looking for? "
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Tanks for Noticing",
+          "longDescription": "The Tank cart as it\u0027s name implies is like a storage cart that moves around liquids. It can be loaded with a fluid loader and then unloaded with the fluid unloader we\u0027re discussing next. ",
           "items": [
             {
               "item": {
@@ -922,6 +1243,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Newton\u0027s 3rd Item",
+          "longDescription": "For  every item there must be an equal and opposite item and that is what we have here. While you were introduced to loaders earlier, it\u0027s time to learn about unloaders! ",
           "items": [
             {
               "item": {
@@ -937,21 +1260,30 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "Railcraft:track",
+          "nbt": "{track:\"railcraft:track.whistle\"}"
+        }
       ]
     },
     {
-      "name": "Unnamed25",
-      "x": 215,
-      "y": 147,
+      "name": "Why Tank You",
+      "description": "Sometimes a big, almost huge water bucket isn\u0027t enough, you need to hold even more liquid. And in cases like those it\u0027s time to consult the tank. ",
+      "x": 184,
+      "y": 148,
       "icon": {
         "id": "Railcraft:machine.beta"
       },
       "prerequisites": [
-        "Unnamed22"
+        "Water you looking for? "
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Tank it over here",
+          "longDescription": "Iron tanks are unqiue in that you can build them as big as you wish. Consult the description of the block for exacting details but it can offer you a variety of options. These surround the sides and make up the bottom and top of the tank. ",
           "items": [
             {
               "item": {
@@ -962,6 +1294,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Get more Aggro ",
+          "longDescription": "What kind of tank would it be if you couldn\u0027t see inside of it? These blocks can be placed to make it possible for you to see which fluid is being inside the fluid tank, e.g making up the outermost wall of the tank (though not the edges). ",
           "items": [
             {
               "item": {
@@ -973,6 +1307,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Taunt! ",
+          "longDescription": "Finally we need something to actually move liquids in and out and that is where the valve comes in handy. it allows you to have a point to move liquids in and out of your tank. ",
           "items": [
             {
               "item": {
@@ -982,21 +1318,30 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
       ]
     },
     {
-      "name": "Unnamed26",
+      "name": "How Boring",
+      "description": "There is rumored to be a device that can dig your tunnels for you. Who doesn\u0027t love that? Well it better not be you! That\u0027s right it\u0027s time to learn about the all to important and amazing Tunnel Bore! ",
       "x": 288,
       "y": 64,
       "icon": {
         "id": "Railcraft:cart.bore"
       },
       "prerequisites": [
-        "Unnamed24"
+        "Unload Your Worries"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Step 1 ",
+          "longDescription": "Before we can make the Tunnel bore, first we have to  construct the individual components for it. You could use an Iron Borehead but... why settle for second best? ",
           "items": [
             {
               "item": {
@@ -1012,6 +1357,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Step 2",
+          "longDescription": "You should know about a few useful carts that you can attach to your tunnel bore to help you with your journey. The first of course is the simple storage minecart, which will hold all the items your tunnel bore digs up or you want to give to the other carts. The Peronsal anchor cart to keep the chunks loaded as your bore... bores. And a track remover to clean up after your tunnel bore lays down track. ",
           "items": [
             {
               "item": {
@@ -1032,12 +1379,15 @@
         },
         {
           "type": "DETECT",
+          "description": "??? ",
+          "longDescription": "The following are all the things your tunnel bore is going to need in order to really operate. The Gravel it will use when it\u0027s about to come over a hole... though it can\u0027t work for holes that are too big. ",
           "items": [
             {
               "item": {
                 "id": "ImmersiveEngineering:material",
                 "damage": 6
-              }
+              },
+              "precision": "ORE_DICTIONARY"
             },
             {
               "item": {
@@ -1053,10 +1403,17 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:diamond",
+          "amount": 5
+        }
       ]
     },
     {
-      "name": "Unnamed27",
+      "name": "Tracked Down ",
+      "description": "There are a few more tracks that you might be interested in and even a few things to hold up tracks. This little series of adventures should teach you about some of the more obscure tracks out there. ",
       "x": 258,
       "y": 148,
       "icon": {
@@ -1064,11 +1421,13 @@
         "nbt": "{track:\"railcraft:track.suspended\"}"
       },
       "prerequisites": [
-        "Unnamed24"
+        "Unload Your Worries"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "David Blane of Tracks!",
+          "longDescription": "The suspened dtrack is fantastic for short distances (About 2) Where you don\u0027t have anything underneath the track. It can be used even if there is only air beneath (For about 2 blocks) and so long it\u0027s connected to a real piece of track somewhere. ",
           "items": [
             {
               "item": {
@@ -1080,6 +1439,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Trip Track ",
+          "longDescription": "A few tracks to know. First the disposal track which like the suspended track can be over open air, But when an entity rides over it, it is ejected, in the case of players to the side in the case of entities, to down below. The gated track is a track with a gate on it, and finally the Buffer Stop Track is a decorative end cap track that keeps railcarts from rolling off and looks better then a solid block sometimes. ",
           "items": [
             {
               "item": {
@@ -1106,6 +1467,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Post Results! ",
+          "longDescription": "There are several types of post in the game, but the black metal version is one of them. Functioning much like a fence except that they allow you to put a train track on top and create a fancy little surrounding for them. Great for decoration. ",
           "items": [
             {
               "item": {
@@ -1114,10 +1477,18 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "Railcraft:post",
+          "damage": 2,
+          "amount": 16
+        }
       ]
     },
     {
-      "name": "Unnamed28",
+      "name": "The Power compells you",
+      "description": "Sometimes a suspended track won\u0027t do it, but you just need to get that train across. This is where the ultimate form of technological track advancement can come in handy ",
       "x": 258,
       "y": 186,
       "icon": {
@@ -1125,11 +1496,12 @@
         "damage": 3
       },
       "prerequisites": [
-        "Unnamed27"
+        "Tracked Down "
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Use the Force Luke ",
           "items": [
             {
               "item": {
@@ -1138,11 +1510,41 @@
               }
             }
           ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "More Power Captain!",
+          "longDescription": "If you try to hook up just a basic Immersive Engineering Wire to this, it won\u0027t be powered, you have to convert the power source to something that the Force Rail Emitter can use. This case a 2x2x2 Block of Flux Transformers",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:machine.epsilon",
+                "damage": 4
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Railcraft:track",
+          "nbt": "{track:\"railcraft:track.embarking\"}"
+        },
+        {
+          "id": "Railcraft:track",
+          "damage": 20176,
+          "nbt": "{track:\"railcraft:track.locking\"}"
+        },
+        {
+          "id": "Railcraft:track",
+          "nbt": "{track:\"railcraft:track.control\"}"
         }
       ]
     },
     {
-      "name": "Unnamed29",
+      "name": "Anchors away my boys ",
+      "description": "Sometimes you want a far away land to continue to do what it is doing even if you aren\u0027t close by? Well there is a way though it does come at some amount of cost. ",
       "x": 121,
       "y": 53,
       "icon": {
@@ -1150,12 +1552,14 @@
         "damage": 2
       },
       "prerequisites": [
-        "Unnamed21"
+        "Come on Ride the Train"
       ],
       "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Anchored ",
+          "longDescription": "The world anchor is a simple enough concept. As you know Minecraft functions by what are known as chunks. If you feed this thing Ender Pearls those chunks will stay loaded EVEN if the player leaves them. Be /very/ careful with this it can cause issues if you have to many chunks loaded. ",
           "items": [
             {
               "item": {
@@ -1166,6 +1570,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Personal belongings. ",
+          "longDescription": "Like the World Anchor, but if you are in a multiplayer enviroment this Anchor will only work when the player who created it is actually active in the world. ",
           "items": [
             {
               "item": {
@@ -1175,21 +1581,30 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:ender_pearl",
+          "amount": 16
+        }
       ]
     },
     {
-      "name": "Unnamed30",
+      "name": "Carted away ",
+      "description": "There are just a few more carts you should be made aware of before you get comfertable considiring yourself the ultimate master of the rails. ",
       "x": 289,
       "y": 16,
       "icon": {
         "id": "Railcraft:cart.undercutter"
       },
       "prerequisites": [
-        "Unnamed26"
+        "How Boring"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Trailblazing. ",
+          "longDescription": "Put in the item you want to put UNDER your tracks, So if you have large swaths of land where you want your tracks to be sitting utop gravel rather then dirt. This little guy is your goto tool for doing so. ",
           "items": [
             {
               "item": {
@@ -1200,6 +1615,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Track Star",
+          "longDescription": "And of course who could live without something as useful as replacing the tracks. So if say you want to replace that old rail linn with a new reinforced one, then look no further! ",
           "items": [
             {
               "item": {
@@ -1208,22 +1625,31 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:chest_minecart",
+          "amount": 5
+        }
       ]
     },
     {
-      "name": "Unnamed31",
-      "x": 173,
+      "name": "Ice Ice baby Ice",
+      "description": "We know you may be growing tired of us telling you how to decorate, but how could we do a red, white, and blue joke without a blue block? Welll it\u0027s time for you to meet the frost bound block! ",
+      "x": 181,
       "y": 79,
       "icon": {
         "id": "Railcraft:brick.frostbound",
         "damage": 2
       },
       "prerequisites": [
-        "Unnamed10"
+        "I seek a quarry with you"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "You\u0027re cold as ice!",
+          "longDescription": "Crafted by mixing Lapis and Ice, this block much like the two that we have mentioned before it doesn\u0027t really have any special sorts of properties, it\u0027s purely for making the place you live look more interesting. ",
           "items": [
             {
               "item": {
@@ -1235,6 +1661,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "A block of ice? See get it? ",
+          "longDescription": "Like it\u0027s compatriot blocks this can be shaped any number of ways including being turned into bricks. ",
           "items": [
             {
               "item": {
@@ -1246,19 +1674,29 @@
         },
         {
           "type": "CRAFT",
+          "description": "Creepy? ",
+          "longDescription": "By mixing your frostbound brick with a bit of Gunpowder you can even put a little creeper face on it, now isn\u0027t that cool? ",
           "items": [
             {
               "item": {
-                "id": "Railcraft:stair",
-                "damage": 24
+                "id": "Railcraft:brick.frostbound",
+                "damage": 4
               }
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "Railcraft:brick.frostbound",
+          "damage": 2,
+          "amount": 64
+        }
       ]
     },
     {
-      "name": "Unnamed32",
+      "name": "Going Cheap ",
+      "description": "Sometimes you just don\u0027t have the money to make yourself a fancy set of tracks, and really you need to get from point A to Point B anyway. Well that\u0027s where the wooden track comes in handy. ",
       "x": 18,
       "y": 85,
       "icon": {
@@ -1267,12 +1705,14 @@
         "nbt": "{track:\"railcraft:track.slow\"}"
       },
       "prerequisites": [
-        "Unnamed7"
+        "Gotta Go Fast! "
       ],
       "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Old Fashion",
+          "longDescription": "Made from a Wooden Railbed and several wooden Ties, the wooden track is a bit slower but not so resource intesive. Now get out there and use this iron we\u0027re giving you to make some real tracks. ",
           "items": [
             {
               "item": {
@@ -1283,10 +1723,17 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:iron_ingot",
+          "amount": 16
+        }
       ]
     },
     {
-      "name": "Unnamed33",
+      "name": "EE lec trick ",
+      "description": "Alright so it may be a catchy dance but who wouldn\u0027t love the chance to make  their world a bit more... Electric? I mean it\u0027s probalby cleaner for the enviroment too right? ",
       "x": 294,
       "y": 147,
       "icon": {
@@ -1294,11 +1741,13 @@
         "nbt": "{model:\"railcraft:default\"}"
       },
       "prerequisites": [
-        "Unnamed27"
+        "Tracked Down "
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Don\u0027t touch the middle rail!",
+          "longDescription": "While not nearly as harmful as it\u0027s real world counter part when it comes to touch, this rail is the basis of the rails to come. It will be used to construct electric varients of all your favorite rail types. ",
           "items": [
             {
               "item": {
@@ -1310,6 +1759,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Powerful Setup ",
+          "longDescription": "Now you can complete your first piece of electric track, and of course following that you can start looking into ways to move your system around. The Wire support frame allows you to sneak that wire shunt under the track and hook it up. Run the shunt back to what we\u0027re going to show you next",
           "items": [
             {
               "item": {
@@ -1331,6 +1782,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "It Lives! ",
+          "longDescription": "A steam turbine uses steam and converts it into a power source that the Shunt can transport to the track. It\u0027s advised to placce it direclty next to a boiler to avoid complications with pipes. The Train itself will be powered once the rails have power. ",
           "items": [
             {
               "item": {
@@ -1352,10 +1805,17 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "Railcraft:part.turbine.rotor",
+          "amount": 3
+        }
       ]
     },
     {
-      "name": "Unnamed34",
+      "name": "Off Off and Away ",
+      "description": "Alright so you\u0027ve learned all about the various types of rails, trains, and the like but it\u0027s also a good chance to have a little fun wouldn\u0027t you agree? ",
       "x": 293,
       "y": 104,
       "icon": {
@@ -1363,11 +1823,13 @@
         "nbt": "{track:\"railcraft:track.launcher\"}"
       },
       "prerequisites": [
-        "Unnamed33"
+        "EE lec trick "
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Sail! ",
+          "longDescription": "The launcher track launches things. We feel this is fairly self explanatory and requiring truely little on our part to explain more! Have fun",
           "items": [
             {
               "item": {
@@ -1376,6 +1838,112 @@
               }
             }
           ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Sending the Right Singal",
+      "description": "In the last quest we mentioned that you can get a rail to change it\u0027d direction if you make it in a special way. Well what about a way to automate all of that? ",
+      "x": 227,
+      "y": 144,
+      "icon": {
+        "id": "Railcraft:signal",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Harder Rails "
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Surveying the Land ",
+          "longDescription": "The very first thing that you are going to need is A Survey Tool. This will be like a crow bar but for signals While the Signal Tuner allows you to link Controller and reciever signals (which will make more sense later) And finally the trackmans goggles will let you see the connections",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:tool.surveyor"
+              }
+            },
+            {
+              "item": {
+                "id": "Railcraft:tool.signal.tuner"
+              }
+            },
+            {
+              "item": {
+                "id": "Railcraft:armor.goggles"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Signaling your intent! ",
+          "longDescription": "Signals can be a BIT complicated. Just for clarity we might suggest looking up a tutorial for how best to use them. But the basics of which are that that signals can be linked, Distance Signals mirror the Signal they are linked with and the dual signals allow for a link with two different signals (Again... a lot more then we can really describe in the short explanation). ",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:signal",
+                "damage": 3
+              }
+            },
+            {
+              "item": {
+                "id": "Railcraft:signal",
+                "damage": 11
+              }
+            },
+            {
+              "item": {
+                "id": "Railcraft:signal",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Relaying on you!",
+          "longDescription": "Here are the final objects of interest. Note that the Relay acts much like a normal signal, the Reciever and controller acting like a  distance signal. And finally the switch motor which is perhaps the most important part. Use the Signal tuner to link it to a Signal and then use the track mans goggles to see that connection (agian might want to look at a tutorial). ",
+          "items": [
+            {
+              "item": {
+                "id": "Railcraft:signal",
+                "damage": 13
+              }
+            },
+            {
+              "item": {
+                "id": "Railcraft:signal",
+                "damage": 8
+              }
+            },
+            {
+              "item": {
+                "id": "Railcraft:signal",
+                "damage": 9
+              }
+            },
+            {
+              "item": {
+                "id": "Railcraft:signal",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Railcraft:signal",
+          "damage": 3,
+          "amount": 5
         }
       ]
     }

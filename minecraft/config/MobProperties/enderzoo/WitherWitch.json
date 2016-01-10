@@ -1,6 +1,15 @@
 {
   "_name": "enderzoo.WitherWitch",
-  "drops": [],
+  "_comment": "Add Witch Hand to Drop List", 
+  "drops": 
+  [
+    {
+		"function":"add",
+		"id": "witchery:witchhand",
+		"count": 0.10 
+	} 
+  ],
+  
   "pre_stats": [],
   "stats": []
 }

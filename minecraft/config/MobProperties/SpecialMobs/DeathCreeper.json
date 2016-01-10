@@ -1,6 +1,14 @@
 {
   "_name": "SpecialMobs.DeathCreeper",
-  "drops": [],
-  "pre_stats": [],
+  "_comment": "Add Creeper Heart to Drop List", 
+  "drops": 
+  [
+    {
+		"function":"add",
+		"id": "witchery:ingredient",
+		"damage": 74,
+		"count": 0.01 
+	} 
+  ],  "pre_stats": [],
   "stats": []
 }

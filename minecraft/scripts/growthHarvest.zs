@@ -29,3 +29,7 @@ recipes.addShapeless(<Growthcraft|Bees:grc.honeyJar>, [<harvestcraft:honeycombIt
 recipes.remove(<Growthcraft|Bees:grc.honeyMead_bucket>); 
 recipes.addShapeless(<Growthcraft|Bees:grc.honeyMeadBucket.0>,[<minecraft:bucket>,<minecraft:water_bucket>,<Growthcraft|Bees:grc.honeyJar>]);
 recipes.addShapeless(<Growthcraft|Bees:grc.honeyMeadBucket.0>,[<minecraft:bucket>,<minecraft:water_bucket>,<harvestcraft:honeyItem>]);
+
+#Temp Fix for Seaweed and Cranberries 
+recipes.addShapeless(<harvestcraft:seaweedseedItem>,[<harvestcraft:seaweedItem>]); 
+recipes.addShapeless(<harvestcraft:cranberryseedItem>,[<harvestcraft:cranberryItem>]); 

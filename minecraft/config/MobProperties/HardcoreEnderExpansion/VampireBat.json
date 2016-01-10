@@ -1,6 +1,14 @@
 {
   "_name": "HardcoreEnderExpansion.VampireBat",
-  "drops": [],
-  "pre_stats": [],
+"_comment": "Add wool of Bat to Drop List", 
+  "drops": 
+  [
+    {
+		"function":"add",
+		"id": "witchery:ingredient",
+		"damage": 24,
+		"count": 0.25 
+	} 
+  ],  "pre_stats": [],
   "stats": []
 }
