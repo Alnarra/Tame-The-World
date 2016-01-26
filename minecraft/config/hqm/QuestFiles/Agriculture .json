@@ -1295,6 +1295,78 @@
           "amount": 2
         }
       ]
+    },
+    {
+      "name": "Cooking Made Easy ",
+      "description": "So who can really be bothered to remeber ALL those recipies that you need to make for cooking? It\u0027s terrible right. Well it\u0027s time for you to learn a new way. ",
+      "x": 100,
+      "y": 194,
+      "icon": {
+        "id": "cookingbook:recipebook",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Even the Kitchen Sink"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Burning Calories. ",
+          "longDescription": "It\u0027s time for a good old fashion book burning. So get yourself a plain book and throw it in the furnace! It will tell you what you can craft from the items in your inventory! ",
+          "items": [
+            {
+              "item": {
+                "id": "cookingbook:recipebook"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Dietary Planner",
+          "longDescription": "Who wants to simply be told what they can make when you can something ALSO make it for you. Combining your fancy cookbook with a few other things, you will now be able to start CRAFTING food from your inventory. ",
+          "items": [
+            {
+              "item": {
+                "id": "cookingbook:recipebook",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Craft a Kitchen",
+          "longDescription": "So who wants to take up valuable inventory space with food? Not I. The Fridge can store your food, the sink can give you fresh water, the stove can cook your meats and store a few tools, and finally the Cooking table is your centerpiece. This multiblock kitchen with the right tools will allow you to cook just about anything you have in your fridge or inventory! ",
+          "items": [
+            {
+              "item": {
+                "id": "cookingbook:cookingtable"
+              }
+            },
+            {
+              "item": {
+                "id": "cookingbook:fridge"
+              }
+            },
+            {
+              "item": {
+                "id": "cookingbook:sink"
+              }
+            },
+            {
+              "item": {
+                "id": "cookingbook:cookingoven"
+              }
+            },
+            {
+              "item": {
+                "id": "cookingbook:toolrack"
+              }
+            }
+          ]
+        }
+      ]
     }
   ],
   "reputationBar": []

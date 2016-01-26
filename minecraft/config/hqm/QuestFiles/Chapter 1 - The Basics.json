@@ -889,6 +889,7 @@
       "prerequisites": [
         "Bedding with the Enemy"
       ],
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "CRAFT",
@@ -1017,8 +1018,8 @@
         "id": "exnihilo:hammer_iron"
       },
       "prerequisites": [
-        "Oh Hoe you didn\u0027t. ",
-        "Sieveing with Envy "
+        "Sieveing with Envy ",
+        "Oh Hoe you didn\u0027t. "
       ],
       "trigger": "ANTI_TRIGGER",
       "tasks": [

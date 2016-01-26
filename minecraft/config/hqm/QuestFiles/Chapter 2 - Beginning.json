@@ -552,7 +552,7 @@
           ]
         },
         {
-          "type": "CRAFT",
+          "type": "DETECT",
           "description": "Players first wand",
           "longDescription": "Put those iron caps on either end of a stick, and you can make your very first wand. Not very exciting we admit, but it is a start isn\u0027t it? ",
           "items": [
