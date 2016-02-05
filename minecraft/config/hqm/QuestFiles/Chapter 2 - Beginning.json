@@ -343,8 +343,8 @@
     {
       "name": "Getting an upgrade",
       "description": "Storage is a strange thing, sometimes you just don\u0027t have enough of it. Well worry no more, with these upgrades you\u0027ll be well on your way to having more of your stuff",
-      "x": 125,
-      "y": 102,
+      "x": 140,
+      "y": 99,
       "icon": {
         "id": "StorageDrawers:upgrade",
         "damage": 2
@@ -533,7 +533,7 @@
               "item": {
                 "id": "Thaumcraft:ItemNugget"
               },
-              "required": 10,
+              "required": 2,
               "precision": "ORE_DICTIONARY"
             }
           ]
@@ -832,7 +832,7 @@
       "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
-          "type": "CRAFT",
+          "type": "DETECT",
           "description": "Pedal faster",
           "longDescription": "With some stone slabs, stones, and a flower Petal you can make your very own apothocary. To use this device pour some water (in a bucket) into it, and then throw the correct mixture of flower pedals (consult your lexiconia botania). Then to finalize it throw in some seeds. ",
           "items": [
@@ -1431,6 +1431,63 @@
         {
           "id": "HardcoreQuesting:bags",
           "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Hello From the Other Side!",
+      "description": "So you want your own storage room right? I mean who doesn\u0027t want their own storage rooms? They\u0027re handy and a great place to store stuff... Well what if we told you you can own your very own \"Cloud Storage?\" ",
+      "x": 96,
+      "y": 99,
+      "icon": {
+        "id": "RandomThings:spectreKey"
+      },
+      "prerequisites": [
+        "Getting an upgrade"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Ghostbusters!",
+          "longDescription": "You may have noticed that after you kill creatures, sometimes their spirit escapes into the wild. Well don\u0027t let that spirit just escape, kill it to and harvest the ectoplasm! ",
+          "items": [
+            {
+              "item": {
+                "id": "RandomThings:ingredient",
+                "damage": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Ghost Iron Bar ",
+          "longDescription": "Combining the ectoplasm with a bit of iron you can create spectre Iron. now spectre iron can be used for a few things and we\u0027ll eventually get around to that, but for right now we want to show you a special tool! ",
+          "items": [
+            {
+              "item": {
+                "id": "RandomThings:ingredient",
+                "damage": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "A Key to my Storage",
+          "longDescription": "Now that you have the spectre iron, you can combine it with a stick to make a spectre key. This key will allow you to travel to a small space in a new dimension that only you can access using a spectre key. ",
+          "items": [
+            {
+              "item": {
+                "id": "RandomThings:spectreKey"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "RandomThings:spectreChestplate"
         }
       ]
     }

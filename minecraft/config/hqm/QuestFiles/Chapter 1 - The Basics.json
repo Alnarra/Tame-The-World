@@ -51,6 +51,12 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:log",
+          "amount": 5
+        }
       ]
     },
     {
@@ -1012,8 +1018,8 @@
     {
       "name": "Stop, Hammer Time!",
       "description": "One more tool that you may find yourself using on your adventures is something called the hammer. Now this hammer is useful for turning Stone into Cobblestone, Cobblestone into Gravel, Gravel into Sand... And Sand into dust. ",
-      "x": 179,
-      "y": 160,
+      "x": 173,
+      "y": 157,
       "icon": {
         "id": "exnihilo:hammer_iron"
       },
@@ -1166,6 +1172,75 @@
         {
           "id": "minecraft:cooked_fished",
           "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Swiper no Swiping",
+      "description": "So you my have noticed that in this little pack of ours, there is a LOT of stuff. Well we want to help you with that, by giving you a place to put all your stuff. ",
+      "x": 203,
+      "y": 176,
+      "icon": {
+        "id": "Backpack:backpack"
+      },
+      "prerequisites": [
+        "Raise Shields"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "All that stuff! ",
+          "longDescription": "Backpacks are a great way to help with the fact that you just don\u0027t have enough space for all this stuff. So by taking 8 Leather and crafting them like a chest you can make your very own backpack. Also we want you to craft some bound leather, which is just leather mixed with string ",
+          "items": [
+            {
+              "item": {
+                "id": "Backpack:backpack"
+              }
+            },
+            {
+              "item": {
+                "id": "Backpack:boundLeather"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Tanning your skins!",
+          "longDescription": "Tanned leather can be gotten by taken that bound leather and cooking it for a bit. It\u0027s great for making /even/ bigger backpacks. ",
+          "items": [
+            {
+              "item": {
+                "id": "Backpack:tannedLeather"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Bigger and Better",
+          "longDescription": "Finally we want to talk about the 2 of the 3 other versions of the backpack. One you can get by putting a crafting bench at the center of your backpack. One you get by making it out of tanned leather.",
+          "items": [
+            {
+              "item": {
+                "id": "Backpack:backpack",
+                "damage": 200
+              }
+            },
+            {
+              "item": {
+                "id": "Backpack:workbenchbackpack",
+                "damage": 17
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
         }
       ]
     }

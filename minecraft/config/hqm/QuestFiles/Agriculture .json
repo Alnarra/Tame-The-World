@@ -164,14 +164,8 @@
         {
           "type": "DETECT",
           "description": "Fenced in ",
-          "longDescription": "To grow the hops we\u0027re going to need a few things. First those hopes you have you need to turn them into hops seeds (Simply put them in your crafting bench). Then you\u0027re going to need some rope and fences. ",
+          "longDescription": "To grow the hops we\u0027re going to need a few things. First those hopes you have you need to turn them into hops seeds (Simply put them in your crafting bench). Then you\u0027re going to need some rope and fences. Ropes should be craftable by putting a lead into the crafting block! ",
           "items": [
-            {
-              "item": {
-                "id": "Growthcraft:grc.rope"
-              },
-              "required": 5
-            },
             {
               "item": {
                 "id": "minecraft:fence"
@@ -182,6 +176,13 @@
               "item": {
                 "id": "Growthcraft|Hops:grc.hopSeeds"
               }
+            },
+            {
+              "item": {
+                "id": "Growthcraft:grc.rope"
+              },
+              "required": 5,
+              "precision": "ORE_DICTIONARY"
             }
           ]
         },

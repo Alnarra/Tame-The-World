@@ -222,7 +222,7 @@
     {
       "name": "I sell Coke Ovens",
       "description": "Before we can get started on our path to making a more complete electrical empire, we must first begin with the basics. In this case the Coke Oven. ",
-      "x": 113,
+      "x": 99,
       "y": 54,
       "icon": {
         "id": "ImmersiveEngineering:stoneDecoration",
@@ -242,7 +242,7 @@
                 "id": "ImmersiveEngineering:stoneDecoration",
                 "damage": 1
               },
-              "required": 27
+              "required": 14
             }
           ]
         },
@@ -316,8 +316,8 @@
     {
       "name": "Steeling the show",
       "description": "Alright so now you have your coke oven, but you need one more thing to make your empires foundations strong. That of course is a blast furnance. ",
-      "x": 112,
-      "y": 17,
+      "x": 100,
+      "y": 15,
       "icon": {
         "id": "ImmersiveEngineering:stoneDecoration",
         "damage": 2
@@ -335,7 +335,8 @@
               "item": {
                 "id": "ImmersiveEngineering:stoneDecoration",
                 "damage": 2
-              }
+              },
+              "required": 14
             }
           ]
         },
@@ -392,8 +393,7 @@
             {
               "item": {
                 "id": "ImmersiveEngineering:treatedWood"
-              },
-              "required": 8
+              }
             }
           ]
         }
@@ -964,7 +964,7 @@
       ],
       "tasks": [
         {
-          "type": "CRAFT",
+          "type": "DETECT",
           "description": "Low Voltage Fun",
           "longDescription": "To start off with, most everything you play with will probably be low voltage in nature. For this something as simple as copper wiring should be able to move it around. ",
           "items": [
@@ -978,7 +978,8 @@
                 "id": "ImmersiveEngineering:metalDevice",
                 "damage": 1,
                 "nbt": "{energyStorage:100000}"
-              }
+              },
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
@@ -1150,7 +1151,7 @@
         {
           "type": "CRAFT",
           "description": "Generate the world",
-          "longDescription": "These Final blocks are the components that you will find in more specialized devices like Arc Furnaces and power generation like diseal generators. ",
+          "longDescription": "These Final blocks are the components that you will find in more specialized devices like Arc Furnaces and power generation like diseal generators. Finally An Iron Plate which can be made by hammering out some iron You might even be able to automate this process. Consult your Engineering guide ",
           "items": [
             {
               "item": {
@@ -1163,20 +1164,19 @@
                 "id": "ImmersiveEngineering:metalDecoration",
                 "damage": 4
               }
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metal",
+                "damage": 32
+              }
             }
           ]
         }
       ],
       "reward": [
         {
-          "id": "ImmersiveEngineering:metalDecoration",
-          "damage": 5,
-          "amount": 5
-        },
-        {
-          "id": "ImmersiveEngineering:metalDecoration",
-          "damage": 7,
-          "amount": 5
+          "id": "ImmersiveEngineering:mold"
         }
       ]
     },
@@ -1840,6 +1840,56 @@
           "id": "ImmersiveEngineering:clothDevice",
           "amount": 10,
           "nbt": "{offset:1}"
+        }
+      ]
+    },
+    {
+      "name": "Blast Upgrade",
+      "description": "So your blast furance is fine and all, but did you know there\u0027s a better way? A way even to automate and make a more powerful blast furance? Well now you do! ",
+      "x": 128,
+      "y": 42,
+      "icon": {
+        "id": "ImmersiveEngineering:stoneDecoration",
+        "damage": 6
+      },
+      "prerequisites": [
+        "Steeling the show",
+        "Piping out the answers",
+        "Turn on the Oven"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Preheat to 10,000",
+          "longDescription": "The new and improved blast furance can make use of these wonderful things called \"Preheaters\" which you should most definately take a look into ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDevice2",
+                "damage": 11
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Reinforce the Furance",
+          "longDescription": "This steel and blast furance brick monstrosity is a great way to get your day started. Consult the engineering book for exacitng details on what\u0027s needed but we\u0027re pretty sure this will get you on the way! ",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:stoneDecoration",
+                "damage": 6
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ImmersiveEngineering:storage",
+          "damage": 7
         }
       ]
     }

@@ -1,0 +1,371 @@
+{
+  "name": "Thaumaturge ",
+  "quests": [
+    {
+      "name": "Unnamed",
+      "x": 20,
+      "y": 15,
+      "icon": {
+        "id": "Thaumcraft:ItemGoggles"
+      },
+      "prerequisites": [
+        "{Chapter 2 - Beginning}[But what of my research? ]"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemGoggles"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemShard",
+          "damage": 3,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Unnamed1",
+      "x": 61,
+      "y": 15,
+      "icon": {
+        "id": "Thaumcraft:blockTable",
+        "damage": 14
+      },
+      "prerequisites": [
+        "Unnamed"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockTable",
+                "damage": 14
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemShard",
+          "damage": 2,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Unnamed2",
+      "x": 40,
+      "y": 42,
+      "icon": {
+        "id": "Thaumcraft:blockMetalDevice"
+      },
+      "prerequisites": [
+        "Unnamed"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockMetalDevice"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemShard",
+                "damage": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemResource",
+                "damage": 14
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemShard",
+          "damage": 1,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Unnamed3",
+      "x": 19,
+      "y": 71,
+      "icon": {
+        "id": "Thaumcraft:ItemResource",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Unnamed2"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemResource",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemResource"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemShard",
+          "damage": 4,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Unnamed4",
+      "x": 82,
+      "y": 41,
+      "icon": {
+        "id": "Thaumcraft:blockCandle"
+      },
+      "prerequisites": [
+        "Unnamed2"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemResource",
+                "damage": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockCandle"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemShard",
+          "damage": 5,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Unnamed5",
+      "x": 58,
+      "y": 72,
+      "icon": {
+        "id": "Thaumcraft:ItemResource",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Unnamed2"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemResource",
+                "damage": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemPickThaumium"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemBootsThaumium"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemSwordThaumium"
+        },
+        {
+          "id": "Thaumcraft:ItemChestplateThaumium"
+        }
+      ]
+    },
+    {
+      "name": "Unnamed6",
+      "x": 102,
+      "y": 15,
+      "icon": {
+        "id": "Thaumcraft:ItemEssence"
+      },
+      "prerequisites": [
+        "Unnamed1"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemEssence"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemEssence",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "Unnamed7",
+      "x": 126,
+      "y": 52,
+      "icon": {
+        "id": "Thaumcraft:blockTable",
+        "damage": 15
+      },
+      "prerequisites": [
+        "Unnamed6"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockTable",
+                "damage": 15
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemShard",
+          "damage": 6
+        }
+      ]
+    },
+    {
+      "name": "Unnamed8",
+      "x": 140,
+      "y": 15,
+      "icon": {
+        "id": "Thaumcraft:blockMetalDevice",
+        "damage": 5
+      },
+      "prerequisites": [
+        "Unnamed6"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockMetalDevice",
+                "damage": 5
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Unnamed9",
+      "x": 186,
+      "y": 16,
+      "icon": {
+        "id": "Thaumcraft:blockChestHungry"
+      },
+      "prerequisites": [
+        "Unnamed8"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockChestHungry"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}
