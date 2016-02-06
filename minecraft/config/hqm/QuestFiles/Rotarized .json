@@ -591,8 +591,8 @@
     },
     {
       "name": "Unnamed12",
-      "x": 177,
-      "y": 131,
+      "x": 158,
+      "y": 136,
       "icon": {
         "id": "RotaryCraft:rotarycraft_item_gearbox",
         "damage": 2,
@@ -940,7 +940,7 @@
     },
     {
       "name": "Unnamed20",
-      "x": 215,
+      "x": 217,
       "y": 91,
       "icon": {
         "id": "RotaryCraft:rotarycraft_item_gearbox",
@@ -1467,8 +1467,8 @@
     },
     {
       "name": "Unnamed29",
-      "x": 238,
-      "y": 49,
+      "x": 229,
+      "y": 72,
       "icon": {
         "id": "RotaryCraft:rotarycraft_item_jetpack"
       },
@@ -1568,6 +1568,584 @@
           "id": "RotaryCraft:rotarycraft_item_machine",
           "damage": 18,
           "nbt": "{lvl:64000,liquid:\"rc ethanol\"}"
+        }
+      ]
+    },
+    {
+      "name": "Unnamed31",
+      "x": 226,
+      "y": 11,
+      "icon": {
+        "id": "RotaryCraft:rotarycraft_item_engine",
+        "damage": 8
+      },
+      "prerequisites": [
+        "Unnamed21",
+        "Unnamed32"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "RotaryCraft:rotarycraft_item_engine",
+                "damage": 7
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "RotaryCraft:rotarycraft_item_engine",
+                "damage": 8
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "RotaryCraft:rotarycraft_item_machine",
+          "damage": 18,
+          "amount": 4,
+          "nbt": "{lvl:64000,liquid:\"rc jet fuel\"}"
+        }
+      ]
+    },
+    {
+      "name": "Unnamed32",
+      "x": 228,
+      "y": 43,
+      "icon": {
+        "id": "RotaryCraft:rotarycraft_item_compacts",
+        "damage": 6
+      },
+      "prerequisites": [
+        "Unnamed25"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "RotaryCraft:rotarycraft_item_powders",
+                "damage": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "RotaryCraft:rotarycraft_item_compacts",
+                "damage": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "RotaryCraft:rotarycraft_item_enginecraft",
+                "damage": 19
+              }
+            },
+            {
+              "item": {
+                "id": "RotaryCraft:rotarycraft_item_misccraft",
+                "damage": 12
+              }
+            },
+            {
+              "item": {
+                "id": "RotaryCraft:rotarycraft_item_enginecraft",
+                "damage": 17
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "RotaryCraft:rotarycraft_item_misccraft",
+          "damage": 12,
+          "amount": 5
+        },
+        {
+          "id": "RotaryCraft:rotarycraft_item_enginecraft",
+          "damage": 17,
+          "amount": 5
+        },
+        {
+          "id": "RotaryCraft:rotarycraft_item_enginecraft",
+          "damage": 19,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Unnamed33",
+      "x": 269,
+      "y": 12,
+      "icon": {
+        "id": "RotaryCraft:rotarycraft_item_machine",
+        "damage": 109
+      },
+      "prerequisites": [
+        "Unnamed31"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "RotaryCraft:rotarycraft_item_enginecraft",
+                "damage": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "RotaryCraft:rotarycraft_item_machine",
+                "damage": 109
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "RotaryCraft:rotarycraft_item_machine",
+                "damage": 108
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ImmersiveEngineering:metalDevice",
+          "damage": 1,
+          "nbt": "{energyStorage:100000}"
+        }
+      ]
+    },
+    {
+      "name": "Unnamed34",
+      "x": 254,
+      "y": 62,
+      "icon": {
+        "id": "RotaryCraft:rotarycraft_item_borecraft",
+        "damage": 11
+      },
+      "prerequisites": [
+        "Unnamed32"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "RotaryCraft:rotarycraft_item_borecraft",
+                "damage": 11
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "RotaryCraft:rotarycraft_item_borecraft",
+                "damage": 12
+              }
+            },
+            {
+              "item": {
+                "id": "RotaryCraft:rotarycraft_item_borecraft",
+                "damage": 11
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "RotaryCraft:rotarycraft_item_borecraft",
+          "damage": 12,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Unnamed35",
+      "x": 255,
+      "y": 105,
+      "icon": {
+        "id": "RotaryCraft:rotarycraft_item_advgear",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Unnamed19",
+        "Unnamed34"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "RotaryCraft:rotarycraft_item_advgear",
+                "damage": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "RotaryCraft:rotarycraft_item_flywheel",
+                "damage": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "RotaryCraft:rotarycraft_item_borecraft",
+                "damage": 9
+              }
+            },
+            {
+              "item": {
+                "id": "RotaryCraft:rotarycraft_item_machine",
+                "damage": 102
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "RotaryCraft:rotarycraft_item_borecraft",
+          "damage": 9,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Unnamed36",
+      "x": 274,
+      "y": 82,
+      "icon": {
+        "id": "RotaryCraft:rotarycraft_item_machine"
+      },
+      "prerequisites": [
+        "Unnamed34"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "RotaryCraft:rotarycraft_item_extracts",
+                "damage": 33
+              }
+            },
+            {
+              "item": {
+                "id": "RotaryCraft:rotarycraft_item_compacts",
+                "damage": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "RotaryCraft:rotarycraft_item_machine"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "RotaryCraft:rotarycraft_item_powders",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "RotaryCraft:rotarycraft_item_bedshears"
+        }
+      ]
+    },
+    {
+      "name": "Unnamed37",
+      "x": 41,
+      "y": 153,
+      "icon": {
+        "id": "RotaryCraft:rotarycraft_item_machine",
+        "damage": 67
+      },
+      "prerequisites": [
+        "Unnamed8"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "RotaryCraft:rotarycraft_item_machine",
+                "damage": 67
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "RotaryCraft:rotarycraft_item_machine",
+                "damage": 32
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Unnamed38",
+      "x": 298,
+      "y": 82,
+      "icon": {
+        "id": "RotaryCraft:rotarycraft_item_compacts",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Unnamed36"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "RotaryCraft:rotarycraft_item_compacts",
+                "damage": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "RotaryCraft:rotarycraft_item_bedpick",
+                "nbt": "{ench:[0:{lvl:1s,id:33s}]}"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "RotaryCraft:rotarycraft_item_bedsword",
+          "nbt": "{ench:[0:{lvl:5s,id:16s},1:{lvl:5s,id:21s}]}"
+        },
+        {
+          "id": "RotaryCraft:rotarycraft_item_bedboots",
+          "nbt": "{ench:[0:{lvl:4s,id:2s}]}"
+        }
+      ]
+    },
+    {
+      "name": "Unnamed39",
+      "x": 195,
+      "y": 156,
+      "icon": {
+        "id": "RotaryCraft:rotarycraft_item_machine",
+        "damage": 37
+      },
+      "prerequisites": [
+        "Unnamed18"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "RotaryCraft:rotarycraft_item_machine",
+                "damage": 37
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "RotaryCraft:rotarycraft_item_machine",
+                "damage": 36
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "RotaryCraft:rotarycraft_item_machine",
+                "damage": 31
+              }
+            },
+            {
+              "item": {
+                "id": "RotaryCraft:rotarycraft_item_machine",
+                "damage": 114
+              }
+            },
+            {
+              "item": {
+                "id": "RotaryCraft:rotarycraft_item_machine",
+                "damage": 90
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Unnamed40",
+      "x": 193,
+      "y": 73,
+      "icon": {
+        "id": "RotaryCraft:rotarycraft_item_machine",
+        "damage": 35
+      },
+      "prerequisites": [
+        "Unnamed22"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "RotaryCraft:rotarycraft_item_machine",
+                "damage": 35
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "RotaryCraft:rotarycraft_item_machine",
+                "damage": 50
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "RotaryCraft:rotarycraft_item_machine",
+                "damage": 33
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:spawn_egg",
+          "damage": 50
+        }
+      ]
+    },
+    {
+      "name": "Unnamed41",
+      "x": 127,
+      "y": 174,
+      "icon": {
+        "id": "RotaryCraft:rotarycraft_item_machine",
+        "damage": 58
+      },
+      "prerequisites": [
+        "Unnamed8"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "RotaryCraft:rotarycraft_item_machine",
+                "damage": 58
+              }
+            }
+          ]
         }
       ]
     }
