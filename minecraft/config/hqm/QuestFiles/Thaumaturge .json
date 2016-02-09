@@ -1,8 +1,10 @@
 {
   "name": "Thaumaturge ",
+  "description": "The life of magic is all around us, but with magic comes the darkness of the occult. Be wary the warp until you need it. The following will guide you through all you need to know about nodes, research, and the incredibly potent and powerful world of magic around you ",
   "quests": [
     {
-      "name": "Unnamed",
+      "name": "Seeing the Unseen",
+      "description": "Now that you have the research table in place it\u0027s time... to research. And the first thing we\u0027re going to want to research are the goggles of revealing. You\u0027ll find them in the artifice tab of your thaumonomicon. Remember to scan everything for more aspects for research ",
       "x": 20,
       "y": 15,
       "icon": {
@@ -15,6 +17,8 @@
       "tasks": [
         {
           "type": "DETECT",
+          "description": "These goggles do something",
+          "longDescription": "The research minigame for the goggles of revealing shouldn\u0027t be too tough, and crafting them isn\u0027t so bad either, a bit of leather, gold, and two Thaumometer\u0027s though we suggest still having one spare to scan nodes and the like, which these goggles will help you to find. ",
           "items": [
             {
               "item": {
@@ -33,7 +37,8 @@
       ]
     },
     {
-      "name": "Unnamed1",
+      "name": "Break it down",
+      "description": "Sometimes you just don\u0027t have enough aspects to continue your research. By reseraching \"Research Expertise\" and then Deconstruction table you might help alleviate that problem",
       "x": 61,
       "y": 15,
       "icon": {
@@ -41,11 +46,13 @@
         "damage": 14
       },
       "prerequisites": [
-        "Unnamed"
+        "Seeing the Unseen"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Watch yourself",
+          "longDescription": "The Deconstruction table is great for perhaps a few of the most basic aspects, but really that\u0027s all you ever need. It takes an item and breaks it down into aspects so don\u0027t throw anything you might want to keep on there. To use it simply right click to access the GUI and then put whatever you want to deconstruct in the top slot. Note you\u0027ll only ever get one aspect in return ",
           "items": [
             {
               "item": {
@@ -65,18 +72,21 @@
       ]
     },
     {
-      "name": "Unnamed2",
+      "name": "Fullmetal Alchemist",
+      "description": "Alright so you didn\u0027t try to bring back your dead mother, but you are going to need some equipment to get used to making alchemical \"Things\" The first of which is of course the cruicbile the basis for all alchemical mixtures in the future ",
       "x": 40,
       "y": 42,
       "icon": {
         "id": "Thaumcraft:blockMetalDevice"
       },
       "prerequisites": [
-        "Unnamed"
+        "Seeing the Unseen"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Beware short catalyst",
+          "longDescription": "The crucible, this one not of Prothean design, is the basic part of all alchemical mixtures. To make one simply use your wand on a cauldron. Then put a bit of lava under it and some water in it, it will begin boiling and you can start throwing things in. The basics of which are, every item has aspects, if you throw it in those aspects will become part of the soup. We strongly suggest goggles of revealing",
           "items": [
             {
               "item": {
@@ -87,6 +97,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Especially talking ones",
+          "longDescription": "You must bring balance to the shard. To get one of these throw a shard into the crucible where 2 of whatever element the shard doesn\u0027t have are present ( Fire shard would need water, wind, ordo, aer, terra, water) These things find a LOT of use",
           "items": [
             {
               "item": {
@@ -98,6 +110,8 @@
         },
         {
           "type": "DETECT",
+          "description": "The Protheans were wrong",
+          "longDescription": "Once you\u0027ve got yourself a balanced shard, it\u0027s never a bad idea to throw it in a furnace and burn it right? Well that at least is what we\u0027re going to be doing here. Burning the shard will get you this stuff called Salis Mundus ",
           "items": [
             {
               "item": {
@@ -117,7 +131,8 @@
       ]
     },
     {
-      "name": "Unnamed3",
+      "name": "Flames of Azanor",
+      "description": "Alright so Alchemy is more useful then just making very fancy shards. For instance you can make light and fuel, it does a lot more then that, but let\u0027s start simple shall we? ",
       "x": 19,
       "y": 71,
       "icon": {
@@ -125,11 +140,13 @@
         "damage": 1
       },
       "prerequisites": [
-        "Unnamed2"
+        "Fullmetal Alchemist"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Light Em Up!",
+          "longDescription": "Nitor doesn\u0027t seem all that impressive but trust us when we say it has it\u0027s uses. First it has the same light level as a torch, second they can heat your crucible, and third they have a lot of uses in recipies. The simple recipie for these is 6 Torches, 3 Coal, and then 3 Glowstone Dust as the catalyst to help prevent warp. ",
           "items": [
             {
               "item": {
@@ -141,6 +158,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Poprocks",
+          "longDescription": "So much like the Nitor, this is pretty simple. It\u0027s like a better form of coal and /may/ explods. Like nitor all that\u0027s required is throwing in the ingredients to get your aspects in line and then the catalystm. Coal and Cobblestone work well if you can live with a bit of flux (which dissipates in air) ",
           "items": [
             {
               "item": {
@@ -159,18 +178,20 @@
       ]
     },
     {
-      "name": "Unnamed4",
-      "x": 82,
-      "y": 41,
+      "name": "You no make candle!",
+      "description": "Candles are an interesting little items and we\u0027re going to teach you how to make them. Oh good news we might finally have a use for all that Zombie flesh you\u0027ve probably been collecting ",
+      "x": 83,
+      "y": 50,
       "icon": {
         "id": "Thaumcraft:blockCandle"
       },
       "prerequisites": [
-        "Unnamed2"
+        "Fullmetal Alchemist"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "You need quick wick for this",
           "items": [
             {
               "item": {
@@ -182,6 +203,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Candlejack to-- ",
+          "longDescription": "Candles are great for one thing that you might not have been worried about, controlling magical infusions. Now those can be inherently very unstable so each candle can bring .1+ Back to the infusion in terms of stablility (Quick math you need 10 to get 1 point of stability) ",
           "items": [
             {
               "item": {
@@ -200,7 +223,8 @@
       ]
     },
     {
-      "name": "Unnamed5",
+      "name": "Magical Metal ",
+      "description": "Iron\u0027s great and all, but what if you could infuse your iron with the powers of magic? That\u0027d be pretty cool wouldn\u0027t it. Don\u0027t answer because the answer is of course it would. ",
       "x": 58,
       "y": 72,
       "icon": {
@@ -208,11 +232,13 @@
         "damage": 2
       },
       "prerequisites": [
-        "Unnamed2"
+        "Fullmetal Alchemist"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Thaumium ",
+          "longDescription": "Much like it\u0027s cousin Nitor, this stuff is fairly easy to make. It just needs some magical aspect (Praecantatio). That, lucky for you, can be found in a few places, but in no place is it so great as nethewart (Well no place so easy to get rather). Either way find your source of Praecantatio and then throw in some iron and bingo bango ",
           "items": [
             {
               "item": {
@@ -224,6 +250,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Picking a fight",
+          "longDescription": "There isn\u0027t too much in terms of special properties to the Thaumium pick. Well except for the fact that it enchants like gold and can mine obsidian. Rumor has it it can even pick up a special \"Repair\" enchant... ",
           "items": [
             {
               "item": {
@@ -234,6 +262,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Magical Armor ",
+          "longDescription": "No no, there\u0027s not a soul bound to this armor, no worries you won\u0027t have to give up an arm and a leg for it either, It\u0027s a bit easier to enchant and has a little better durability than iron so generally viewed as a good armor to run around in. ",
           "items": [
             {
               "item": {
@@ -253,18 +283,21 @@
       ]
     },
     {
-      "name": "Unnamed6",
-      "x": 102,
+      "name": "Bottle it up",
+      "description": "This is another one of those items that\u0027s going to end up getting used everywhere so you better get used to making it. The glass phial finds a lot of use in Thaumical alchemy, but for now it\u0027s just important to know how to make one",
+      "x": 103,
       "y": 15,
       "icon": {
         "id": "Thaumcraft:ItemEssence"
       },
       "prerequisites": [
-        "Unnamed1"
+        "Break it down"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "A glass bottle of Emotion",
+          "longDescription": "Crafted much like a bottle would be normally, the addition here is the use of clay in the recipie. Always good to keep these around just in case. ",
           "items": [
             {
               "item": {
@@ -282,19 +315,22 @@
       ]
     },
     {
-      "name": "Unnamed7",
-      "x": 126,
-      "y": 52,
+      "name": "Magical Construction",
+      "description": "Alright, paying attention? Because this part is critical. Everything you build is probably going to involve this little table, so you better get familiar with it. ",
+      "x": 103,
+      "y": 69,
       "icon": {
         "id": "Thaumcraft:blockTable",
         "damage": 15
       },
       "prerequisites": [
-        "Unnamed6"
+        "Bottle it up"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "The Thaumaturge\u0027s Choice",
+          "longDescription": "Making one is simple, simnply point your wand at a table. From there, the key things to understand here are that you can draw vis from nodes with your wand. You then take that vis loaded wand back to this table and use it to construct various things. Note certain pieces of armor give you a \"Vis Discount\" so you might want to research those. (Hint it looks like a cloth) ",
           "items": [
             {
               "item": {
@@ -313,24 +349,1324 @@
       ]
     },
     {
-      "name": "Unnamed8",
-      "x": 140,
+      "name": "Getting Grated",
+      "description": "A hopper is great, but wouldn\u0027t you love an item that\u0027s just solid and you could throw some things on top of? We thought so too, so it\u0027s time to meet the suprisingly simple to create \"Item Grate\" ",
+      "x": 157,
       "y": 15,
       "icon": {
         "id": "Thaumcraft:blockMetalDevice",
         "damage": 5
       },
       "prerequisites": [
-        "Unnamed6"
+        "Bottle it up"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Oh Grate",
+          "longDescription": "The item grate is made by mixing a trapdoor with some iron bars on a regular crafting bench and won\u0027t give you all that much trouble. We find they work great above things like Infernal Furnaces where you want items to fall through but you yourself don\u0027t want to. ",
           "items": [
             {
               "item": {
                 "id": "Thaumcraft:blockMetalDevice",
                 "damage": 5
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemResource",
+          "damage": 9
+        }
+      ]
+    },
+    {
+      "name": "Hungry Hungry Chest",
+      "description": "A little research in the golemancy tab will be required for this one, but it should just require aspects no fancy puzzle solving. ",
+      "x": 212,
+      "y": 16,
+      "icon": {
+        "id": "Thaumcraft:blockChestHungry"
+      },
+      "prerequisites": [
+        "Getting Grated",
+        "Magical Construction"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Gobble Gobble",
+          "longDescription": "The Hungry chest is going to require a few easy to gather aspects and it\u0027s just some wood and a trapdoor to make, but we find it makes a great home in front of things like the Infernal Furnace or even working with golems (Speaking of which we would love to have gotten into them, but it seems the manual you\u0027re reading has... bad reactions when we attempt to send information) ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockChestHungry"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemResource",
+          "damage": 9
+        }
+      ]
+    },
+    {
+      "name": "Wand Version 2",
+      "description": "So you may have noticed that the world is a growing and strange place but more importantly then that you\u0027re worried about breaking nodes and 25 vis sometimes just isn\u0027t enough. So it\u0027s time to get you started on the Gold Capped Greatwood wand",
+      "x": 184,
+      "y": 71,
+      "icon": {
+        "id": "Thaumcraft:WandCasting",
+        "damage": 9,
+        "nbt": "{aqua:5000,terra:5000,ignis:5000,cap:\"gold\",rod:\"greatwood\",ordo:5000,perditio:5000,aer:5000}"
+      },
+      "prerequisites": [
+        "Magical Construction"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Bling Caps ",
+          "longDescription": "Just like iron caps, you can make gold caps (Though they require a hint of vis to do so). Much like the iron caps they are 5 nuggets. These can go on a simple wooden stick but who wants to waste their new caps on something like that? ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:WandCap",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Greatwood!",
+          "longDescription": "These trees aren\u0027t common, but they aren\u0027t rare either. You\u0027ll find greatwood trees dotting the land sometimes even hiding a spider spawner (They\u0027ll have cobwebs in them). But what we want is the wood from the tree, so it\u0027s time to do a bit of chopping",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockMagicalLog"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Put it all together",
+          "longDescription": "Now to simply make the wand core (2 Greatwood Logs) and then put the caps on that core and suddenly you have a wand that won\u0027t blow up nodes if you drain too much AND has a capacity of 50 Vis ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:WandCasting",
+                "damage": 9,
+                "nbt": "{aqua:5000,terra:5000,ignis:5000,cap:\"gold\",rod:\"greatwood\",ordo:5000,perditio:5000,aer:5000}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:blockCustomPlant"
+        }
+      ]
+    },
+    {
+      "name": "Magic Brick",
+      "description": "So you\u0027ve been working with that wonderful table, but let\u0027s get started on the easy things right? In this case it\u0027s the arcane stones! ",
+      "x": 126,
+      "y": 95,
+      "icon": {
+        "id": "Thaumcraft:blockCosmeticSolid",
+        "damage": 6
+      },
+      "prerequisites": [
+        "Magical Construction"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Plain, Simple, Magic",
+          "longDescription": "The first of the Arcane stones is made from a bit of smooth stone and just a hint of vis (Again the stuff that your wand is holding when you drain nodes with it). It should be pretty quick and easy to make some of these and they will be the basis of a fair amount of construction ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockCosmeticSolid",
+                "damage": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Between rock and magic",
+          "longDescription": "These little bricks you shouldn\u0027t need to add any additional vis for, in fact all you really need to do is put them in a regular crafting bench and organize arcane stones in a 2x2 pattern, just like you would with stone bricks ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockCosmeticSolid",
+                "damage": 7
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Rocking your world",
+          "longDescription": "The Pathing blocks, both have a pretty awesome purpose. Made by combining a shard with those arcane stones you made earlier, one is faster to walk upon and the other is used to keep monsters out. We\u0027ll let you figure out which is which ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockCosmeticSolid",
+                "damage": 3
+              }
+            },
+            {
+              "item": {
+                "id": "Thaumcraft:blockCosmeticSolid",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Thaumcraft:blockCosmeticSolid",
+          "damage": 2,
+          "amount": 10
+        },
+        {
+          "id": "Thaumcraft:blockCosmeticSolid",
+          "damage": 3,
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "The Great Ritual",
+      "description": "Building things on a crafting table is cool and all, but it\u0027s time to step up to the second version of crafting in the life of a Thaumaturge, in this case Infusions, and for that you need to research and use an infusion alter ",
+      "x": 82,
+      "y": 95,
+      "icon": {
+        "id": "Thaumcraft:blockStoneDevice",
+        "damage": 2
+      },
+      "prerequisites": [
+        "You no make candle!",
+        "Magic Brick"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Jagex Approved",
+          "longDescription": "The Runic Matrix is a bit like the focal point of your infusion alter, in fact you might even call it the keystone. But you\u0027re going to need a few more parts to make this whole thing work. So hold on to this little matrix and we\u0027ll grab the other parts. ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockStoneDevice",
+                "damage": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Altered Perception",
+          "longDescription": "The alter needs some other components namely the arcane stones and bricks, and probably at least a gold wand to get those rocks to curve in a bit. Once it\u0027s setup you need at most 12 alters around it to place items on. But that\u0027s not all, you\u0027ll need the items, and the essentia (usually in jars) to create items. ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockCosmeticSolid",
+                "damage": 6
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "Thaumcraft:blockCosmeticSolid",
+                "damage": 7
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "Thaumcraft:blockStoneDevice",
+                "damage": 1
+              },
+              "required": 12
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:blockCandle",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "Boil em, Mash em",
+      "description": "So, it\u0027s nice and all to have these aspects throw into a crucible, but that\u0027s somewhat unstable. What if we could bottle this stuff? What should we call it? Oh who\u0027s kidding it\u0027s already got a name, essentia! ",
+      "x": 39,
+      "y": 97,
+      "icon": {
+        "id": "Thaumcraft:blockStoneDevice"
+      },
+      "prerequisites": [
+        "Magical Metal ",
+        "Flames of Azanor"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Essentia to your goals",
+          "longDescription": "This is the basic component for cooking your every day item into it\u0027s component essentia. This is that device they mentioned Allumentium being good for, but it doesn\u0027t work on it\u0027s own. In fact you\u0027re going to need a few things which we\u0027re about to guide you through. Remember you\u0027ll have to research this!",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockStoneDevice"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Silver Surfer",
+          "longDescription": "Silverwood is a very special kind of tree that very rarely drops it\u0027s saplings (It /may/ drop more with a crook). In fact some silverwood trees have a little pure node inside, but we only need a bit of wood  ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockMagicalLog",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Filtering your results",
+          "longDescription": "This little filter actually doesn\u0027t do much on it\u0027s own, but it ends up being a great little component for more. So stow it away somewhere safe as we\u0027re going to be using it in the next quest hmm",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemResource",
+                "damage": 8
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:blockCustomPlant",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Alchemical Basics",
+      "description": "Alright so now you have your furance and filters but what in the world are you going to use them for? Well it\u0027s time for chapter 2 of your introduction to higher level alchemy. ",
+      "x": 20,
+      "y": 126,
+      "icon": {
+        "id": "Thaumcraft:blockMetalDevice",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Boil em, Mash em"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Meet the Alembic",
+          "longDescription": "The Alembic you can think of like a giant temporary stroage facility for the things your furnace will be creating. Stack these on top of your furnace (However many you please though honestly anything past two or three is probably excessive). They will collect the essentia allowing your furnace to burn even more. ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockMetalDevice",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Piping it out",
+          "longDescription": "Essentia tubes are unique. There\u0027s a whole conversation to be had on \"Suction\" here but the important thing to know here is that an essentia tube can only carry one essentia at a time or else it gets clogged up. You can use your wand to adjust the tubes so they do or don\u0027t connect at certain points by right clicking them. ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockTube"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Thaumcraft:blockTube",
+          "damage": 3,
+          "amount": 5
+        },
+        {
+          "id": "Thaumcraft:blockTube",
+          "damage": 5,
+          "amount": 5
+        },
+        {
+          "id": "Thaumcraft:blockTube",
+          "damage": 6,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Stabalizing the Ritual",
+      "description": "You may have noticed that some of those rituals are a might unstable, but how would you like to know the secret behind stabalizing those rituals? We promise you it\u0027s a bit simpler then you think. ",
+      "x": 104,
+      "y": 122,
+      "icon": {
+        "id": "minecraft:skull"
+      },
+      "prerequisites": [
+        "The Great Ritual"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Stable Math",
+          "longDescription": "So you want the formula right? Well here it is. Any Item on an infusion alter without a partner item at the adjacent corner / section will create instability (About 1 - 2 Points), each level of instability noted is another point on the scale, and finally ANY Item that reduces instability (including those we\u0027ve shown you so far) reduces insability by .1 which the alter checks for in a 16 block radius no matter where they are. ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockCrystal",
+                "damage": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Getting ahead",
+          "longDescription": "Monster Heads, Candles, Crystals these are the things which help lower instability by just a little. They are the key for helping to keep your infusion from exploding in your face. ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:skull"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:skull",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Thaumcraft:blockCrystal",
+          "amount": 5
+        },
+        {
+          "id": "Thaumcraft:blockCrystal",
+          "damage": 1,
+          "amount": 5
+        },
+        {
+          "id": "Thaumcraft:blockCrystal",
+          "damage": 2,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Essentia aJar",
+      "description": "So you have the Alembic\u0027s the tubes, but where are you going to put it so you can carry it around with you? Well it\u0027s time to meet the Warded Jar. ",
+      "x": 50,
+      "y": 142,
+      "icon": {
+        "id": "Thaumcraft:blockJar"
+      },
+      "prerequisites": [
+        "Alchemical Basics"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Not for cookies",
+          "longDescription": "Made with a hint of Water Vis, Some Glass Panes and a little wood slab you can make your very own jars. They\u0027re great for being point you pipe your essentia too and can even look pretty cool too with all those different colors ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockJar"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Label your work",
+          "longDescription": "Slime, paper, and an ink sack and you can start labeling your very own jars. Note to get a specific sort of essentia you need to mix your label with a phial of that essentia (or just put it on a jar that has the sort of essentia you want in it already). Note you can clear the label on these by putting them (once labeled) in a crafting square ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemResource",
+                "damage": 13
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Into the Void ",
+          "longDescription": "A void jar is exactly like a regular jar except that when it\u0027s full it will still generate suction meaning if you have an essentia pipe running to this when it is full and a normal full jar it will go to this one. The awesome side of this is that if there\u0027s to much essentia it simply goes... to the void ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockJar",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Thaumcraft:ItemEssence",
+          "damage": 1,
+          "nbt": "{Aspects:[0:{amount:8,key:\"terra\"}]}"
+        },
+        {
+          "id": "Thaumcraft:ItemEssence",
+          "damage": 1,
+          "nbt": "{Aspects:[0:{amount:8,key:\"ignis\"}]}"
+        }
+      ]
+    },
+    {
+      "name": "Pick it up!",
+      "description": "Alright it\u0027s time to make your first shot at your very own infusion, and this one is pretty useful. It\u0027s time to meet the Pickaxe of the Core or your very own introduction to getting more out of the earth then you thought was there. ",
+      "x": 80,
+      "y": 161,
+      "icon": {
+        "id": "Thaumcraft:ItemPickaxeElemental"
+      },
+      "prerequisites": [
+        "The Great Ritual",
+        "Essentia aJar"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Core Growth",
+          "longDescription": "Diamond, 2 Fire Shards, Some Greatwood logs and a bit of essentia here and there and you\u0027ll find yourself with a pickaxe of the core which you should definately invest in because this little jewel has a chance to generate extra ore called chunks. USE IT ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemPickaxeElemental"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemNugget",
+          "damage": 16,
+          "amount": 5
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Thaumcraft:ItemSwordElemental"
+        },
+        {
+          "id": "Thaumcraft:ItemShovelElemental"
+        }
+      ]
+    },
+    {
+      "name": "Advanced Piping",
+      "description": "It\u0027s time to get into the more advanced things that you can do with essentia, twisting, turning, and making it more useful to work with.",
+      "x": 20,
+      "y": 165,
+      "icon": {
+        "id": "Thaumcraft:blockTube",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Alchemical Basics"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Plumbing Success",
+          "longDescription": "The Essentia buffer is interesting in that it\u0027s an essentia pipe that can have different kinds of essentia running through it. So if you\u0027re breaking down something with two different sorts of essentia it can still pump it through without a problem. ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockTube",
+                "damage": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Crystal\u0027s of Harmony",
+          "longDescription": "That we\u0027ve gone this long without an MLP reference is impressive Everypony. But if you\u0027ve ever just wanted one or two essentia then essentia crystalization is the way to do it, converting liquid essentia into a solid 1 essentia form. Like a pill ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockTube",
+                "damage": 7
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Percision Alchemy ",
+          "longDescription": "So you\u0027ve got yourself a wonderful little construct right? Well if you put two of these on top of a working crucible you can put your catalyst in, select what you want as an output and then let that wonderful device only put in just enough to make it work. Fantasitc for having a warp free construct. ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockMetalDevice",
+                "damage": 9
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:blockTube",
+          "damage": 4,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Knock Knock? ",
+      "description": "Who\u0027s there? Trick question it\u0027s us and we\u0027re here to tell you about a way to keep folks out of your private labratory. Meet the Arcane door! ",
+      "x": 171,
+      "y": 36,
+      "icon": {
+        "id": "Thaumcraft:ItemArcaneDoor"
+      },
+      "prerequisites": [
+        "Magical Construction"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Do Not Eat!",
+          "longDescription": "Zombie brains are a strange thing, and you should definately scan them if you can, but more then that they can be used in all sorts of magical mishaps, one of which being the creation of Arcane and Warded objects",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemZombieBrain"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Seriously Who\u0027s there? ",
+          "longDescription": "The arcane door, constructed with a zombie Brain, some Greatwood, and a bit of Thaumium is great because it tends to only respond to those who have permission to enter, namely the creator or whomever the creator happened to give a key to. ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemArcaneDoor"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Transparent Warding ",
+          "longDescription": "A fancy cosmetic piece, but also a block that only the one who placed it can break. Might make a good material for the wall of a lab that you don\u0027t want anyone getting into don\u0027t you think? ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockCosmeticOpaque",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemResource",
+          "damage": 9,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Floating on a dream ",
+      "description": "So Elevators can be a bit tough to make, but what if you could make a block that sends you flying into the air? Well now\u0027s your chance",
+      "x": 122,
+      "y": 38,
+      "icon": {
+        "id": "Thaumcraft:blockLifter"
+      },
+      "prerequisites": [
+        "Knock Knock? ",
+        "Flames of Azanor"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Up up and away!",
+          "longDescription": "Requiring a bit of Nitor, Greatwood, and then some iron and you\u0027ll have your very own floating pad. Each one will send you upwards 10 blocks and you can use the shift key to slowly decend. That means you can stack them (2 on top of each other would be 20 blocks and so on) ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockLifter"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemResource",
+          "damage": 9
+        }
+      ]
+    },
+    {
+      "name": "Infernal Contraption",
+      "description": "Alright I know it looks a bit warpy, but trust us, you\u0027re going to want to check out this wonderful little furnace for yourself. It\u0027s a great contraption for playing around with. ",
+      "x": 127,
+      "y": 156,
+      "icon": {
+        "id": "minecraft:nether_brick"
+      },
+      "prerequisites": [
+        "Magic Brick"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Collecting the Parts",
+          "longDescription": "You\u0027ll have to research the actual infernal furnace. Look for the one with the sorta purple glow to it. Trust us, you\u0027ll be fine. Now the infernal furnace will use the power of magic to cook anything, and might even give you a bit extra. Be sure to consult the book for exact construction details ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:obsidian"
+              },
+              "required": 11
+            },
+            {
+              "item": {
+                "id": "minecraft:nether_brick"
+              },
+              "required": 12
+            },
+            {
+              "item": {
+                "id": "minecraft:lava_bucket"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_bars"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Meaty Bits",
+          "longDescription": "While Iron and the like may give extra nuggets, if you\u0027re as hungry as we are you know the important bit is that you can now make meaty nuggets. Throw a few in to see what you don\u0027t get. ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemNuggetPork"
+              }
+            },
+            {
+              "item": {
+                "id": "Thaumcraft:ItemNuggetBeef"
+              }
+            },
+            {
+              "item": {
+                "id": "Thaumcraft:ItemNuggetChicken"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "KFC Presents",
+          "longDescription": "It\u0027s got all the protien you can imagine, no need to worry about why that sugar is in there, it\u0027s a taste additive. ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:TripleMeatTreat"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:TripleMeatTreat"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Thaumcraft:ItemNugget",
+          "damage": 16,
+          "amount": 5
+        },
+        {
+          "id": "Thaumcraft:ItemNugget",
+          "damage": 31,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Blowing hot air",
+      "description": "You may have noticed some lovely holes on the side of your infernal furnance, Did you know you can attach bellows to those to make your furnace just a bit faster and cleaner? ",
+      "x": 87,
+      "y": 189,
+      "icon": {
+        "id": "Thaumcraft:blockWoodenDevice"
+      },
+      "prerequisites": [
+        "Infernal Contraption"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Blow me over",
+          "longDescription": "Made with a bit of leather some Aer crystals, and iron, the versatile Bellows can be found in a lot of places. attached to certain Essentia tubes to make them faster, next to Infernal furnaces, and they just look awesome too ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockWoodenDevice"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Ionic Breeze",
+          "longDescription": "Sometimes even the most practices mage forgets to do things in the most proper way and what you end up with is a bit of warp or flux. Well when provided with an energized node this little device can clean all that up for you magically ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockStoneDevice",
+                "damage": 14
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:blockWoodenDevice",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "Let there be Light",
+      "description": "Wouldn\u0027t it be cool if you could light up a slightly bigger area with all that work you\u0027ve been putting into these magical shenanigans? Well it\u0027s time to learn the secrets of the Arcane Lamp",
+      "x": 174,
+      "y": 101,
+      "icon": {
+        "id": "Thaumcraft:blockMetalDevice",
+        "damage": 7
+      },
+      "prerequisites": [
+        "Magical Construction"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Amber Mines",
+          "longDescription": "You\u0027ve probably seen a fair amount of amber around the world at this point, well we\u0027re going to teach you how to actually make use of this sappy material. ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemResource",
+                "damage": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Mosquito Free",
+          "longDescription": "Once you\u0027ve collected 4 \"Pieces\" of amber, you can put them on any old regular crafting bench and you\u0027ll get yourself an amber block, which is suprisingly useful for situations where you want to pump a ton of arcane power through it to make a lamp ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockCosmeticOpaque"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "The Smart Lamp",
+          "longDescription": "Crafted with a Solar Sensor, Amber, Some Iron, and a bit of nitor the Arcane lamp is a clever lamp, you see it has a range of 16 and in that 16 range it can put down a torch\u0027s worth of light level if the light level isn\u0027t high enough to prevent monster spawning. Pretty cool right ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockMetalDevice",
+                "damage": 7
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemResource",
+          "damage": 9,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Better then a Lava Lamp",
+      "description": "The lamp was a great invention, but what if you could feed it a bit of essentia and get it to grow crops and raise your animals? Well it\u0027s time to find out isn\u0027t it! ",
+      "x": 174,
+      "y": 142,
+      "icon": {
+        "id": "Thaumcraft:blockMetalDevice",
+        "damage": 8
+      },
+      "prerequisites": [
+        "Let there be Light",
+        "Essentia aJar"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Green light special ",
+          "longDescription": "With a proper infusion you can turn that simple light into a green thumb of a lamp. It uses Herba essentia to slowly act like a bit of bonemeal on plants int he area. ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockMetalDevice",
+                "damage": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "C\u0027mere Bessy",
+          "longDescription": "The cow, the chicken, and even the pig. With this lamp and a bit of Victus essentia, if there are ever less then 8 of them in the area this lamp will convince the animals in the area to get a bit more frisky ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockMetalDevice",
+                "damage": 13
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:blockMetalDevice",
+          "damage": 7,
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "Focus now",
+      "description": "So your wand is cool and all, but wouldn\u0027t it be even cooler if it could actually cast magic? Well it\u0027s time to learn about the Wand Foci, these wonderful little inventions allow you to expend vis in order to get some magical power out of those sticks ",
+      "x": 205,
+      "y": 130,
+      "icon": {
+        "id": "Thaumcraft:FocusFire"
+      },
+      "prerequisites": [
+        "Wand Version 2"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "I\u0027m the firestarter",
+          "longDescription": "The first and most basic foci that you can learn about is the Fire Foci, now this little wand cap is great for allowing you to set your enemies ablaze. Oh you know something else that\u0027s nice about these little boogers? They can be enhanced with a foci manipulator",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:FocusFire"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Diggy Diggy Hole",
+          "longDescription": "Alright so you can light someone on fire, big deal right? But did you know you can do even more! Time to learn about a little wand attachment that will allow you to dig dig dig! ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:FocusExcavation"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Equal Trade",
+          "longDescription": "This little foci is great for trading one piece of ground with another. Have some Obsidian that you\u0027d rather be smooth stone? How about some dirt that you want to trade with grass. Select the item you want to have down first and then use the wand on parts where you want to replace all at the cost of a little vis ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:FocusTrade"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Thaumcraft:FocusShock"
+        },
+        {
+          "id": "Thaumcraft:FocusFrost"
+        }
+      ]
+    },
+    {
+      "name": "I wand one ",
+      "description": "So you\u0027ve made a simple iron capped wand, a gold capped wand, and now it\u0027s time to learn about the power of a Silverwood Wand yeah? ",
+      "x": 226,
+      "y": 72,
+      "icon": {
+        "id": "Thaumcraft:WandCasting",
+        "damage": 54,
+        "nbt": "{aqua:10000,terra:10000,ignis:10000,cap:\"thaumium\",rod:\"silverwood\",ordo:10000,perditio:10000,aer:10000}"
+      },
+      "prerequisites": [
+        "Wand Version 2"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Forming the core",
+          "longDescription": "Made from silverwood logs, the silverwood core may require a bit of an infusion. This one will require one of all the shards, a balanced shard, and a bit of every base essentia. ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:WandRod",
+                "damage": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Thaumcaps",
+          "longDescription": "Much like the caps before, except that these require an infusion. That infusion does require some odd essentia, though you might find it in those little things that wisp drop. ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:WandCap",
+                "damage": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "And I\u0027ll form the Wand",
+          "longDescription": "You\u0027ll probably need your robes to have enough of a vis discount to make this thing. But it has a capacity of nearly 100 which means it will be the key to starting to put nodes in a jar, which will be the future of your operation. ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:WandCasting",
+                "damage": 54,
+                "nbt": "{aqua:10000,terra:10000,ignis:10000,cap:\"thaumium\",rod:\"silverwood\",ordo:10000,perditio:10000,aer:10000}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:glass",
+          "amount": 26
+        },
+        {
+          "id": "minecraft:wooden_slab",
+          "amount": 9
+        }
+      ]
+    },
+    {
+      "name": "A scepter makes a king",
+      "description": "Sometimes 100 Vis simply isn\u0027t going to be enough. But you\u0027re going to need to make something that you might not have thought of. It\u0027s time to meet the primal charm. ",
+      "x": 227,
+      "y": 104,
+      "icon": {
+        "id": "Thaumcraft:WandCasting",
+        "damage": 128,
+        "nbt": "{aqua:15000,terra:15000,ignis:15000,cap:\"thaumium\",rod:\"silverwood\",ordo:15000,sceptre:1b,perditio:15000,aer:15000}"
+      },
+      "prerequisites": [
+        "I wand one "
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "A little CHA item ",
+          "longDescription": "The Primal charm is something you should know how to construct, but in case you weren\u0027t sure simply take gold, a balanced shard, and then every type of other shard along with 25 of each vis and you can make yourself a primal charm (Simple right?) ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemResource",
+                "damage": 15
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Inscepter",
+          "longDescription": "The scepter itself is made with 3 caps, 1 primal charm and the core. It can be a little pricey so again we advice wearing your thaumaturge\u0027s outfit to get it done. It doesn\u0027t function exaclty like a wand having no way to equip foci but usable in crafting ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:WandCasting",
+                "damage": 128,
+                "nbt": "{aqua:3481,terra:3481,ignis:3481,cap:\"thaumium\",rod:\"silverwood\",ordo:3481,sceptre:1b,perditio:3481,aer:3481}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Fully Staffed ",
+      "description": "The final creation to be made for your hand held use focuses more on the use of foci then crafting so you can how a massive source of Vis along with you ",
+      "x": 245,
+      "y": 142,
+      "icon": {
+        "id": "Thaumcraft:WandCasting",
+        "damage": 144,
+        "nbt": "{cap:\"thaumium\",rod:\"silverwood_staff\",AttributeModifiers:[0:{UUIDMost:-3801225194067177672L,UUIDLeast:-6586624321849018929L,Amount:6.0d,AttributeName:\"generic.attackDamage\",Operation:0,Name:\"Weapon modifier\"}]}"
+      },
+      "prerequisites": [
+        "A scepter makes a king"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "At half staff",
+          "longDescription": "The first part of the journey will be in creating the staff core. This is made much like the wand core except it\u0027s two wand cores and a primal charm. It doesn\u0027t do anything on it\u0027s own sadly, more of a component. ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:WandRod",
+                "damage": 52
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Power Overwhelming",
+          "longDescription": "250 Vis is what this puppy can hold, and you can put all the sorts of fun and exciting wand foci on it that you please. It\u0027s an excellent tool for being one of the most powerful wizards in the land. ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:WandCasting",
+                "damage": 144,
+                "nbt": "{cap:\"thaumium\",rod:\"silverwood_staff\",AttributeModifiers:[0:{UUIDMost:-3801225194067177672L,UUIDLeast:-6586624321849018929L,Amount:6.0d,AttributeName:\"generic.attackDamage\",Operation:0,Name:\"Weapon modifier\"}]}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemResource",
+          "damage": 9,
+          "amount": 9
+        }
+      ]
+    },
+    {
+      "name": "Robe and Wizard Hat",
+      "description": "Alright so maybe your hunter shouldn\u0027t be rolling need on caster gear, but you sure should. It\u0027s time to learn about the magical cloth of the world and how it can make your vis cost just a little less",
+      "x": 228,
+      "y": 43,
+      "icon": {
+        "id": "Thaumcraft:ItemResource",
+        "damage": 7
+      },
+      "prerequisites": [
+        "Magical Construction"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Fabric Softener",
+          "longDescription": "With a bit of wool, string, and then just 1 of each of the vis\u0027s and you\u0027ll find yourself with some enchanted fabric. It\u0027s good for making your own set of Thaumaturgy robes which make things cheaper if you wear them!",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemResource",
+                "damage": 7
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Best Bath Robe",
+          "longDescription": "The robes are made by adding a little bit more vis and then some cloth. These will be essintial in the early stages when you don\u0027t have quite enough Vis to make the things you need (For instance perhaps a wand). ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemChestplateRobe"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Thaumcraft:ItemLeggingsRobe"
+        },
+        {
+          "id": "Thaumcraft:ItemBootsRobe"
+        }
+      ]
+    },
+    {
+      "name": "How Boring ",
+      "description": "Who doesn\u0027t like a device that does your digging for you? The answer is no one. This little device will take up vis in the air and then a pickaxe at it\u0027s base to start boring a tunnel. You can even equipi it with a lamp ",
+      "x": 47,
+      "y": 181,
+      "icon": {
+        "id": "Thaumcraft:blockWoodenDevice",
+        "damage": 5
+      },
+      "prerequisites": [
+        "Pick it up!",
+        "Focus now"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Drill baby Drill ",
+          "longDescription": "To get a better idea of what is going to be required, you\u0027re going to need the base, the bore, and a lever to turn it all on. But on top of that you\u0027re also going to need an Excatation Wand Focus and a pickaxe. With all these things you can make yourself a funcitonal arcane bore ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockWoodenDevice",
+                "damage": 5
+              }
+            },
+            {
+              "item": {
+                "id": "Thaumcraft:blockWoodenDevice",
+                "damage": 4
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:lever"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemPickaxeElemental"
+        }
+      ]
+    },
+    {
+      "name": "Node Control",
+      "description": "So you may have noticed that hint we gave you to start going out into the world and collecting nodes. Well once you have that node in a jar, you\u0027re going to want a place to put it. ",
+      "x": 257,
+      "y": 63,
+      "icon": {
+        "id": "Thaumcraft:blockStoneDevice",
+        "damage": 9
+      },
+      "prerequisites": [
+        "I wand one "
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Stabalize the Patient",
+          "longDescription": "There\u0027s a good chance that any nod you put in a jar (75% chance to be exact) will go down one in quality (Bright \u003e Normal or Normal \u003e Pale, Pale \u003e Fading) but the stablizer can remove other odd effects (Fading becomes Pale, removing the unstable effect, making the node immune to other nodes draining from it.) ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockStoneDevice",
+                "damage": 9
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "ICU for Nodes",
+          "longDescription": "The advanced node stabalizer is like the node stabalizer in every way except that it lets the node it\u0027s protecting pick on other nodes around it, allowing it to drain them without it itself being drained. ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockStoneDevice",
+                "damage": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "And Action!",
+          "longDescription": "The final step in the process is to put the Node Tranducer on top. When it\u0027s placed on top it will condense all the nodes current aspects into their base components (The 6 basic vis). The bigger and more types of aspects are in a node the better it is to compress. ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockStoneDevice",
+                "damage": 11
               }
             }
           ]
@@ -344,25 +1680,429 @@
       ]
     },
     {
-      "name": "Unnamed9",
-      "x": 186,
-      "y": 16,
+      "name": "Relay the information",
+      "description": "Once you\u0027ve created your fancy node you\u0027re going to want to power some things with it, and as it turns out the best way to relay that information is with something called a Vis Relay network ",
+      "x": 258,
+      "y": 100,
       "icon": {
-        "id": "Thaumcraft:blockChestHungry"
+        "id": "Thaumcraft:blockMetalDevice",
+        "damage": 14
       },
       "prerequisites": [
-        "Unnamed8"
+        "Node Control"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Relay it on down the line ",
+          "longDescription": "Vis relays are fairly easy to create and you can create quite a few of them. But the important thing is that they can relay from an energized node to various things (For instance Flux Scurbbers, Infernal Furnaces, etc.) ",
           "items": [
             {
               "item": {
-                "id": "Thaumcraft:blockChestHungry"
+                "id": "Thaumcraft:blockMetalDevice",
+                "damage": 14
               }
             }
           ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Wand invigoration",
+          "longDescription": "What is more important then letting your wand recharge while it\u0027s on the stand? The answer is probably a lot of things, but with this cool little device hooked up to a relay network it can pump vis directly into the wand!",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockMetalDevice",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:blockMetalDevice",
+          "damage": 14,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Icarus Boots",
+      "description": "Well I mean technically they are called the boots of the traveler, but they make you faster and jump a little higher, and let\u0027s be honest here who doesn\u0027t love that? ",
+      "x": 270,
+      "y": 14,
+      "icon": {
+        "id": "Thaumcraft:BootsTraveller"
+      },
+      "prerequisites": [
+        "Robe and Wizard Hat"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Babies first booties",
+          "longDescription": "The shoes themsleves are fairly easy to make, consiting of a bit of cloth and then an infusion of several odd objects including a fish. But you\u0027ll love that rapid movement through water in exchange. ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:BootsTraveller"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:fish",
+          "amount": 64
+        }
+      ]
+    },
+    {
+      "name": "Rings of power",
+      "description": "Alright so maybe you won\u0027t have ring wraiths after you for doing whatever it is you do? Probably throwing all powerful rings into volcanos, but you might be able to find a way to shield yourself ",
+      "x": 289,
+      "y": 52,
+      "icon": {
+        "id": "Thaumcraft:ItemRingRunic"
+      },
+      "prerequisites": [
+        "Icarus Boots"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Shields up! ",
+          "longDescription": "Were you ever wondering what you should do with all those mundane rings that you find scattered about the world? Well it\u0027s time to meet your answer in the form of the Ring of Shielding. Using a somewhat demanding infusion you can create a layer of runic shielding",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemRingRunic",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Red Alert!",
+          "longDescription": "Alright so your runic shielding is cool and all, but what happens if something breaches it? Well not to worry, it\u0027s time to learn about the runic shielding of revitlaization which will give you a temporary buff when your shield vanish",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemRingRunic",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Thaumcraft:ItemGirdleRunic"
+        },
+        {
+          "id": "Thaumcraft:ItemAmuletRunic"
+        }
+      ]
+    },
+    {
+      "name": "I believe I can fly",
+      "description": "What\u0027s the point of magic if you can\u0027t even use it to take off into the air pretending to be DC\u0027s newest incarnation of superman? That\u0027s a trick question and the answer is there is no point. ",
+      "x": 290,
+      "y": 91,
+      "icon": {
+        "id": "Thaumcraft:HoverHarness"
+      },
+      "prerequisites": [
+        "Rings of power"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "I believe I can touch the sky",
+          "longDescription": "The Thaumaustatic Harness as they call it makes use of essentia like fuel (In this case Aer Essentia) it\u0027s a bit slow and clumbsy at first but we can fix that. ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:HoverHarness"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Spread My wings and Fly away",
+          "longDescription": "The Thaumostatic girdle takes you somewhat slow and puttering magical device and allows it to go that much faster, but be weary it does end up consuming a bit more fuel. ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemGirdleHover"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Advanced Focus",
+      "description": "So you have your mastery over focus but did you know there\u0027s even more foci out there for you to expirment and play with? It\u0027s time for you to start learning about some rather advanced Foci ",
+      "x": 210,
+      "y": 180,
+      "icon": {
+        "id": "Thaumcraft:FocusWarding"
+      },
+      "prerequisites": [
+        "Focus now"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Warding off Folks",
+          "longDescription": "So sometimes you want to make a block that only you can break. We all feel that\u0027s pretty reasonable. Much like the warded glass from before the Warding can only be broken by you, and to anyone else it might as well be layer 1 bedrock. Great at keeping creepers from disturbing your place ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:FocusWarding"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Holy Moley ",
+          "longDescription": "So sometimes you have a cave underneath you, but there\u0027s just too much stuff between you and it. This powerful foci allows you to turn blocks into a substance you can watch through, though watch out it doesn\u0027t last forever. ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:FocusPortableHole"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:FocusPouch"
+        }
+      ]
+    },
+    {
+      "name": "Mirror Mirror on the Wall",
+      "description": "Sometimes it\u0027s vanity, sometimes it\u0027s to make solar power, but today it\u0027s because that mirrors are the way to look into a mans soul, or at least that\u0027s what they tell me. ",
+      "x": 172,
+      "y": 174,
+      "icon": {
+        "id": "Thaumcraft:blockMirror"
+      },
+      "prerequisites": [
+        "Magic Brick"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Making Mirrors",
+          "longDescription": "It\u0027s really just a crafting agent, made from glass and a bit of quicksilver and a hint of vis. Not so bad really considiring what\u0027s it going to be used for right? ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemResource",
+                "damage": 10
+              },
+              "required": 2
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Slipping between the void",
+          "longDescription": "The mirror when linked with another mirror will allow you to transmit items from point a to point b where those points are mirrors. It\u0027s wonderful for transporting things over fairly large distances. To link a mirror simply have a mirror in your hand and use it to right click on a mirror placed in the world. ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockMirror"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Essential Mirroring",
+          "longDescription": "So it\u0027s not quite a raid 1 setup, but this mirror allows you to transmit essentia from one place to another. A fantastic way to keep your essentia setup in one location and your infusion alter in another. ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockMirror",
+                "damage": 6
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Thaumcraft:blockMirror"
+        },
+        {
+          "id": "Thaumcraft:blockMirror",
+          "damage": 6
+        }
+      ]
+    },
+    {
+      "name": "Brain in a jar",
+      "description": "So you may have noticed if you\u0027ve ever scanned an angry zombie, or perhaps if you\u0027ve scanned a furious zombie. The important thing is you should scan something that has a zombie brain.",
+      "x": 127,
+      "y": 189,
+      "icon": {
+        "id": "Thaumcraft:blockJar",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Infernal Contraption"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Abby, abby... abby normal? ",
+          "longDescription": "The Brain in a jar is pretty cool, mainly because it allows you to start collecting XP almost like an XP vat. Great to sit outside of the Infernal Furnance or maybe in a mob farm. It also lets you research enchanting infusions ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockJar",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemResource",
+          "damage": 9
+        }
+      ]
+    },
+    {
+      "name": "Cleaning up ",
+      "description": "You may have noticed that if you adventure enough you\u0027ll find a magical forest of sorts, well in those forest you\u0027ll find this strange little plant called a shimmerleaf, pick one up, we want to show you what they do. ",
+      "x": 64,
+      "y": 118,
+      "icon": {
+        "id": "Thaumcraft:blockCustomPlant",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Boil em, Mash em"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Shimmering Shining",
+          "longDescription": "These shouldn\u0027t be too difficult to find in the world. Simply go looking for a magical forest, you\u0027ll recognize it because it will have a lot of Silverwood trees, some strange musrhooms, and vibrantly green glass. ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockCustomPlant",
+                "damage": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Blooming and Zooming",
+          "longDescription": "Now the next part is a little more difficult, research the Etheral bloom then you\u0027re going to need to throw in something with taint (Usually something from a taint biome), Something with Sano (Usually a health potion) and then a fair amount of herba and that magical aspect (netherwart might work) but once you manage all this you\u0027ll find yourself with a plant that can slowly clean the taint biomes. ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockCustomPlant",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemLootBag",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Into the Void ",
+      "description": "So you may have noticed that sometimes when you research things you have a chance of getting warp. Well.... what if we told you that you should /totally/ pursue this sort of thing. There\u0027s a chance that you can unlock the secrets of the void. ",
+      "x": 286,
+      "y": 169,
+      "icon": {
+        "id": "Thaumcraft:ItemResource",
+        "damage": 17
+      },
+      "prerequisites": [
+        "Fully Staffed "
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "That\u0027s not ominous at all. ",
+          "longDescription": "There are dangers in starting to research the void, most notably the gaurdians that sometimes show up to murder you...  don\u0027t worry though. It\u0027s time to start peeking into the void. ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemResource",
+                "damage": 17
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "difficultlife:dl.heart"
+        }
+      ]
+    },
+    {
+      "name": "Manipulated Earnings",
+      "description": "It\u0027s time to learn how to upgrade those foci that you\u0027ve been playing around with. Now we know it may be scary to do it, but trust us when we say it\u0027s totally worth it. ",
+      "x": 256,
+      "y": 185,
+      "icon": {
+        "id": "Thaumcraft:blockStoneDevice",
+        "damage": 13
+      },
+      "prerequisites": [
+        "Advanced Focus"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Manipulate your world ",
+          "longDescription": "The Focci manipulator is interesting because you can take Vis (usually gotten from an energized Aura Node) and then a healthy amount of expirience and you can choose which kind of upgrade you wish to provide your wand with",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockStoneDevice",
+                "damage": 13
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
         }
       ]
     }

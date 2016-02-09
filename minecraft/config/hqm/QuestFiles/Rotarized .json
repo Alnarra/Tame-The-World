@@ -4,15 +4,14 @@
     {
       "name": "Getting Screwed",
       "description": "Are you ready for some math? Well if not now is the time. We\u0027re about to teach you some of the fundemantals of turning a spinny thing into a bigger spinny thing. ",
-      "x": 20,
-      "y": 15,
+      "x": 60,
+      "y": 17,
       "icon": {
         "id": "RotaryCraft:rotarycraft_item_screwdriver"
       },
       "prerequisites": [
-        "{Chapter 2 - Beginning}[Circular Logic]"
+        "Unnamed1"
       ],
-      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "CRAFT",
@@ -35,15 +34,16 @@
     },
     {
       "name": "Unnamed",
-      "x": 64,
-      "y": 16,
+      "x": 19,
+      "y": 17,
       "icon": {
         "id": "RotaryCraft:rotarycraft_item_machine",
         "damage": 45
       },
       "prerequisites": [
-        "Getting Screwed"
+        "{Chapter 2 - Beginning}[Circular Logic]"
       ],
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
