@@ -995,8 +995,7 @@
             {
               "item": {
                 "id": "witchery:ingredient",
-                "damage": 46,
-                "nbt": "{CurrentPage:2}"
+                "damage": 46
               }
             }
           ]
@@ -1205,6 +1204,12 @@
               }
             }
           ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:redstone",
+          "amount": 10
         }
       ]
     },

@@ -1,20 +1,23 @@
 {
   "name": "Rotarized ",
+  "description": "Shafts, Cranks, and gears, these are at the core of the machines of modern times and it\u0027s more important then that time to learn how to put those machines together. Join us as we explore the rotarized world ",
   "quests": [
     {
-      "name": "Getting Screwed",
-      "description": "Are you ready for some math? Well if not now is the time. We\u0027re about to teach you some of the fundemantals of turning a spinny thing into a bigger spinny thing. ",
-      "x": 60,
-      "y": 17,
+      "name": "Getting screwed",
+      "description": "Have you never found yourself putting up shelves in the middle of the night? Well this little device might not quite be sonic but it will be fantastic for reogranizing things. ",
+      "x": 63,
+      "y": 18,
       "icon": {
         "id": "RotaryCraft:rotarycraft_item_screwdriver"
       },
       "prerequisites": [
-        "Unnamed1"
+        "High Strengh Low Alloy"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Orange Juice + Vodka ",
+          "longDescription": "The screwdriver is the most basic and important tool that you will find when working with these HSLA steel machines. It will allow you to change their direction, or even change how they function. So keep this little thing handy. ",
           "items": [
             {
               "item": {
@@ -33,7 +36,8 @@
       ]
     },
     {
-      "name": "Unnamed",
+      "name": "An Ogre made me do it",
+      "description": "To get started in the world of spinning and mechanical tomfoolery, it\u0027s best to start to work on the very basics of being able to make everything else don\u0027t you agree? ",
       "x": 19,
       "y": 17,
       "icon": {
@@ -47,6 +51,8 @@
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Reagents",
+          "longDescription": "Before you get started in full you\u0027re going to need a few items to help you along the way. These are reagents that you\u0027re going to be adding to a blast furance. So head out into the world and collect a few ",
           "items": [
             {
               "item": {
@@ -67,6 +73,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Heat it up ",
+          "longDescription": "Outside of just reagents you\u0027re going to need something else for your setup, this will end up getting placed under the blast furnace once you\u0027ve made it. ",
           "items": [
             {
               "item": {
@@ -77,6 +85,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Blasting off again!",
+          "longDescription": "Made with stone bricks and a bit of redstone the blast furnace is actually a fairly simple recipie but it will allow you to continue through the rest of your rotarized adventure in a most painless manner ",
           "items": [
             {
               "item": {
@@ -96,19 +106,22 @@
       ]
     },
     {
-      "name": "Unnamed1",
-      "x": 38,
-      "y": 49,
+      "name": "High Strengh Low Alloy",
+      "description": "So now that you have your furnace setup soemwhere nice, the next step is to actually start making the steel that we\u0027ve been talking about. So throw some iron in there along with your reagents ",
+      "x": 49,
+      "y": 56,
       "icon": {
         "id": "RotaryCraft:rotarycraft_item_shaftcraft",
         "damage": 1
       },
       "prerequisites": [
-        "Unnamed"
+        "An Ogre made me do it"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Smells like Teen Spirit",
+          "longDescription": "HSLA Steel (Don\u0027t worry we didn\u0027t know what it stood for either) will become the basis of your operation when it comes to rotaraized parts. With it everything else is possible and you\u0027re going to need a lot of it. As a heads up it takes a long while for the furnace to actually heat up",
           "items": [
             {
               "item": {
@@ -120,6 +133,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Hand Picked Steel",
+          "longDescription": "HSLA Steel much like the steel produced in other similar processes can be used for regular things as well, including the creation of a pickaxe. There\u0027s nothing too special about the pickaxe itself outside of being slightly more durable then it\u0027s iron counterpart ",
           "items": [
             {
               "item": {
@@ -130,6 +145,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Man of Steel ",
+          "longDescription": "Finally you can also craft pieces of armor, they have the same approximate armor rating as their Iron counterparts, but again have a higher durability. ",
           "items": [
             {
               "item": {
@@ -149,7 +166,8 @@
       ]
     },
     {
-      "name": "Unnamed2",
+      "name": "The Assembly Room",
+      "description": "All of this is fantastic and great, but you\u0027re going to need a place to build it and a normal crafting bench just won\u0027t do the job. Instead we\u0027re going to need to rely upon the workstable",
       "x": 23,
       "y": 90,
       "icon": {
@@ -157,11 +175,13 @@
         "damage": 75
       },
       "prerequisites": [
-        "Unnamed1"
+        "High Strengh Low Alloy"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Working every day and night",
+          "longDescription": "The worktable isn\u0027t to tough to make, instead being made from Redstone, an existing workbench, A brick, some HSLA steel and slabs. It will be the device upon which virtually all constructed machines are built. ",
           "items": [
             {
               "item": {
@@ -174,13 +194,15 @@
       ],
       "reward": [
         {
-          "id": "HardcoreQuesting:bags",
-          "damage": 2
+          "id": "RotaryCraft:rotarycraft_item_shaftcraft",
+          "damage": 1,
+          "amount": 5
         }
       ]
     },
     {
-      "name": "Unnamed3",
+      "name": "Part: Part 1",
+      "description": "The following are going to be a string of quest that have you create the most basic parts needed to construct everything else. ",
       "x": 78,
       "y": 71,
       "icon": {
@@ -188,11 +210,13 @@
         "damage": 4
       },
       "prerequisites": [
-        "Unnamed1"
+        "High Strengh Low Alloy"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Gearing Up",
+          "longDescription": "The gear is the most basic component that one can think of when they are dealing with these rotarized parts. Creating one is simple, simply place 5 HSLA steel in the crafting bench in a cross like formation. ",
           "items": [
             {
               "item": {
@@ -204,6 +228,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Getting the Shaft",
+          "longDescription": "Another core item on the linuep, the Shaft is what will be used for almost any and every instance of where you need to move around power. Crafing is simple as well, simply use 3 HSLA steel in a diagonal direction on the crafting square ",
           "items": [
             {
               "item": {
@@ -215,6 +241,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "All your base ",
+          "longDescription": "The next invention is of course the panel, which again is used in a wide variety of recipies and is fairly simple to craft not unlike a slab made of any other material",
           "items": [
             {
               "item": {
@@ -242,18 +270,21 @@
       ]
     },
     {
-      "name": "Unnamed4",
+      "name": "My First Engine",
+      "description": "Alright so you\u0027ve started getting yourself together, you\u0027ve learned to make a few parts but what about making something with all these parts? Well then it\u0027s time to make your first engine. ",
       "x": 22,
       "y": 132,
       "icon": {
         "id": "RotaryCraft:rotarycraft_item_engine"
       },
       "prerequisites": [
-        "Unnamed2"
+        "The Assembly Room"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Edison Approved ",
+          "longDescription": "The DC Engine is fairly simple to construct but more importantly then that it provides just enough power to run a pump and a few other items. So it is a great but simple start to your path. ",
           "items": [
             {
               "item": {
@@ -262,22 +293,31 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:redstone_block",
+          "amount": 3
+        }
       ]
     },
     {
-      "name": "Unnamed5",
-      "x": 63,
-      "y": 131,
+      "name": "Pump it up! ",
+      "description": "One thing that you\u0027ll always find yourself needing when you\u0027re making new and fantastical devices is a liquid to put into it. We\u0027re going to teach you what you need to make to do just that ",
+      "x": 64,
+      "y": 132,
       "icon": {
         "id": "RotaryCraft:rotarycraft_item_machine",
         "damage": 16
       },
       "prerequisites": [
-        "Unnamed4"
+        "My First Engine"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Always with the Pipes",
+          "longDescription": "Alright look, we can teach you how to make a pump but what good is that going to do you if you don\u0027t have a pipe to put it in? Crafted with HSLA Steel and Glass this little pipe is perfect for getting water from point A. to Point B",
           "items": [
             {
               "item": {
@@ -289,6 +329,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Can\u0027t Stump the Pump",
+          "longDescription": "The Pump itself doesn\u0027t require much in terms of power. A simple DC engine can run the device although a more powerful engine could run the pump faster, which is something you might which to keep in mind for bigger projects. ",
           "items": [
             {
               "item": {
@@ -308,7 +350,8 @@
       ]
     },
     {
-      "name": "Unnamed6",
+      "name": "The Windy City ",
+      "description": "The DC engine is good for getting you through the day, but like any proper machinest you\u0027re probably looking for a better solution to your problems already. Why not call upon the infinite, renwable power of the wind? ",
       "x": 20,
       "y": 172,
       "icon": {
@@ -316,12 +359,14 @@
         "damage": 1
       },
       "prerequisites": [
-        "Unnamed4",
-        "Unnamed7"
+        "My First Engine",
+        "Part: Part 2"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Propel me forward",
+          "longDescription": "Before you can get started you\u0027re going to want to make yourself a propeller, these aren\u0027t actually all that difficult. Just needing some steel, a shaft, and a base panel. ",
           "items": [
             {
               "item": {
@@ -333,6 +378,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "What\u0027s all the hubub? ",
+          "longDescription": "The next item you should find can be constructed from parts you\u0027ve already dabbled in. The hub has a lot of values, but here it\u0027s going to serve as the hub of our windy operations!",
           "items": [
             {
               "item": {
@@ -344,6 +391,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Green Energy",
+          "longDescription": "The Wind Turbine is an item that can be a bit tough to work with. First to be at full power it must be at or above Y \u003d 128. In addition to this, the area in front of the fan must be clear for at least 16 blocks or it won\u0027t produce the proper amount of power. ",
           "items": [
             {
               "item": {
@@ -353,10 +402,17 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "RotaryCraft:rotarycraft_item_machine",
+          "damage": 23
+        }
       ]
     },
     {
-      "name": "Unnamed7",
+      "name": "Part: Part 2",
+      "description": "This is a continuation of your little adventure into the world of part creation, again requiring nothing more then HSLA steel for the time being. ",
       "x": 51,
       "y": 105,
       "icon": {
@@ -364,11 +420,13 @@
         "damage": 14
       },
       "prerequisites": [
-        "Unnamed3"
+        "Part: Part 1"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Getting to the Core",
+          "longDescription": "Made with the Shaft units that you constructed in the last part of this little adventure as well as a single piece of HSLA steel in a diagnol shape on the crafting bench, this little item is fantastic for making your eventual mounts ",
           "items": [
             {
               "item": {
@@ -380,6 +438,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Bear with me",
+          "longDescription": "The Ball bearing is crafed by putting 4 HSLA steel in 2x2 shape. It will make 16 of them, which is useful, but they tend to be an ingredient for other parts rather then a part themselves. ",
           "items": [
             {
               "item": {
@@ -391,6 +451,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Unbearable",
+          "longDescription": "The Shaft bearing has some limited uses, but important ones. It is crafted by surrounding a piece of HSLA steel with some ball bearings. ",
           "items": [
             {
               "item": {
@@ -415,7 +477,8 @@
       ]
     },
     {
-      "name": "Unnamed8",
+      "name": "It\u0027s getting steamy in here",
+      "description": "So the DC Engine is great and all, but let\u0027s assume that you want even more powerful for the fantastical devices that you intend to create. Then it\u0027s time to learn about turning steam into Torque, power, and speed. ",
       "x": 63,
       "y": 166,
       "icon": {
@@ -423,12 +486,14 @@
         "damage": 2
       },
       "prerequisites": [
-        "Unnamed5",
-        "Unnamed9"
+        "Pump it up! ",
+        "Part: Part 3"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "A Steamy romance novel",
+          "longDescription": "The Steam engine is a little more complicated in it\u0027s construction, and you\u0027re probably going to want to put a piece of netherrack, or something that will burn reliabably underneath it to start powering it. Simply attach it to some water in the back and make sure there\u0027s a flame underneath it. ",
           "items": [
             {
               "item": {
@@ -438,10 +503,18 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "RotaryCraft:rotarycraft_item_shaftcraft",
+          "damage": 2,
+          "amount": 5
+        }
       ]
     },
     {
-      "name": "Unnamed9",
+      "name": "Part: Part 3",
+      "description": "This is part of the continuning discovery documentary: Parts and what they\u0027re used for. My name is David Attnborough and here we can see the rear coupling of a condenser and an impeller",
       "x": 99,
       "y": 105,
       "icon": {
@@ -449,12 +522,14 @@
         "damage": 7
       },
       "prerequisites": [
-        "Unnamed7",
-        "Unnamed5"
+        "Part: Part 2",
+        "Pump it up! "
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Condense it",
+          "longDescription": "Made with those liquid pipes you were discovering earlier and some HSLA steel, the Condenser has some limited uses but the most obvious of which will be in the creation of a steam engine. ",
           "items": [
             {
               "item": {
@@ -466,6 +541,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Impeller timing",
+          "longDescription": "The impeller is a simple device crafted by surrounding a gear with HSLA steel bars. This device has a wide range of uses and if you were going to start making a few it might be good to keep around. ",
           "items": [
             {
               "item": {
@@ -488,7 +565,8 @@
       ]
     },
     {
-      "name": "Unnamed10",
+      "name": "Moving Power - Chapter 1 ",
+      "description": "The next step along your journey is going to be getting all this power you\u0027re making with your various engines around the world like you would like. It\u0027s time to meet the methods for doing that",
       "x": 117,
       "y": 147,
       "icon": {
@@ -496,12 +574,14 @@
         "damage": 2
       },
       "prerequisites": [
-        "Unnamed8",
-        "Unnamed11"
+        "It\u0027s getting steamy in here",
+        "Part: Part 4"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Shaft Safety",
+          "longDescription": "The wood shaft is the most basic version and it comes with it\u0027s own flaws. There is a limited amount of power that it can run through the system, but at the same time it is the cheapest in terms of resources. ",
           "items": [
             {
               "item": {
@@ -512,6 +592,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Rock Hard Shaft",
+          "longDescription": "The stone shaft is much like it\u0027s brother in that it isn\u0027t quite the best shaft on the market that you can buy, but it\u0027s not the worst either. Requiring a few more resources then it\u0027s wooden counterpart the Stone shaft can transport a bit more power before it just explodes",
           "items": [
             {
               "item": {
@@ -523,6 +605,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Steel Standard",
+          "longDescription": "Who doesn\u0027t love a bit of aliteration in the morning? The answer is of course noone not needing necessary nerdy nacelles. Hush you it doesn\u0027t have to make sense, but the Steel Shaft does. It\u0027s the steel standard if you will for transporting your various rotational energies from one point to another. ",
           "items": [
             {
               "item": {
@@ -533,16 +617,16 @@
           ]
         }
       ],
-      "rewardchoice": [
+      "reward": [
         {
           "id": "RotaryCraft:rotarycraft_item_shaft",
-          "damage": 2,
-          "amount": 5
+          "damage": 2
         }
       ]
     },
     {
-      "name": "Unnamed11",
+      "name": "Part: Part 4",
+      "description": "As you learn more about rotarizing your world it should grow increasingly apparent you\u0027re going to need more complicated parts to compose it. It\u0027s time to meet one of the most common parts in your arsenal. ",
       "x": 136,
       "y": 104,
       "icon": {
@@ -550,11 +634,13 @@
         "damage": 3
       },
       "prerequisites": [
-        "Unnamed9"
+        "Part: Part 3"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Mount Up",
+          "longDescription": "The mount is a device that will get used in virtually all of your shafts for getting power from point a to point b. It is a crucial recipie to get used to because you\u0027ll probably be making more then your fair share of them. ",
           "items": [
             {
               "item": {
@@ -566,6 +652,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Worming and Squirming",
+          "longDescription": "Though it has a very limited application the Wyrm gear can help in the construction of a device to convert speed and power into torque a bit inneffectively. Still it\u0027s important to know these things. ",
           "items": [
             {
               "item": {
@@ -599,7 +687,7 @@
         "nbt": "{damage:0,lube:0}"
       },
       "prerequisites": [
-        "Unnamed10"
+        "Moving Power - Chapter 1 "
       ],
       "tasks": [
         {
@@ -626,7 +714,8 @@
       ]
     },
     {
-      "name": "Unnamed13",
+      "name": "No not the dating app",
+      "description": "There comes a time in every man, woman, and child\u0027s life when they look upon their inventory of metals and think to themsleves \"This isn\u0027t enough\" it is during those times that we invent the grinder. ",
       "x": 43,
       "y": 191,
       "icon": {
@@ -634,15 +723,13 @@
         "damage": 11
       },
       "prerequisites": [
-        "Unnamed8"
+        "It\u0027s getting steamy in here"
       ],
       "tasks": [
         {
-          "type": "CRAFT",
-          "items": []
-        },
-        {
           "type": "DETECT",
+          "description": "Swipe left to double ore",
+          "longDescription": "The Grinder is a device that requires at least a fair amount of power and in return it will crush the ore you feed it into a more particulate matter, in fact it may turn it into two of that particulate manner, each which reward you with a bar of what you were looking for. ",
           "items": [
             {
               "item": {
@@ -670,7 +757,7 @@
         "damage": 20
       },
       "prerequisites": [
-        "Unnamed13"
+        "No not the dating app"
       ],
       "tasks": [
         {
@@ -712,7 +799,7 @@
         "damage": 7
       },
       "prerequisites": [
-        "Unnamed10"
+        "Moving Power - Chapter 1 "
       ],
       "tasks": [
         {
@@ -822,7 +909,7 @@
     {
       "name": "Unnamed17",
       "x": 158,
-      "y": 181,
+      "y": 185,
       "icon": {
         "id": "RotaryCraft:rotarycraft_item_machine",
         "damage": 4
@@ -1053,7 +1140,7 @@
         "damage": 15
       },
       "prerequisites": [
-        "Unnamed11"
+        "Part: Part 4"
       ],
       "tasks": [
         {
@@ -1117,7 +1204,7 @@
         "damage": 6
       },
       "prerequisites": [
-        "Unnamed6"
+        "The Windy City "
       ],
       "trigger": "ANTI_TRIGGER",
       "tasks": [
@@ -1915,7 +2002,8 @@
       ]
     },
     {
-      "name": "Unnamed37",
+      "name": "Just a bit of Friction",
+      "description": "One of the most traditional ways for making something hotter was to rub two sticks together, well we\u0027re taking that technology to the next level with the friction heater, which every home should have. ",
       "x": 41,
       "y": 153,
       "icon": {
@@ -1923,12 +2011,14 @@
         "damage": 67
       },
       "prerequisites": [
-        "Unnamed8"
+        "It\u0027s getting steamy in here"
       ],
       "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
+          "description": "You rub me the right way",
+          "longDescription": "When attached to the side of a Furnance the Friction heater can use power, torque, and speed provided by an engine of some kind to help make heating up things in the furnace a bit faster and without the need for fuel. ",
           "items": [
             {
               "item": {
@@ -1940,6 +2030,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Bzzzt",
+          "longDescription": "If you\u0027ve ever gone into your own tree cutting industry you know there\u0027s know fun in having to cut them down yourself. It\u0027s time to meet the woodcutter, a fantastic device for felling a tree in your tree farm setups. ",
           "items": [
             {
               "item": {
@@ -1948,12 +2040,26 @@
               }
             }
           ]
+        },
+        {
+          "type": "DETECT",
+          "description": "This sucks",
+          "longDescription": "Requiring not that much in terms of parts or pieces, the item vaccum will use just a hint of power to bring in nearby items to it\u0027s own inventory. So say if you wanted to collect the wood from your woodcutter... or maybe the saplings. ",
+          "items": [
+            {
+              "item": {
+                "id": "RotaryCraft:rotarycraft_item_machine",
+                "damage": 29
+              }
+            }
+          ]
         }
       ],
       "reward": [
         {
-          "id": "HardcoreQuesting:bags",
-          "damage": 2
+          "id": "minecraft:log",
+          "damage": 1,
+          "amount": 64
         }
       ]
     },
@@ -2126,13 +2232,13 @@
     {
       "name": "Unnamed41",
       "x": 127,
-      "y": 174,
+      "y": 172,
       "icon": {
         "id": "RotaryCraft:rotarycraft_item_machine",
         "damage": 58
       },
       "prerequisites": [
-        "Unnamed8"
+        "It\u0027s getting steamy in here"
       ],
       "trigger": "ANTI_TRIGGER",
       "tasks": [
@@ -2146,6 +2252,54 @@
               }
             }
           ]
+        }
+      ]
+    },
+    {
+      "name": "Cooking up differently ",
+      "description": "HSLA Steel isn\u0027t actually the only thing that your new fancy furnace can cook up. In fact it has a few other tricks up it\u0027s sleeve. ",
+      "x": 19,
+      "y": 57,
+      "icon": {
+        "id": "RotaryCraft:rotarycraft_item_compacts",
+        "damage": 8
+      },
+      "prerequisites": [
+        "An Ogre made me do it"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Coked up",
+          "longDescription": "This paticular recipie has a much simpler calling. The only requirement is to throw some coal into the furnance and make sure it is at at least 400 Degrees. No additives required",
+          "items": [
+            {
+              "item": {
+                "id": "RotaryCraft:rotarycraft_item_compacts",
+                "damage": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Wound Up ",
+          "longDescription": "This set of seemingly wound up steel can be gotten by heating up your furnance even more (You might have to find some things further down the line) and adding coal coke and redstone as additives. ",
+          "items": [
+            {
+              "item": {
+                "id": "RotaryCraft:rotarycraft_item_compacts",
+                "damage": 9
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
         }
       ]
     }

@@ -29,6 +29,7 @@ Artifacts by Draco18s, TmTavir
 AtomicStryker Update Check Mod
 AtomicStryker's BattleTowers by AtomicStryker
 Automagy by Tuhljin - Granted
+Backpacks by Eydamos
 Baubles by Azanor
 BiblioCraft by Nuchaz
 Botania by Vazkii

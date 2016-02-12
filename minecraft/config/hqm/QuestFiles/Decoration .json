@@ -512,7 +512,8 @@
             {
               "item": {
                 "id": "BiblioCraft:BiblioShelf"
-              }
+              },
+              "precision": "ORE_DICTIONARY"
             }
           ]
         },
@@ -524,7 +525,8 @@
             {
               "item": {
                 "id": "BiblioCraft:Bibliotheca"
-              }
+              },
+              "precision": "ORE_DICTIONARY"
             }
           ]
         },
@@ -536,7 +538,8 @@
             {
               "item": {
                 "id": "BiblioCraft:BiblioPotionShelf"
-              }
+              },
+              "precision": "ORE_DICTIONARY"
             }
           ]
         }
@@ -577,7 +580,8 @@
               "item": {
                 "id": "BiblioCraft:BiblioTable"
               },
-              "required": 4
+              "required": 4,
+              "precision": "ORE_DICTIONARY"
             }
           ]
         }

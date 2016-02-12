@@ -1816,8 +1816,7 @@
           "items": [
             {
               "item": {
-                "id": "ImmersiveEngineering:clothDevice",
-                "nbt": "{offset:1}"
+                "id": "ImmersiveEngineering:clothDevice"
               }
             }
           ]
@@ -1838,8 +1837,7 @@
       "reward": [
         {
           "id": "ImmersiveEngineering:clothDevice",
-          "amount": 10,
-          "nbt": "{offset:1}"
+          "amount": 10
         }
       ]
     },

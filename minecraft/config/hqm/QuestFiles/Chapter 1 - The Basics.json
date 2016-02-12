@@ -919,7 +919,7 @@
               "item": {
                 "id": "exnihilo:sifting_table"
               },
-              "precision": "NBT_FUZZY"
+              "precision": "ORE_DICTIONARY"
             }
           ]
         },
