@@ -678,7 +678,8 @@
       ]
     },
     {
-      "name": "Unnamed12",
+      "name": "Getting power places",
+      "description": "So we\u0027ve learned about the shaft and a few other nifty tools, but that doesn\u0027t mean your wealth of knowledge is done. There is still yet more you can learn about the world ",
       "x": 158,
       "y": 136,
       "icon": {
@@ -692,6 +693,8 @@
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Worming around",
+          "longDescription": "A worm gear serves one purpose, to take a fair amount of power and speed and convert those into torque. In a great many ways it serves as a midway tool until you can get better equipment, but it\u0027s cheap and doesn\u0027t break without lube so there\u0027s that",
           "items": [
             {
               "item": {
@@ -702,6 +705,8 @@
         },
         {
           "type": "DETECT",
+          "description": "That was Clutch",
+          "longDescription": "The clutch is a wonderful device that acts a great deal like an on and off switch. If you give it redstone power, it is on, if you don\u0027t it is off. It\u0027s useful for those machines you only want running at particular times. ",
           "items": [
             {
               "item": {
@@ -710,6 +715,17 @@
               }
             }
           ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "RotaryCraft:rotarycraft_item_advgear",
+          "amount": 3
+        },
+        {
+          "id": "RotaryCraft:rotarycraft_item_machine",
+          "damage": 9,
+          "amount": 3
         }
       ]
     },
@@ -749,7 +765,8 @@
       ]
     },
     {
-      "name": "Unnamed14",
+      "name": "Extracting the Truth",
+      "description": "So sometimes simply grinding your metal up isn\u0027t enough, you also want to make sure to mix it and throw it in a slurry and so much more ",
       "x": 104,
       "y": 186,
       "icon": {
@@ -762,6 +779,8 @@
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Drill baby Drill ",
+          "longDescription": "This little part is what you\u0027re going to need for making the extractor proper. It has a few other uses but it shouldn\u0027t be to tough to craft. As a heads up you can make better versions of this drill ",
           "items": [
             {
               "item": {
@@ -772,6 +791,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Extra-action",
+          "longDescription": "The Extractor. It requires a fair amount of power, torque, and speed in order to function and has to be powered from the bottom. On top of all that it has to be given a supply of water to function, but there is a chance that it won\u0027t just double the amount of ore you get but even quadruple it. ",
           "items": [
             {
               "item": {
@@ -791,7 +812,8 @@
       ]
     },
     {
-      "name": "Unnamed15",
+      "name": "Firm in your belief",
+      "description": "It\u0027s time to learn how to make yourself the fuels of the future. Just shoving coal mixtures into a fire or steam aren\u0027t going to be enough to power the amazing engines of the future, now, you need more. ",
       "x": 118,
       "y": 75,
       "icon": {
@@ -804,6 +826,8 @@
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Shopping list",
+          "longDescription": "Before you get all excited, you\u0027re going to want a few things to help you. These items are going to be required form the device we intend to make in order to make the \"Stuff\" you\u0027ve always wanted. ",
           "items": [
             {
               "item": {
@@ -824,6 +848,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Fermentate!",
+          "longDescription": "The fermenter is a device that lets you brew on things for a while and you should respect it\u0027s amazing usefulness in the field. But for now we just need you to make one, then we\u0027re going to use it!",
           "items": [
             {
               "item": {
@@ -835,6 +861,8 @@
         },
         {
           "type": "DETECT",
+          "description": "The yeast of your problems",
+          "longDescription": "Yeast, can\u0027t live with it, can\u0027t live without it (Unless you love matzah). It\u0027s the wonderful product of all the work we have put into our fermenter so far, but it is but a simple ingredient for what we really want ",
           "items": [
             {
               "item": {
@@ -852,18 +880,21 @@
       ]
     },
     {
-      "name": "Unnamed16",
+      "name": "Brewing up a fire",
+      "description": "Now that you have your yeast, it\u0027s time to expand upon the buisness at hand to start brewing up (Or fermenting in this case) powerful additives that you can blow up and light on fire. ",
       "x": 105,
       "y": 49,
       "icon": {
         "id": "RotaryCraft:rotarycraft_item_ethanol"
       },
       "prerequisites": [
-        "Unnamed15"
+        "Firm in your belief"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Plant bits",
+          "longDescription": "Any plant bit will do, saplings, grass, food, something that grows in the ground into a bigger version of itself. So shove some plants, water, and yeast into that fermenter and find out what you get. ",
           "items": [
             {
               "item": {
@@ -879,6 +910,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Sludging it? ",
+          "longDescription": "Alright so this stuff looks absolutely nasty right? Well we can\u0027t blame you for thinking that, this nasty little product doesn\u0027t seem good for much of anything, that is... until you light it on fire. ",
           "items": [
             {
               "item": {
@@ -890,6 +923,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Cook on high for 3 minutes",
+          "longDescription": "Throw your sludge into a furnace of some kind and let it cook and you might find that what was before a nasty pile of goop has formed into some perfectly good little explosively useful crystals. ",
           "items": [
             {
               "item": {
@@ -907,7 +942,8 @@
       ]
     },
     {
-      "name": "Unnamed17",
+      "name": "Changing Direction ",
+      "description": "So you\u0027ve found yourself being able to power things in a straight line, but how about when you want to change that corner, or even split the power into two directions, Well it\u0027s time to meet the tools to do just that",
       "x": 158,
       "y": 185,
       "icon": {
@@ -915,12 +951,14 @@
         "damage": 4
       },
       "prerequisites": [
-        "Unnamed14",
-        "Unnamed12"
+        "Extracting the Truth",
+        "Getting power places"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Twist and turn",
+          "longDescription": "The Bevel junction is unique, using the scrwedriver you can find out which color in the GUI Relates to which direction the gear goes. Keep in mind that you have to change the direction (No Top to Bottom). ",
           "items": [
             {
               "item": {
@@ -932,6 +970,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Conjunction Junction ",
+          "longDescription": "Well the function is pretty clear. You can use this gear to either split or combine power and speed. Not that if you are going to combine two incoming inputs they have to be at the same power.",
           "items": [
             {
               "item": {
@@ -944,24 +984,33 @@
       ],
       "rewardchoice": [
         {
-          "id": "HardcoreQuesting:bags",
-          "damage": 2
+          "id": "RotaryCraft:rotarycraft_item_machine",
+          "damage": 4,
+          "amount": 3
+        },
+        {
+          "id": "RotaryCraft:rotarycraft_item_machine",
+          "damage": 6,
+          "amount": 3
         }
       ]
     },
     {
-      "name": "Unnamed18",
+      "name": "Lubing it up",
+      "description": "A lot of the machines you are making are fine and dandy but without some oil keeping them lubricated they will soon break down. It\u0027s time to meet the Lubricants!",
       "x": 179,
       "y": 94,
       "icon": {
         "id": "RotaryCraft:rotarycraft_item_canola"
       },
       "prerequisites": [
-        "Unnamed12"
+        "Getting power places"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Can-o-oil",
+          "longDescription": "Canola seeds can be found like many other seeds in the world, tilling a grass block. But these seeds are good for being turned into Canola oil, which makes a great lubricant for your machines. ",
           "items": [
             {
               "item": {
@@ -972,6 +1021,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "On Reserve",
+          "longDescription": "When you\u0027re making a whole batch of lubricant, you\u0027re going to need a place to put it aren\u0027t you? Well in this case, that would be the job of the REsovioir, it\u0027s fantastic for storing just this sort of thing",
           "items": [
             {
               "item": {
@@ -983,6 +1034,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Lube Tube",
+          "longDescription": "Now to actually get the oil, you\u0027re going to have to throw the Canola seeds into a grinder, from there you will simply use this Lubricant hose to take it form the grinder to the approrpaite resovoir, and then from the resovoir to the various machines which need lubricant ",
           "items": [
             {
               "item": {
@@ -1001,7 +1054,8 @@
       ]
     },
     {
-      "name": "Unnamed19",
+      "name": "Terminal",
+      "description": "Alright so it doesn\u0027t use SSH, and you won\u0027t be getting a private key, but hey you do get a quick glance at your current power settings when attached to a exisiting rotarized infastructure ",
       "x": 221,
       "y": 130,
       "icon": {
@@ -1009,11 +1063,13 @@
         "damage": 10
       },
       "prerequisites": [
-        "Unnamed12"
+        "Getting power places"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "169.254.51.183",
+          "longDescription": "When attached to the shaft it will read the power, speed, and torque that is going through it. It won\u0027t take any energy of it\u0027s own to run either and translates it directly to the output! ",
           "items": [
             {
               "item": {
@@ -1023,10 +1079,18 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "RotaryCraft:rotarycraft_item_machine",
+          "damage": 10,
+          "amount": 5
+        }
       ]
     },
     {
-      "name": "Unnamed20",
+      "name": "Shifting Gears",
+      "description": "So why is it that we\u0027ve had you harvesting Canola Plants? Well it\u0027s to get you started on the path to making your very own gear boxes. These little devices are like much better wyrmgears ",
       "x": 217,
       "y": 91,
       "icon": {
@@ -1035,11 +1099,13 @@
         "nbt": "{damage:0,lube:0}"
       },
       "prerequisites": [
-        "Unnamed18"
+        "Lubing it up"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Cogs in the System ",
+          "longDescription": "The first step to making a functioning gear box is of course making the gears that go in it. They come in different varieties and you can make more complicated gears by combinging them. ",
           "items": [
             {
               "item": {
@@ -1051,6 +1117,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Like a Transmission? ",
+          "longDescription": "Now that you have the gears, you can make a 2:1 Gearbox. In this way it converts speed into torque The bigger the ratio the more speed is converted to Torque. These are the devices which must stay lubricated, if they aren\u0027t... they wear down. So be sure to connect a lubircant hose",
           "items": [
             {
               "item": {
@@ -1070,7 +1138,8 @@
       ]
     },
     {
-      "name": "Unnamed21",
+      "name": "A little Gassy ",
+      "description": "So you\u0027ve made the ethanol, now it\u0027s time to burn it and make your very own super powered little system, isn\u0027t that right? Well not quite super powered, but ceratinly a bit of power",
       "x": 143,
       "y": 43,
       "icon": {
@@ -1078,12 +1147,14 @@
         "damage": 3
       },
       "prerequisites": [
-        "Unnamed16",
-        "Unnamed22"
+        "Brewing up a fire",
+        "Part: Part 5"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "High Octane Fun ",
+          "longDescription": "The parts are a bit complex, but the function certainly isn\u0027t. Simply put ethanol in and your rotational energy will be coming right out!",
           "items": [
             {
               "item": {
@@ -1095,6 +1166,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Fuel Additives",
+          "longDescription": "So you\u0027ve made some Ethanol, but we want this machine to be turbo powered do we not? Well then it\u0027s time to meet the performance engine... or rather the additives for it. It\u0027s going to need water and one of the three ingredients we\u0027ve asked you to find. ",
           "items": [
             {
               "item": {
@@ -1120,6 +1193,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Performance Power",
+          "longDescription": "Now you can mix the Ethanol, some water, and one of the additives. Redstone tends to be the best, followed by blaze powder, and fianlly gunpowder. With these you can give your engine a bit of a kick! ",
           "items": [
             {
               "item": {
@@ -1129,10 +1204,17 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "RotaryCraft:rotarycraft_item_ethanol",
+          "amount": 16
+        }
       ]
     },
     {
-      "name": "Unnamed22",
+      "name": "Part: Part 5",
+      "description": "It\u0027s time for you to move on to the next piece of the part puzzle! These groups of parts are a little more technologically minded though. ",
       "x": 159,
       "y": 73,
       "icon": {
@@ -1145,6 +1227,8 @@
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Spark of crafting",
+          "longDescription": "The Ignition unit, as you might imagine, ignites things. You\u0027ll mainly find this in devices which need to light fuel on fire in order to function, like gasoline engines by chance? ",
           "items": [
             {
               "item": {
@@ -1156,6 +1240,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Cylidrical ",
+          "longDescription": "Made from HSLA steel, the cylinder is a fairly easy component to make. It has only one use though, and that\u0027s in the creation of a gasoline engine (Are you catching on to a theme?) ",
           "items": [
             {
               "item": {
@@ -1167,6 +1253,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Radiating the heat",
+          "longDescription": "Made from Gold, Liquid Pipes, and HSLA steel. the Radiator is a good way to dissipate heat in theory, in practices it\u0027s main use tends to be in Gas powered engines and upgrades for those engines ",
           "items": [
             {
               "item": {
@@ -1196,7 +1284,8 @@
       ]
     },
     {
-      "name": "Unnamed23",
+      "name": "Waterworks",
+      "description": "It\u0027s time to learn a bit more about the field of green energy, or in this case we suppose you might call it blue energy... blue as in you\u0027re going to need diamonds. ",
       "x": 204,
       "y": 187,
       "icon": {
@@ -1210,6 +1299,8 @@
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Diamond Core! ",
+          "longDescription": "This is like a regular shaft core, excpet that you\u0027re going to need diamonds. Note that these can work with more torque, speed, and power without exploding. To make one you\u0027ll need a diamond shaft unit ",
           "items": [
             {
               "item": {
@@ -1221,6 +1312,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "That\u0027s a paddling ",
+          "longDescription": "You might remember that spring steel ingot we had you make earlier? Well you\u0027re going to use that in combination with base panels to create your Paddle Panels ",
           "items": [
             {
               "item": {
@@ -1232,6 +1325,8 @@
         },
         {
           "type": "DETECT",
+          "description": "A dam monstrosity ",
+          "longDescription": "So to make this little piece it\u0027s pretty simple. Take all those paddle panels and wrap them around a diamond core. Easy right? You can connect up to 4 of these. ",
           "items": [
             {
               "item": {
@@ -1251,7 +1346,8 @@
       ]
     },
     {
-      "name": "Unnamed24",
+      "name": "Praise the Sun!",
+      "description": "Bless the sun in all it\u0027s power, it is a glorius thing but more then that, while it is up, it\u0027s also a potential source of untapped power, and you can\u0027t really say no to that now can you? ",
       "x": 256,
       "y": 187,
       "icon": {
@@ -1259,13 +1355,15 @@
         "damage": 71
       },
       "prerequisites": [
-        "Unnamed23",
-        "Unnamed28"
+        "Waterworks",
+        "Am I that Vain? "
       ],
       "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Solar Power",
+          "longDescription": "These solar panels need to be directly attached to the next item we\u0027re going to make. As the sun moves through the sky so do they to reflect the sun at the tower. ",
           "items": [
             {
               "item": {
@@ -1277,6 +1375,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Tower of the Sun! ",
+          "longDescription": "The solar tower will need water to function and the solar panels to redirect sunlight to heat up that water. The more of either means more overall output. Keep in mind if you fall from a high enough height onto a mirror it may break it. ALSO if you get enough mirros you might catch everything on fire. ",
           "items": [
             {
               "item": {
@@ -1301,7 +1401,8 @@
       ]
     },
     {
-      "name": "Unnamed25",
+      "name": "Part: Part 6",
+      "description": "The part time adventure continues as we start trying to figure out the parts that we\u0027ll need to make the machines of our dreams, the most powerful compotents in our rotarized arsenel yet. ",
       "x": 197,
       "y": 49,
       "icon": {
@@ -1309,11 +1410,13 @@
         "damage": 4
       },
       "prerequisites": [
-        "Unnamed22"
+        "Part: Part 5"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Combustion Man ",
+          "longDescription": "Made with HSLA Steel, an Igniter, and some redstone, the combuster has quite a few uses, though it\u0027s more famous one might just be in a piece of jet technology ",
           "items": [
             {
               "item": {
@@ -1325,6 +1428,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "tarball, gzip, rar ",
+          "longDescription": "It has any number of uses, the compressor is good for any number of things, and fairly easy to make. You just need to surround a gear with HSLA steel ",
           "items": [
             {
               "item": {
@@ -1336,6 +1441,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Diffuse the situation ",
+          "longDescription": "Useful in a select set of tools, and an even more select set of devices, the diffuser is very simple to make, a sideways v on the crafting table with HSLA steel. Perhaps it\u0027s most well known use is as the nozzle for a Jetpack. ",
           "items": [
             {
               "item": {
@@ -1365,7 +1472,8 @@
       ]
     },
     {
-      "name": "Unnamed26",
+      "name": "Pulse Power",
+      "description": "The future production line is going to require some oddly specific parts, and sometimes the only way to make those parts is a little thing called Funneling jet fuel through a tiny nozel to melt it ",
       "x": 182,
       "y": 15,
       "icon": {
@@ -1373,12 +1481,14 @@
         "damage": 21
       },
       "prerequisites": [
-        "Unnamed25",
-        "Unnamed27"
+        "Part: Part 6",
+        "Fueling The Future "
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Jet-tisoned",
+          "longDescription": "A few things to note about this little device, Don\u0027t let it get above 1,000 Degrees, make sure it has water and plenty of speed. (Don\u0027t worry about torque). It can melt tools and even obsidian... into something you might need. ",
           "items": [
             {
               "item": {
@@ -1390,6 +1500,8 @@
         },
         {
           "type": "DETECT",
+          "description": "A blast from the past",
+          "longDescription": "Blast glass comes from Obsidian being melted in the Jet Pulse Furnace. Most importantly perhaps it is immune to TNT, and it finds itself as a component of more then a few pieces. ",
           "items": [
             {
               "item": {
@@ -1415,7 +1527,8 @@
       ]
     },
     {
-      "name": "Unnamed27",
+      "name": "Fueling The Future ",
+      "description": "Ethanol is nice, but have you ever wanted something more powerful then that? Don\u0027t lie of course you have. It\u0027s time to get your introduction to jet fuel. ",
       "x": 124,
       "y": 20,
       "icon": {
@@ -1423,11 +1536,13 @@
         "damage": 25
       },
       "prerequisites": [
-        "Unnamed16"
+        "Brewing up a fire"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Keystone Pipeline ",
+          "longDescription": "The fuel line unlike the Lubricant Hose and the Liquid pipe is specialized to carry fuels and keep those dangerous fumes from escaping. As such the only way to move fuel around safely is through these little pipes. ",
           "items": [
             {
               "item": {
@@ -1439,6 +1554,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Frac it ",
+          "longDescription": "The fractration unit is going ot be your key to the creation of useable jet fuel. Be warned though the ingredients to get this paticular item working are not easy to find. ",
           "items": [
             {
               "item": {
@@ -1450,6 +1567,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Shopping List",
+          "longDescription": "The nether dust needs netherrack to be run through a grinder while the Tar dust will require soul sand to be put through another. All in all the returns may be worth it though. ",
           "items": [
             {
               "item": {
@@ -1499,7 +1618,8 @@
       ]
     },
     {
-      "name": "Unnamed28",
+      "name": "Am I that Vain? ",
+      "description": "You ever find yourself staring at a mirror? Pretty hard to resist admiring yourself right? Well we\u0027re going to teach you to make your very own minecraft mirror ",
       "x": 244,
       "y": 156,
       "icon": {
@@ -1507,11 +1627,13 @@
         "damage": 82
       },
       "prerequisites": [
-        "Unnamed26"
+        "Pulse Power"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "MTX ",
+          "longDescription": "This doesn\u0027t exactly seem mirror related, but trust us this little part will end up in a lot of places. You should definately get familiar with them. They just require steel, gold, redstone and an ender eye",
           "items": [
             {
               "item": {
@@ -1523,6 +1645,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Mirror Mirror ",
+          "longDescription": "These luckily require only iron and Glass, and you can look at yourself in them for the entire day and no one will judge you ",
           "items": [
             {
               "item": {
@@ -1534,6 +1658,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Lock Phasers",
+          "longDescription": "These little mirrors can be used to turn the power of the sun and redirect it. Point it at something that is undead and you can even use that power of the sun to burn right through them. ",
           "items": [
             {
               "item": {
@@ -1553,18 +1679,21 @@
       ]
     },
     {
-      "name": "Unnamed29",
+      "name": "The Name is bond",
+      "description": "Who hasn\u0027t dreamed of being able to fly about the world, truely exploring everything around you? Well it\u0027s time to meet the tool, or should we say perhaps tools to make that all possible. ",
       "x": 229,
       "y": 72,
       "icon": {
         "id": "RotaryCraft:rotarycraft_item_jetpack"
       },
       "prerequisites": [
-        "Unnamed25"
+        "Part: Part 6"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Version 0.1 ",
+          "longDescription": "This is our starter jetpack, you put in fuel, and it makes you fly. It\u0027s a simple enough concept right? WEll did you know there is more to it then that? Oh yeah it\u0027s time to get excited! ",
           "items": [
             {
               "item": {
@@ -1575,6 +1704,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Version 0.1.2",
+          "longDescription": "When building your jetpack you should know that you can build addons to your little jetpack, (Pretty awesome right? Yeah we thought so) here are just two of those sample upgrades. One to make it like armor and the other so that you can conserve a bit of fuel. ",
           "items": [
             {
               "item": {
@@ -1592,6 +1723,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Version 0.1.11",
+          "longDescription": "Now that you\u0027ve got your armor and your fins it\u0027s time for even more. It\u0027s best to get the little glider wing on there and set yourself up a fueling station. Pretty cool litte trick eh? And not too tought to build either. ",
           "items": [
             {
               "item": {
@@ -1613,10 +1746,17 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
       ]
     },
     {
-      "name": "Unnamed30",
+      "name": "Distilled Energy ",
+      "description": "Ever wanted to turn rock into lava? Well it\u0027s time to meet that method. We\u0027re going to teach you how to convert your cobblestone into an even more valuable resource, Molten lava. ",
       "x": 92,
       "y": 20,
       "icon": {
@@ -1624,11 +1764,13 @@
         "damage": 91
       },
       "prerequisites": [
-        "Unnamed16"
+        "Brewing up a fire"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Exactly what\u0027s on the Tin",
+          "longDescription": "By providing the Rock melter with power and a fuel source (in this case cobblestone, or nether) you can convert it into something even better, molten lava. ",
           "items": [
             {
               "item": {
@@ -1640,6 +1782,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Bucket of gas",
+          "longDescription": "More then lava, the rock melter can also be used to turn those ethanol crystals that you were making into a more liquid and user friendly source. So throw them in and melt them and see if you can\u0027t get yourself a bucket of gas",
           "items": [
             {
               "item": {
@@ -1659,7 +1803,8 @@
       ]
     },
     {
-      "name": "Unnamed31",
+      "name": "Turbo Mode",
+      "description": "Now that you\u0027ve gotten into the world of gas and jet fuel, it\u0027s time to start learning how best to make use of them. Keep in mind that these machines down power up instantly and require a lot of fuel ",
       "x": 226,
       "y": 11,
       "icon": {
@@ -1667,12 +1812,14 @@
         "damage": 8
       },
       "prerequisites": [
-        "Unnamed21",
-        "Unnamed32"
+        "A little Gassy ",
+        "Induction Junction "
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Micropowered",
+          "longDescription": "The Microturbine has a unique property in that it does not put out much torque but it puts out a tremendous amount of power. With a few gearboxes, you\u0027ll find they are perfect for bedrock breakers ",
           "items": [
             {
               "item": {
@@ -1684,11 +1831,26 @@
         },
         {
           "type": "DETECT",
+          "description": "Turbintine? ",
+          "longDescription": "Don\u0027t get in front of it, as it is a turbine and it will suck you right through. But what\u0027s the great thing about it? Well for one it\u0027s probably one of the few items that can run the extractor all on its own. It has a massive amount of power, torque, and speed ",
           "items": [
             {
               "item": {
                 "id": "RotaryCraft:rotarycraft_item_engine",
                 "damage": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Tap 2 Blue Mana ",
+          "longDescription": "Control is more then something blue decks do, it\u0027s what this little unit does as well. Placing it under an engine you can give up a little speed in exchange for fuel effeciency ",
+          "items": [
+            {
+              "item": {
+                "id": "RotaryCraft:rotarycraft_item_machine",
+                "damage": 38
               }
             }
           ]
@@ -1704,7 +1866,8 @@
       ]
     },
     {
-      "name": "Unnamed32",
+      "name": "Induction Junction ",
+      "description": "You\u0027ve reached a level of technology where the parts we have just aren\u0027t going to cut it anymore. They\u0027re going to need to be augmented with strange and new metals ",
       "x": 228,
       "y": 43,
       "icon": {
@@ -1712,11 +1875,13 @@
         "damage": 6
       },
       "prerequisites": [
-        "Unnamed25"
+        "Part: Part 6"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Mixtures and Fixtures ",
+          "longDescription": "Alright so to get your indcutive blend you\u0027re going to need to do something, and that something is combining some gold grit or flakes with redstone. We\u0027re off to an easy start right? ",
           "items": [
             {
               "item": {
@@ -1728,6 +1893,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Ingots from Mixtures ",
+          "longDescription": "Now to make the ingot you\u0027re going to want to put your special blend in that pulse jet furnace that you made earlier. It\u0027s the only way to get what you\u0027re looking for. ",
           "items": [
             {
               "item": {
@@ -1739,6 +1906,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Super Cogs and wheels",
+          "longDescription": "Now that you have your ingots you might find you have a whole new world of items to make with it. It\u0027s time to really dig deep and see what all has been opened up to you. ",
           "items": [
             {
               "item": {
@@ -1780,7 +1949,8 @@
       ]
     },
     {
-      "name": "Unnamed33",
+      "name": "Conversion Ratio",
+      "description": "You might be asking yourself just how to go from the series of Rotarized componets you\u0027ve built to another form of power like those used by power lines and the like. Well it\u0027s time to meet your tools ",
       "x": 269,
       "y": 12,
       "icon": {
@@ -1788,12 +1958,14 @@
         "damage": 109
       },
       "prerequisites": [
-        "Unnamed31"
+        "Turbo Mode"
       ],
       "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Coiling around",
+          "longDescription": "Gold is an excellent conducter, and is it turns out one of the key ingredients in this gold coil. Surround some HSLA steel with gold and you\u0027ll have what you\u0027re looking for ",
           "items": [
             {
               "item": {
@@ -1805,6 +1977,8 @@
         },
         {
           "type": "DETECT",
+          "description": "RF \u003e Rotarycraft Power",
+          "longDescription": "This machine specializes in transforming RF from other systems you may have up and running into a rotary friendly format. Connect your Hemp wrapped windmill to this puppy and watch it go ",
           "items": [
             {
               "item": {
@@ -1816,6 +1990,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Rotational Power \u003e RF",
+          "longDescription": "This engine happens to do just the reverse of the previous, converting Rotational power into RF so that everyone is happy. ",
           "items": [
             {
               "item": {
@@ -1835,7 +2011,8 @@
       ]
     },
     {
-      "name": "Unnamed34",
+      "name": "Part: Final Part",
+      "description": "It\u0027s time to learn about the final part in the part series. These little pieces should give you nearly all the information you will ever need to complete just about anything you can dream of that runs on some kind of rotarized power ",
       "x": 254,
       "y": 62,
       "icon": {
@@ -1843,11 +2020,13 @@
         "damage": 11
       },
       "prerequisites": [
-        "Unnamed32"
+        "Induction Junction "
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "STOP! Brake Time",
+          "longDescription": "These little pieces find themselves putting a stop to the works, the part is simple enough to make with some bearings, some shafts, and of course a bit more. Great for making some industrial coils ",
           "items": [
             {
               "item": {
@@ -1859,19 +2038,14 @@
         },
         {
           "type": "CRAFT",
+          "description": "It\u0027s so Tense",
+          "longDescription": "One might go on to call this the key component in the system that you\u0027ll come to know and love, that is to say the industrial coil. Don\u0027t be afraid to build a few once you\u0027ve got this part in your line up",
           "items": [
             {
               "item": {
                 "id": "RotaryCraft:rotarycraft_item_borecraft",
                 "damage": 12
               }
-            },
-            {
-              "item": {
-                "id": "RotaryCraft:rotarycraft_item_borecraft",
-                "damage": 11
-              },
-              "required": 5
             }
           ]
         }
@@ -1881,11 +2055,17 @@
           "id": "RotaryCraft:rotarycraft_item_borecraft",
           "damage": 12,
           "amount": 5
+        },
+        {
+          "id": "RotaryCraft:rotarycraft_item_borecraft",
+          "damage": 11,
+          "amount": 5
         }
       ]
     },
     {
-      "name": "Unnamed35",
+      "name": "Misc\u0027ed Oppertunities",
+      "description": "We wanted to cover with you just a few more perhaps random but important pieces of technology for the transporation of power across your rotarized network. ",
       "x": 255,
       "y": 105,
       "icon": {
@@ -1893,12 +2073,14 @@
         "damage": 2
       },
       "prerequisites": [
-        "Unnamed19",
-        "Unnamed34"
+        "Terminal",
+        "Part: Final Part"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Coiling up",
+          "longDescription": "It\u0027s great to have all this power, but what if you want to store it for later? That is where the industrial coil can come in handy. You can send power to it, and it will be stored, not unlike a bat box or capacitor in other mods. ",
           "items": [
             {
               "item": {
@@ -1910,6 +2092,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Let it fly ",
+          "longDescription": "The Flywheel works almost like a short term backup battery. In that you can give it power and it will remain on for some time after it loses power. Be careful though, give it to much power and it may just explode ",
           "items": [
             {
               "item": {
@@ -1921,6 +2105,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Belt it out ",
+          "longDescription": "So you\u0027re getting tired of having to use those shafts to always transmit your power? Well what if we told you that you could use a belt? By connecting two belt hubs with a series of belts (Right click one then right click the other and the appropriate number of belts will be used) you can transmit your power more easily over long distances ",
           "items": [
             {
               "item": {
@@ -1946,18 +2132,21 @@
       ]
     },
     {
-      "name": "Unnamed36",
+      "name": "Bedrock Breaking",
+      "description": "Alright so there\u0027s always been one thing between you and the edge of eternity, and it\u0027s the bedrock, you wanna learn how to break that too? ",
       "x": 274,
       "y": 82,
       "icon": {
         "id": "RotaryCraft:rotarycraft_item_machine"
       },
       "prerequisites": [
-        "Unnamed34"
+        "Part: Final Part"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Do the Impossible",
+          "longDescription": "You might find when you are running your iron through the Extractor that you have just a tiny chance of pulling out some tungsten. Well now it\u0027s time to learn how to use it, don\u0027t you agree? ",
           "items": [
             {
               "item": {
@@ -1975,6 +2164,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Break the Unbreakable",
+          "longDescription": "Meet the Bedrock breaker, it happens to be the key to this entire operation, and you can bet that it requires a HUGE amount of power in order to function. A microturbine with a few gearboxes might do the trick for just one. Note it will not remove the bottom layer of bedrock (just to keep you safe) ",
           "items": [
             {
               "item": {
@@ -1985,6 +2176,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Ro Ro Fight the powah! ",
+          "longDescription": "It\u0027s like black gold, but even better then that this little spec of dust can open up whole new possibilities. Who needs diamond when you can use the substance that even diamond can\u0027t break? ",
           "items": [
             {
               "item": {
@@ -2064,7 +2257,8 @@
       ]
     },
     {
-      "name": "Unnamed38",
+      "name": "Bedrock Properties",
+      "description": "Alright we know your dying to make bedrock tools, so it\u0027s time to learn exactly what you need to do it. You ready? Of course you are, so let\u0027s dive right in! ",
       "x": 298,
       "y": 82,
       "icon": {
@@ -2072,11 +2266,13 @@
         "damage": 3
       },
       "prerequisites": [
-        "Unnamed36"
+        "Bedrock Breaking"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Making rock bottom",
+          "longDescription": "Combine a little bedrock dust with some HSLA steel in a blast furnance and soon you\u0027ll find yourself with a bedrock ingot, (Simple enough right). Make sure it\u0027s plenty hot. ",
           "items": [
             {
               "item": {
@@ -2088,6 +2284,8 @@
         },
         {
           "type": "DETECT",
+          "description": "An endless possibility",
+          "longDescription": "Alright so now you\u0027ve got the ingots, it\u0027s time to make something cool with them don\u0027t you agree? Well you\u0027ll be happy to know that these tools are enchanted with their own powerful set of enchants right out of the gate. Expirment to learn what all of them are. ",
           "items": [
             {
               "item": {
@@ -2110,7 +2308,8 @@
       ]
     },
     {
-      "name": "Unnamed39",
+      "name": "Gardening Apperal ",
+      "description": "While you\u0027re out growing Canola seeds, you might wish to consider some more ways to make your garden a more easily managed location. We\u0027re going to teach you some nifty tricks for just such an occasion. ",
       "x": 195,
       "y": 156,
       "icon": {
@@ -2118,12 +2317,14 @@
         "damage": 37
       },
       "prerequisites": [
-        "Unnamed18"
+        "Lubing it up"
       ],
       "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Hey Vegeta! ",
+          "longDescription": "The breeder should be fairly clear and to the point. You load it up with the food you would use to feed animals, and it dispenses that food so that they will... do what animals do. Remember though it will need power from the bottom ",
           "items": [
             {
               "item": {
@@ -2135,6 +2336,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Bait and switch ",
+          "longDescription": "Want to attract some endermen by chance? Well it\u0027s time to learn about the bait box. Each mob has things it likes and dislikes putting them in the box will either attract or scare them off. Like the breeder it needs power ",
           "items": [
             {
               "item": {
@@ -2146,6 +2349,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Watering ",
+          "longDescription": "Piping a little water and then depending on the item giving them some power can help turn these systems into powerful ways to grow crops fater, expiriment a little! ",
           "items": [
             {
               "item": {
@@ -2176,7 +2381,8 @@
       ]
     },
     {
-      "name": "Unnamed40",
+      "name": "It\u0027s getting hot in here",
+      "description": "No you don\u0027t need to take off all your clothes, but it might because of the technologies we\u0027re about to teach you about! ",
       "x": 193,
       "y": 73,
       "icon": {
@@ -2184,12 +2390,14 @@
         "damage": 35
       },
       "prerequisites": [
-        "Unnamed22"
+        "Part: Part 5"
       ],
       "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Light Em Up!",
+          "longDescription": "Control your tempature, the heater is designed to take the fuels that you feed it and then heat up to your specified amount. This way you can heat up a machine without accidently blowing it up when things get to hot ",
           "items": [
             {
               "item": {
@@ -2201,6 +2409,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Grind baby grind",
+          "longDescription": "Using an ignitier, the mob harvester will allow you to deal damage to mobs based no how much power you give it so long as the mob is directly on top of it, in addition when they die, they will be killed as if a player killed them so they will drop that special loot ",
           "items": [
             {
               "item": {
@@ -2212,6 +2422,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Assuming Direct Control",
+          "longDescription": "No more tricks with light, no more strange techniques to control your spawner. This device allows you to assume direct control over it. You can disable it, or change the spawn rate. ",
           "items": [
             {
               "item": {
@@ -2230,9 +2442,10 @@
       ]
     },
     {
-      "name": "Unnamed41",
-      "x": 127,
-      "y": 172,
+      "name": "Power Storage",
+      "description": "Sometimes a chest just won\u0027t cut it, but what if you could feed a chest so much power that it actually got bigger on the inside? ",
+      "x": 125,
+      "y": 171,
       "icon": {
         "id": "RotaryCraft:rotarycraft_item_machine",
         "damage": 58
@@ -2244,6 +2457,8 @@
       "tasks": [
         {
           "type": "DETECT",
+          "description": "TARDIS level Tech",
+          "longDescription": "The Scaleabe chest is a wonderful thing. The more power that you feed it, the bigger that it gets, and if you don\u0027t have enough power it simply doesn\u0027t let you access the thing in those later slots. It\u0027s great for having a huge space to shove stuff",
           "items": [
             {
               "item": {
@@ -2252,6 +2467,13 @@
               }
             }
           ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "RotaryCraft:rotarycraft_item_shaftcraft",
+          "damage": 1,
+          "amount": 9
         }
       ]
     },

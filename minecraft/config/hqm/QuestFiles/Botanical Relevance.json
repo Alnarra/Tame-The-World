@@ -821,8 +821,7 @@
           "items": [
             {
               "item": {
-                "id": "Botania:manaTablet",
-                "damage": 1000
+                "id": "Botania:manaTablet"
               },
               "precision": "NBT_FUZZY"
             }
