@@ -1,11 +1,11 @@
-Modpack: 			Tame The World 
-Modpack Version: 	0.1.10
+Modpack: 		Tame The World 
+Modpack Version: 	0.1.11
 Modpack Author: 	Alnarra
 Report Issues Here:	https://github.com/fullphaser/Tame-The-World
 Forum Thread:		http://tinyurl.com/tameTheWorld
 Curse Page: 		http://www.curse.com/modpacks/minecraft/238218-tame-the-world
 Technic API: 		http://api.technicpack.net/modpack/tame-the-world
-Discord: 			https://discord.gg/0hh8cmHesQfTfxRz
+Discord: 		https://discord.gg/0hh8cmHesQfTfxRz
 FTB Pack Code: 		tameTheWorld
 
 Recommended settings
@@ -98,22 +98,76 @@ YAMBST by Commador
 Zombie Awareness by Corosauce
 
 Version 0.1.11 
+Version 0.1.11 
 Mods Added 
 - Cooking for Blockheads 
 - FTB Utilities 
 - FTB Lib 
+- Not Enough Resources 
+- Bakcpacks mod 
 Mods Removed 
 - Aroma Core
 - Aroma Backup 
 Mods Updated
-- Botania (Was Version r1.8 247 - now r 1.8 248 )
+- Botania (Was Version r1.8 247 - now r 1.8 249 )
 - Hardcore ender Expansion (was 1.8.4 now 1.8.5) 
-- Automagy (Was 0.27 now 0.27.1 ) 
+- Automagy (Was 0.27 now 0.28.2 ) 
+- Forbidden Magic (Was 0.572 now 0.573 ) 
+- Immersive Engineering ( Was 0.651 now 0.74 ) 
+- Immersive Integration (Was 0.66 now 0.67) 
+- Growthcraft Community Edition ( Was 0.2.3.1 now 0.2.4.0 ) 
+- Roguelike Dungeons (was 1.3.6.3 now 1.4.4) 
+- Ruins (Now 15.4) 
+- Storage Drawers ( Was 1.7.5 now 1.7.8 ) 
+- Spiace of Life (Was 1.3.0 now 1.3.1 ) 
+- Arcane Engineering (Was 0.2.1 now 0.2.6) 
+- Maliscore ( Was 0.14.0 now 0.14.3)
+- Malis Doors ( Was 1.13.0 now 1.13.2) 
+- MobProperties (Was 0.4.2 now 0.4.3) 
+- Specialmobs (Was 3.2.1 now 3.2.2.) 
+- Journey Map (Was 
+- Malisis Doors (Was 0.13.0 now 0.13.1 ) 
+- Railcraft (9.8.0.0  - 9.9.0.0
+- Nei integration (1.1.1 - 1.1.2) 
+- Jouryney map (5.1.3 - 5.1.4)
+- Dragon API - 10d - 11b 
+- Storage drawers ( 1.7.8 - 1.9.4 ) 
+- Roatarycraft ( 10d  11b ) 
 Config Updates 
  - Removed Apples from Default spawn for FTB util 
  - Changed Default MOTD 
+ - Turned on the Creative Thaumonomicon 
+ - Reduced Taint Spread a bit 
+ - Turned Hungry spiders back on
+ - Set enablecropspecialplanting to False (To fix cranberries and seaweed) 
+ - Weather machine no longer makes tornadoes (Blame Az) 
+Script 
+- Created fruitSap.zs to help with Cherry Quest 
+- Created Bibliofix.zs to put the Bibliocraft furniture into it's own oredictionary
 Quest 
- - 2 New Chapters Thaumcraft and Rotarycraft! 
+- Created two new Chapters for Rotarycraft and Thaumcraft 
+- Chapter 1 - How to use the Book - Added a reward of wood 
+- Chapter 1 - Added quest for Backpacks 
+- Chapter 1 - Sieving with Envy - Changed to Ore Dictionary Detection 
+- Agriculture - Added Quest to accomodate the addition of Cooking for Blockheads 
+- Agriculture - Changed Falling Far From the Tree to Ore Dictionary Detection 
+- Decoration - Shelved away - Set all quest for Ore Dictionary Detection 
+- Decoration - Don't Table this quest - Set quest for ore dictionary detection 
+- Chapter 2 - You're a Wizard Harry - Changed Quest from Crafting to Detection 
+- Chapter 2 - You're a Wizard Harry - Nuggets - Decreased number of times to craft to 2 (Was 10) 
+- Chapter 2 - Added quest for Spectral Key 
+- Chapter 2 - Corrected Botania petal Apothocary Quest to now be Detection based 
+- Chapter 2 - Circular Logic - Added reward for quest 
+- Immersed in Engineering - Quest 420 - Changed to Detection for Hemp  
+- Immersed in Engiineering - Industrial Expansion - Updated for 0.70 Update 
+- Immersed in Engineering - Winding up - Low Voltate Fun - Changed LV Capacitor to NPT Independent Detection 
+- Immersed in Engineering - Added quest for "Improved Blast Furance
+- Immersed in Engineering - Steeling the Show - Decreased number of times to Craft to 14 (Was 27) 
+- Immersed in Engineering - I sell Coke Ovens - Decreased number of times to craft to 14 (Was 27) 
+- Immersed in Engineering - Byproduct - Decreased number of times to craft to 1 (Was 8) 
+- Immersed in Engineering - Up up and Away- Balloon changed to normal 
+- Botaniacal Relevance - Weaving a Destiny - Fixed the Cowl (I think) 
+
 
 Version 0.1.10
 Mods Added
