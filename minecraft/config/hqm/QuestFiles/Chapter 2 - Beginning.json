@@ -559,8 +559,9 @@
             {
               "item": {
                 "id": "Thaumcraft:WandCasting",
-                "nbt": "{aqua:2500,terra:2500,ignis:2500,ordo:2500,perditio:2500,aer:2500}"
-              }
+                "nbt": "{cap:\"iron\",rod:\"wood\"}"
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -988,7 +989,7 @@
       ],
       "tasks": [
         {
-          "type": "CRAFT",
+          "type": "DETECT",
           "description": "A Coven\u0027s guide. ",
           "longDescription": "A long time ago, the grand witch Emoniph began writing books. They describe within them the very keys to the life and nature around them. You should poke your nose into one and see what it doesn\u0027t tell you. ",
           "items": [
@@ -1026,7 +1027,7 @@
       "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
-          "type": "CRAFT",
+          "type": "DETECT",
           "description": "Double Double toil and trouble",
           "longDescription": "It is a little Iron Heavy, but this little oven has a lot of potential. It is different then a furnace that much you\u0027re sure... and there seems to be a way to collect Fumes! Clay jars you can craft and then fire up in a normal furnace. ",
           "items": [
@@ -1164,11 +1165,6 @@
             {
               "item": {
                 "id": "minecraft:repeater"
-              }
-            },
-            {
-              "item": {
-                "id": "minecraft:comparator"
               }
             }
           ]

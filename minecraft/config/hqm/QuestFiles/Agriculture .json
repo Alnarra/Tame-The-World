@@ -854,18 +854,13 @@
               "item": {
                 "id": "harvestcraft:epicbaconItem"
               }
-            },
-            {
-              "item": {
-                "id": "harvestcraft:rainbowcurryItem"
-              }
             }
           ]
         }
       ],
       "reward": [
         {
-          "id": "difficultlife:dl.heart"
+          "id": "HardcoreQuesting:hqmInvalidItem"
         }
       ]
     },

@@ -1320,7 +1320,7 @@
     {
       "name": "Barrels of Fun",
       "description": "So you may not always want to go deep diving for clay every time you need it, well there are other ways to get ahold of htis lovely substance. ",
-      "x": 110,
+      "x": 125,
       "y": 83,
       "icon": {
         "id": "exnihilo:barrel"
@@ -1380,6 +1380,50 @@
         {
           "id": "minecraft:ender_pearl",
           "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Kentucky Bluegrass",
+      "description": "Grass is wonderful, it adds a real natural feel to your base, but what if we told you that you can make your own grass? That\u0027s right, we be bet you\u0027d be intersted in that wouldn\u0027t you? ",
+      "x": 93,
+      "y": 76,
+      "icon": {
+        "id": "Natura:GrassBlock"
+      },
+      "prerequisites": [
+        "Take it for Granite "
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Lawn Specialist",
+          "longDescription": "Made by mixing dirt blocks with special ingedients, each of these can turn an otherwise dull garden into a spectacular one. Mix and match to find out what you like. ",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:GrassBlock"
+              }
+            },
+            {
+              "item": {
+                "id": "Natura:GrassBlock",
+                "damage": 2
+              }
+            },
+            {
+              "item": {
+                "id": "Natura:GrassBlock",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
         }
       ]
     }

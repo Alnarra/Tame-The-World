@@ -97,8 +97,8 @@
     {
       "name": "Storage Wars",
       "description": "So you may have noticed when you checked your inventory back there that you don\u0027t have a lot of space. Well... we should help clear that up. As you get achievements in this world you might find you\u0027re able to carry more, but just in case... ",
-      "x": 49,
-      "y": 53,
+      "x": 61,
+      "y": 51,
       "icon": {
         "id": "minecraft:chest"
       },
@@ -482,8 +482,8 @@
     {
       "name": "Leather tis nobler",
       "description": "You may have seen some creatures around you in the world.  Did you know that if you stab them that sometimes they drop nifty things. Well that swords should help you with that. Some may fight back though",
-      "x": 95,
-      "y": 138,
+      "x": 99,
+      "y": 131,
       "icon": {
         "id": "minecraft:leather"
       },
@@ -503,6 +503,11 @@
               "precision": "ORE_DICTIONARY"
             }
           ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags"
         }
       ]
     },
@@ -535,7 +540,7 @@
       ],
       "reward": [
         {
-          "id": "difficultlife:dl.heart"
+          "id": "HardcoreQuesting:hqmInvalidItem"
         }
       ]
     },
@@ -721,6 +726,11 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags"
+        }
       ]
     },
     {
@@ -830,13 +840,18 @@
             }
           ]
         }
+      ],
+      "reward": [
+        {
+          "id": "weather2:TornadoSiren"
+        }
       ]
     },
     {
       "name": "A Crooked Salesmen",
       "description": "Running low on string? Maybe even saplings for those trees that you\u0027re trying to grow well do we have the deal for you! The crook, made with either bone or sticks is perfect for getting those leaves out of trees and you might even get a surprise. ",
-      "x": 51,
-      "y": 179,
+      "x": 49,
+      "y": 181,
       "icon": {
         "id": "exnihilo:crook"
       },
@@ -852,15 +867,21 @@
           "items": [
             {
               "item": {
-                "id": "minecraft:sapling"
+                "id": "exnihilo:crook"
               },
-              "required": 5,
               "precision": "ORE_DICTIONARY"
             },
             {
               "item": {
                 "id": "exnihilo:silkworm"
               }
+            },
+            {
+              "item": {
+                "id": "minecraft:sapling"
+              },
+              "required": 5,
+              "precision": "ORE_DICTIONARY"
             }
           ]
         },
@@ -1146,8 +1167,8 @@
     {
       "name": "Travel By Sea",
       "description": "One of the simpler creations that you can find yourself making is the boat. It\u0027s great for traveling across water though it does have a tendacy to break if you hit things to hard, so be gentle with it. ",
-      "x": 26,
-      "y": 83,
+      "x": 32,
+      "y": 87,
       "icon": {
         "id": "minecraft:boat"
       },
@@ -1206,7 +1227,7 @@
           ]
         },
         {
-          "type": "CRAFT",
+          "type": "DETECT",
           "description": "Tanning your skins!",
           "longDescription": "Tanned leather can be gotten by taken that bound leather and cooking it for a bit. It\u0027s great for making /even/ bigger backpacks. ",
           "items": [
@@ -1241,6 +1262,155 @@
         {
           "id": "HardcoreQuesting:bags",
           "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Vroom Vroom Shroom",
+      "description": "Bread is great and all, but you\u0027re pretty sure that you need more then just carbs to get by, and you heard that mushrooms are packed full of protien so why not invetigate that? ",
+      "x": 236,
+      "y": 153,
+      "icon": {
+        "id": "minecraft:red_mushroom"
+      },
+      "prerequisites": [
+        "Putting bread on the table"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Bowl me over",
+          "longDescription": "You can\u0027t very well have mushrooms if you have nothing to put them in? It\u0027s time to invest in bowls, which are made quite simply by placing 3 wood planks on the crafting bench in a bowl like shape ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bowl"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Shitaake, Portabello",
+          "longDescription": "Everyone knows the the good mushrooms grow on the best kind of logs. So look around in caves and sometimes in certain biomes and you should find these common fungi ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:red_mushroom"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:brown_mushroom"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Cambells Good",
+          "longDescription": "Once you\u0027ve selected the best quality items it\u0027s time to combine them in the bowl. Simply add the red and brown mushrooms to the bowl on the crafting bench and you\u0027ll have an instant stew",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:mushroom_stew"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "And A-door-able addition",
+      "description": "Sometimes you want to get into the place where you\u0027ve put all your stuff, but you don\u0027t want other creatures to get in. That my friends is where the door comes in handy ",
+      "x": 23,
+      "y": 51,
+      "icon": {
+        "id": "minecraft:wooden_door"
+      },
+      "prerequisites": [
+        "Storage Wars"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Is it a door or a jar? ",
+          "longDescription": "The door is crafted by simply placing 6 wooden planks on the crafting bench in an upright rectangle. Most monsters can not open these, and only a few will be strong enough to break them down (On Hard). ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:wooden_door"
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "It\u0027s a trap!",
+          "longDescription": "Made much like the door, but instead of being upright the planks are along the bottom two rows of the crafting bench. These trapdoors are great for entrances to vertical points in your base (like Ladders or stairs) ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:trapdoor"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Cotton Pickin",
+      "description": "While silk worms offer a substantial return on investment, who can say no to yet another possible source of wool. It\u0027s time to learn about the textile industry ",
+      "x": 73,
+      "y": 153,
+      "icon": {
+        "id": "harvestcraft:textilegarden"
+      },
+      "prerequisites": [
+        "A Crooked Salesmen"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "The Textile Industry",
+          "longDescription": "You might just find some textiles out in the world, breaking these gardens will give you cotton which you can use in order to make string which will even give you wool. ",
+          "items": [
+            {
+              "item": {
+                "id": "harvestcraft:cottonItem"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Renewable Resource",
+          "longDescription": "What you might not realize is that you can go on to take some of those first cotton balls you find and pick the seeds from them. Right clicking on the seeds with soil that has been tilled by a ho and hydrated by being within at least 4 blocks horizontally of a water source block will let you grow your own cotton ",
+          "items": [
+            {
+              "item": {
+                "id": "harvestcraft:cottonseedItem"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:wool",
+          "amount": 5
         }
       ]
     }

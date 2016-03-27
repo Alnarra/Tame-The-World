@@ -30,7 +30,7 @@
   },
   "login": {
     "motd": [
-      "Welcome to Tame the World Version 0.1.11 To Get Started Right Click the Quest book in your Inventory!"
+      "Welcome to Tame the World Version 0.1.12 To Get Started Right Click the Quest book in your Inventory!"
     ],
     "starting_items": [
       "HardcoreQuesting:quest_book 0 0"

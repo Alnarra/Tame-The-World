@@ -1,0 +1,1159 @@
+{
+  "name": "The Firey Depths ",
+  "description": "So you\u0027ve built your first Nether Portal, but what it is exactly that is in there? What kind of new hell awaits you in the firey depths. Ghast, Zombie Pigmen and so much more. It\u0027s time to learn about the world beyond ",
+  "quests": [
+    {
+      "name": "Crystal Clear",
+      "description": "You\u0027ve entered the firey hellscape that is the nether, it\u0027s a wonderful place isn\u0027t it? Alright well that\u0027s a lie, but it does have a certain charm we suppose. It\u0027s time to learn what you can about this place and the resources you\u0027ll need from it. ",
+      "x": 21,
+      "y": 15,
+      "icon": {
+        "id": "minecraft:quartz_ore"
+      },
+      "prerequisites": [
+        "{Chapter 1 - The Basics}[Hard as Glass]"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Hells Diamonds",
+          "longDescription": "Quartz has some interesting properties which allow it to give off a certain electrical charge. So it\u0027s a good resource to farm. Having the Fortune enchant on a pick when mining it might net you more ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:quartz"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "You are my sunshine",
+          "longDescription": "Because so many things depend on the sun in the overworld, why not make use of a device that lets you know when it\u0027s actually out? Meet the Daylight sensor, which will send out a redstone pulse depending on the position of the sun. It is crafted with glass, quartz, and wood planks ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:daylight_detector"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "You have a glow about you",
+          "longDescription": "It\u0027s not just quartz there in the nether, hanging above you is this wonderful glowing stone that has more then a few potential uses. More then that it will help light up a room like no other. ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:glowstone_dust"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:glowstone",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "Unnamed1",
+      "x": 77,
+      "y": 22,
+      "icon": {
+        "id": "minecraft:soul_sand"
+      },
+      "prerequisites": [
+        "Crystal Clear"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:soul_sand"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:nether_brick"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:netherbrick",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "Unnamed2",
+      "x": 35,
+      "y": 49,
+      "icon": {
+        "id": "minecraft:ghast_tear"
+      },
+      "prerequisites": [
+        "Unnamed1"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:ghast_tear"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:blaze_rod"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:potion",
+          "damage": 8193
+        }
+      ]
+    },
+    {
+      "name": "Unnamed3",
+      "x": 58,
+      "y": 89,
+      "icon": {
+        "id": "minecraft:brewing_stand"
+      },
+      "prerequisites": [
+        "Unnamed2"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:nether_wart"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:brewing_stand"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:potion",
+                "damage": 8194
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:potion",
+          "damage": 8227
+        },
+        {
+          "id": "minecraft:potion",
+          "damage": 8261
+        }
+      ]
+    },
+    {
+      "name": "Unnamed4",
+      "x": 19,
+      "y": 83,
+      "icon": {
+        "id": "minecraft:skull",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Unnamed2"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:skull",
+                "damage": 1
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:obsidian",
+          "amount": 3
+        },
+        {
+          "id": "minecraft:glass",
+          "amount": 5
+        },
+        {
+          "id": "minecraft:soul_sand",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Unnamed5",
+      "x": 132,
+      "y": 17,
+      "icon": {
+        "id": "ganysnether:spectreWheatItem"
+      },
+      "prerequisites": [
+        "Unnamed1"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:diamond_hoe"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ganysnether:glowingReedItem"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ganysnether:ghostSeeds"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ganysnether:dimensionalBread"
+        }
+      ]
+    },
+    {
+      "name": "Unnamed6",
+      "x": 127,
+      "y": 68,
+      "icon": {
+        "id": "ganysnether:blazingCactoid"
+      },
+      "prerequisites": [
+        "Unnamed5"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ganysnether:blazingCactoid"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ganysnether:blazeIngot",
+                "damage": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ganysnether:blazeIngot",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ganysnether:blazeBoots"
+        }
+      ]
+    },
+    {
+      "name": "Unnamed7",
+      "x": 186,
+      "y": 16,
+      "icon": {
+        "id": "ganysnether:quarzBerry"
+      },
+      "prerequisites": [
+        "Unnamed5"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ganysnether:quarzBerry"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ganysnether:lavaBerry"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:ghast_tear"
+        }
+      ]
+    },
+    {
+      "name": "Unnamed8",
+      "x": 247,
+      "y": 20,
+      "icon": {
+        "id": "ganysnether:livingSoul"
+      },
+      "prerequisites": [
+        "Unnamed7"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ganysnether:livingSoul"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ganysnether:ghostSeeds",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Unnamed9",
+      "x": 298,
+      "y": 13,
+      "icon": {
+        "id": "ganysnether:bottomlessBucket"
+      },
+      "prerequisites": [
+        "Unnamed8"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ganysnether:bottomlessBucket"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Unnamed10",
+      "x": 285,
+      "y": 63,
+      "icon": {
+        "id": "ganysnether:baseballBat"
+      },
+      "prerequisites": [
+        "Unnamed8"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ganysnether:baseballBat"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Unnamed11",
+      "x": 183,
+      "y": 60,
+      "icon": {
+        "id": "ganysnether:soulChest"
+      },
+      "prerequisites": [
+        "Unnamed6"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ganysnether:soulChest"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ganysnether:undertaker"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Unnamed12",
+      "x": 115,
+      "y": 130,
+      "icon": {
+        "id": "ganysnether:denseLavaCell"
+      },
+      "prerequisites": [
+        "Unnamed6"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ganysnether:denseLavaCell"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ganysnether:volcanicFurnace"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:netherrack",
+          "amount": 64
+        }
+      ]
+    },
+    {
+      "name": "Unnamed13",
+      "x": 74,
+      "y": 117,
+      "icon": {
+        "id": "ganysnether:focusedLavaCell"
+      },
+      "prerequisites": [
+        "Unnamed12"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ganysnether:colouredChiselledQuartzBlock"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ganysnether:netherCore"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ganysnether:focusedLavaCell"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ganysnether:focusedLavaCell",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "Unnamed14",
+      "x": 58,
+      "y": 142,
+      "icon": {
+        "id": "ganysnether:spawnerUpgrade"
+      },
+      "prerequisites": [
+        "Unnamed13"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ganysnether:spawnerUpgrade"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ganysnether:spawnerUpgrade",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ganysnether:spawnerUpgrade",
+                "damage": 11
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ganysnether:spawnerUpgrade",
+          "damage": 8
+        }
+      ]
+    },
+    {
+      "name": "Unnamed15",
+      "x": 102,
+      "y": 179,
+      "icon": {
+        "id": "ganysnether:magmaticCentrifuge"
+      },
+      "prerequisites": [
+        "Unnamed13"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ganysnether:magmaticCentrifuge"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:redstone",
+          "amount": 64
+        }
+      ]
+    },
+    {
+      "name": "Unnamed16",
+      "x": 18,
+      "y": 148,
+      "icon": {
+        "id": "ganysnether:sceptreOfConcealment"
+      },
+      "prerequisites": [
+        "Unnamed4"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ganysnether:sceptreCap",
+                "damage": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ganysnether:sceptreOfConcealment"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:spawn_egg",
+          "damage": 92
+        }
+      ]
+    },
+    {
+      "name": "Unnamed17",
+      "x": 60,
+      "y": 186,
+      "icon": {
+        "id": "ganysnether:reproducer"
+      },
+      "prerequisites": [
+        "Unnamed16"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ganysnether:reproducer"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Unnamed18",
+      "x": 18,
+      "y": 184,
+      "icon": {
+        "id": "ganysnether:sceptreOfLightning"
+      },
+      "prerequisites": [
+        "Unnamed16"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ganysnether:sceptreCap",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ganysnether:sceptreOfLightning"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ganysnether:sceptreOfFireCharging"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:spawn_egg",
+          "damage": 57
+        }
+      ]
+    },
+    {
+      "name": "Unnamed19",
+      "x": 88,
+      "y": 60,
+      "icon": {
+        "id": "Natura:NetherGlass"
+      },
+      "prerequisites": [
+        "Unnamed1"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:NetherGlass"
+              }
+            },
+            {
+              "item": {
+                "id": "Natura:NetherGlass",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ganysnether:soulGlass",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "ganysnether:soulGlassStairs"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Natura:NetherGlass",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "Unnamed20",
+      "x": 224,
+      "y": 83,
+      "icon": {
+        "id": "Natura:berry.nether",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Unnamed7"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:berry.nether",
+                "damage": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:berry.nether",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:berry.nether"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "Natura:berry.nether",
+          "amount": 5
+        },
+        {
+          "id": "Natura:berry.nether",
+          "damage": 1,
+          "amount": 5
+        },
+        {
+          "id": "Natura:berry.nether",
+          "damage": 2,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Unnamed21",
+      "x": 183,
+      "y": 117,
+      "icon": {
+        "id": "Natura:soil.tainted"
+      },
+      "prerequisites": [
+        "Unnamed20"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:soil.tainted"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:barleyFood",
+                "damage": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:Cloud",
+                "damage": 2
+              },
+              "required": 9
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Natura:Natura.netherfood"
+        }
+      ]
+    },
+    {
+      "name": "Unnamed22",
+      "x": 278,
+      "y": 105,
+      "icon": {
+        "id": "Natura:Glowshroom",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Unnamed20"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:Glowshroom"
+              }
+            },
+            {
+              "item": {
+                "id": "Natura:Glowshroom",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "Natura:Glowshroom",
+                "damage": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:natura.stewbowl",
+                "damage": 14
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Unnamed23",
+      "x": 185,
+      "y": 178,
+      "icon": {
+        "id": "Natura:barleyFood",
+        "damage": 6
+      },
+      "prerequisites": [
+        "Unnamed21"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:barleyFood",
+                "damage": 6
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Natura:natura.armor.impjerkin",
+          "nbt": "{ench:[0:{lvl:1s,id:3s},1:{lvl:1s,id:1s}]}"
+        }
+      ]
+    },
+    {
+      "name": "Unnamed24",
+      "x": 140,
+      "y": 179,
+      "icon": {
+        "id": "Natura:NetherFurnace"
+      },
+      "prerequisites": [
+        "Unnamed12"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:NetherFurnace"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:coal",
+          "damage": 1,
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Unnamed25",
+      "x": 268,
+      "y": 182,
+      "icon": {
+        "id": "Natura:barleyFood",
+        "damage": 7
+      },
+      "prerequisites": [
+        "Unnamed23",
+        "Unnamed26"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:barleyFood",
+                "damage": 7
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:natura.bow.bloodwood"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:barleyFood",
+                "damage": 5
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:arrow",
+          "amount": 64
+        }
+      ]
+    },
+    {
+      "name": "Unnamed26",
+      "x": 225,
+      "y": 143,
+      "icon": {
+        "id": "Natura:bloodwood"
+      },
+      "prerequisites": [
+        "Unnamed21"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:planks",
+                "damage": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:natura.kama.bloodwood"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Natura:natura.axe.bloodwood"
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}
