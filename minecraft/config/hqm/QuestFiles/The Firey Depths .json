@@ -365,7 +365,8 @@
       ]
     },
     {
-      "name": "Unnamed7",
+      "name": "Berry Rewarding",
+      "description": "You didn\u0027t think in your overworld centric view that sunlight and water were the only places that had berries did you? Well now it\u0027s time to meet a whole new variety of berry bush. ",
       "x": 186,
       "y": 16,
       "icon": {
@@ -377,6 +378,8 @@
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Quarz don\u0027t you mean...",
+          "longDescription": "Much like the other nether crops, this must be grown on tilled netherrack next to lava in order to grow, but the little berries it drops can eventually be crafted in to quartz and who doens\u0027t like that? ",
           "items": [
             {
               "item": {
@@ -387,6 +390,8 @@
         },
         {
           "type": "DETECT",
+          "description": "It\u0027s not a dingleberry",
+          "longDescription": "Like its cousin the Quarz berry bush this again will require tilled netherrack and a lava source block to hydrate, but the berry\u0027s can be combined with an empty bucket to make a lava bucket which everyone can use. ",
           "items": [
             {
               "item": {
@@ -403,18 +408,21 @@
       ]
     },
     {
-      "name": "Unnamed8",
+      "name": "Bonemeal 2.0",
+      "description": "Alright so this stuff doesn\u0027t come in a fancy bottle and it\u0027s not exactly made from Algae extracts, but the Living soul is a great way to get your nether based plants to grow a little faster",
       "x": 247,
       "y": 20,
       "icon": {
         "id": "ganysnether:livingSoul"
       },
       "prerequisites": [
-        "Unnamed7"
+        "Berry Rewarding"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Bones, Flesh, and Souls",
+          "longDescription": "No seriously, you need bones, some rotten flesh, and some soul sand and you will be rewarded with this lovely smiling face (who can say no to that?) It can be applied to your nether crops to make them grow just a bit faster",
           "items": [
             {
               "item": {
@@ -432,18 +440,21 @@
       ]
     },
     {
-      "name": "Unnamed9",
+      "name": "All you can drink",
+      "description": "Sometimes you just feel like you want to remove an ocean, but where could you possibly put all of that water? Well now there\u0027s an answer to that question. ",
       "x": 298,
       "y": 13,
       "icon": {
         "id": "ganysnether:bottomlessBucket"
       },
       "prerequisites": [
-        "Unnamed8"
+        "Bonemeal 2.0"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Mr. Bucket",
+          "longDescription": "This bucket acts like any other except that when you put a liquid into it, you aren\u0027t getting it back. You can put as much of a liquid in there as you like but it\u0027s never filling up. Great for getting rid of small lakes and streams",
           "items": [
             {
               "item": {
@@ -461,19 +472,22 @@
       ]
     },
     {
-      "name": "Unnamed10",
+      "name": "PK Fire! ",
+      "description": "You know those days when you\u0027re playing super smash brothers and you get the home run bat? Well this is nothing like those days except that you have a bat with quite a swing. ",
       "x": 285,
       "y": 63,
       "icon": {
         "id": "ganysnether:baseballBat"
       },
       "prerequisites": [
-        "Unnamed8"
+        "Bonemeal 2.0"
       ],
       "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Fox, Final Destination",
+          "longDescription": "The bat doens\u0027t do that much damage but it can knock back your enemies a bit. Simply craft it with 2 netherbricks, a diamond, and 2 Knockback I books and you\u0027ll have your very own SSB tool of choice",
           "items": [
             {
               "item": {
@@ -491,7 +505,8 @@
       ]
     },
     {
-      "name": "Unnamed11",
+      "name": "What\u0027s in the Box? ",
+      "description": "So as you\u0027re exploring the nether you might just have noticed a few spare boxes sitting around doing nothing. Have you ever wondered by chance what those actually are? Well now it\u0027s time to learn!",
       "x": 183,
       "y": 60,
       "icon": {
@@ -504,6 +519,8 @@
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Step 1 - Cut a hole in... ",
+          "longDescription": "As if a Hopper and a chest had a child. This is a chest that you can throw things on top of and it will keep inside (So like a hungry chest). The recipie is simple enough, just put soulsand in a U Shape in the crafting bench with a single nether quartz at the top",
           "items": [
             {
               "item": {
@@ -514,6 +531,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Step 2 - put your stuff... ",
+          "longDescription": "This second variety of container you can get by cooking the first. You might even find these scattered throughout the nether with gifts inside already from the fallen adventurers of the past. The nice thing about this box is if you die it can store your things inside ",
           "items": [
             {
               "item": {
@@ -700,7 +719,8 @@
       ]
     },
     {
-      "name": "Unnamed16",
+      "name": "Power of the Star",
+      "description": "In most games a star is the key to being invisible, the literal power of the heavens, well after defeating a Wither you too will now have access to the stars",
       "x": 18,
       "y": 148,
       "icon": {
@@ -712,6 +732,8 @@
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Crowning Achievement",
+          "longDescription": "Now that you have your netherstar it\u0027s time to mix it with a few ingredients. Surround the netherstar with eggs to get started on your concealment cap. Yes that\u0027s right normal chicken eggs",
           "items": [
             {
               "item": {
@@ -723,6 +745,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "You\u0027ve got egg on you",
+          "longDescription": "Alright now for the fun, if you can construct this wand you\u0027ll find it has the ability to turn whatever monster you choose to use it against into it\u0027s egg form. On it\u0027s own that doesn\u0027t seem incredibly useful, but there are certainly possibilities ",
           "items": [
             {
               "item": {
@@ -747,7 +771,7 @@
         "id": "ganysnether:reproducer"
       },
       "prerequisites": [
-        "Unnamed16"
+        "Power of the Star"
       ],
       "tasks": [
         {
@@ -776,7 +800,7 @@
         "id": "ganysnether:sceptreOfLightning"
       },
       "prerequisites": [
-        "Unnamed16"
+        "Power of the Star"
       ],
       "tasks": [
         {
@@ -871,7 +895,8 @@
       ]
     },
     {
-      "name": "Unnamed20",
+      "name": "More Berry Fun",
+      "description": "If you thought you were done collecting berries it\u0027s time to think again. The nether is an endless expanse of all kinds of wonderful things to choose and eat. Some good, some bad",
       "x": 224,
       "y": 83,
       "icon": {
@@ -879,11 +904,13 @@
         "damage": 2
       },
       "prerequisites": [
-        "Unnamed7"
+        "Berry Rewarding"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Eat the Sky",
+          "longDescription": "These berries are found in colorful blue and purple bushes scattered throughout the nether. The bushes themselves can be planted on netherrack just about anywhere, but the real power is in their ability to heal and give a short jump boost ",
           "items": [
             {
               "item": {
@@ -895,6 +922,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Not found in Duskwood",
+          "longDescription": "Found in red and black bushes throughout the nether that can be planted on netherrack, soul sand or even tained soil. These duskberries will restore some hunger, make you a bit blind and also give you night vision. Taste on to figure out how that all works out. ",
           "items": [
             {
               "item": {
@@ -906,6 +935,8 @@
         },
         {
           "type": "DETECT",
+          "description": "For Sylvanas",
+          "longDescription": "The purple and pink bush with little green berries that is the blightberry can be found in the nether and planted on netherrack or tainted soil. The blightberries they grow can give you 8 seconds of regeneration but 4 seconds of poison, so eat wisely ",
           "items": [
             {
               "item": {
@@ -940,7 +971,7 @@
         "id": "Natura:soil.tainted"
       },
       "prerequisites": [
-        "Unnamed20"
+        "More Berry Fun"
       ],
       "tasks": [
         {
@@ -992,7 +1023,7 @@
         "damage": 2
       },
       "prerequisites": [
-        "Unnamed20"
+        "More Berry Fun"
       ],
       "tasks": [
         {

@@ -5,13 +5,13 @@
     {
       "name": "Seeing the Unseen",
       "description": "Now that you have the research table in place it\u0027s time... to research. And the first thing we\u0027re going to want to research are the goggles of revealing. You\u0027ll find them in the artifice tab of your thaumonomicon. Remember to scan everything for more aspects for research ",
-      "x": 20,
-      "y": 15,
+      "x": 23,
+      "y": 42,
       "icon": {
         "id": "Thaumcraft:ItemGoggles"
       },
       "prerequisites": [
-        "{Chapter 2 - Beginning}[But what of my research? ]"
+        "Magical Construction"
       ],
       "trigger": "ANTI_TRIGGER",
       "tasks": [
@@ -39,14 +39,14 @@
     {
       "name": "Break it down",
       "description": "Sometimes you just don\u0027t have enough aspects to continue your research. By reseraching \"Research Expertise\" and then Deconstruction table you might help alleviate that problem",
-      "x": 61,
-      "y": 15,
+      "x": 20,
+      "y": 11,
       "icon": {
         "id": "Thaumcraft:blockTable",
         "damage": 14
       },
       "prerequisites": [
-        "Seeing the Unseen"
+        "Magical Construction"
       ],
       "tasks": [
         {
@@ -74,8 +74,8 @@
     {
       "name": "Fullmetal Alchemist",
       "description": "Alright so you didn\u0027t try to bring back your dead mother, but you are going to need some equipment to get used to making alchemical \"Things\" The first of which is of course the cruicbile the basis for all alchemical mixtures in the future ",
-      "x": 40,
-      "y": 42,
+      "x": 41,
+      "y": 65,
       "icon": {
         "id": "Thaumcraft:blockMetalDevice"
       },
@@ -133,8 +133,8 @@
     {
       "name": "Flames of Azanor",
       "description": "Alright so Alchemy is more useful then just making very fancy shards. For instance you can make light and fuel, it does a lot more then that, but let\u0027s start simple shall we? ",
-      "x": 19,
-      "y": 71,
+      "x": 79,
+      "y": 48,
       "icon": {
         "id": "Thaumcraft:ItemResource",
         "damage": 1
@@ -180,8 +180,8 @@
     {
       "name": "You no make candle!",
       "description": "Candles are an interesting little items and we\u0027re going to teach you how to make them. Oh good news we might finally have a use for all that Zombie flesh you\u0027ve probably been collecting ",
-      "x": 83,
-      "y": 50,
+      "x": 103,
+      "y": 70,
       "icon": {
         "id": "Thaumcraft:blockCandle"
       },
@@ -225,14 +225,14 @@
     {
       "name": "Magical Metal ",
       "description": "Iron\u0027s great and all, but what if you could infuse your iron with the powers of magic? That\u0027d be pretty cool wouldn\u0027t it. Don\u0027t answer because the answer is of course it would. ",
-      "x": 58,
-      "y": 72,
+      "x": 66,
+      "y": 84,
       "icon": {
         "id": "Thaumcraft:ItemResource",
         "damage": 2
       },
       "prerequisites": [
-        "Fullmetal Alchemist"
+        "Flames of Azanor"
       ],
       "tasks": [
         {
@@ -285,13 +285,13 @@
     {
       "name": "Bottle it up",
       "description": "This is another one of those items that\u0027s going to end up getting used everywhere so you better get used to making it. The glass phial finds a lot of use in Thaumical alchemy, but for now it\u0027s just important to know how to make one",
-      "x": 103,
-      "y": 15,
+      "x": 78,
+      "y": 11,
       "icon": {
         "id": "Thaumcraft:ItemEssence"
       },
       "prerequisites": [
-        "Break it down"
+        "Magical Construction"
       ],
       "tasks": [
         {
@@ -315,44 +315,10 @@
       ]
     },
     {
-      "name": "Magical Construction",
-      "description": "Alright, paying attention? Because this part is critical. Everything you build is probably going to involve this little table, so you better get familiar with it. ",
-      "x": 103,
-      "y": 69,
-      "icon": {
-        "id": "Thaumcraft:blockTable",
-        "damage": 15
-      },
-      "prerequisites": [
-        "Bottle it up"
-      ],
-      "tasks": [
-        {
-          "type": "DETECT",
-          "description": "The Thaumaturge\u0027s Choice",
-          "longDescription": "Making one is simple, simnply point your wand at a table. From there, the key things to understand here are that you can draw vis from nodes with your wand. You then take that vis loaded wand back to this table and use it to construct various things. Note certain pieces of armor give you a \"Vis Discount\" so you might want to research those. (Hint it looks like a cloth) ",
-          "items": [
-            {
-              "item": {
-                "id": "Thaumcraft:blockTable",
-                "damage": 15
-              }
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "Thaumcraft:ItemShard",
-          "damage": 6
-        }
-      ]
-    },
-    {
       "name": "Getting Grated",
       "description": "A hopper is great, but wouldn\u0027t you love an item that\u0027s just solid and you could throw some things on top of? We thought so too, so it\u0027s time to meet the suprisingly simple to create \"Item Grate\" ",
-      "x": 157,
-      "y": 15,
+      "x": 136,
+      "y": 13,
       "icon": {
         "id": "Thaumcraft:blockMetalDevice",
         "damage": 5
@@ -385,14 +351,13 @@
     {
       "name": "Hungry Hungry Chest",
       "description": "A little research in the golemancy tab will be required for this one, but it should just require aspects no fancy puzzle solving. ",
-      "x": 212,
-      "y": 16,
+      "x": 200,
+      "y": 14,
       "icon": {
         "id": "Thaumcraft:blockChestHungry"
       },
       "prerequisites": [
-        "Getting Grated",
-        "Magical Construction"
+        "Getting Grated"
       ],
       "trigger": "ANTI_TRIGGER",
       "tasks": [
@@ -480,8 +445,8 @@
     {
       "name": "Magic Brick",
       "description": "So you\u0027ve been working with that wonderful table, but let\u0027s get started on the easy things right? In this case it\u0027s the arcane stones! ",
-      "x": 126,
-      "y": 95,
+      "x": 125,
+      "y": 101,
       "icon": {
         "id": "Thaumcraft:blockCosmeticSolid",
         "damage": 6
@@ -552,8 +517,8 @@
     {
       "name": "The Great Ritual",
       "description": "Building things on a crafting table is cool and all, but it\u0027s time to step up to the second version of crafting in the life of a Thaumaturge, in this case Infusions, and for that you need to research and use an infusion alter ",
-      "x": 82,
-      "y": 95,
+      "x": 90,
+      "y": 100,
       "icon": {
         "id": "Thaumcraft:blockStoneDevice",
         "damage": 2
@@ -615,14 +580,13 @@
     {
       "name": "Boil em, Mash em",
       "description": "So, it\u0027s nice and all to have these aspects throw into a crucible, but that\u0027s somewhat unstable. What if we could bottle this stuff? What should we call it? Oh who\u0027s kidding it\u0027s already got a name, essentia! ",
-      "x": 39,
-      "y": 97,
+      "x": 21,
+      "y": 83,
       "icon": {
         "id": "Thaumcraft:blockStoneDevice"
       },
       "prerequisites": [
-        "Magical Metal ",
-        "Flames of Azanor"
+        "Magical Metal "
       ],
       "tasks": [
         {
@@ -961,13 +925,13 @@
     {
       "name": "Knock Knock? ",
       "description": "Who\u0027s there? Trick question it\u0027s us and we\u0027re here to tell you about a way to keep folks out of your private labratory. Meet the Arcane door! ",
-      "x": 171,
-      "y": 36,
+      "x": 172,
+      "y": 35,
       "icon": {
         "id": "Thaumcraft:ItemArcaneDoor"
       },
       "prerequisites": [
-        "Magical Construction"
+        "Getting Grated"
       ],
       "tasks": [
         {
@@ -1019,8 +983,8 @@
     {
       "name": "Floating on a dream ",
       "description": "So Elevators can be a bit tough to make, but what if you could make a block that sends you flying into the air? Well now\u0027s your chance",
-      "x": 122,
-      "y": 38,
+      "x": 114,
+      "y": 43,
       "icon": {
         "id": "Thaumcraft:blockLifter"
       },
@@ -2103,6 +2067,40 @@
         {
           "id": "HardcoreQuesting:bags",
           "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Magical Construction",
+      "description": "Alright, paying attention? Because this part is critical. Everything you build is probably going to involve this little table, so you better get familiar with it. ",
+      "x": 50,
+      "y": 30,
+      "icon": {
+        "id": "Thaumcraft:blockTable",
+        "damage": 15
+      },
+      "prerequisites": [
+        "{Chapter 2 - Beginning}[But what of my research? ]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "The Thaumaturge\u0027s Choice",
+          "longDescription": "Making one is simple, simnply point your wand at a table. From there, the key things to understand here are that you can draw vis from nodes with your wand. You then take that vis loaded wand back to this table and use it to construct various things. Note certain pieces of armor give you a \"Vis Discount\" so you might want to research those. (Hint it looks like a cloth) ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockTable",
+                "damage": 15
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemShard",
+          "damage": 6
         }
       ]
     }
