@@ -1025,7 +1025,7 @@
       ],
       "tasks": [
         {
-          "type": "CRAFT",
+          "type": "DETECT",
           "description": "Ironing out the details",
           "longDescription": "You\u0027ll find concrete by cooking up some gravel in a furnace, it might even be a little faster to travel on. And you\u0027ll find factory blocks by crafting Iron and stone together for the ultimate in classy futuaristic apperances. ",
           "items": [

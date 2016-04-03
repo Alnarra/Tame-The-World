@@ -1,6 +1,9 @@
 #fix Gany's Nether / Natura Soul Sand Glass 
+import mods.nei.NEI; 
 
-var soulGlass = <ore:listAllSoulSandGlass>; 
+var glass = <ore:glass>; 
+glass.add(<ganysnether:soulGlass>);
 
-soulGlass.add(<Natura:NetherGlass>);
-soulGlass.add(<ganysnether:soulGlass>);
+#disable natura's version
+furnace.remove(<Natura:NetherGlass>); 
+NEI.hide(<Natura:NetherGlass>);

@@ -60,7 +60,8 @@
       ]
     },
     {
-      "name": "Unnamed1",
+      "name": "Sandy Souls",
+      "description": "So there is more then just netherrack and quartz. There\u0027s also this strange brownish looking substance that is.... staring at you. You might want to find out what that\u0027s all about right? ",
       "x": 77,
       "y": 22,
       "icon": {
@@ -72,6 +73,8 @@
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Soul Food",
+          "longDescription": "Soul sand is unique in that it\u0027s the substance you\u0027ll eventually want to grow netherwart on (We\u0027ll talk about that shortly), You can turn it into glass, and you can even use it to just slow someone down. It should be all about the nether in large patches. You might also try putting this in a sieve. ",
           "items": [
             {
               "item": {
@@ -82,6 +85,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Throw a brick",
+          "longDescription": "Much like cobblestone, netherrack too can be cooked, but when it gets cooked it turns into this lovely netherbrick, which can be fantastic for decroation and also a hint more blast resistant then it\u0027s uncooked cousin. ",
           "items": [
             {
               "item": {
@@ -99,19 +104,22 @@
       ]
     },
     {
-      "name": "Unnamed2",
+      "name": "Butterfly in the sky",
+      "description": "That ghast can go twice as high. Take a look it wants to cook, all of you! It can go anywhere, places to explode and ways to run! But seriously this giant flying ghost wants to kill you",
       "x": 35,
       "y": 49,
       "icon": {
         "id": "minecraft:ghast_tear"
       },
       "prerequisites": [
-        "Unnamed1"
+        "Sandy Souls"
       ],
       "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Tears of the Prohpets ",
+          "longDescription": "The Ghast tear is a wonderful item with powerful properties that is dropped by those mean spirited flying evil creatures and it\u0027s definately worth a hint of investigation. From witchery to alchemy it has many different uses, but you have to kill a ghast first",
           "items": [
             {
               "item": {
@@ -122,6 +130,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Blaze a path",
+          "longDescription": "You might have noticed that Ghast weren\u0027t the only horrible creatures which inhabit the nether. OUt there as well is the Blaze, and if you kill it, you might just get a Blaze rod. They\u0027re great as a source of fuel, but more then that they can help you get started on the path to alchemy ",
           "items": [
             {
               "item": {
@@ -139,18 +149,21 @@
       ]
     },
     {
-      "name": "Unnamed3",
+      "name": "X-Potion ",
+      "description": "One of the worst things about a good Role Playing game is that you have to save all your potions. Well not this time, we\u0027re going to make sure you have 800 Skill points in Brewing by the time we\u0027ve gotten done teaching you ",
       "x": 58,
       "y": 89,
       "icon": {
         "id": "minecraft:brewing_stand"
       },
       "prerequisites": [
-        "Unnamed2"
+        "Butterfly in the sky"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "A good base",
+          "longDescription": "The start of any potion lies in the netherwart. Initially these can only be found in the seemingly unbreachable nether fortresses scattered across the nether. Placing it on soulsand will allow it to grow ",
           "items": [
             {
               "item": {
@@ -161,6 +174,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Making a Stand",
+          "longDescription": "You remember that blaze rod? Well combinging it with some cobble will get you the next component needed to get this whole process started, the brewing stand. ",
           "items": [
             {
               "item": {
@@ -171,6 +186,8 @@
         },
         {
           "type": "DETECT",
+          "description": "A swift process",
+          "longDescription": "Now it\u0027s time to mix and match. Netherwart will always go first in these basic potions, then you can add other ingredients, like perhaps a ghast tear, or even sugar for going a bit faster. Expiriment with all the combintations and even the additives (like redstone and glowstone)",
           "items": [
             {
               "item": {
@@ -193,7 +210,8 @@
       ]
     },
     {
-      "name": "Unnamed4",
+      "name": "The Worst kind of Skeleton",
+      "description": "There are few things more depressing then a crature made of such a mess. The Wither Skeleton which only spends it\u0027s time in the hearts of Nether Fortresses is one such crature. Kill one and take it\u0027s head and you will be on a path to very powerful things. ",
       "x": 19,
       "y": 83,
       "icon": {
@@ -201,11 +219,13 @@
         "damage": 1
       },
       "prerequisites": [
-        "Unnamed2"
+        "Butterfly in the sky"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Getting ahead",
+          "longDescription": "The wither skeleton skull has a low chance of dropping, but place 3 upon a T shape of soul sand and you can summon into the world a powerful entity known as the wither. Killing it will reward and incredibly powerful prize. ",
           "items": [
             {
               "item": {
@@ -233,18 +253,21 @@
       ]
     },
     {
-      "name": "Unnamed5",
+      "name": "Farming the Fires",
+      "description": "So you have gotten used to farming in the real world, but what about farming elsewhere? Are you ready for such a thing? Well it\u0027s time to learn how to farm through the fire and the flames",
       "x": 132,
       "y": 17,
       "icon": {
         "id": "ganysnether:spectreWheatItem"
       },
       "prerequisites": [
-        "Unnamed1"
+        "Sandy Souls"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "We need a better ho",
+          "longDescription": "In the nether a simple Iron or stone ho simply won\u0027t do. No, now you\u0027re going to need to upgrade to the Diamond and Gold varients in order to till netherrack. ",
           "items": [
             {
               "item": {
@@ -255,6 +278,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Reed-Solomon Correction",
+          "longDescription": "It turs out if you flip a few bits of a plants genetic code, it starts to learn to grow by lava and emit light! Who would have thunk it? These grow just like reeds in the overworld but they require lava! They can be ground up into glowstone rather then sugar",
           "items": [
             {
               "item": {
@@ -265,6 +290,8 @@
         },
         {
           "type": "DETECT",
+          "description": "A ghost of a chance",
+          "longDescription": "What kind of fun would we be having if we didn\u0027t have some wonderful ghostly seeds to really get our day started? Like wheat but requiring tilled netherrack and a lava source to help hydrate, these plants are quite the thing to see",
           "items": [
             {
               "item": {
@@ -281,18 +308,21 @@
       ]
     },
     {
-      "name": "Unnamed6",
+      "name": "A Firey passion",
+      "description": "It\u0027s not just Glowing Reeds or Ghostly seeds that you should be on the lookout for. The nether also offers up a unique kind of cactus as well, and this one will just set your hearts ablaze! ",
       "x": 127,
       "y": 68,
       "icon": {
         "id": "ganysnether:blazingCactoid"
       },
       "prerequisites": [
-        "Unnamed5"
+        "Farming the Fires"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Factoid? Cactoid? ",
+          "longDescription": "The blazing Cactoid like it\u0027s overworld cousin the cactus is a little painful to touch, but it can give you great rewards. Planting it on non tilled netherrack will let it grow for harvesting. ",
           "items": [
             {
               "item": {
@@ -303,6 +333,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Nuggets a Blaze",
+          "longDescription": "If you take this already burning little plant, you can throw it in the furnace and before you even know it the fuel will be there for you to find yourself with Blaze Nuggets. ",
           "items": [
             {
               "item": {
@@ -314,6 +346,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Ingots on Fire ",
+          "longDescription": "Crafting those blaze nuggets in a 3x3 square (9 in total) will reward you with the Blaze ingot, which might give you a nice set of armor that lies between Iron and Diamond, It\u0027s definately worth some investigation! ",
           "items": [
             {
               "item": {
@@ -338,7 +372,7 @@
         "id": "ganysnether:quarzBerry"
       },
       "prerequisites": [
-        "Unnamed5"
+        "Farming the Fires"
       ],
       "tasks": [
         {
@@ -464,7 +498,7 @@
         "id": "ganysnether:soulChest"
       },
       "prerequisites": [
-        "Unnamed6"
+        "A Firey passion"
       ],
       "trigger": "ANTI_TRIGGER",
       "tasks": [
@@ -504,7 +538,7 @@
         "id": "ganysnether:denseLavaCell"
       },
       "prerequisites": [
-        "Unnamed6"
+        "A Firey passion"
       ],
       "tasks": [
         {
@@ -673,7 +707,7 @@
         "id": "ganysnether:sceptreOfConcealment"
       },
       "prerequisites": [
-        "Unnamed4"
+        "The Worst kind of Skeleton"
       ],
       "tasks": [
         {
@@ -785,14 +819,15 @@
       ]
     },
     {
-      "name": "Unnamed19",
+      "name": "Glass the land",
+      "description": "So yo might have noticed that unlike the normal world which you are from, the properties of this one even allow you to cook soulglass into some glass, or even it\u0027s close cousin heat sand, which you might find scattered in the nether ",
       "x": 88,
       "y": 60,
       "icon": {
-        "id": "Natura:NetherGlass"
+        "id": "ganysnether:soulGlass"
       },
       "prerequisites": [
-        "Unnamed1"
+        "Sandy Souls"
       ],
       "tasks": [
         {
@@ -800,7 +835,7 @@
           "items": [
             {
               "item": {
-                "id": "Natura:NetherGlass"
+                "id": "ganysnether:soulGlass"
               }
             },
             {
@@ -830,7 +865,7 @@
       ],
       "reward": [
         {
-          "id": "Natura:NetherGlass",
+          "id": "ganysnether:soulGlass",
           "amount": 16
         }
       ]

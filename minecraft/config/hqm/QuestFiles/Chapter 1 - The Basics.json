@@ -353,7 +353,7 @@
           "longDescription": "Zombies are proflific, but worst of all they are bitey. They are slow and mostly stick to melee, but they usually burn in direct sunlight. ",
           "mobs": [
             {
-              "name": "Zobmies!",
+              "name": "Zombies!",
               "mob": "Zombie",
               "kills": 1,
               "exact": false
