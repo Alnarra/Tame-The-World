@@ -1,11 +1,11 @@
-Modpack: 		Tame The World 
-Modpack Version: 	0.1.11
+Modpack: 			Tame The World 
+Modpack Version: 	0.1.12
 Modpack Author: 	Alnarra
 Report Issues Here:	https://github.com/fullphaser/Tame-The-World
 Forum Thread:		http://tinyurl.com/tameTheWorld
 Curse Page: 		http://www.curse.com/modpacks/minecraft/238218-tame-the-world
 Technic API: 		http://api.technicpack.net/modpack/tame-the-world
-Discord: 		https://discord.gg/0hh8cmHesQfTfxRz
+Discord: 			https://discord.gg/0hh8cmHesQfTfxRz
 FTB Pack Code: 		tameTheWorld
 
 Recommended settings
@@ -55,6 +55,7 @@ Forbidden Magic by SpitefulFox
 Forge Multipart by Chickenbones
 FTBLIb By LatvianModder, Jared
 FTBUtilities by LatvianModder
+Gany's Nether by Ganymedes01 
 Growthcraft Community Edition 
 Hardcore Questoing Mode by Vswe, Lorddusk, NewcastleGeek
 HarvestCraft by MatrexsVigil, Rhodox
@@ -84,6 +85,7 @@ Roguelike Dungeons by Greymerk
 RotaryCraft by Reika - Granted
 Ruins by AtomicStryker
 Special Mobs by FatherToast
+Squidless by Hilburn
 Storage Drawers by Jaquadro 
 Thaumcraft by Azanor
 Thaumcraft NEI Plugin by DjGiannuzz
@@ -97,7 +99,54 @@ Witchery by Emoniph - Granted
 YAMBST by Commador 
 Zombie Awareness by Corosauce
 
-Version 0.1.11 
+Changelog
+Version 0.1.12 
+Mods Added 
+- Gany's Nether Mod 
+- Squidless 
+Mods Modified 
+- Difficult Life 
+Mods Updated
+- Updated to Weather / Storms (2.3.9 -> 2.3.10) 
+- Updated FTB Libs / Util ( 0.13.3 -> 0.17.6 ) 
+- Railcraft (9.9.0.0 -> 9.10.0.0) 
+- Immersive Integration (0.6.7 -> 0.6.8) 
+- Rotarycraft (11 -> 12e) 
+- DragonAPI (11 -> 12e)
+- Immersive Engineering ( 0.7.4 -> 0.7.5) 
+- Forge Multi Part (1.2.0.345 -> 1.2.0.347)
+- StorageDrawers (1.9.4 -> 1.9.7) 
+- Reosurce loader (1.2 -> 1.3  
+Config Chagnes
+- Added Tags for Tame the World for Open Eye 
+- Increased chance of Blood Moon from 1/100000 to 1/1000 
+- Zombies won't reach Warp speed anymore 
+- Turned growthcraft Bee Generation off (again)
+Script Changes 
+- Added soulGlass.zs to fix Gany's Glass / Natura Soul Sand glass compatability 
+- Added Gany's Nether Cooked Bat Wing to cooked Meats 
+Quest Changes
+- New Chapter - Into the Firey Depths (Nether / Gany's Nether / Natura)
+- Chapter 1 - Slightly reorganized!
+- Chapter 1 - Leather Tis Nobler now has a reward 
+- Chapter 1 - A crooked Salesmen - Changed subquest around a bit 
+- Chapter 1 - Weathered Down now has a reward 
+- Chapter 1 - charcoal quest now has a reward 
+- Chapter 1 - New Quest for Mushrooms / Mushroom Stew
+- Chapter 1 - New Quest for door
+- Chapter 1 - Swiper No Swiping - Tanning your Skins - Now detection rather then crafting 
+- Agriculture - Removed Rainbow Curry as quest requirement (As it is uncraftable) 
+- Decoration - New quest for Topiary Grass 
+- Decoration - Factor it in - Now a detection quest 
+- Decoration - New Quest for Armor Stands 
+- Chapter 2 - You're a Wizard Harry - Players First Wand - Set to NBT Independent Detection 
+- Chapter 2 - Redstone - Redstone Comparator no longer required for quest completion 
+- Chapter 2 - Fuming with Envy - Now a detection task 
+- Chapter 2 - It's getting hot in here - Set t detection for the clay jars 
+- Thaumaturgy - Reordered quest a bit. 
+Other
+- Added wget.exe to libraries folder, it went missing at some time
+
 Version 0.1.11 
 Mods Added 
 - Cooking for Blockheads 
