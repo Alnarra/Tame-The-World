@@ -1426,6 +1426,49 @@
           "damage": 1
         }
       ]
+    },
+    {
+      "name": "Standing Up",
+      "description": "There are times that you have more armor then you know what to do with and you\u0027d like a place to put it all. Well it\u0027s time to learn about the armor stands that exist for you and your friends!",
+      "x": 23,
+      "y": 79,
+      "icon": {
+        "id": "BiblioCraft:Armor Stand"
+      },
+      "prerequisites": [
+        "Fencing Lessons"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Stand for me",
+          "longDescription": "Made simply by having 3 stone slabs across the botom and 2 Iron Bars in the center like an upside down T, this armor stand can hold one full set of armor for you to display for all to see. ",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:Armor Stand"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Look at My Horse",
+          "longDescription": "There\u0027s not just armor for you, there can also be armor for your brave stallion. Made in a similar fashion to the armor stand, the horse armor provides a way for you to show off that stunning set of armor you find out in the world. ",
+          "items": [
+            {
+              "item": {
+                "id": "ganysnether:horseArmourStand"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:iron_horse_armor"
+        }
+      ]
     }
   ],
   "reputationBar": []

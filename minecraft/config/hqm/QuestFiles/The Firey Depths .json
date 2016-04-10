@@ -62,8 +62,8 @@
     {
       "name": "Sandy Souls",
       "description": "So there is more then just netherrack and quartz. There\u0027s also this strange brownish looking substance that is.... staring at you. You might want to find out what that\u0027s all about right? ",
-      "x": 77,
-      "y": 22,
+      "x": 73,
+      "y": 46,
       "icon": {
         "id": "minecraft:soul_sand"
       },
@@ -550,7 +550,8 @@
       ]
     },
     {
-      "name": "Unnamed12",
+      "name": "Lava Lava Everywhere",
+      "description": "The truth is, that sometimes there are just items that you don\u0027t want in your inventory anymore, and honestly who can blame you for that. But wouldn\u0027t you love to turn it into something useful? ",
       "x": 115,
       "y": 130,
       "icon": {
@@ -562,6 +563,8 @@
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Hot Brick! ",
+          "longDescription": "Crafted with diamonds and lava buckets, these little densely packed fuel cells don\u0027t exaclty come cheap, but who can argue with that quality. The fuel cells are a recipie worth knowing as they could come in handy for more then a few future projects. ",
           "items": [
             {
               "item": {
@@ -572,6 +575,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Vulcan\u0027s Pot!",
+          "longDescription": "The Volcanic furnance is a unique device that turns items into lava, which you can then get out through various methods including pipes, or buckets, or the like. Simply put items in and this furance will slowly cook them into lava ",
           "items": [
             {
               "item": {
@@ -589,19 +594,22 @@
       ]
     },
     {
-      "name": "Unnamed13",
+      "name": "Advanced Lava",
+      "description": "Sometimes you want to melt things, but you need them to melt just a bit faster, woudln\u0027t you agree? Well we are here to help you on your quest to make your volcanic furnace the mount Vesuvius of furnaces",
       "x": 74,
       "y": 117,
       "icon": {
         "id": "ganysnether:focusedLavaCell"
       },
       "prerequisites": [
-        "Unnamed12"
+        "Lava Lava Everywhere"
       ],
       "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Step One: Get chiseled",
+          "longDescription": "So this may seem like a tough task but it\u0027s actually not /so/ bad. You just take an exisiting quarts block, then put it on a crafting bench. DO this 8 times and then place it around a squid\u0027s ink sack! ",
           "items": [
             {
               "item": {
@@ -612,6 +620,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Step Two: Find the source",
+          "longDescription": "Next you are going to need a nether core. Note that these nether cores are the very essance of what the nether is all about so it may take some exploring to truely get all the ingredients!",
           "items": [
             {
               "item": {
@@ -622,6 +632,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Step Three: ??? ",
+          "longDescription": "Finally when you have gathered your resources it\u0027s time to construct these little devices which will make your volcanic furnaces convert things into lava all that much faster! ",
           "items": [
             {
               "item": {
@@ -639,18 +651,21 @@
       ]
     },
     {
-      "name": "Unnamed14",
+      "name": "Spawning the Truth",
+      "description": "You may have started to notice throughout this world you are exploring, these deceptively interesting little cages from which monsters and creatures just appear? Well it\u0027s time to learn how to control them!",
       "x": 58,
       "y": 142,
       "icon": {
         "id": "ganysnether:spawnerUpgrade"
       },
       "prerequisites": [
-        "Unnamed13"
+        "Advanced Lava"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Creating the Danger Room",
+          "longDescription": "So you\u0027re not exacly charles Xavier and this isn\u0027t exactly the X-Men, but it is a good start to making your very own danger room. Surrounding a nether core in Coal and Coal blocks will get you started on your journey. Simply right click and a spawner will turn into an extended spawner. ",
           "items": [
             {
               "item": {
@@ -661,6 +676,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Moving to Westfall",
+          "longDescription": "It\u0027s time to level your spawner up and the quickest way to do that is through the next upgrade. Much like the level 0, this is made with a nethercore, but this time surrounded by Iron. It will allow you to attach attributes to your spawner! ",
           "items": [
             {
               "item": {
@@ -672,6 +689,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "A silky smooth finish",
+          "longDescription": "To apply any upgrade all you need to do is right click the spawner with it. To see those upgrades SHift + right Click. NOTE: It may require a block update before the spawner realizes it\u0027s been changed, it\u0027s a bit finicky. ",
           "items": [
             {
               "item": {
@@ -690,18 +709,22 @@
       ]
     },
     {
-      "name": "Unnamed15",
+      "name": "Centrifrugal ",
+      "description": "Have you ever wanted to take two items and smash them together just to see what you can get? Well then it\u0027s time to learn about the Magma Centrifuge. It\u0027s an amazing piece of technology!",
       "x": 102,
       "y": 179,
       "icon": {
         "id": "ganysnether:magmaticCentrifuge"
       },
       "prerequisites": [
-        "Unnamed13"
+        "Advanced Lava"
       ],
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Just add Lava",
+          "longDescription": "You\u0027ll have to expiriment to find the exact combinations, but needless to say you add two blocks and a bit of lava and you\u0027ll get something entirely new out of it. We suggest trying netherrack and Glowstone! ",
           "items": [
             {
               "item": {
@@ -729,6 +752,7 @@
       "prerequisites": [
         "The Worst kind of Skeleton"
       ],
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "CRAFT",
@@ -764,7 +788,8 @@
       ]
     },
     {
-      "name": "Unnamed17",
+      "name": "To Recreate Life",
+      "description": "You venture into the territory of gods mortal, be weary where you step because once you have thrown yourself to this power there may be no coming back from it. It\u0027s time to meet that which would change the world. ",
       "x": 60,
       "y": 186,
       "icon": {
@@ -776,6 +801,8 @@
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "I\u0027m your reanimator! ",
+          "longDescription": "The Reproducer will allow you to convert an egg from one to another, but you must know the secret formula. The Left most slot is for the egg you wish to replicate. The RIght most for the egg you are going to use. The middle two the ingredients that will convert the right egg into what the left is. THis may require some expirimentation. ",
           "items": [
             {
               "item": {
@@ -793,7 +820,8 @@
       ]
     },
     {
-      "name": "Unnamed18",
+      "name": "Scepter Power",
+      "description": "The power to turn monsters into eggs isn\u0027t the only power held by those nether stars. It\u0027s time to do a bit more expirimentation and find out just what else a nether star can do! ",
       "x": 18,
       "y": 184,
       "icon": {
@@ -805,6 +833,8 @@
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Luminaire! ",
+          "longDescription": "Outside of being Crono\u0027s most powerful attacks, lightning is an elemental power that you can harvest for yourself. By surrounding a netherstar with netherwart and quartz you should be able to deliver the power of a time traveling hero!",
           "items": [
             {
               "item": {
@@ -816,6 +846,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Ramuh",
+          "longDescription": "An esper of olden day a primal of new. This staff with give you the power to command the very heavens before your will, but be careful it\u0027s power is limited. If you\u0027ve ever wanted to make your own charged creeper though. ",
           "items": [
             {
               "item": {
@@ -826,6 +858,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Ifirit",
+          "longDescription": "You should know the drill by now. TNT, a Fire Charge, and Blaze ingots will get you the core. This scepter summons up the power of fire to be rained down upon your enemies. ",
           "items": [
             {
               "item": {
@@ -845,8 +879,8 @@
     {
       "name": "Glass the land",
       "description": "So yo might have noticed that unlike the normal world which you are from, the properties of this one even allow you to cook soulglass into some glass, or even it\u0027s close cousin heat sand, which you might find scattered in the nether ",
-      "x": 88,
-      "y": 60,
+      "x": 92,
+      "y": 77,
       "icon": {
         "id": "ganysnether:soulGlass"
       },
@@ -964,7 +998,8 @@
       ]
     },
     {
-      "name": "Unnamed21",
+      "name": "Netherscape!",
+      "description": "Now that you\u0027re nice and embedded in the nether wouldn\u0027t now be a good time to learn about all the things around you? That\u0027s a trick question and the answer is yes, yes it would!",
       "x": 183,
       "y": 117,
       "icon": {
@@ -976,6 +1011,8 @@
       "tasks": [
         {
           "type": "DETECT",
+          "description": "The taint!",
+          "longDescription": "Buried deep in the heart of the nether is a special type of soil that only finds uses for certain plants and trees, it is known as tainted soil, and unlike regular dirt or sand, this tainted soil has all the nutrients a growing evil tree needs. ",
           "items": [
             {
               "item": {
@@ -986,6 +1023,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Something Smells",
+          "longDescription": "What do you associate with demons? Why the winchesters and sulfer of course. You may have noticed that around the nether there are these strange clouds! Well you can break them down and use the remnants to help make explosives!",
           "items": [
             {
               "item": {
@@ -997,6 +1036,8 @@
         },
         {
           "type": "DETECT",
+          "description": "Ashes to Ashes ",
+          "longDescription": "Another type of cloud you might find floating around in the nether is the Ash Cloud. This wonderful little cloud can be compacted down into coal if you want yet another supply of the staple fuel. ",
           "items": [
             {
               "item": {
@@ -1015,7 +1056,8 @@
       ]
     },
     {
-      "name": "Unnamed22",
+      "name": "Shroomaroo",
+      "description": "Alright so you\u0027re probalby wondering what these strange glowing fungi are hanging about the nether? Well it\u0027s time to get a crash course in Mycology! ",
       "x": 278,
       "y": 105,
       "icon": {
@@ -1028,6 +1070,8 @@
       "tasks": [
         {
           "type": "DETECT",
+          "description": "All manner of Glowing!",
+          "longDescription": "Glowing shrooms naturally find themselves in the nether. it is where they are the happiest and thus where they are most likely to grow. Finding a mushroom is easy, it\u0027s the harvesting it that can be tough, what with all the other horrible things in the nether. ",
           "items": [
             {
               "item": {
@@ -1050,6 +1094,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Edible!",
+          "longDescription": "What good are mushrooms if you can\u0027t eat them? Now you can regrow them with a bit of bonemeal just like a normal mushroom but they do not spread, but shoving them into a bowl will make a lovely dinner",
           "items": [
             {
               "item": {
@@ -1068,7 +1114,8 @@
       ]
     },
     {
-      "name": "Unnamed23",
+      "name": "Special Leather",
+      "description": "We\u0027ve all heard about the finely crafted leathers of the world, but what about the kind of leather you get from a little imp of a creature? This stuff is great for making sure you don\u0027t burn!",
       "x": 185,
       "y": 178,
       "icon": {
@@ -1076,11 +1123,13 @@
         "damage": 6
       },
       "prerequisites": [
-        "Unnamed21"
+        "Netherscape!"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Nether Leather!",
+          "longDescription": "Imps often keep to themsleves in the nether, but lucky for us you can still murder them and take their skin. The great thing is because they are using to living there when you make armor out of their flesh, it\u0027s fire resistant! ",
           "items": [
             {
               "item": {
@@ -1099,18 +1148,21 @@
       ]
     },
     {
-      "name": "Unnamed24",
+      "name": "Furance - V2 ",
+      "description": "Alright so you\u0027ve made yourself a regular furnace, but how about a netherbrick furance? It\u0027s time to learn the great secrets of this hot rock and how best to apply it!",
       "x": 140,
       "y": 179,
       "icon": {
         "id": "Natura:NetherFurnace"
       },
       "prerequisites": [
-        "Unnamed12"
+        "Lava Lava Everywhere"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Oven Baked Oven",
+          "longDescription": "Crafted just like a regular furance except this time with netherbrick, it\u0027s a little bit faster and can help you out when perhaps cobblestone is at a premium. ",
           "items": [
             {
               "item": {
@@ -1129,7 +1181,8 @@
       ]
     },
     {
-      "name": "Unnamed25",
+      "name": "A bow born of fire",
+      "description": "So imagine if Sailor mars had a bow and arrow? This is probably the kind of thing that it would be made from if we were going to have to guess on such things!",
       "x": 268,
       "y": 182,
       "icon": {
@@ -1137,12 +1190,14 @@
         "damage": 7
       },
       "prerequisites": [
-        "Unnamed23",
-        "Unnamed26"
+        "Special Leather",
+        "Netherwoods"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "Strung together ",
+          "longDescription": "In the nether there are these rather lovely looking spiders called Heatscar Spiders, which just so happen to spawn in the nehter. Kill them and they might be tempted to drop the special kind of silk that they work with ",
           "items": [
             {
               "item": {
@@ -1154,6 +1209,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Bloody Bows!",
+          "longDescription": "The bloodwood bow is much like a normal blow. Crafted from Flamestring and Blood Wood sticks it is much more durable then it\u0027s overworld counterpart, can be enchanted, and just looks nice to boot ",
           "items": [
             {
               "item": {
@@ -1164,6 +1221,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Fletching!",
+          "longDescription": "If you don\u0027t have a chicken handy to help you with the process of making your very own arrows, then you should invest in a smaller chicken alternative. Ghostwood can be used to craft fletching which can be used in place of feathers for making arrows. ",
           "items": [
             {
               "item": {
@@ -1182,18 +1241,21 @@
       ]
     },
     {
-      "name": "Unnamed26",
+      "name": "Netherwoods",
+      "description": "So you\u0027ve gone to the nether, and sure it\u0027s nice, but wouldn\u0027t you like to come back with a nice prize for your work? Perhaps something to show your devotion to exploring this strange and new land!",
       "x": 225,
       "y": 143,
       "icon": {
         "id": "Natura:bloodwood"
       },
       "prerequisites": [
-        "Unnamed21"
+        "Netherscape!"
       ],
       "tasks": [
         {
           "type": "DETECT",
+          "description": "The second floor",
+          "longDescription": "Scattered throughout the nether are specific kinds of trees. As you can imagine these have to be a bit more heat resistant then most, but what\u0027s most important is that they\u0027ve collected all the blood",
           "items": [
             {
               "item": {
@@ -1205,6 +1267,8 @@
         },
         {
           "type": "CRAFT",
+          "description": "Tree Shaper!",
+          "longDescription": "Now that you\u0027ve got yourself some blood wood off of one of those lovely upside trees, it might be a good time to learn about the fancy items you can craft from it\u0027s wood like this fancy thing can shear a tree just like a pair of shears",
           "items": [
             {
               "item": {
@@ -1217,6 +1281,64 @@
       "reward": [
         {
           "id": "Natura:natura.axe.bloodwood"
+        }
+      ]
+    },
+    {
+      "name": "This litttle light of mine",
+      "description": "The key to keeping the monsters at bay is keeping the world well lit. Torches are good, but Glowstone covers a greater area in terms of keeping things lit. So it\u0027s time to learn about all the ways to make use of that glowstone. ",
+      "x": 86,
+      "y": 12,
+      "icon": {
+        "id": "minecraft:redstone_lamp"
+      },
+      "prerequisites": [
+        "Sandy Souls"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Shine on!",
+          "longDescription": "By combining the glowstone dust in a 2x2 pattern you will be able to craft your very first glowstone block. These blocks provide a light level of 15 but when broken if you don\u0027t have silk touch they will be converted back into dust ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:glowstone"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Screwing in a lightbulb",
+          "longDescription": "By wrapping your glowstone in a bit of redstone, you should be able activate and deactivate it\u0027s output of light based upon the signal recieved!",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:redstone_lamp"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "The Glow Box",
+          "longDescription": "Sometimes you want those glowstone properties, but you don\u0027t want to have to worry about using redstone to power them. It\u0027s time to meet the tasteful and decorative Glow box, which can be made by surrounding a piece of glowstone dust with glass panes!",
+          "items": [
+            {
+              "item": {
+                "id": "ganysnether:glowBox",
+                "damage": 11
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:glowstone",
+          "amount": 16
         }
       ]
     }

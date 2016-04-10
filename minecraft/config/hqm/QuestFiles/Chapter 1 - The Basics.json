@@ -553,7 +553,7 @@
         "id": "minecraft:bed"
       },
       "prerequisites": [
-        "A Crooked Salesmen"
+        "Cutting Edge Technology "
       ],
       "trigger": "ANTI_TRIGGER",
       "tasks": [
@@ -850,45 +850,45 @@
     {
       "name": "A Crooked Salesmen",
       "description": "Running low on string? Maybe even saplings for those trees that you\u0027re trying to grow well do we have the deal for you! The crook, made with either bone or sticks is perfect for getting those leaves out of trees and you might even get a surprise. ",
-      "x": 49,
-      "y": 181,
+      "x": 54,
+      "y": 162,
       "icon": {
         "id": "exnihilo:crook"
       },
       "prerequisites": [
-        "Cutting Edge Technology "
+        "Bedding with the Enemy"
       ],
       "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
-          "description": "Worming your way through",
-          "longDescription": "Collect some saplings and then a silk worm by using the crook on leaves. You can even cook those little silk worms if you want, but we advise against it. ",
+          "description": "Crooked to the core",
+          "longDescription": "The crook is a simple invention that makes getting saplings from trees all that much easier. Crafted from sticks in an upside down L spae in the crafting bench, it has an additional chance to drop saplings when used on the tree leaves. It might also drop something else. ",
           "items": [
             {
               "item": {
                 "id": "exnihilo:crook"
               },
               "precision": "ORE_DICTIONARY"
-            },
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Silky Sweet",
+          "longDescription": "You have a very small chance, but still a chance of discovering a silk worm in your trees. These little creatures will happily make a nest in other trees. Simpy right click with the silk worm on a set of leaves and it will start to infest",
+          "items": [
             {
               "item": {
                 "id": "exnihilo:silkworm"
               }
-            },
-            {
-              "item": {
-                "id": "minecraft:sapling"
-              },
-              "required": 5,
-              "precision": "ORE_DICTIONARY"
             }
           ]
         },
         {
           "type": "CONSUME",
-          "description": "Silky Sweet",
-          "longDescription": "We\u0027re running a bit low on string ourselves, and we were wondering if you could send some through. Now to get string easily use the silk worm on some tree leaves and let it get to infesting. Once it\u0027s completly infested instead of dropping saplings it will drop string. But be careful the silk worms spread across every leaf they can touch so if you\u0027re planning on using that tree for more saplings you better plan ahead. ",
+          "description": "String me up!",
+          "longDescription": "Once the silk worm has done it\u0027s job the tree leaves should be 100% white instead of their orginal color. From there you can simply harvest them however you might please for the chance of string and more silk worms. ",
           "items": [
             {
               "item": {
@@ -1373,8 +1373,8 @@
     {
       "name": "Cotton Pickin",
       "description": "While silk worms offer a substantial return on investment, who can say no to yet another possible source of wool. It\u0027s time to learn about the textile industry ",
-      "x": 73,
-      "y": 153,
+      "x": 28,
+      "y": 190,
       "icon": {
         "id": "harvestcraft:textilegarden"
       },

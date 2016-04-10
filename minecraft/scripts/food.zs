@@ -11,6 +11,7 @@ meatCooked.add(<junglemobs:concapedemeatcooked>);
 meatCooked.add(<mountainmobs:yalemeatcooked>);
 meatCooked.add(<plainsmobs:makameatcooked>);
 meatCooked.add(<swampmobs:aspidmeatcooked>);
+meatCooked.add(<ganysnether:cookedBatWing>);
 
 
 # Raw Meat

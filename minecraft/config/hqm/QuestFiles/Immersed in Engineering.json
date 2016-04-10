@@ -1880,6 +1880,11 @@
                 "id": "ImmersiveEngineering:stoneDecoration",
                 "damage": 6
               }
+            },
+            {
+              "item": {
+                "id": "minecraft:hopper"
+              }
             }
           ]
         }

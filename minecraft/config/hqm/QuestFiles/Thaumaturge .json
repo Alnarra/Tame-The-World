@@ -315,6 +315,40 @@
       ]
     },
     {
+      "name": "Magical Construction",
+      "description": "Alright, paying attention? Because this part is critical. Everything you build is probably going to involve this little table, so you better get familiar with it. ",
+      "x": 50,
+      "y": 30,
+      "icon": {
+        "id": "Thaumcraft:blockTable",
+        "damage": 15
+      },
+      "prerequisites": [
+        "{Chapter 2 - Beginning}[But what of my research? ]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "The Thaumaturge\u0027s Choice",
+          "longDescription": "Making one is simple, simnply point your wand at a table. From there, the key things to understand here are that you can draw vis from nodes with your wand. You then take that vis loaded wand back to this table and use it to construct various things. Note certain pieces of armor give you a \"Vis Discount\" so you might want to research those. (Hint it looks like a cloth) ",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockTable",
+                "damage": 15
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemShard",
+          "damage": 6
+        }
+      ]
+    },
+    {
       "name": "Getting Grated",
       "description": "A hopper is great, but wouldn\u0027t you love an item that\u0027s just solid and you could throw some things on top of? We thought so too, so it\u0027s time to meet the suprisingly simple to create \"Item Grate\" ",
       "x": 136,
@@ -2067,40 +2101,6 @@
         {
           "id": "HardcoreQuesting:bags",
           "damage": 2
-        }
-      ]
-    },
-    {
-      "name": "Magical Construction",
-      "description": "Alright, paying attention? Because this part is critical. Everything you build is probably going to involve this little table, so you better get familiar with it. ",
-      "x": 50,
-      "y": 30,
-      "icon": {
-        "id": "Thaumcraft:blockTable",
-        "damage": 15
-      },
-      "prerequisites": [
-        "{Chapter 2 - Beginning}[But what of my research? ]"
-      ],
-      "tasks": [
-        {
-          "type": "DETECT",
-          "description": "The Thaumaturge\u0027s Choice",
-          "longDescription": "Making one is simple, simnply point your wand at a table. From there, the key things to understand here are that you can draw vis from nodes with your wand. You then take that vis loaded wand back to this table and use it to construct various things. Note certain pieces of armor give you a \"Vis Discount\" so you might want to research those. (Hint it looks like a cloth) ",
-          "items": [
-            {
-              "item": {
-                "id": "Thaumcraft:blockTable",
-                "damage": 15
-              }
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "Thaumcraft:ItemShard",
-          "damage": 6
         }
       ]
     }
