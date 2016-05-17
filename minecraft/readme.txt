@@ -1,11 +1,11 @@
 Modpack: 			Tame The World 
-Modpack Version: 	0.1.12
+Modpack Version: 	0.1.13
 Modpack Author: 	Alnarra
 Report Issues Here:	https://github.com/fullphaser/Tame-The-World
 Forum Thread:		http://tinyurl.com/tameTheWorld
 Curse Page: 		http://www.curse.com/modpacks/minecraft/238218-tame-the-world
 Technic API: 		http://api.technicpack.net/modpack/tame-the-world
-Discord: 			https://discord.gg/0hh8cmHesQfTfxRz
+Discord: 		https://discord.gg/0hh8cmHesQfTfxRz
 FTB Pack Code: 		tameTheWorld
 
 Recommended settings
@@ -100,6 +100,30 @@ YAMBST by Commador
 Zombie Awareness by Corosauce
 
 Changelog
+Version 0.1.13 
+Mod Downgrades
+- Zombie Awareness Downgraded to Verion 1.9.6 (TPS Lag resulting in 50% lag on some servers) 
+Mod Updates
+- Rotarycraft (12E -> 13A) 
+- DragonAPI (12E -> 13B) 
+- Immersive Engineering (.75 -> .77) 
+- Applecore (1.3.0 -> 1.3.1) 
+- Roguelike Dungeons (1.4.4 -> 1.5.0) 
+- Fastcraft  (1.2.1 -> 1.2.3) 
+- Journey Map (10.5.1.4 -> 10.5.1.4p1 ) 
+- Railcraft ( 9.10 -> 9.12 ) 
+- CookingForBlockheads (1.3.4 -> 1.4.0)
+Config Changes
+- Silex were getting to frisky and lagging servers, made them a hint less frisky 
+- Adjusted Spawn Weights of Jengu / Zephyr / Silex 
+- Adjusted Ika SPanw rate 
+- Vanilla Versions of the normal mobs will spawn rather then special versions of those mobs
+- Meteorite Ore no longer has natural ore generation, you have to get it from falling meteros 
+Quest Changes 
+- Chapter 1 - Swiper No Swiping - Bigger and better now a detection quest and using a different backpack.
+- Chapter 1 - Vroom Vroom Shroom - Mushroom Soup Bowl detection updated 
+- Quest book forgot what heart canisters were, it was reminded.  
+
 Version 0.1.12 
 Mods Added 
 - Gany's Nether Mod 

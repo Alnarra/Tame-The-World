@@ -75,5 +75,6 @@ backups
 natives
 pathces
 order.json
+prep_folder
 
 patches/net.minecraftforge.json
