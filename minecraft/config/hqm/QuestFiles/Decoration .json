@@ -1036,8 +1036,7 @@
             },
             {
               "item": {
-                "id": "ImmersiveEngineering:stoneDecoration",
-                "damage": 4
+                "id": "chisel:concrete"
               }
             }
           ]

@@ -540,7 +540,7 @@
       ],
       "reward": [
         {
-          "id": "HardcoreQuesting:hqmInvalidItem"
+          "id": "difficultlifettw:dl.heart"
         }
       ]
     },
@@ -1239,7 +1239,7 @@
           ]
         },
         {
-          "type": "CRAFT",
+          "type": "DETECT",
           "description": "Bigger and Better",
           "longDescription": "Finally we want to talk about the 2 of the 3 other versions of the backpack. One you can get by putting a crafting bench at the center of your backpack. One you get by making it out of tanned leather.",
           "items": [
@@ -1252,7 +1252,8 @@
             {
               "item": {
                 "id": "Backpack:workbenchbackpack",
-                "damage": 17
+                "damage": 217,
+                "nbt": "{backpack-UID:\"d233cb79-ec62-4ec6-9083-d410ada54ea0\",name:\"item.workbenchbackpack.big.name\"}"
               }
             }
           ]
@@ -1314,7 +1315,7 @@
           "items": [
             {
               "item": {
-                "id": "minecraft:mushroom_stew"
+                "id": "Natura:natura.stewbowl"
               }
             }
           ]
